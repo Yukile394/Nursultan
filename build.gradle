@@ -1,6 +1,9 @@
-// build.gradle, Gradle 8.8, Fabric Loom, Minecraft 1.21.11, Java 21
+// build.gradle, Gradle 8.12, Fabric Loom, Minecraft 1.21.11, Java 21
 plugins {
-    id "fabric-loom" version "1.9-SNAPSHOT"
+    // 1.9-SNAPSHOT MC 1.21.11'in merged-mapping unpick formatini tanimiyordu
+    // (UnsupportedOperationException: Unsupported unpick version). 1.10.x release,
+    // daha yeni unpick/mapping-io kullanir.
+    id "fabric-loom" version "1.10.1"
     id "maven-publish"
 }
 
