@@ -1,9 +1,12 @@
-// build.gradle, Gradle 8.12, Fabric Loom, Minecraft 1.21.11, Java 21
+// build.gradle, Gradle 8.14.2, Fabric Loom 1.13.3, Minecraft 1.21.11, Java 21
 plugins {
-    // 1.9-SNAPSHOT MC 1.21.11'in merged-mapping unpick formatini tanimiyordu
-    // (UnsupportedOperationException: Unsupported unpick version). 1.10.x release,
-    // daha yeni unpick/mapping-io kullanir.
-    id "fabric-loom" version "1.10.1"
+    // MC 1.21.11 unpick V3 formati kullaniyor, bunu sadece Loom 1.13+ destekliyor
+    // (1.9/1.10'da "UnsupportedOperationException: Unsupported unpick version" patlar).
+    // 1.21.11 ayni zamanda Loom'un "obfuscated" olarak isaretledigi SON surum -
+    // bu yuzden hala legacy "fabric-loom" plugin id'si gecerli (yeni surumler
+    // non-obfuscated MC icin "net.fabricmc.fabric-loom" / "fabric-loom-remap" ayrimina gidiyor,
+    // 1.21.11 o ayrimdan once kaliyor).
+    id "fabric-loom" version "1.13.3"
     id "maven-publish"
 }
 
