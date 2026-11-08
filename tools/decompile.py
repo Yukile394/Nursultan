@@ -177,6 +177,29 @@ def parse_tiny_header(tiny_path):
     return idx_official, idx_intermediary, idx_named
 
 
+def strip_multi_release(in_jar, out_jar):
+    """Nursultan.jar bir multi-release jar: META-INF/versions/<N>/... altinda Java 24
+    hedefli alternatif class dosyalari var (lenni0451/reflect ClassFile API, Java 24'te
+    eklenen classfile API'sini kullaniyor). tiny-remapper'daki ASM surumu bu bytecode'u
+    (major version 68) analiz edemiyor ve patliyor. Bu yollar calisma zamaninda sadece
+    o JVM surumu calisirken devreye giriyor - decompile icin gereksiz, temizleyip
+    base (Java 21 hedefli) class'larla devam ediyoruz."""
+    removed = 0
+    with zipfile.ZipFile(in_jar) as zin, zipfile.ZipFile(out_jar, "w", zipfile.ZIP_DEFLATED) as zout:
+        for item in zin.infolist():
+            if item.filename.startswith("META-INF/versions/"):
+                removed += 1
+                continue
+            if item.filename == "META-INF/MANIFEST.MF":
+                data = zin.read(item.filename)
+                # Multi-Release: true basligini da kaldir, artik MRJ degil
+                data = re.sub(rb"Multi-Release:\s*true\r?\n", b"", data)
+                zout.writestr(item, data)
+                continue
+            zout.writestr(item, zin.read(item.filename))
+    log(f"multi-release versions/ temizlendi: {removed} dosya cikarildi -> {out_jar.name}")
+
+
 def run_tiny_remapper(remapper_jar, tiny_path, in_jar, out_jar, from_ns, to_ns):
     classpath = str(WORK / "cp")
     cmd = [
@@ -508,10 +531,15 @@ def main():
     yarn_version = fetch_yarn_mappings(mc_version, tiny_path)
     idx_official, idx_intermediary, idx_named = parse_tiny_header(tiny_path)
 
+    # jar multi-release (META-INF/versions/24/...) - tiny-remapper bunu analiz edemiyor,
+    # once temizliyoruz.
+    stripped_jar = WORK / "Nursultan-stripped.jar"
+    strip_multi_release(ORIGINAL_JAR, stripped_jar)
+
     # Nursultan.jar intermediary isimlendirmeyle derlenmis (Fabric Loom build ciktisi).
     # tiny-remapper ile intermediary -> named (yarn) remap ediyoruz.
     remapped_jar = WORK / "Nursultan-named.jar"
-    run_tiny_remapper(remapper_jar, tiny_path, ORIGINAL_JAR, remapped_jar,
+    run_tiny_remapper(remapper_jar, tiny_path, stripped_jar, remapped_jar,
                        "intermediary", "named")
 
     own_jar = WORK / "Nursultan-own.jar"
