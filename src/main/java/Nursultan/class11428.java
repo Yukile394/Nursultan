@@ -42,9 +42,8 @@ public class class11428 extends class11807<Notifications> {
    public void y(Object var1) {
       this.L();
       Objects.requireNonNull(var1);
-      <unknown> ;
       switch (var1) {
-         case class10990 class10990 when ((class10990)).u() instanceof Object object:
+         case class10990 class10990 when class10990.u() instanceof Object object:
             this.N((class00496)object);
             break;
          case class10996 var6:

@@ -68,6 +68,8 @@ public class class11572 extends class11590 {
                }
 
                class06660 class06660 = class06660x;
+               int k;
+               List<class02998<?>> x;
 
                try {
                   k = class06660.N();
@@ -79,7 +81,7 @@ public class class11572 extends class11590 {
                class06660 = class06660x;
 
                try {
-                  class06660.y();
+                  x = class06660.y();
                } catch (Throwable throwable) {
                   throw new MatchException(throwable.toString(), throwable);
                }
@@ -91,9 +93,8 @@ public class class11572 extends class11590 {
                }
 
                int j = class11938.j().y();
-               List<class02998<?>> class11543 = (class11543)((WeakHashMap)this.y_0).get(class04477);
+               class11543 class11543 = (class11543)((WeakHashMap)this.y_0).get(class04477);
 
-               <unknown> ;
                for (class02998<?> class02998 : x) {
                   if (class02998.N() == 8) {
                      byte b0 = (Byte)class02998.L();
