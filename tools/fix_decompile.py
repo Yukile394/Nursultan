@@ -12,8 +12,11 @@ BAD_GENERIC = re.compile(r"<\s*>|<\s*,|,\s*>|,\s*,")
 BROKEN_NEW = re.compile(r"\bnew\s+([A-Za-z_][\w.$]*)\s*;")
 RESUGAR = re.compile(r"([A-Za-z_][\w.$]*)\s*\.\s*/\*\s*\$VF: Unable to resugar constructor\s*\*/\s*<init>\s*\(")
 NON_SEALED_RECORD = re.compile(r"\bnon-sealed\s+(?=record\b)")
-RECORD_DECL = re.compile(r"\brecord\s+[A-Za-z_]\w*\s*[(<]")
+RECORD_DECL = re.compile(r"\brecord\s+[A-Za-z_][\w$]*\s*[(<]")
 RECORD_SUPER = re.compile(r"(?m)^[ \t]*super\(\);[ \t]*\r?\n")
+STRAY_CAST = re.compile(r"(?m)^[ \t]*\(\s*[A-Za-z_][\w.$<>?\[\]]*\s*\)\s*[A-Za-z_][\w.$]*\s*;[ \t]*\r?\n")
+UNKNOWN_STMT = re.compile(r"(?m)^([ \t]*)<unknown>\s*;")
+RECORD_HEAD = re.compile(r"\brecord\s+[A-Za-z_][\w$]*\s*(?:<[^({]*>)?\s*\(")
 ENUM_HEAD = re.compile(
     r"^(?P<pre>[ \t]*(?:(?:public|protected|private|static|final|abstract)\s+)*)enum(?P<mid>\s+[A-Za-z_]\w*[^{;]*\{)(?P<body>\s*(?://[^\n]*\n\s*|/\*.*?\*/\s*)*)(?P<first>@|(?:public|private|protected|static|final|abstract|synchronized|transient|volatile|void|int|long|boolean|byte|short|char|float|double|String|Object)\b)",
     re.M | re.S)
@@ -120,6 +123,36 @@ def fix_enums(text):
     new = text[:m.start()] + m.group("pre") + "class" + m.group("mid") + m.group("body") + m.group("first") + text[m.end():]
     return new, 1
 
+def fix_record_fields(text):
+    """record bilesenleriyle ayni isimli 'private final T x;' alanlarini siler (record'da instance alan yasak)."""
+    count = 0
+    m = RECORD_HEAD.search(text)
+    while m:
+        args, after = balanced_args(text, m.end() - 1)
+        if args is None:
+            break
+        names, depth, cur = [], 0, ""
+        for ch in args + ",":
+            if ch in "<([":
+                depth += 1
+            elif ch in ">)]":
+                depth -= 1
+            if ch == "," and depth == 0:
+                toks = cur.strip().split()
+                if toks:
+                    names.append(toks[-1])
+                cur = ""
+            else:
+                cur += ch
+        head, body = text[:after], text[after:]
+        for nm in names:
+            rx = re.compile(r"(?m)^[ \t]*(?:(?:private|public|protected)\s+(?:final\s+)?|final\s+)(?!static\b)[\w.$<>?\[\], ]+?\s+" + re.escape(nm) + r"\s*;[ \t]*\r?\n")
+            body, k = rx.subn("", body)
+            count += k
+        text = head + body
+        m = RECORD_HEAD.search(text, after)
+    return text, count
+
 def patch_build_gradle():
     p = REPO / "build.gradle"
     if not p.exists():
@@ -136,7 +169,7 @@ def patch_build_gradle():
 
 def main():
     files = changed = 0
-    tot = dict(cast=0, new=0, resugar=0, nsrec=0, enum=0)
+    tot = dict(cast=0, new=0, resugar=0, nsrec=0, enum=0, stray=0, unk=0, recfield=0)
     unknown_hits = []
     for p in sorted(ROOT.rglob("*.java")):
         files += 1
@@ -149,6 +182,13 @@ def main():
         s, e = fix_enums(s)
         if RECORD_DECL.search(s):
             s, _ = RECORD_SUPER.subn("", s)
+            s, rf = fix_record_fields(s)
+            tot["recfield"] += rf
+        s, st = STRAY_CAST.subn("", s)
+        s, uk = UNKNOWN_STMT.subn(r"\1/* VF unknown expr removed */ ;", s)
+        tot["stray"] += st; tot["unk"] += uk
+        if uk:
+            print(f"[unknown->bos] {p.relative_to(ROOT)}")
         tot["cast"] += a; tot["new"] += b; tot["resugar"] += r; tot["nsrec"] += c; tot["enum"] += e
         if s != orig:
             p.write_text(s, encoding="utf-8", errors="surrogateescape")
