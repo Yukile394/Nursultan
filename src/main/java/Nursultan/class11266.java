@@ -13,7 +13,6 @@ public record class11266(class06889 origin, class06889 velocity, class11228 enti
    }
 
    public class11266(class06889 origin, class06889 velocity, class11228 entityPrediction, float landingRadius) {
-      super();
       this.origin = origin;
       this.velocity = velocity;
       this.entityPrediction = entityPrediction;

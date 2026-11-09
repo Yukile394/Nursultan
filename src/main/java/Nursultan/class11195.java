@@ -14,7 +14,6 @@ public class class11195 {
    }
 
    public class11195() {
-      super();
       this.L();
    }
 

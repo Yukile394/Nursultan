@@ -17,7 +17,6 @@ public class class09488<B> implements class02362<B, class01659>, FabricCustomPay
    private CustomPayloadTypeProvider L;
 
    public class09488(Map var1, class01637 var2) {
-      super();
       this.N = var1;
       this.y = var2;
    }

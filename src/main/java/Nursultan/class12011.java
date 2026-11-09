@@ -12,7 +12,6 @@ public class class12011 {
    public boolean N_init;
 
    public class12011() {
-      super();
       this.i();
    }
 

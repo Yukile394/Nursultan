@@ -57,7 +57,6 @@ public class class11331 {
    }
 
    public class11331() {
-      super();
       this.E();
       this.y_0 = new AtomicBoolean(false);
    }

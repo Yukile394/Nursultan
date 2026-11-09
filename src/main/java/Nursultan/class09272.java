@@ -7,7 +7,6 @@ import java.util.List;
 public non-sealed record class09272(List<class11827> presets) implements class09279 {
 
    public class09272(List<class11827> presets) {
-      super();
       this.presets = presets;
    }
 

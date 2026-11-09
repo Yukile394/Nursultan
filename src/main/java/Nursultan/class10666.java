@@ -5,7 +5,6 @@ import minecraft.class06756;
 
 public class class10666<Value> implements class06756<Value> {
    public class10666() {
-      super();
    }
 
    public Value y(Value var1) {

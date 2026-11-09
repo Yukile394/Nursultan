@@ -12,7 +12,6 @@ public class class11370 extends class11784 {
    }
 
    public class11370() {
-      super();
       this.u();
    }
 

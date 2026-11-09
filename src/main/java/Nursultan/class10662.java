@@ -6,7 +6,6 @@ import minecraft.class06695;
 
 public class class10662 implements class04803 {
    public class10662(class06695 var1, int var2) {
-      super();
       this.y = var1;
       this.N = var2;
    }

@@ -8,7 +8,6 @@ public class class10963 {
    }
 
    public class10963() {
-      super();
       this.L();
    }
 

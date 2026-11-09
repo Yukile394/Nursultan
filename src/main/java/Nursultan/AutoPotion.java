@@ -77,7 +77,6 @@ public class AutoPotion extends class11067 {
    }
 
    public AutoPotion() {
-      super();
       this.n();
       this.R_0 = new class10891("speed-potion", true, var0 -> !var0.method_6059(class07047.N), var1 -> var1.N(class06570.lO) && this.N(var1, class07047.N));
       this.R_1 = new class10891("strength-potion", true, var0 -> !var0.method_6059(class07047.i), var1 -> var1.N(class06570.lO) && this.N(var1, class07047.i));

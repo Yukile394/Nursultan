@@ -33,7 +33,6 @@ public class Arrows extends class11067 {
    public static Object i_0;
 
    public Arrows() {
-      super();
       this.m();
       this.u_0 = new class11023(this, "players", true);
       this.u_1 = new class11010(this, "friends", true);

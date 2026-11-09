@@ -8,7 +8,6 @@ public class class10513 implements class05474 {
    }
 
    public class10513(int var1, int var2) {
-      super();
       this.N = var1;
       this.y = var2;
    }

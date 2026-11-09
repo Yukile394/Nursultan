@@ -15,7 +15,6 @@ public class class10980 extends class11784 {
    }
 
    public class10980() {
-      super();
       this.M();
    }
 

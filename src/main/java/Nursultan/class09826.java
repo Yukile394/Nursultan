@@ -14,7 +14,6 @@ public class class09826 implements class02695 {
    }
 
    public class09826(class02695 var1, class02695 var2) {
-      super();
       this.L = var1;
       this.u = var2;
    }

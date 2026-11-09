@@ -107,7 +107,6 @@ public class TriggerBot extends class11067 {
    }
 
    public TriggerBot() {
-      super();
       this.T();
       this.u_0 = new class11785("invisible", false);
       this.u_1 = new class11786("naked", true);

@@ -10,7 +10,6 @@ public abstract class class11547 implements class11579 {
    public boolean N_init;
 
    public class11547(String var1, int var2) {
-      super();
       this.i();
       this.N_0 = var1;
       this.N_1 = var2;

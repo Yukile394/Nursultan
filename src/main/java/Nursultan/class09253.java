@@ -7,7 +7,6 @@ public non-sealed record class09253(int outcome, String presetName, String creat
    }
 
    public class09253(int outcome, String presetName, String creator) {
-      super();
       this.outcome = outcome;
       this.presetName = presetName;
       this.creator = creator;

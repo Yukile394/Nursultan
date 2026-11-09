@@ -12,7 +12,6 @@ public abstract class class11526 {
    public static Object y_5;
 
    public class11526() {
-      super();
    }
 
    static {

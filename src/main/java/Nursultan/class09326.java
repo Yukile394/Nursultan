@@ -42,7 +42,6 @@ public class class09326 extends class11784 {
    }
 
    public class09326() {
-      super();
       this.P();
    }
 

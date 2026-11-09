@@ -22,7 +22,6 @@ public class class11662 extends class08865 {
    private final boolean L;
 
    public class11662(class08859 var1) {
-      super();
       this.y = var1;
       if ("Mesa".equals(GlStateManager._getString(7936))) {
          String s = GlStateManager._getString(7938);

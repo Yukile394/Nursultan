@@ -12,7 +12,6 @@ public record class09365<T extends class00638>(T listener, class00381<T> packet)
    }
 
    public class09365(T listener, class00381<T> packet) {
-      super();
       this.listener = (T)listener;
       this.packet = packet;
    }

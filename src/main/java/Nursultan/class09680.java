@@ -13,7 +13,6 @@ public class class09680 implements class09670 {
    }
 
    public class09680(class09679 var1) {
-      super();
       this.N = var1;
    }
 

@@ -2,7 +2,6 @@ package Nursultan;
 
 public class class09310 implements class11826<class11364> {
    public class09310() {
-      super();
    }
 
    static {

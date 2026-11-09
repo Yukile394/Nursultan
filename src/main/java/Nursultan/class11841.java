@@ -19,7 +19,6 @@ public class class11841 {
    }
 
    public class11841(class11880 var1, class11423 var2, class11876 var3, AtomicBoolean var4) {
-      super();
       this.L();
       this.N_0 = var1;
       this.N_1 = var2;

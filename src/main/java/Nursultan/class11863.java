@@ -18,7 +18,6 @@ public record class11863(float stiffness, float damping, float mass, float posit
    }
 
    public class11863(float stiffness, float damping, float mass, float positionEpsilon, float velocityEpsilon, float maxStepSeconds) {
-      super();
       stiffness = N(stiffness);
       damping = N(damping);
       mass = N(mass, 1.0F);

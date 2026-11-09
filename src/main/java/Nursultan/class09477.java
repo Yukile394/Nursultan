@@ -11,7 +11,6 @@ import minecraft.class07759;
 
 public class class09477 extends class01578 {
    public class09477(class05622 var1) {
-      super();
       this.N = var1;
    }
 

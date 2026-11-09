@@ -15,7 +15,6 @@ public class class11180 implements class09086 {
    }
 
    public class11180(int var1, int var2, int var3) {
-      super();
       this.Z();
       this.N_0 = var1;
       this.N_1 = var2;

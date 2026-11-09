@@ -18,7 +18,6 @@ public class class09389<T> implements class00750<class03556<T>> {
    }
 
    public class09389(class00751 var1) {
-      super();
       this.y = var1;
    }
 

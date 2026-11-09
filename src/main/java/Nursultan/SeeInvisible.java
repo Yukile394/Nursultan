@@ -11,7 +11,6 @@ public class SeeInvisible extends class11067 {
    public Object L_0;
 
    public SeeInvisible() {
-      super();
       this.m();
       this.L_0 = class11524.N(this, "opacity", 0.5F, 0.1F, 1.0F, 0.1F);
    }

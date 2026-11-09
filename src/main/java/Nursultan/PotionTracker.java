@@ -53,7 +53,6 @@ public class PotionTracker extends class11067 {
    }
 
    public PotionTracker() {
-      super();
       this.v();
       this.L_0 = class11524.N(this, "ignore-self", true);
       this.L_1 = class11524.N(this, "ignore-common-splash-potions", true);

@@ -11,7 +11,6 @@ public record class09931(String text, float x, float y, int color, float fontSiz
    }
 
    public class09931(String text, float x, float y, int color, float fontSize, class09838 fontSpec, int outlineColor, float outlineWidth) {
-      super();
       this.text = text;
       this.x = x;
       this.y = y;

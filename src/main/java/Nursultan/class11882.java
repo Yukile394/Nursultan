@@ -36,7 +36,6 @@ public class class11882 extends class11512 implements Predicate<class06584> {
    }
 
    public class11882(class06584 var1, String var2, String var3, class11165 var4) {
-      super();
       this.W();
       this.y_0 = class11524.N(this, "auto-parser-include", true);
       this.y_1 = class11524.N(this, "max-price", "0", Pattern.compile("^[1-9]\\d{0,18}$"));

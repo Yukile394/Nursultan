@@ -39,7 +39,6 @@ public class class11209 {
    }
 
    public class11209(String var1, long var2) {
-      super();
       this.m();
       this.N_2 = Long.MAX_VALUE;
       this.N_3 = Long.MIN_VALUE;

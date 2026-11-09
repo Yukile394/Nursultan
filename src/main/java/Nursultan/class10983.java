@@ -19,7 +19,6 @@ public class class10983 {
    }
 
    public class10983() {
-      super();
       this.M();
    }
 

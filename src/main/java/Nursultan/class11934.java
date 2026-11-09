@@ -22,7 +22,6 @@ public class class11934 {
    }
 
    public class11934(class11903 var1) {
-      super();
       this.v();
       this.y_1 = Duration.ZERO;
       this.N_1 = (class11887)class11905.N_5;

@@ -47,7 +47,6 @@ public class class09173 {
    }
 
    public class09173(class11333 var1, String var2, class09045 var3, class12002 var4, int var5) {
-      super();
       this.m();
       this.y_0 = new ArrayList();
       this.y_1 = var1;

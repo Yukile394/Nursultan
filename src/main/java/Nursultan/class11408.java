@@ -21,7 +21,6 @@ public record class11408(class11405 client, class11410 connection) implements cl
    }
 
    public class11408(class11405 client, class11410 connection) {
-      super();
       this.client = client;
       this.connection = connection;
    }

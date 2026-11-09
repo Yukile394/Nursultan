@@ -57,7 +57,6 @@ public class class11058 {
    }
 
    public class11058() {
-      super();
       this.R();
       this.y_0 = new class09166();
       this.y_1 = new class09167();

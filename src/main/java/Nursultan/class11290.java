@@ -32,7 +32,6 @@ public class class11290 {
    }
 
    public class11290(UUID var1, long var2, String var4, String var5, long var6, long var8, long var10, class11296 var12, int var13, boolean var14, byte[] var15) {
-      super();
       this.s();
       this.L_0 = var1;
       this.L_1 = var2;

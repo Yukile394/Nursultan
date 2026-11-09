@@ -13,7 +13,6 @@ import minecraft.class07369;
 )
 public class SRPSpoofer extends class11067 {
    public SRPSpoofer() {
-      super();
    }
 
    @class11782

@@ -9,7 +9,6 @@ public class class11850 {
    }
 
    public class11850(Supplier<class11410> var1) {
-      super();
       this.L();
       this.N_0 = var1;
    }

@@ -14,7 +14,6 @@ public class class11348 {
    }
 
    public class11348(ObjIntConsumer<class12002> var1) {
-      super();
       this.L();
       this.N_0 = var1;
    }

@@ -28,6 +28,5 @@ public class class10878 {
       .build();
 
    public class10878() {
-      super();
    }
 }

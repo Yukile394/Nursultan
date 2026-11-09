@@ -14,7 +14,6 @@ public class class09125 {
    public boolean N_init;
 
    public class09125() {
-      super();
       this.i();
       this.N_5 = 1.0F;
    }

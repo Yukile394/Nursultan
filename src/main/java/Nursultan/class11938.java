@@ -73,7 +73,6 @@ public class class11938 {
    }
 
    public class11938() {
-      super();
       this.K();
       this.u_0 = new class11405();
    }

@@ -34,7 +34,6 @@ public class class11832 implements class09780 {
    }
 
    public class11832(class09962 var1, class09962 var2, class11863 var3) {
-      super();
       this.u();
       if (var1.u() != var2.u()) {
          throw new IllegalArgumentException(u[0]);

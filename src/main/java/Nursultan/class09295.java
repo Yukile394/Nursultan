@@ -9,7 +9,6 @@ public record class09295(String login, String minecraftName, boolean premium) {
    }
 
    public class09295(String login, String minecraftName, boolean premium) {
-      super();
       this.login = login;
       this.minecraftName = minecraftName;
       this.premium = premium;

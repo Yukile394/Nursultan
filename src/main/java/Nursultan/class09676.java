@@ -13,7 +13,6 @@ import net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents.AllowMouseRele
 
 public class class09676 implements ClientModInitializer {
    public class09676() {
-      super();
    }
 
    public void onInitializeClient() {

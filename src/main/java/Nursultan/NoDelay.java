@@ -14,7 +14,6 @@ public class NoDelay extends class11067 {
    public Object L_1;
 
    public NoDelay() {
-      super();
       this.b();
       this.L_0 = new class11720(this, "block-breaking", false);
       this.L_1 = class11524.y(

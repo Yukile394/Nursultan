@@ -9,7 +9,6 @@ public class class09701<B, T> implements class02362<B, T> {
    private final Supplier<class02362<B, T>> y;
 
    public class09701(UnaryOperator var1) {
-      super();
       this.N = var1;
       this.y = Suppliers.memoize(() -> var1x.apply(this));
    }

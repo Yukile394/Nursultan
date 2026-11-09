@@ -48,7 +48,6 @@ public abstract class class11769 {
    }
 
    public class11769(class09788<Void> var1) {
-      super();
       this.t();
       this.Z_2 = new class09793();
       this.Z_3 = new class09793();

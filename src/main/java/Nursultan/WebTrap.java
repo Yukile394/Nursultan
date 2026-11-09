@@ -60,7 +60,6 @@ public class WebTrap extends class11067 {
    }
 
    public WebTrap() {
-      super();
       this.v();
       this.u_0 = class11524.N(this, "place-key", class12002.UNKNOWN);
    }

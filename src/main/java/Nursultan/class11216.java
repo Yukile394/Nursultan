@@ -13,7 +13,6 @@ public class class11216 {
    public Object y_1;
 
    public class11216() {
-      super();
       this.u();
       this.y_0 = new class09068();
       this.y_1 = BufferUtils.createByteBuffer(128);

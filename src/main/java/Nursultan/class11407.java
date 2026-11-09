@@ -18,7 +18,6 @@ public class class11407 {
    }
 
    public class11407(Supplier<ChannelFuture> var1, class11880 var2, class11423 var3, BooleanSupplier var4, BooleanSupplier var5) {
-      super();
       this.M();
       this.N_0 = var1;
       this.N_1 = var2;

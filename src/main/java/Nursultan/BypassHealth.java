@@ -7,7 +7,6 @@ package Nursultan;
 )
 public class BypassHealth extends class11067 {
    public BypassHealth() {
-      super();
    }
 
    public static boolean m() {

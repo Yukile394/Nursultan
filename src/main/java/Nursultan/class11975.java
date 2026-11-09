@@ -21,12 +21,10 @@ public class class11975 implements class11951<class09276> {
    }
 
    public class11975() {
-      super();
       this.M();
    }
 
    public class11975(double var1, double var3, double var5) {
-      super();
       this.M();
       this.N_0 = var1;
       this.N_1 = var3;

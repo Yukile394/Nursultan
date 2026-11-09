@@ -169,7 +169,6 @@ public final class class09723 {
    }
 
    public class09723(class09940 var1, int var2, int var3, int var4, int var5) {
-      super();
       this.u = Objects.requireNonNull(var1, "format");
       if (var2 <= 0) {
          throw new IllegalArgumentException("maxWidth must be > 0");

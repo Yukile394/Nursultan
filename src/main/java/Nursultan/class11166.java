@@ -11,7 +11,6 @@ public non-sealed record class11166(boolean insecure, UUID uuid, String name, by
    }
 
    public class11166(boolean insecure, UUID uuid, String name, byte[] data) {
-      super();
       this.insecure = insecure;
       this.uuid = uuid;
       this.name = name;

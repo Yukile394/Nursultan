@@ -10,7 +10,6 @@ public non-sealed class class12005 implements class12004 {
    public boolean N_init;
 
    public class12005(int var1) {
-      super();
       this.y();
       this.N_0 = var1;
    }

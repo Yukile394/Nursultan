@@ -39,7 +39,6 @@ public class class11385 extends class11784 {
    }
 
    public class11385() {
-      super();
       this.U();
    }
 

@@ -9,7 +9,6 @@ public class class11401 {
    public static Object y_0 = new class11401();
 
    public class11401() {
-      super();
       this.i();
    }
 

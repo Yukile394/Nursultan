@@ -71,7 +71,6 @@ public class class10089 {
    }
 
    public class10089() {
-      super();
    }
 
    public static class00780 i(class02055<class04336> var0, class02055<class07829<?>> var1) {

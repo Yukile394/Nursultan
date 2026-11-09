@@ -7,7 +7,6 @@ public non-sealed record class10998(class11067 module) implements class11333 {
    }
 
    public class10998(class11067 module) {
-      super();
       this.module = module;
    }
 

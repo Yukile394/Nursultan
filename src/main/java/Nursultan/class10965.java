@@ -11,7 +11,6 @@ public class class10965 extends class11784 {
    }
 
    public class10965(class00381<?> var1) {
-      super();
       this.i();
       this.y_0 = var1;
    }

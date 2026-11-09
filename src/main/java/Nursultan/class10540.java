@@ -6,7 +6,6 @@ public class class10540 extends class05865 {
    private int N;
 
    public class10540() {
-      super();
    }
 
    public int y() {

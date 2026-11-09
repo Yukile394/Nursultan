@@ -6,7 +6,6 @@ public class class11802 {
    public boolean N_init;
 
    public class11802(String var1) {
-      super();
       this.i();
       this.N_0 = var1;
       class11828 class11828 = class11828.N(var1);

@@ -19,7 +19,6 @@ public class class10463 implements class04643 {
    }
 
    public class10463(class04643 var1, class04643 var2) {
-      super();
       this.N = var1;
       this.L = var2;
    }

@@ -11,7 +11,6 @@ public class class11984 implements class11951<class09276> {
    }
 
    public class11984(String var1, String var2, int var3) {
-      super();
       this.u();
       this.N_0 = var1;
       this.N_1 = var2;
@@ -19,7 +18,6 @@ public class class11984 implements class11951<class09276> {
    }
 
    public class11984() {
-      super();
       this.u();
    }
 

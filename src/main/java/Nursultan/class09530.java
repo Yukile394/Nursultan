@@ -14,7 +14,6 @@ public class class09530 implements class01830, class03894 {
    private double L;
 
    public class09530(class03877 var1) {
-      super();
       this.N = var1;
    }
 

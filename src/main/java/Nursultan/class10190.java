@@ -7,7 +7,6 @@ import minecraft.class07018;
 
 public class class10190 implements class05706 {
    public class10190(class07018 var1, Set var2) {
-      super();
       this.N = var1;
       this.y = var2;
    }

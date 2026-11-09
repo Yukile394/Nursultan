@@ -7,7 +7,6 @@ public non-sealed record class11941(long id, int formatVersion, byte[] data) imp
    }
 
    public class11941(long id, int formatVersion, byte[] data) {
-      super();
       this.id = id;
       this.formatVersion = formatVersion;
       this.data = data;

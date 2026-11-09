@@ -9,7 +9,6 @@ public non-sealed record class09281(long id, UUID clientId, int errorCode) imple
    }
 
    public class09281(long id, UUID clientId, int errorCode) {
-      super();
       this.id = id;
       this.clientId = clientId;
       this.errorCode = errorCode;

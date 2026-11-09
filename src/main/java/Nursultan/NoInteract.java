@@ -39,7 +39,6 @@ public class NoInteract extends class11067 {
    }
 
    public NoInteract() {
-      super();
       this.P();
       this.L_0 = class11524.N(this, "aura-only", true);
       this.L_1 = class11524.N(this, "pvp-only", true);

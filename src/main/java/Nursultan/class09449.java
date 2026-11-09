@@ -8,7 +8,6 @@ import minecraft.class03511;
 public record class09449(List<class09443> entries) implements class03511<class01894> {
 
    public class09449(List<class09443> entries) {
-      super();
       this.entries = entries;
    }
 

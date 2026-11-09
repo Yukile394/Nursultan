@@ -15,7 +15,6 @@ public class class11666 implements class08910 {
    private final List<class08910> N;
 
    public class11666(List<class08910> var1) {
-      super();
       this.N = var1;
    }
 

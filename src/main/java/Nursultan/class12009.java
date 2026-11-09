@@ -3,7 +3,6 @@ package Nursultan;
 public record class12009(int blockIndex, int binding) {
 
    public class12009(int blockIndex, int binding) {
-      super();
       this.blockIndex = blockIndex;
       this.binding = binding;
    }

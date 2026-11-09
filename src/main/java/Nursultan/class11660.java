@@ -9,7 +9,6 @@ public class class11660 implements class02012 {
    private final Interner<Vector3fc> N = Interners.newStrongInterner();
 
    public class11660() {
-      super();
    }
 
    public Vector3fc N(Vector3fc var1) {

@@ -23,7 +23,6 @@ public class class12020 {
    }
 
    public class12020(class11999 var1, class11999 var2) {
-      super();
       this.i();
       this.N_2 = new HashMap();
       this.N_1 = var2;

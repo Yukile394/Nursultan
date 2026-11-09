@@ -8,7 +8,6 @@ public record class09893(float x, float y, float width, float height, Vector4fc 
    }
 
    public class09893(float x, float y, float width, float height, Vector4fc borderRadius) {
-      super();
       this.x = x;
       this.y = y;
       this.width = width;

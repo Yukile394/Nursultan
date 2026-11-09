@@ -27,7 +27,6 @@ public class class11098 {
    public boolean L_init;
 
    public class11098() {
-      super();
       this.i();
       this.L_0 = new class09166();
       this.L_2 = 0.72F;

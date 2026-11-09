@@ -10,7 +10,6 @@ public class class11754 implements class09819 {
    public boolean N_init;
 
    public class11754() {
-      super();
       this.y();
       this.N_1 = new class11934(class11903.FORWARDS);
       this.N_2 = Float.NaN;

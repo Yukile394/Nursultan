@@ -20,7 +20,6 @@ public class class11460 {
    }
 
    public class11460() {
-      super();
       this.M();
       this.N_0 = new class11289();
       this.N_1 = new class11477(this);

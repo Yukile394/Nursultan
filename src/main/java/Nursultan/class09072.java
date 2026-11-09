@@ -20,7 +20,6 @@ public class class09072 implements class11192<class09101> {
    }
 
    public class09072(class11213 var1, float[] var2) {
-      super();
       this.u();
       this.y_0 = var1;
       this.y_1 = var2[0];

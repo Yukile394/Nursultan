@@ -9,7 +9,6 @@ public class Timer extends class11067 {
    public Object L_0;
 
    public Timer() {
-      super();
       this.s();
       this.L_0 = class11524.N(this, "timer", 1.0F, 0.1F, 10.0F, 0.05F);
    }

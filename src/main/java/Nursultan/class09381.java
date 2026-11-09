@@ -8,7 +8,6 @@ import minecraft.class00642;
 
 public class class09381 extends ChannelInitializer<Channel> {
    public class09381(class00642 var1) {
-      super();
       this.N = var1;
    }
 

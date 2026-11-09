@@ -17,14 +17,12 @@ public class class09270 implements class11951<class09263> {
    }
 
    public class09270(byte var1, class11940 var2) {
-      super();
       this.L();
       this.N_0 = var1;
       this.N_1 = var2;
    }
 
    public class09270() {
-      super();
       this.L();
    }
 

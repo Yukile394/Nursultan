@@ -35,7 +35,6 @@ public class FreeCamera extends class11067 {
    public Object L_6;
 
    public FreeCamera() {
-      super();
       this.v();
       this.L_0 = class11524.N(this, "speed-xz", 1.0F, 0.1F, 4.0F, 0.1F);
       this.L_1 = class11524.N(this, "speed-y", 0.6F, 0.1F, 2.0F, 0.1F);

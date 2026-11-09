@@ -22,7 +22,6 @@ public class class09373 extends class10742 {
    }
 
    public class09373() {
-      super();
       this.B();
       this.N_0 = class11938.u().b();
    }

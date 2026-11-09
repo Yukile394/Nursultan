@@ -39,7 +39,6 @@ public class class11317 {
    }
 
    public class11317(class11519 var1) {
-      super();
       this.z();
       this.N_0 = new ArrayDeque();
       this.N_1 = new EnumMap<>(class09378.class);

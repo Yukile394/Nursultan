@@ -13,6 +13,5 @@ public class class10695 {
       .build();
 
    public class10695() {
-      super();
    }
 }

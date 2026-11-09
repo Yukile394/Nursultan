@@ -17,7 +17,6 @@ public class class10640 implements class01765 {
    }
 
    public class10640(class06683 var1, class00490 var2, boolean var3, MutableBoolean var4, class00518 var5, class01766 var6) {
-      super();
       this.R = var1;
       this.N = var2;
       this.y = var3;

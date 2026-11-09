@@ -20,7 +20,6 @@ public class class10710 implements ArgumentType<class00891> {
    }
 
    public class10710() {
-      super();
    }
 
    static {

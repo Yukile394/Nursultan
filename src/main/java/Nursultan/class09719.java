@@ -14,6 +14,5 @@ public final class class09719 {
    public int U;
 
    public class09719() {
-      super();
    }
 }

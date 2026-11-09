@@ -7,7 +7,6 @@ package Nursultan;
 )
 public class DiscordActivity extends class11067 {
    public DiscordActivity() {
-      super();
    }
 
    @Override

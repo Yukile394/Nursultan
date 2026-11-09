@@ -10,7 +10,6 @@ public record class10318(class07321 center, int viewDistance) implements class04
    }
 
    public class10318(class07321 center, int viewDistance) {
-      super();
       this.center = center;
       this.viewDistance = viewDistance;
    }

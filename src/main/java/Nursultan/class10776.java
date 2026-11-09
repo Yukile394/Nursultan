@@ -13,7 +13,6 @@ public class class10776 extends class07473 {
    }
 
    public class10776(class07637 var1) {
-      super();
       this.N = var1;
    }
 

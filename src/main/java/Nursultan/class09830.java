@@ -38,7 +38,6 @@ public record class09830(
       float thumbHeight,
       float thumbTravel
    ) {
-      super();
       this.trackX = trackX;
       this.trackY = trackY;
       this.trackWidth = trackWidth;

@@ -6,12 +6,10 @@ public class class09296 implements class11951<class09263> {
    public boolean N_init;
 
    public class09296() {
-      super();
       this.R();
    }
 
    public class09296(String var1, long var2) {
-      super();
       this.R();
       this.N_0 = var1;
       this.N_1 = var2;

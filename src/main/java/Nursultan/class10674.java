@@ -21,7 +21,6 @@ public class class10674 implements ArgumentType<Integer> {
    public static Object N_2 = new Object2IntOpenHashMap();
 
    public class10674() {
-      super();
    }
 
    static {

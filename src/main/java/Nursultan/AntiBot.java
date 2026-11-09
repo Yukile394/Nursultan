@@ -13,7 +13,6 @@ public class AntiBot extends class11067 {
    public Object L_0;
 
    public AntiBot() {
-      super();
       this.m();
       this.L_0 = class11524.N(this, "no-bot-interaction", false);
    }

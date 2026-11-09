@@ -55,7 +55,6 @@ public class KillEffect extends class11067 {
    public boolean i_init;
 
    public KillEffect() {
-      super();
       this.b();
       this.u_0 = new HashSet();
       this.u_1 = class09064.N(() -> ((class06202)super.y_0).e().N / 2, () -> ((class06202)super.y_0).e().y / 2)

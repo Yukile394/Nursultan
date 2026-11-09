@@ -36,7 +36,6 @@ public abstract class class11536<T> extends class11512 {
    }
 
    public class11536(class12018 var1, T var2) {
-      super();
       this.L();
       this.y_0 = var1;
       this.y_1 = this.y_2 = var2;

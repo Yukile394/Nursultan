@@ -9,7 +9,6 @@ public non-sealed class class11993 implements class12004 {
    public boolean N_init;
 
    public class11993(int var1) {
-      super();
       this.u();
       this.N_0 = var1;
    }

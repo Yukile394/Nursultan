@@ -160,7 +160,6 @@ public class class11749 implements class09911 {
    }
 
    public class11749(class11742 var1) {
-      super();
       this.G();
       this.m_0 = class06202.Nq();
       this.m_1 = new ArrayDeque();

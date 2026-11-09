@@ -14,7 +14,6 @@ public class class09174 implements class00161 {
    private class00176 u = null;
 
    public class09174(class00147 var1) {
-      super();
       this.y = var1;
    }
 

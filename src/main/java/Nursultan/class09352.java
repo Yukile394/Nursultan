@@ -12,7 +12,6 @@ public class class09352 implements class11826<class11353> {
    }
 
    public class09352() {
-      super();
       this.L();
       this.N_0 = class06202.Nq();
    }

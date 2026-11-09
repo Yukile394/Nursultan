@@ -3,7 +3,6 @@ package Nursultan;
 public record class09136(float speed, float acceleration) {
 
    public class09136(float speed, float acceleration) {
-      super();
       this.speed = speed;
       this.acceleration = acceleration;
    }

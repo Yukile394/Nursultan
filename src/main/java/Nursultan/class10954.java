@@ -7,7 +7,6 @@ public class class10954 {
    public static Object y_0 = new class10954();
 
    public class10954() {
-      super();
       this.u();
    }
 

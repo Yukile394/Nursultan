@@ -6,7 +6,6 @@ public class class10986 {
    public boolean y_init;
 
    public class10986() {
-      super();
       this.u();
    }
 

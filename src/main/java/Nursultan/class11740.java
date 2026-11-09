@@ -24,7 +24,6 @@ public class class11740<K, V> implements class09819 {
    }
 
    public class11740(float var1) {
-      super();
       this.M();
       this.N_0 = new LinkedHashMap();
       this.N_1 = new HashMap();

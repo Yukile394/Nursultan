@@ -5,7 +5,6 @@ import java.util.function.LongSupplier;
 
 public class class10457 extends Ticker {
    public class10457(LongSupplier var1) {
-      super();
       this.N = var1;
    }
 

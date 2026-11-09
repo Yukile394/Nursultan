@@ -12,7 +12,6 @@ public class class10303 implements class03881 {
    private final Map<class03877, class03877> N = new HashMap<>();
 
    public class10303(class04084 var1) {
-      super();
    }
 
    public class03877 apply(class03877 var1) {

@@ -93,7 +93,6 @@ public class class11836 {
    }
 
    public class11836(int var1, int var2) {
-      super();
       this.R();
       this.y_6 = new Int2IntOpenHashMap();
       this.u_3 = new IntArrayList(64);

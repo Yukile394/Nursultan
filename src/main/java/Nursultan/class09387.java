@@ -11,7 +11,6 @@ import org.joml.Vector3d;
 
 public class class09387 implements ArgumentType<Vector3d> {
    public class09387() {
-      super();
    }
 
    public Vector3d parse(StringReader var1) throws CommandSyntaxException {

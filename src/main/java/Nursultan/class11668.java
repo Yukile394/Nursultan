@@ -13,7 +13,6 @@ import minecraft.class08983;
 
 public class class11668<T> implements Codec<class08983<T>> {
    public class11668(Codec var1) {
-      super();
       this.N = var1;
    }
 

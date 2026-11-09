@@ -42,7 +42,6 @@ public class class09363 extends class10742 {
    }
 
    public class09363() {
-      super();
       this.R();
       this.N_0 = class11938.t();
    }

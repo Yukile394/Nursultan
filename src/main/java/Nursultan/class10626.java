@@ -12,7 +12,6 @@ public class class10626 {
    public static Object N_1 = '.';
 
    public class10626() {
-      super();
       ((ExecutorService)class11938.L_1).submit(() -> {
          new class09363().N((CommandDispatcher<class07689>)N_0);
          new class10665().N((CommandDispatcher<class07689>)N_0);

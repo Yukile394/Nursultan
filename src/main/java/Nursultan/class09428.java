@@ -13,7 +13,6 @@ public class class09428 {
    public final String u;
 
    public class09428(File var1, File var2, File var3, @Nullable String var4) {
-      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;

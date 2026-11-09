@@ -13,7 +13,6 @@ public class class11810 {
    }
 
    public class11810() {
-      super();
       this.L();
    }
 

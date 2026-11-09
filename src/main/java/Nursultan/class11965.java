@@ -9,7 +9,6 @@ public non-sealed record class11965(UUID clientId, int formatVersion, String nam
    }
 
    public class11965(UUID clientId, int formatVersion, String name, byte[] data) {
-      super();
       this.clientId = clientId;
       this.formatVersion = formatVersion;
       this.name = name;

@@ -15,7 +15,6 @@ public class class12001 {
    }
 
    public class12001() {
-      super();
       this.L();
       this.u_0 = class06202.Nq();
    }

@@ -10,7 +10,6 @@ public record class11563(class06584 itemStack, class11579 structure, Vector3d ce
    }
 
    public class11563(class06584 itemStack, class11579 structure, Vector3d center, int lifeTimeTicks) {
-      super();
       this.itemStack = itemStack;
       this.structure = structure;
       this.center = center;

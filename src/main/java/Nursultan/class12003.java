@@ -8,7 +8,6 @@ public non-sealed class class12003 implements class12004 {
    public boolean N_init;
 
    public class12003(int var1) {
-      super();
       this.N();
       this.N_1 = Integer.MIN_VALUE;
       this.N_0 = var1;

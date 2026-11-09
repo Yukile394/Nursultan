@@ -11,7 +11,6 @@ public class class10644 implements Iterator<class06584> {
    private final int L;
 
    public class10644(class06695 var1) {
-      super();
       this.N = var1;
       this.L = var1.method_5439();
    }

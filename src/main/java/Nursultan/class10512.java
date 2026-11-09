@@ -30,7 +30,6 @@ public class class10512 implements class07135 {
    private FabricDataOutput fabricDataOutput;
 
    public class10512(class01996 var1) {
-      super();
       this.field_39375 = var1.method_45973(class02024.field_39368, "blockstates");
       this.field_55247 = var1.method_45973(class02024.field_39368, "items");
       this.field_39376 = var1.method_45973(class02024.field_39368, "models");

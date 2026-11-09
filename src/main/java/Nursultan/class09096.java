@@ -7,7 +7,6 @@ public record class09096(class09073 color, class09073 depth, String label) {
    }
 
    public class09096(class09073 color, class09073 depth, String label) {
-      super();
       this.color = color;
       this.depth = depth;
       this.label = label;

@@ -5,7 +5,6 @@ import minecraft.class04194;
 
 public class class10316 implements class01391 {
    public class10316(class04194 var1) {
-      super();
    }
 
    public class01391 method_1336(int var1, int var2, int var3, int var4) {

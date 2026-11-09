@@ -54,7 +54,6 @@ public class class11619 {
       class09785<String> var7,
       class09785<String> var8
    ) {
-      super();
       this.y();
       this.y_0 = class06202.Nq();
       this.y_1 = class09064.y((Integer)L_3, (Integer)L_3).y(class11181.RGB8).N(class11199.NEAREST, class11199.NEAREST).N(G[0]).N();

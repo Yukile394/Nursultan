@@ -10,7 +10,6 @@ import minecraft.class07689;
 
 public class class09401 extends class10782 {
    public class09401() {
-      super();
    }
 
    static {

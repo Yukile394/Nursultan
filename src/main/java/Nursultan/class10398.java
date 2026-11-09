@@ -9,7 +9,6 @@ public class class10398<T> implements class04468<T> {
    public Object N_1;
 
    public class10398(class00067 var1, class00067 var2) {
-      super();
       this.y();
       this.N_0 = var1;
       this.N_1 = var2;

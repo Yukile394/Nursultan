@@ -16,7 +16,6 @@ public class AutoFish extends class11067 {
    public boolean L_init;
 
    public AutoFish() {
-      super();
       this.m();
       this.L_0 = 0;
    }

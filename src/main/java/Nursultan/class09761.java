@@ -10,7 +10,6 @@ public record class09761(byte[] pixels, int width, int height, int channels, dou
    }
 
    public class09761(byte[] pixels, int width, int height, int channels, double planeL, double planeB, double planeR, double planeT, double advance) {
-      super();
       this.pixels = pixels;
       this.width = width;
       this.height = height;

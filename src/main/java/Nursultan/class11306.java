@@ -28,7 +28,6 @@ public class class11306 {
    }
 
    public class11306(class11325 var1) {
-      super();
       this.Z();
       this.y_0 = new ArrayDeque();
       this.y_1 = new HashSet();

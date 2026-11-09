@@ -8,7 +8,6 @@ public record class11316(class11308 phase, long presetId, long generation) {
    }
 
    public class11316(class11308 phase, long presetId, long generation) {
-      super();
       this.phase = phase;
       this.presetId = presetId;
       this.generation = generation;

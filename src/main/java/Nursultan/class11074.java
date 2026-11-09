@@ -61,7 +61,6 @@ public class class11074 {
    }
 
    public class11074() {
-      super();
       this.i();
       this.y_0 = class06202.Nq();
       this.y_1 = class11213.N((class09087)R_1, 65536, 16384);

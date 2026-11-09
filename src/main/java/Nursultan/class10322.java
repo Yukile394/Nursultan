@@ -16,7 +16,6 @@ public class class10322 extends SimpleFileVisitor<Path> {
    }
 
    public class10322(class04173 var1, List var2) {
-      super();
       this.y = var1;
       this.N = var2;
    }

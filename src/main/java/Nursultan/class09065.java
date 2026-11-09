@@ -20,7 +20,6 @@ public class class09065 {
    }
 
    public class09065() {
-      super();
       this.R();
       this.N_0 = new ObjectOpenHashSet();
    }

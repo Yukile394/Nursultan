@@ -13,7 +13,6 @@ public class class09531 implements class01830, class03894 {
    public final double[] y;
 
    public class09531(class01837 var1, class03877 var2) {
-      super();
       this.L = var1;
       this.N = var2;
       this.y = new double[var1.Z * var1.Z * var1.z];

@@ -5,7 +5,6 @@ import minecraft.class06584;
 
 public class class11278 {
    public class11278() {
-      super();
    }
 
    public Optional<class11882> N(class06584 var1, String var2, long var3) {

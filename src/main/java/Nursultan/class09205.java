@@ -12,7 +12,6 @@ public class class09205 {
    public static Object y_1;
 
    public class09205() {
-      super();
       this.u();
       this.N_0 = class11213.N((class09087)class09063.N_2, 256, 6);
       this.N_1 = class11174.N().N(class11204.L().N((class12036)class12019.N_2).N((class09322)class11185.Z_1).N(4).N()).N((class11213)this.N_0).N();

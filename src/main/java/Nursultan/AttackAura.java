@@ -123,7 +123,6 @@ public class AttackAura extends class11067 {
    }
 
    public AttackAura() {
-      super();
       this.Y();
       this.u_0 = new class11084(this, "ft", true);
       this.u_1 = new class11103(this, "grim");

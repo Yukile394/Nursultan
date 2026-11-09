@@ -7,7 +7,6 @@ public final class class09794 {
    private int u;
 
    public class09794() {
-      super();
    }
 
    public int y() {

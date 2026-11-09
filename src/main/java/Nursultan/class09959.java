@@ -17,7 +17,6 @@ public class class09959 implements class08771 {
    private int i;
 
    public class09959(class02796 var1, int var2) {
-      super();
       this.y = var1;
       this.N = var2;
    }

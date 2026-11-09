@@ -16,7 +16,6 @@ public class AutoReconnect extends class11067 {
    public Object L_2;
 
    public AutoReconnect() {
-      super();
       this.v();
       this.L_0 = class11524.N(this, "delay", 10.0F, 10.0F, 300.0F, 1.0F).N((Supplier<String>)class11502.N_2);
       this.L_1 = class11524.N(this, "auto-enable-auto-leave", true);

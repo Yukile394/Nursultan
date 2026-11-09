@@ -8,7 +8,6 @@ import minecraft.class05033;
 
 public class class10486 implements Keyable {
    public class10486(class05033[] var1) {
-      super();
       this.N = var1;
    }
 

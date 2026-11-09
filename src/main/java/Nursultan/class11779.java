@@ -33,7 +33,6 @@ public class class11779 implements class11808 {
    }
 
    public class11779(class11795 var1, Class<?> var2, Object var3, Method var4) {
-      super();
       this.W();
       if (var4.getAnnotation(class11782.class) == null) {
          throw new RuntimeException("Method %s is not annotated with @EventHandler".formatted(var4.getName()));

@@ -4,7 +4,6 @@ import java.util.List;
 
 public class class11513 extends class11526 {
    public class11513() {
-      super();
    }
 
    @Override

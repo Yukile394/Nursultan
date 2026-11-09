@@ -18,7 +18,6 @@ public class class10205 implements class06069 {
    }
 
    public class10205(class03470 var1, class06069 var2) {
-      super();
       this.y = var1;
       this.L = var2;
    }

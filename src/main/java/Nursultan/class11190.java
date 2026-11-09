@@ -28,7 +28,6 @@ public class class11190 {
    public static Object y_3 = class11174.N().N((class11204)class11215.N_2).N(class11213.N((class09087)class09063.N_0, 4096, 1024)).N();
 
    public class11190() {
-      super();
    }
 
    static {

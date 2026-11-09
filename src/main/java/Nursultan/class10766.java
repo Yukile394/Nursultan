@@ -9,7 +9,6 @@ import minecraft.class07689;
 
 public class class10766 extends class10742 {
    public class10766() {
-      super();
    }
 
    private RequiredArgumentBuilder<class07689, Character> y() {

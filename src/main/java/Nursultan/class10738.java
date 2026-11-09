@@ -10,7 +10,6 @@ public class class10738 implements IntConsumer {
    int N;
 
    public class10738(class07348 var1, IntConsumer var2, LithiumBlockCounter var3, Int2IntOpenHashMap var4, class07340 var5) {
-      super();
       this.y = var2;
       this.L = var3;
       this.u = var4;

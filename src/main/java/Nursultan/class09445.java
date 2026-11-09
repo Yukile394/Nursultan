@@ -11,7 +11,6 @@ import minecraft.class07209;
 
 public class class09445 {
    public class09445() {
-      super();
    }
 
    public static void N(class01224 var0, class07209 var1, class06993 var2, List<class01230> var3, class06069 var4) {

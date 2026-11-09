@@ -5,7 +5,6 @@ import org.joml.Matrix4f;
 
 public class class09314 implements class11826<class09321> {
    public class09314() {
-      super();
    }
 
    public void listen(class09321 var1) {

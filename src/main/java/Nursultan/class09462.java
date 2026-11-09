@@ -21,7 +21,6 @@ import org.apache.commons.lang3.mutable.MutableObject;
 
 public class class09462<E> extends MapCodec<class01289<E>> {
    public class09462(Collection var1, Collection var2, MutableObject var3) {
-      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;

@@ -23,7 +23,6 @@ public class AutoEat extends class11067 {
    }
 
    public AutoEat() {
-      super();
       this.j();
       this.L_0 = class11524.N(this, "value", 18.0F, 0.0F, 20.0F, 1.0F);
    }

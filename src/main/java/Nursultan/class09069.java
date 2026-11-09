@@ -11,7 +11,6 @@ public record class09069(int count, int glType, boolean normalized, int divisor)
    }
 
    public class09069(int count, int glType, boolean normalized, int divisor) {
-      super();
       this.count = count;
       this.glType = glType;
       this.normalized = normalized;

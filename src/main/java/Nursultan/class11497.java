@@ -12,7 +12,6 @@ public class class11497 {
    public Object N_0;
 
    public class11497() {
-      super();
       this.y();
       this.N_0 = class06202.Nq();
    }

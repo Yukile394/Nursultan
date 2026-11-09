@@ -7,7 +7,6 @@ public class class11394 {
    public boolean y_init;
 
    public class11394() {
-      super();
       this.B();
    }
 

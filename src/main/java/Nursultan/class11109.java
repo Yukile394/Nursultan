@@ -67,7 +67,6 @@ public class class11109 implements class11819 {
    }
 
    public class11109() {
-      super();
       this.m();
       this.N_0 = class06202.Nq();
    }

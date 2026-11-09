@@ -49,7 +49,6 @@ public class class11324 {
    }
 
    public class11324() {
-      super();
       this.B();
       this.y_0 = new ArrayDeque();
       this.y_1 = new HashMap();

@@ -13,7 +13,6 @@ public class TimeChanger extends class11067 {
    public Object L_2;
 
    public TimeChanger() {
-      super();
       this.s();
       this.L_0 = new class11038("select", this::m, false);
       this.L_1 = class11524.N(

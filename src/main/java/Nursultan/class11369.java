@@ -3,7 +3,6 @@ package Nursultan;
 public record class11369(class11901 sound) {
 
    public class11369(class11901 sound) {
-      super();
       this.sound = sound;
    }
 

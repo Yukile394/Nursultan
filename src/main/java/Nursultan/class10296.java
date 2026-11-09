@@ -12,7 +12,6 @@ public class class10296 implements class01818 {
    private final long y;
 
    public class10296(long var1, long var3) {
-      super();
       this.N = var1;
       this.y = var3;
    }

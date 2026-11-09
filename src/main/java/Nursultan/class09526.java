@@ -34,7 +34,6 @@ public class class09526 implements class01830, class03894 {
    }
 
    public class09526(class01837 var1, class03877 var2) {
-      super();
       this.L = var1;
       this.M = var2;
       this.N = this.y(var1.y, var1.N);

@@ -22,7 +22,6 @@ public class Cooldowns extends class11067 {
    }
 
    public Cooldowns() {
-      super();
       this.P();
       this.L_0 = class11524.N(this, "render-on-items", true);
       this.L_1 = class11524.N(this, "inventory-only", false);

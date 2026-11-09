@@ -9,7 +9,6 @@ public class class09561 implements class02112 {
    private final class03255 N;
 
    public class09561(class03255 var1) {
-      super();
       this.N = var1;
    }
 

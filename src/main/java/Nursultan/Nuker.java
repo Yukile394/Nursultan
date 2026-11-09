@@ -49,7 +49,6 @@ public class Nuker extends class11067 {
    }
 
    public Nuker() {
-      super();
       this.b();
       this.L_0 = class11524.N(this, "break-only-allowed-blocks", false);
       this.L_1 = class11524.N(this, "break-only-in-selection", false);

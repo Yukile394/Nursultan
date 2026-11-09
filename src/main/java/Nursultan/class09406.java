@@ -17,7 +17,6 @@ public class class09406 implements ArgumentType<String> {
    }
 
    public class09406() {
-      super();
    }
 
    static {

@@ -7,7 +7,6 @@ public class class09156 {
    public boolean N_init;
 
    public class09156() {
-      super();
       this.u();
       this.N_2 = 1.0F;
    }

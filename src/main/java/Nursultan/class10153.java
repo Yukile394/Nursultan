@@ -9,7 +9,6 @@ public class class10153 implements class03169 {
    private class07709 N;
 
    public class10153() {
-      super();
    }
 
    public void N(class07709 var1) {

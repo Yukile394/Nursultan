@@ -15,7 +15,6 @@ public class class11430 implements class11192<class09317> {
    public Object y_3;
 
    public class11430(SkyCustomization var1, class11213 var2) {
-      super();
       this.u();
       this.y_3 = new Matrix4f();
       this.N_0 = ((class09322)class11185.i_0).z("u_projection");

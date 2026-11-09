@@ -16,7 +16,6 @@ public final class class10532 implements class05678<class10533> {
    }
 
    public class10532(int var1) {
-      super();
       this.N = new Queue[var1];
 
       for (int i = 0; i < var1; i++) {

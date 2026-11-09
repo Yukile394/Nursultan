@@ -34,7 +34,6 @@ public class Removals extends class11067 {
    }
 
    public Removals() {
-      super();
       this.T();
       this.L_0 = new class11422("tilt-view", true, class09315.class);
       this.L_1 = new class11422("vignette-overlay", true, class09338.class);

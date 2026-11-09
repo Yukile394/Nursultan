@@ -15,7 +15,6 @@ public record class09087(class09069... attrs) {
    }
 
    public class09087(class09069... attrs) {
-      super();
       this.attrs = attrs;
    }
 

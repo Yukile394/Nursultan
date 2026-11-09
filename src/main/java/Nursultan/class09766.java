@@ -7,7 +7,6 @@ import minecraft.class02646;
 
 public class class09766<T, P extends Predicate<T>> implements class02646<T, P> {
    public class09766() {
-      super();
    }
 
    public boolean test(Iterable<T> var1) {

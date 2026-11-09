@@ -38,7 +38,6 @@ public class class09142 {
    }
 
    public class09142() {
-      super();
       this.u();
       this.N_0 = new class09166();
       this.N_1 = new float[8];

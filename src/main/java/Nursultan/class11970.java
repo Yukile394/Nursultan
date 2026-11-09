@@ -3,7 +3,6 @@ package Nursultan;
 public non-sealed record class11970(long id, String newName) implements class11946 {
 
    public class11970(long id, String newName) {
-      super();
       this.id = id;
       this.newName = newName;
    }

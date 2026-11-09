@@ -14,7 +14,6 @@ public final class class10209 implements class03542 {
    private final Map<class05946<? extends class00751<?>>, Optional<? extends class03515<?>>> y = new ConcurrentHashMap<>();
 
    public class10209(class01929 var1) {
-      super();
       this.N = var1;
    }
 

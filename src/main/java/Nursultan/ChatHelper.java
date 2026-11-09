@@ -12,7 +12,6 @@ public class ChatHelper extends class11067 {
    public Object L_1;
 
    public ChatHelper() {
-      super();
       this.s();
       this.L_0 = new class11582(this, "better-commands", true);
       this.L_1 = class11524.y(this, "chat-addons", (class11546)this.L_0);

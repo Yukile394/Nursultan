@@ -12,7 +12,6 @@ import org.lwjgl.opengl.EXTDebugLabel;
 
 public class class11663 extends class08859 {
    public class11663() {
-      super();
    }
 
    public boolean y() {

@@ -13,7 +13,6 @@ public class class10624 implements class06591 {
    }
 
    public class10624(class07299 var1) {
-      super();
       this.y = var1;
    }
 

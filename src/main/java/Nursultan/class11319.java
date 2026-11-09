@@ -7,7 +7,6 @@ public class class11319<E> extends LinkedList<E> {
    public Object N_0;
 
    public class11319(int var1) {
-      super();
       this.u();
       if (var1 <= 0) {
          throw new IllegalArgumentException("maxSize должен быть больше 0");

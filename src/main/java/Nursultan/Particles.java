@@ -29,7 +29,6 @@ public class Particles extends class11067 {
    public Object i_6;
 
    public Particles() {
-      super();
       this.j();
       this.u_0 = new class11246(this, "totem-popping", true);
       this.u_1 = new class11244(this, "ambience", true);

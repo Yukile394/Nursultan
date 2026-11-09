@@ -22,7 +22,6 @@ public class SwingAnimations extends class11067 {
    public Object u_1;
 
    public SwingAnimations() {
-      super();
       this.b();
       this.L_0 = new class11440(this, "swing-1", true);
       this.L_1 = new class11452(this, "swing-2", false);

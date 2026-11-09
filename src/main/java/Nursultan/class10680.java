@@ -9,7 +9,6 @@ public class class10680 {
    final Reference2ObjectMap<class06839<?>, Object> N = new Reference2ObjectOpenHashMap();
 
    public class10680() {
-      super();
    }
 
    public <T> class10680 N(class06839<T> var1, T var2) {

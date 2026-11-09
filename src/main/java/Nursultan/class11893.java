@@ -5,7 +5,6 @@ import org.joml.Vector2f;
 public record class11893(Vector2f pos, boolean inFront) {
 
    public class11893(Vector2f pos, boolean inFront) {
-      super();
       this.pos = pos;
       this.inFront = inFront;
    }

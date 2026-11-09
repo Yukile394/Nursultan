@@ -9,7 +9,6 @@ public class class11367 {
    public static Object y_0 = new class11367();
 
    public class11367() {
-      super();
       this.R();
    }
 

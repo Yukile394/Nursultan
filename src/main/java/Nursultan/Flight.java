@@ -12,7 +12,6 @@ public class Flight extends class11067 {
    public Object L_3;
 
    public Flight() {
-      super();
       this.m();
       this.L_0 = new class10931(this, "multi-jump", true);
       this.L_1 = new class10892(this, "vanilla", false);

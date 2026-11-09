@@ -13,7 +13,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 public class class09476 implements class05706 {
    public class09476(LiteralArgumentBuilder var1) {
-      super();
       this.N = var1;
    }
 

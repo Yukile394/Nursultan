@@ -12,7 +12,6 @@ import minecraft.class07686;
 
 public class class10206 {
    public class10206() {
-      super();
    }
 
    public static <T extends class01711<T>> void N(CommandDispatcher<T> var0) {

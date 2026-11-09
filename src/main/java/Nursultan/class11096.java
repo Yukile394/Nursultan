@@ -3,7 +3,6 @@ package Nursultan;
 public record class11096(class11499 rotation, boolean overshooting) {
 
    public class11096(class11499 rotation, boolean overshooting) {
-      super();
       this.rotation = rotation;
       this.overshooting = overshooting;
    }

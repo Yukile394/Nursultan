@@ -16,7 +16,6 @@ import minecraft.class07689;
 
 public class class10691 extends class10742 {
    public class10691() {
-      super();
    }
 
    static {

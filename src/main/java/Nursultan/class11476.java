@@ -26,7 +26,6 @@ public class class11476 extends class11473<class11483> {
    public Object L_4;
 
    public class11476() {
-      super();
       this.B();
       this.L_0 = class06202.Nq();
       this.L_1 = BufferUtils.createFloatBuffer(40);

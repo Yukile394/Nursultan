@@ -7,7 +7,6 @@ public class class09360 {
    private boolean y;
 
    public class09360(class00405 var1, StringBuilder var2) {
-      super();
       this.N = var2;
    }
 

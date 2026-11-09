@@ -52,7 +52,6 @@ public class Trajectory extends class11067 {
    }
 
    public Trajectory() {
-      super();
       this.j();
       this.i_0 = new class11254("pearl", true, new class11228((class11225)class11225.L_2, class11264.N));
       this.i_1 = new class11254("trident", true, new class11249((class11225)class11225.L_1, class11264.N));

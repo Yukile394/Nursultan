@@ -14,7 +14,6 @@ public record class09965(float topLeft, float topRight, float bottomRight, float
    }
 
    public class09965(float topLeft, float topRight, float bottomRight, float bottomLeft) {
-      super();
       topLeft = y(topLeft);
       topRight = y(topRight);
       bottomRight = y(bottomRight);

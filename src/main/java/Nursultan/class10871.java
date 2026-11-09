@@ -30,7 +30,6 @@ public class class10871 implements class08067 {
    }
 
    public class10871(class08057 var1, double var2, double var4, long var6, long var8) {
-      super();
       this.N = var1;
       this.y = var2;
       this.L = var4;

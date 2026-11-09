@@ -29,7 +29,6 @@ public class class10572 implements class01595, EntityTrackerAccessor {
    }
 
    public class10572(class06265 var1, class07049 var2, int var3, int var4, boolean var5) {
-      super();
       this.i = var1;
       this.u = this.L();
       this.N = new class01599(var1.u, var2, var4, var5, this);

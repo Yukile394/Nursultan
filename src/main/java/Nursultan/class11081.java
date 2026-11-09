@@ -13,7 +13,6 @@ public class class11081 {
    public boolean N_init;
 
    public class11081() {
-      super();
       this.y();
       this.N_5 = class11060.IDLE;
    }

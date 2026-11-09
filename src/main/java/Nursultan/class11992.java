@@ -18,7 +18,6 @@ public class class11992 {
    }
 
    public class11992() {
-      super();
       this.R();
       this.N_0 = new LinkedHashMap();
    }

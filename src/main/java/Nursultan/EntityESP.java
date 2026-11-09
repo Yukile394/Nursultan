@@ -68,7 +68,6 @@ public class EntityESP extends class11067 {
    }
 
    public EntityESP() {
-      super();
       this.s();
       this.R_0 = new class11273(this, "players", true);
       this.R_1 = new class11005(this, "friends", true);

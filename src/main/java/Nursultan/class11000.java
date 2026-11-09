@@ -12,7 +12,6 @@ import org.jspecify.annotations.Nullable;
 
 public class class11000<T> extends AbstractIterator<T> {
    public class11000(class08318 var1, ListIterator var2) {
-      super();
       this.y = var1;
       this.N = var2;
    }

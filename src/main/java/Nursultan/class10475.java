@@ -15,7 +15,6 @@ public class class10475 extends class07473 {
    }
 
    public class10475(class04882 var1, class04882 var2) {
-      super();
       this.N = var1;
       this.y = var2;
       this.N_71(EnumSet.of(class07430.field_18405));

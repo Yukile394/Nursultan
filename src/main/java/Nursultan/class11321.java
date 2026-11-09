@@ -5,7 +5,6 @@ import java.util.Collection;
 
 public class class11321<T> extends ObjectArraySet<T> {
    public class11321() {
-      super();
    }
 
    public boolean add(T var1) {

@@ -9,7 +9,6 @@ import minecraft.class03643;
 
 public class class10219 implements class03643 {
    public class10219(JsonObject var1) {
-      super();
       this.L = var1;
    }
 

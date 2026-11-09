@@ -13,7 +13,6 @@ public class class11842 {
    public static Object N_0 = LogManager.getLogger(String.class);
 
    public class11842() {
-      super();
    }
 
    static {

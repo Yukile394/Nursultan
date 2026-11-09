@@ -7,12 +7,10 @@ public class class09283 implements class11951<class09263> {
    public Object N_1;
 
    public class09283() {
-      super();
       this.i();
    }
 
    public class09283(class09259 var1, class09260 var2) {
-      super();
       this.i();
       this.N_0 = var1;
       this.N_1 = var2;

@@ -24,7 +24,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 public class class09485 implements class00565 {
    public class09485(class01615 var1, class04782 var2, class07049 var3) {
-      super();
       this.L = var1;
       this.N = var2;
       this.y = var3;

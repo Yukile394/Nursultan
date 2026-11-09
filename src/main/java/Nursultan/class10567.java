@@ -13,7 +13,6 @@ public class class10567 {
    public static Object N_0 = new SimpleCommandExceptionType(class00392.L(L[2]));
 
    public class10567() {
-      super();
    }
 
    static {

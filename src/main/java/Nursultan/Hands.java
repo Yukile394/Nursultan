@@ -21,7 +21,6 @@ public class Hands extends class11067 {
    public Object L_4;
 
    public Hands() {
-      super();
       this.n();
       this.L_0 = class11524.N(this, "color-right", -7694081);
       this.L_1 = class11524.N(this, "color-left", -7694081);

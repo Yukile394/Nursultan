@@ -8,7 +8,6 @@ public class class10162 {
    private final Object2IntMap<class07428> N = new Object2IntOpenHashMap(class07428.values().length);
 
    public class10162() {
-      super();
    }
 
    public boolean y(class07428 var1) {

@@ -64,7 +64,6 @@ public class FakePlayer extends class11067 {
    }
 
    public FakePlayer() {
-      super();
       this.G();
       this.u_0 = class11524.N(this, "walk", true);
       this.u_1 = class11524.N(this, "rotate", true);

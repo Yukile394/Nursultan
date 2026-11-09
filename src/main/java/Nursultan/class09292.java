@@ -7,7 +7,6 @@ public non-sealed record class09292(class11827 preset, int formatVersion, byte[]
    }
 
    public class09292(class11827 preset, int formatVersion, byte[] data) {
-      super();
       this.preset = preset;
       this.formatVersion = formatVersion;
       this.data = data;

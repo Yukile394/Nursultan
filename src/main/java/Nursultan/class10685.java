@@ -25,7 +25,6 @@ public class class10685 implements class06934 {
    private final class03767 u;
 
    public class10685(class06911 var1, class03767 var2) {
-      super();
       this.L = var1;
       this.u = var2;
    }

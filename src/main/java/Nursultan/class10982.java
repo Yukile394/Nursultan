@@ -12,7 +12,6 @@ public class class10982 {
    }
 
    public class10982() {
-      super();
       this.i();
    }
 

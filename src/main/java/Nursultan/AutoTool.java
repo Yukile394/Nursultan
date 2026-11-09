@@ -27,7 +27,6 @@ public class AutoTool extends class11067 {
    public boolean L_init;
 
    public AutoTool() {
-      super();
       this.b();
       this.L_0 = new class11312();
       this.L_4 = -1;

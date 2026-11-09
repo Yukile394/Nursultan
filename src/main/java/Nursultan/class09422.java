@@ -34,7 +34,6 @@ public class class09422 extends class10742 {
    }
 
    public class09422() {
-      super();
    }
 
    @Override

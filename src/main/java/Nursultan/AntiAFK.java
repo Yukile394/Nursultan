@@ -19,7 +19,6 @@ public class AntiAFK extends class11067 {
    public boolean L_init;
 
    public AntiAFK() {
-      super();
       this.b();
       this.L_0 = new class11478();
       this.L_1 = new class11705("camera-shake", true);

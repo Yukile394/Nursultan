@@ -11,7 +11,6 @@ public class class10787 implements ArgumentType<Character> {
    public static Object N_0 = new DynamicCommandExceptionType(var0 -> class00392.y(class12020.N("prefix.error")));
 
    public class10787() {
-      super();
    }
 
    static {

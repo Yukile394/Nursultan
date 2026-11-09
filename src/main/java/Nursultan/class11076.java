@@ -50,7 +50,6 @@ public class class11076 {
    }
 
    public class11076() {
-      super();
       this.u();
       this.L_0 = new class09166();
       this.L_2 = class11085.UPPER_CHEST;

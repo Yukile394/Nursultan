@@ -4,7 +4,6 @@ import minecraft.class04477;
 
 public class class09304 {
    public class09304() {
-      super();
    }
 
    public void N(class11371 var1) {

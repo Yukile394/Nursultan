@@ -61,7 +61,6 @@ public class class09101 {
    }
 
    public class09101() {
-      super();
       this.T();
       this.L_0 = new Matrix4f();
       this.L_1 = new Matrix4f();

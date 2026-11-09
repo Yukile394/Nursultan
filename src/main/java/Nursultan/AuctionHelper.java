@@ -52,7 +52,6 @@ public class AuctionHelper extends class11067 {
    public boolean u_init;
 
    public AuctionHelper() {
-      super();
       this.m();
       this.u_0 = class11524.N(this, "profitable-color", -11104513);
       this.u_1 = class11524.N(this, "profitable-items-count", 3.0F, 1.0F, 5.0F, 1.0F);

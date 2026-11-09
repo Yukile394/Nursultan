@@ -42,7 +42,6 @@ public class class10665 extends class10742 {
    }
 
    public class10665() {
-      super();
       this.Z();
       this.N_0 = class11938.y();
    }

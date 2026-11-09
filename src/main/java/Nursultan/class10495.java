@@ -9,7 +9,6 @@ import minecraft.class07211;
 
 public class class10495 implements class05143 {
    public class10495() {
-      super();
    }
 
    public boolean N(class06433 var1) {

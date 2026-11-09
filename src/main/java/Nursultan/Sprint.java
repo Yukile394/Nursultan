@@ -9,7 +9,6 @@ public class Sprint extends class11067 {
    public Object L_0;
 
    public Sprint() {
-      super();
       this.m();
       this.L_0 = class11524.N(this, "ignore-hunger", false);
    }

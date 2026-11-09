@@ -35,7 +35,6 @@ public class AimAssist extends class11067 {
    }
 
    public AimAssist() {
-      super();
       this.v();
       this.L_0 = class11524.N(this, "fov", 180.0F, 1.0F, 180.0F, 1.0F);
       this.L_1 = class11524.N(this, "aim-range", 4.0F, 0.1F, 10.0F, 0.1F);

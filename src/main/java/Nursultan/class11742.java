@@ -14,7 +14,6 @@ public class class11742 {
    }
 
    public class11742() {
-      super();
       this.y();
       this.y_0 = new HashMap();
    }

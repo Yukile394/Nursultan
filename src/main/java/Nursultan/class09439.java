@@ -5,7 +5,6 @@ import org.jspecify.annotations.Nullable;
 
 public class class09439<B, T> implements class01128<B, T> {
    public class09439(Class var1) {
-      super();
       this.N = var1;
    }
 

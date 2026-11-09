@@ -20,7 +20,6 @@ public record class09994(class09736 property, class09743 spec, class09668 group)
    }
 
    public class09994(class09736 property, class09743 spec, class09668 group) {
-      super();
       spec = spec == null ? class09743.Z() : spec;
       group = group == null ? class09668.SINGLE : group;
       N(property, group, spec);

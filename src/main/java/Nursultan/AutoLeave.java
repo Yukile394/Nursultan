@@ -15,7 +15,6 @@ public class AutoLeave extends class11067 {
    public Object L_1;
 
    public AutoLeave() {
-      super();
       this.j();
       this.L_0 = class11524.N(
          this,

@@ -27,7 +27,6 @@ public class class12023 extends class11512 {
    }
 
    public class12023() {
-      super();
       this.R();
       this.i_0 = new class11535("ru", false);
       this.i_1 = new class11535("en", true);

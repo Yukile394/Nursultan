@@ -11,7 +11,6 @@ public class class09234 extends class07955 {
    private static final int W = 1024;
 
    public class09234(class00245 var1) {
-      super();
       this.N = var1;
    }
 

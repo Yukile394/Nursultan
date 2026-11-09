@@ -40,7 +40,6 @@ public class class11423 {
    }
 
    public class11423(Supplier<EventLoopGroup> var1, BooleanSupplier var2, Runnable var3, long var4) {
-      super();
       this.U();
       this.y_0 = new AtomicBoolean(false);
       this.y_1 = var1;

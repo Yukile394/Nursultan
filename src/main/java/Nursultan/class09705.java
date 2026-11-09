@@ -5,7 +5,6 @@ import minecraft.class02362;
 
 public class class09705<O, V> implements class02362<O, V> {
    public class09705(class02362 var1, Function var2) {
-      super();
       this.y = var1;
       this.N = var2;
    }

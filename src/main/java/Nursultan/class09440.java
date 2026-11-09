@@ -12,7 +12,6 @@ public class class09440<T> extends AbstractIterator<T> {
    Iterator<T> N;
 
    public class09440(class01129 var1, ObjectIterator var2) {
-      super();
       this.y = var2;
    }
 

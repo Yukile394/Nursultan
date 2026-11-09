@@ -20,7 +20,6 @@ public class class09426 {
    }
 
    public class09426() {
-      super();
       this.N();
       this.N_0 = new Int2ObjectOpenHashMap();
       this.N_1 = this::L;

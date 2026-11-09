@@ -66,7 +66,6 @@ public class class09222 {
    }
 
    public class09222() {
-      super();
       this.s();
       this.N_0 = class06202.Nq();
       this.N_1 = class09097.i(() -> Math.max(1, ((class06202)this.N_0).Nt().U()), () -> Math.max(1, ((class06202)this.N_0).Nt().E()));

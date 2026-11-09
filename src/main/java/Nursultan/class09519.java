@@ -8,7 +8,6 @@ public class class09519 implements class01766 {
    }
 
    public class09519(String var1) {
-      super();
       this.N = var1;
    }
 }

@@ -24,7 +24,6 @@ public class class11088 {
    public static Object y_4;
 
    public class11088() {
-      super();
       this.z();
    }
 

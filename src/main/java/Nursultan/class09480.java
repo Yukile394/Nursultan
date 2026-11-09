@@ -15,7 +15,6 @@ import minecraft.class01618;
 
 public class class09480 extends ChannelInitializer<Channel> {
    public class09480(class01618 var1) {
-      super();
       this.N = var1;
    }
 

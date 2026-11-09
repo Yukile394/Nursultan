@@ -14,7 +14,6 @@ public class class09074 implements class09102 {
    public boolean N_init;
 
    public class09074() {
-      super();
       this.B();
       this.N_0 = new class09084();
       this.N_1 = new class09090();

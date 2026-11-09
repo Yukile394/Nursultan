@@ -5,7 +5,6 @@ import minecraft.class08199;
 
 public class class10884 implements class08199<Runnable> {
    public class10884(String var1, Executor var2) {
-      super();
       this.N = var1;
       this.y = var2;
    }

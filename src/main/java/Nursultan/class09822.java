@@ -14,7 +14,6 @@ public class class09822 implements class02695 {
    }
 
    public class09822(class02695 var1, Predicate var2) {
-      super();
       this.u = var1;
       this.L = var2;
    }

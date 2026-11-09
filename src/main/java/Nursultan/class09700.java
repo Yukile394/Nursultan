@@ -10,7 +10,6 @@ import minecraft.class02400;
 
 public class class09700 extends ChannelOutboundHandlerAdapter {
    public class09700() {
-      super();
    }
 
    public void write(ChannelHandlerContext var1, Object var2, ChannelPromise var3) throws Exception {

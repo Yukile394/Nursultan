@@ -41,7 +41,6 @@ public class GPS extends class11067 {
    }
 
    public GPS() {
-      super();
       this.T();
       this.L_0 = (class11533)class11524.N(this, "target-x", "", (Pattern)u_0).N_6((var1, var2) -> this.s());
       this.L_1 = (class11533)class11524.N(this, "target-z", "", (Pattern)u_0).N_6((var1, var2) -> this.s());

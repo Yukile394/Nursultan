@@ -10,7 +10,6 @@ import minecraft.class05977;
 
 public class class10550 implements class05936 {
    public class10550(List var1) {
-      super();
       this.N = var1;
    }
 

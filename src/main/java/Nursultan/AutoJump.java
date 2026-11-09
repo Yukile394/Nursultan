@@ -7,7 +7,6 @@ package Nursultan;
 )
 public class AutoJump extends class11067 {
    public AutoJump() {
-      super();
    }
 
    @class11782(

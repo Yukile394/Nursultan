@@ -9,7 +9,6 @@ public class class10554 implements class01818 {
    private final long N;
 
    public class10554(long var1) {
-      super();
       this.N = var1;
    }
 

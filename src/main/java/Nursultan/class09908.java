@@ -21,7 +21,6 @@ public final class class09908 {
    }
 
    public class09908() {
-      super();
    }
 
    public List<class09935> B() {

@@ -13,7 +13,6 @@ public record class11065(class06889 point, boolean detached, boolean pullback) {
    }
 
    public class11065(class06889 point, boolean detached, boolean pullback) {
-      super();
       this.point = point;
       this.detached = detached;
       this.pullback = pullback;

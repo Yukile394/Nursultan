@@ -14,7 +14,6 @@ public class class10510 extends AbstractIterator<class05377> {
    private Iterator<class05377> L;
 
    public class10510(class05370 var1, Iterator var2, Predicate var3) {
-      super();
       this.N = var2;
       this.y = var3;
       this.L = Collections.emptyIterator();

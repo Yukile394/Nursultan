@@ -6,7 +6,6 @@ public record class09749(float min, float def, float max) {
    }
 
    public class09749(float min, float def, float max) {
-      super();
       this.min = min;
       this.def = def;
       this.max = max;

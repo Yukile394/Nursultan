@@ -17,7 +17,6 @@ public class class11057 {
    public boolean N_init;
 
    public class11057() {
-      super();
       this.u();
       this.N_5 = class11073.IDLE;
    }

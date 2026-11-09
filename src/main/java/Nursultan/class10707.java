@@ -11,7 +11,6 @@ import minecraft.class07018;
 
 public class class10707 extends class07018 {
    public class10707(Map var1) {
-      super();
       this.N = var1;
    }
 

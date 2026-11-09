@@ -25,7 +25,6 @@ public class class10734 implements BiFunction<class05862, class07209, class06183
    final boolean u;
 
    public class10734(class07290 var1, class05862 var2) {
-      super();
       this.R = var1;
       this.i = var2;
       this.N = Integer.MIN_VALUE;

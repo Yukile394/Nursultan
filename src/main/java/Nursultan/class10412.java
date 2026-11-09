@@ -5,7 +5,6 @@ import minecraft.class05946;
 
 public record class10412(class05946<?> id) implements class04489 {
    public class10412(class05946<?> id) {
-      super();
       this.id = id;
    }
 

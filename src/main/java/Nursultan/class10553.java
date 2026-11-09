@@ -8,7 +8,6 @@ public final class class10553<S> implements class06025<S> {
    private final S y;
 
    public class10553(S var1, S var2) {
-      super();
       this.N = (S)var1;
       this.y = (S)var2;
    }

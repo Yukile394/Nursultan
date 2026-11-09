@@ -36,7 +36,6 @@ public class AutoArmor extends class11067 {
    }
 
    public AutoArmor() {
-      super();
       this.m();
       this.L_0 = class11524.N(this, "delay-in-ticks", new class11494(0.0F, 10.0F), new class11494(2.0F, 5.0F), 1.0F);
       this.L_1 = class11524.N(this, "swap-only-while-standing", false);

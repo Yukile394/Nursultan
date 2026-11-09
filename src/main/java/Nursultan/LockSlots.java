@@ -20,7 +20,6 @@ public class LockSlots extends class11067 {
    }
 
    public LockSlots() {
-      super();
       this.T();
       this.L_0 = class11524.y(
          this,

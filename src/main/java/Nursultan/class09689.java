@@ -8,7 +8,6 @@ public record class09689(float u0, float v0, float u1, float v1) {
    }
 
    public class09689(float u0, float v0, float u1, float v1) {
-      super();
       this.u0 = u0;
       this.v0 = v0;
       this.u1 = u1;

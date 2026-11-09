@@ -25,7 +25,6 @@ public class class11831 extends ChannelInitializer<Channel> {
    }
 
    public class11831(class11436 var1, class11842 var2, Supplier<class11410> var3, Consumer<class11410> var4, Runnable var5) {
-      super();
       this.M();
       this.y_0 = var1;
       this.y_1 = var2;

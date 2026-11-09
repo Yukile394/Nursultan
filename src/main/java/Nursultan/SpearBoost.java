@@ -81,7 +81,6 @@ public class SpearBoost extends class11067 {
    }
 
    public SpearBoost() {
-      super();
       this.s();
       this.u_0 = class11524.N(this, "auto-jump", true);
       this.u_1 = class11524.N(this, "rapid", false);

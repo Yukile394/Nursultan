@@ -9,7 +9,6 @@ public class AutoJoin extends class11067 {
    public Object L_0;
 
    public AutoJoin() {
-      super();
       this.b();
       this.L_0 = class11524.N(this, "mode", new class11112(this, "spooky-time-duels", true), new class11158(this, "really-world", false));
       ((class11517)this.L_0).L().forEach(var1 -> {

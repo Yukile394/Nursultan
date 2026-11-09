@@ -22,7 +22,6 @@ public class class09344 implements class11826<class11368> {
    }
 
    public class09344() {
-      super();
    }
 
    private void y(class11368 var1) {

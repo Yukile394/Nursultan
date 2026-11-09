@@ -19,7 +19,6 @@ public class class11852 {
    }
 
    public class11852(class11845 var1) {
-      super();
       this.Z();
       this.y_1 = class11874.N;
       this.y_4 = 5000L;

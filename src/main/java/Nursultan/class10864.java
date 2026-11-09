@@ -10,7 +10,6 @@ public class class10864 implements class04803 {
    public boolean N_init;
 
    public class10864(class08036 var1, int var2) {
-      super();
       this.y();
       this.N_1 = var1;
       this.N_0 = var2;

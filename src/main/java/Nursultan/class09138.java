@@ -33,7 +33,6 @@ public record class09138(
       boolean breakSmoothing,
       boolean outputBurst
    ) {
-      super();
       this.yawDelta = yawDelta;
       this.pitchDelta = pitchDelta;
       this.minYawShare = minYawShare;

@@ -3,7 +3,6 @@ package Nursultan;
 public non-sealed record class11972(byte[] token) implements class11942 {
 
    public class11972(byte[] token) {
-      super();
       this.token = token;
    }
 

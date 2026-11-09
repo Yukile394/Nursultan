@@ -14,7 +14,6 @@ public class class10014 {
    private final Builder<class02824> N = ImmutableList.builder();
 
    public class10014() {
-      super();
    }
 
    public class02833 N() {

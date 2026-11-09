@@ -7,7 +7,6 @@ public class class10434 implements class04522 {
    private double y = Double.MIN_VALUE;
 
    public class10434(float var1) {
-      super();
       this.N = var1;
    }
 

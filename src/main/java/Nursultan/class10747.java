@@ -19,7 +19,6 @@ public class class10747 implements ArgumentType<class00903> {
    public Object N_0;
 
    public class10747(class04348 var1) {
-      super();
       this.y();
       this.N_0 = var1.y(class04227.Z);
    }

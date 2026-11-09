@@ -122,7 +122,6 @@ public final class class10021 implements class09904 {
    }
 
    public class10021(String var1, class10049 var2) {
-      super();
       this.N = var1 != null && !var1.isBlank() ? var1 : null;
       this.y = Objects.requireNonNull(var2, "type");
       this.B = class10034.N(var2);

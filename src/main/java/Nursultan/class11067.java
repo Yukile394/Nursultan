@@ -27,7 +27,6 @@ public class class11067 extends class11512 {
    }
 
    public class11067() {
-      super();
       this.m();
       this.y_0 = class06202.Nq();
       class11080 class11080 = Objects.requireNonNull(this.getClass().getAnnotation(class11080.class), "The module should be annotated @ModuleTag");

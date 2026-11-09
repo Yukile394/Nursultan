@@ -7,7 +7,6 @@ import minecraft.class06322;
 
 public class class11926 implements class11463 {
    public class11926() {
-      super();
    }
 
    @Override

@@ -12,6 +12,5 @@ public class class09685 {
    static final String Z = "ScrollItemScaling";
 
    public class09685() {
-      super();
    }
 }

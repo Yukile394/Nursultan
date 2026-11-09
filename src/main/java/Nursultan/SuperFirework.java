@@ -9,7 +9,6 @@ public class SuperFirework extends class11067 {
    public Object L_0;
 
    public SuperFirework() {
-      super();
       this.s();
       this.L_0 = class11524.N(this, "speed", 1.5F, 1.5F, 2.0F, 0.01F);
    }

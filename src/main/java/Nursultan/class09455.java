@@ -10,7 +10,6 @@ public class class09455<T> implements ListBuilder<T> {
    private final ListBuilder<T> y;
 
    public class09455(ListBuilder<T> var1, ListBuilder var2) {
-      super();
       this.N = var1;
       this.y = var2;
    }

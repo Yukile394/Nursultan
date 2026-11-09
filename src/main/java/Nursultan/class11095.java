@@ -22,7 +22,6 @@ public class class11095 {
    }
 
    public class11095() {
-      super();
       this.M();
       this.y_0 = new class11062();
       this.y_1 = new class11055();

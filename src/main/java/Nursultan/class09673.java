@@ -2,7 +2,6 @@ package Nursultan;
 
 public class class09673 {
    public class09673() {
-      super();
    }
 
    public static void y(String var0) {

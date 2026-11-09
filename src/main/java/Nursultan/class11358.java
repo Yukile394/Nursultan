@@ -11,7 +11,6 @@ public class class11358 extends class11784 {
    }
 
    public class11358() {
-      super();
       this.u();
    }
 

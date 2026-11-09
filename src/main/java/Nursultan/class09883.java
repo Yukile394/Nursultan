@@ -22,7 +22,6 @@ public class class09883 implements BiFunction<class05862, class07209, class06183
    class08050 u;
 
    public class09883(class07049 var1) {
-      super();
       this.i = var1;
       this.N = this.i.method_73183();
       this.y = Integer.MIN_VALUE;

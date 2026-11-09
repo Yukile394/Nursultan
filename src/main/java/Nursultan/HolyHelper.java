@@ -27,7 +27,6 @@ public class HolyHelper extends class11067 implements class11542 {
    public Object u_3;
 
    public HolyHelper() {
-      super();
       this.j();
       this.u_0 = new class11550(this, "explosive-stuff");
       this.u_1 = new class11549(this, "exp-bottle");

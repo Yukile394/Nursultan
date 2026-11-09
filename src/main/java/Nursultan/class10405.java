@@ -11,7 +11,6 @@ public class class10405 implements class04417<class07134> {
    public Object N_0;
 
    public class10405(class06143 var1) {
-      super();
       this.N();
       this.N_0 = var1;
    }

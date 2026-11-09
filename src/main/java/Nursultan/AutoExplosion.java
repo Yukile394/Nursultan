@@ -84,7 +84,6 @@ public class AutoExplosion extends class11067 {
    }
 
    public AutoExplosion() {
-      super();
       this.b();
       this.u_0 = new class11535("crystals", true);
       this.u_1 = new class11535("anchor", true);

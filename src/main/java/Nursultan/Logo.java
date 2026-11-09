@@ -31,7 +31,6 @@ public class Logo extends class11067 {
    }
 
    public Logo() {
-      super();
       this.Y();
       this.L_0 = new class11535("login", true);
       this.L_1 = new class11535("fps", true);

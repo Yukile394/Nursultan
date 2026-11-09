@@ -18,7 +18,6 @@ public class class09524 implements class01830, class03894 {
    private double[] Z;
 
    public class09524(class01837 var1, class03877 var2) {
-      super();
       this.N = var1;
       this.y = var2;
    }

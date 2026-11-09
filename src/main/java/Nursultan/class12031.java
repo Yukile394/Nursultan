@@ -26,7 +26,6 @@ public class class12031 implements class12037 {
    }
 
    public class12031(String var1, int var2) {
-      super();
       this.i();
       this.N_1 = var1;
       ByteBuffer bytebuffer = null;

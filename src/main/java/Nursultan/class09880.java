@@ -8,7 +8,6 @@ public class class09880 {
    public boolean i = false;
 
    public class09880() {
-      super();
    }
 
    public boolean N() {

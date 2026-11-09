@@ -10,7 +10,6 @@ import minecraft.class05715;
 
 public class class10535<A> implements Codec<A> {
    public class10535(class05715 var1, Codec var2, int var3, DataFixer var4) {
-      super();
       this.u = var1;
       this.N = var2;
       this.y = var3;

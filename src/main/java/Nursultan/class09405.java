@@ -9,7 +9,6 @@ public class class09405<B, T> implements class02362<B, class00819<T>> {
    private static final int L = 2;
 
    public class09405(class02362 var1) {
-      super();
       this.N = var1;
    }
 

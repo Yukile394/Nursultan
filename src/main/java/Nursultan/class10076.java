@@ -8,7 +8,6 @@ public class class10076<B, C> implements class02362<B, C> {
    public class10076(
       class02362 var1, class02362 var2, class02362 var3, class02362 var4, Function4 var5, Function var6, Function var7, Function var8, Function var9
    ) {
-      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;

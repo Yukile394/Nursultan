@@ -11,7 +11,6 @@ public class class11295 implements class11287 {
    }
 
    public class11295() {
-      super();
    }
 
    static {

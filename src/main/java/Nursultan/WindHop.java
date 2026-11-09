@@ -35,7 +35,6 @@ public class WindHop extends class11067 {
    public static Object i_4;
 
    public WindHop() {
-      super();
       this.m();
       this.u_0 = class11524.N(this, "auto-jump", true);
       this.u_1 = class11524.N(this, "jump-key", class12002.UNKNOWN);

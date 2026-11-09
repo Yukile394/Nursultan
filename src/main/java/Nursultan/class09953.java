@@ -60,7 +60,6 @@ public final class class09953 {
    }
 
    public class09953() {
-      super();
    }
 
    private int y(int var1) {

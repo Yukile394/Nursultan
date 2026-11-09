@@ -6,7 +6,6 @@ import minecraft.class01283;
 
 public class class09456 implements class01283 {
    public class09456(UnaryOperator var1, boolean var2) {
-      super();
       this.M = var1;
       this.B = var2;
    }

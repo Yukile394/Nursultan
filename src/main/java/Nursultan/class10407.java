@@ -6,7 +6,6 @@ import minecraft.class04469;
 public record class10407(String name, class04469 signature) {
 
    public class10407(String name, class04469 signature) {
-      super();
       this.name = name;
       this.signature = signature;
    }

@@ -6,7 +6,6 @@ import minecraft.class06202;
 
 public class class09312 implements class11826<class11372> {
    public class09312() {
-      super();
    }
 
    public void listen(class11372 var1) {

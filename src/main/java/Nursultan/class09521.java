@@ -9,7 +9,6 @@ public class class09521 implements class01766 {
    }
 
    public class09521(String var1, class00392 var2) {
-      super();
       this.N = var1;
       this.y = var2;
    }

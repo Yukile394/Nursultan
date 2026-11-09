@@ -12,7 +12,6 @@ public class class11796 extends class11812 {
    }
 
    public class11796() {
-      super();
       this.z();
       this.N_0 = new class11821<>(0.0F);
       this.N_1 = new class11821<>(0.02F);

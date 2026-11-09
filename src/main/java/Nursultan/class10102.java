@@ -7,7 +7,6 @@ import minecraft.class03068;
 
 public class class10102 implements class03068 {
    public class10102(Executor var1) {
-      super();
       this.y = var1;
    }
 

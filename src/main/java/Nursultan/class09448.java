@@ -19,7 +19,6 @@ public class class09448<T> implements class01208<T> {
    }
 
    public class09448(class01214 var1, Map var2) {
-      super();
       this.y = var1;
       this.N = var2;
    }

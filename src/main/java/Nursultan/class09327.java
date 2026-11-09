@@ -18,7 +18,6 @@ public class class09327 {
    }
 
    public class09327() {
-      super();
       this.i();
       this.N_0 = new LinkedHashMap();
    }

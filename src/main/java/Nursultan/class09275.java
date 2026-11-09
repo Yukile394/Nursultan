@@ -7,7 +7,6 @@ public non-sealed record class09275(int kindId, long updatedAt, byte[] data) imp
    }
 
    public class09275(int kindId, long updatedAt, byte[] data) {
-      super();
       this.kindId = kindId;
       this.updatedAt = updatedAt;
       this.data = data;

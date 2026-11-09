@@ -15,7 +15,6 @@ public class class11240 implements class11192<class11257> {
    public Object y_0;
 
    public class11240(class11213 var1, DoubleSupplier var2) {
-      super();
       this.y();
       this.N_3 = ((class09322)class11185.L_5).z(U[0]);
       this.N_4 = ((class09322)class11185.L_5).z(U[1]);

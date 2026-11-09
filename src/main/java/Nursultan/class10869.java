@@ -29,7 +29,6 @@ public class class10869 implements class08067 {
    }
 
    public class10869(class08057 var1, double var2) {
-      super();
       this.N = var1;
       this.y = var2;
       this.z();

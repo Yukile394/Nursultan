@@ -14,7 +14,6 @@ public record class10345(class07211 direction, class00500 neighborState, class07
    }
 
    public class10345(class07211 direction, class00500 neighborState, class07209 pos, class07209 neighborPos, int updateFlags, int updateLimit) {
-      super();
       this.direction = direction;
       this.neighborState = neighborState;
       this.pos = pos;

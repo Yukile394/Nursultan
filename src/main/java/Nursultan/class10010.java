@@ -10,7 +10,6 @@ public final class class10010 {
    private final Map<class09979, class10002> y;
 
    public class10010(Map<class09979, class10002> var1) {
-      super();
       EnumMap enummap = new EnumMap<>(class09979.class);
       if (var1 != null) {
          for (Entry entry : var1.entrySet()) {

@@ -7,7 +7,6 @@ public record class11183(int internalFormat, int format, int type) {
    }
 
    public class11183(int internalFormat, int format, int type) {
-      super();
       this.internalFormat = internalFormat;
       this.format = format;
       this.type = type;

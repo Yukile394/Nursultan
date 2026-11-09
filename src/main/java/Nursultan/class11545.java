@@ -16,7 +16,6 @@ public class class11545 extends class11888 {
    }
 
    public class11545(AnarchyHelper var1) {
-      super();
       this.N();
       this.N_0 = Pattern.compile("\\[([^]]+)][.\\s]*?(-?\\d+)\\s+(-?\\d+)\\s+(-?\\d+)");
       this.N_1 = class11524.N(var1, "event-notification", true);

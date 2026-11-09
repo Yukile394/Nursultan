@@ -55,7 +55,6 @@ public class class09171 {
    }
 
    public class09171() {
-      super();
       this.M();
       this.N_0 = new class09166();
    }

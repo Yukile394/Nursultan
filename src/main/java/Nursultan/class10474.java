@@ -26,7 +26,6 @@ public class class10474 extends class07473 {
    }
 
    public class10474(class00675 var1, float var2) {
-      super();
       this.y = var1;
       this.L = var2 * var2;
       this.N_71(EnumSet.of(class07430.field_18405, class07430.field_18406));

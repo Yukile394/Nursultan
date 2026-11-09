@@ -15,7 +15,6 @@ public class class09230 extends ChannelInitializer<Channel> {
    public Object N_1;
 
    public class09230(class11331 var1, URI var2) {
-      super();
       this.u();
       this.N_1 = var1;
       this.N_0 = var2;

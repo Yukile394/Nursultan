@@ -12,7 +12,6 @@ public class class09399 {
    private float R = Float.NEGATIVE_INFINITY;
 
    public class09399() {
-      super();
    }
 
    public void N(Vector3fc var1) {

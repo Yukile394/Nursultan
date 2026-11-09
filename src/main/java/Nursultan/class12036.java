@@ -15,7 +15,6 @@ public class class12036 implements class12007 {
    }
 
    public class12036(class12012 var1, class12014 var2, class12030 var3, class11996 var4) {
-      super();
       this.z();
       this.N_0 = var1;
       this.N_1 = var2;

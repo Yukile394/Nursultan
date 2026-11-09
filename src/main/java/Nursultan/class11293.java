@@ -10,7 +10,6 @@ public class class11293 implements class11287 {
    public static Object N_0 = new class11293();
 
    public class11293() {
-      super();
    }
 
    static {

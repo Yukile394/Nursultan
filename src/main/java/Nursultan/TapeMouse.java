@@ -19,7 +19,6 @@ public class TapeMouse extends class11067 {
    }
 
    public TapeMouse() {
-      super();
       this.P();
       this.L_0 = new class11154("left-mouse", true, "left-mouse-delay-sec", ((class06202)super.y_0)::NF);
       this.L_1 = new class11154("right-mouse", false, "right-mouse-delay-sec", ((class06202)super.y_0)::yn);

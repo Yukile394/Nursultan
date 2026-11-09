@@ -7,7 +7,6 @@ public class class11931 extends class11889 {
    private static String[] N;
 
    public class11931() {
-      super();
    }
 
    static {

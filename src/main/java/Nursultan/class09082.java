@@ -50,7 +50,6 @@ public class class09082 {
    }
 
    public class09082() {
-      super();
       this.i();
       this.y_0 = new HashMap();
       this.y_1 = new HashMap();

@@ -11,7 +11,6 @@ public class class11235 implements class11192<class11257> {
    public Object N_7;
 
    public class11235(class11213 var1) {
-      super();
       this.R();
       this.N_2 = ((class09322)class11185.U_1).z("u_projection");
       this.N_3 = ((class09322)class11185.U_1).z("u_view");

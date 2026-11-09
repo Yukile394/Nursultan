@@ -12,7 +12,6 @@ public class class09370 extends ByteToMessageDecoder {
    public static Object y_0 = InternalLoggerFactory.getInstance(String.class);
 
    public class09370(class11964 var1) {
-      super();
       this.u();
       this.N_0 = var1;
    }

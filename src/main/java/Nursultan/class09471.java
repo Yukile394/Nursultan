@@ -14,7 +14,6 @@ public class class09471 implements class01424<class06997> {
    }
 
    public class09471(int var1) {
-      super();
       this.N = var1;
    }
 

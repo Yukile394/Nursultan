@@ -18,7 +18,6 @@ public class class10192 extends class03404 {
    private final boolean R;
 
    public class10192(class03383 var1, GameProfile var2, class00392 var3, boolean var4) {
-      super();
       this.N = var1;
       this.u = var3;
       this.R = var4;

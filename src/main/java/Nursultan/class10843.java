@@ -11,7 +11,6 @@ import minecraft.class07689;
 
 public class class10843 implements ArgumentType<String> {
    public class10843() {
-      super();
    }
 
    static {

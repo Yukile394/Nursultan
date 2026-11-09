@@ -103,7 +103,6 @@ public class class09678 {
    }
 
    public class09678() {
-      super();
    }
 
    public static boolean y(class05096 var0, double var1, double var3, class09690 var5) {

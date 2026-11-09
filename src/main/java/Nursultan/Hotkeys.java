@@ -7,7 +7,6 @@ package Nursultan;
 )
 public class Hotkeys extends class11067 {
    public Hotkeys() {
-      super();
    }
 
    @Override

@@ -22,7 +22,6 @@ public class class10791 {
    public int y;
 
    public class10791(class07769 var1, class08036 var2) {
-      super();
       this.L = var1;
       this.u = true;
       this.M = 127;

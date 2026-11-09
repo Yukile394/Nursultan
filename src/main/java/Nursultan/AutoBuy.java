@@ -29,7 +29,6 @@ public class AutoBuy extends class11067 {
    }
 
    public AutoBuy() {
-      super();
       this.T();
       this.L_0 = new class11275();
       this.L_1 = new class11331();

@@ -29,7 +29,6 @@ public class class10534 implements class05663 {
    private final int R;
 
    public class10534(int var1, class03530<class04748> var2, String var3, class03556<class02195> var4, int var5, int var6) {
-      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;

@@ -15,8 +15,6 @@ public class class09824 extends class04111<class09824> {
    }
 
    public class09824(class04111<?>... var1) {
-      super();
-
       for (class04111 class04111 : var1) {
          this.N.add(class04111.y());
       }

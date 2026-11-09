@@ -28,7 +28,6 @@ public class class09372<T extends class00394> implements class01099, WorldBorder
    private byte i;
 
    public class09372(T var1, class01118<T> var2, class01118 var3) {
-      super();
       this.N = var1;
       this.i = 0;
       this.y = (T)var2;

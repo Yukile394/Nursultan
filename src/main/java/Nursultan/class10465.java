@@ -31,7 +31,6 @@ public final class class10465 implements class01109<class07049> {
    }
 
    public class10465(class04782 var1) {
-      super();
       this.N = var1;
       this.N(var1, null);
    }

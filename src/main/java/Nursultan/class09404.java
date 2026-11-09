@@ -16,7 +16,6 @@ public class class09404 implements ArgumentType<class00891> {
    public static Object N_0 = new DynamicCommandExceptionType(var0 -> class00392.y(class12020.N("nuker.not-found").formatted(var0)));
 
    public class09404() {
-      super();
    }
 
    static {

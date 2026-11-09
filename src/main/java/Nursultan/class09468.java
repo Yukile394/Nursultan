@@ -12,7 +12,6 @@ import minecraft.class07307;
 
 public class class09468 extends class01284 {
    public class09468(class01338 var1, class07209 var2, boolean var3) {
-      super();
       this.N = var2;
       this.y = var3;
    }

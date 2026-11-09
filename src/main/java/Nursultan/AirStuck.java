@@ -30,7 +30,6 @@ public class AirStuck extends class11067 {
    }
 
    public AirStuck() {
-      super();
       this.T();
    }
 

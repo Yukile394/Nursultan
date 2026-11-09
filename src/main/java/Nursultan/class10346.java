@@ -15,7 +15,6 @@ public record class10346(class00500 state, class07209 pos, class00891 block, cla
    }
 
    public class10346(class00500 state, class07209 pos, class00891 block, @Nullable class02733 orientation, boolean movedByPiston) {
-      super();
       this.state = state;
       this.pos = pos;
       this.block = block;

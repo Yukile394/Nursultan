@@ -10,8 +10,6 @@ public class class09544 extends class04111<class09544> {
    private final Builder<class04129> N = ImmutableList.builder();
 
    public class09544(class04111<?>... var1) {
-      super();
-
       for (class04111 class04111 : var1) {
          this.N.add(class04111.y());
       }

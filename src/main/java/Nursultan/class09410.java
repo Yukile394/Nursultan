@@ -24,7 +24,6 @@ public class class09410 extends class10742 {
    }
 
    public class09410() {
-      super();
    }
 
    static {

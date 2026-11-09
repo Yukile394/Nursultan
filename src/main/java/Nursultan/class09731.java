@@ -24,7 +24,6 @@ public final class class09731 {
    }
 
    public class09731() {
-      super();
    }
 
    void B() {

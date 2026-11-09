@@ -14,7 +14,6 @@ import minecraft.class08711;
 
 public class class09388 extends class01989 {
    public class09388() {
-      super();
    }
 
    protected class06584 N(class07210 var1, class06584 var2) {

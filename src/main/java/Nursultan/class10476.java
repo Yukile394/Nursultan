@@ -41,7 +41,6 @@ public class class10476 extends class07473 {
    }
 
    public class10476(class04882 var1, double var2, int var4) {
-      super();
       this.N = var1;
       this.y = var2;
       this.i = var4;

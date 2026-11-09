@@ -19,7 +19,6 @@ public class class11685 {
    }
 
    public class11685(class11328 var1, class06584 var2) {
-      super();
       this.R();
       this.N_0 = var1;
       this.N_1 = var2;

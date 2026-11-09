@@ -10,7 +10,6 @@ public class class11387 {
    }
 
    public class11387() {
-      super();
       this.y();
    }
 

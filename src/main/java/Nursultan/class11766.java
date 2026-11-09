@@ -2,7 +2,6 @@ package Nursultan;
 
 public class class11766 implements class09819 {
    public class11766() {
-      super();
    }
 
    @Override

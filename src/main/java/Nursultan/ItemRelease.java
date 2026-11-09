@@ -20,7 +20,6 @@ public class ItemRelease extends class11067 {
    }
 
    public ItemRelease() {
-      super();
       this.T();
       this.L_0 = class11524.y(this, "items", new class11147(this, "trident", true), new class11113(this, "crossbow", true));
       this.L_1 = class11524.N(this, "hit-only", false);

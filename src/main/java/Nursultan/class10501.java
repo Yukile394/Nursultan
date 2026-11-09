@@ -13,7 +13,6 @@ public class class10501 implements class05935<class05936> {
    private final class05199 y;
 
    public class10501(class05228 var1, class05209 var2) {
-      super();
       this.N = var2;
       this.y = new class05199();
    }

@@ -49,7 +49,6 @@ public class class10473<T extends class04882> extends class07473 {
    }
 
    public class10473(T var1, class04882 var2) {
-      super();
       this.N = var1;
       this.L = new Int2LongOpenHashMap();
       this.y = (T)var2;

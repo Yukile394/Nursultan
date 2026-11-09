@@ -7,7 +7,6 @@ public class class10992 {
    }
 
    public class10992() {
-      super();
    }
 
    static {

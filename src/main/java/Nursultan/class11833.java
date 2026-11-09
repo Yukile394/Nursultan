@@ -27,7 +27,6 @@ public class class11833 implements class09780 {
    }
 
    public class11833(float var1, float var2, class11863 var3) {
-      super();
       this.E();
       this.N_0 = Objects.requireNonNull(var3, "spec");
       this.N_1 = var1;

@@ -44,7 +44,6 @@ public class ShulkerPreview extends class11067 {
    }
 
    public ShulkerPreview() {
-      super();
       this.P();
       this.L_0 = class11911.N("icons/3x9.png");
       this.L_1 = class11524.N(this, "show-in-world", true);

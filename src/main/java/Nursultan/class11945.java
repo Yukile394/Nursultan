@@ -8,12 +8,10 @@ public class class11945 implements class11951<class09276> {
    }
 
    public class11945() {
-      super();
       this.L();
    }
 
    public class11945(class11976 var1, String var2) {
-      super();
       this.L();
       this.N_0 = var1;
       this.N_1 = var2;

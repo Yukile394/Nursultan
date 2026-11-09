@@ -22,7 +22,6 @@ public class class09063 {
    public static Object N_6 = new class09087(class09069.N(4).R(), class09069.N(4).R(), class09069.y().R(), class09069.N(2).R(), class09069.y().R());
 
    public class09063() {
-      super();
    }
 
    static {

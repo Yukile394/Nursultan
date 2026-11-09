@@ -34,7 +34,6 @@ public class class11405 {
    }
 
    public class11405() {
-      super();
       this.P();
       this.L_0 = new class11864();
       this.L_1 = new class11876();

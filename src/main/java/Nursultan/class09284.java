@@ -3,7 +3,6 @@ package Nursultan;
 public non-sealed record class09284(long presetId, int errorCode) implements class09282 {
 
    public class09284(long presetId, int errorCode) {
-      super();
       this.presetId = presetId;
       this.errorCode = errorCode;
    }

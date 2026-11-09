@@ -6,7 +6,6 @@ public abstract class class11448 {
    public boolean N_init;
 
    public class11448(class11410 var1, boolean var2) {
-      super();
       this.R();
       this.N_0 = var1;
       this.N_1 = var2;

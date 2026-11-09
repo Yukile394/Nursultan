@@ -16,7 +16,6 @@ public class class11232 {
    public Object y_4;
 
    public class11232(class06889 var1, class06889 var2, float var3, int var4) {
-      super();
       this.u();
       this.y_0 = var1;
       this.y_1 = var2;

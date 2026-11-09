@@ -14,7 +14,6 @@ public class class10581<I, T> implements class06485<I, T> {
    private class05946<class06521<?>> y;
 
    public class10581(class05838 var1) {
-      super();
       this.N = var1;
    }
 

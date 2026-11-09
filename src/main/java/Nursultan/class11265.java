@@ -10,7 +10,6 @@ public class class11265 {
    public Object N_1;
 
    public class11265(class07438 var1) {
-      super();
       this.u();
       this.N_0 = new ArrayList();
       this.N_1 = var1;

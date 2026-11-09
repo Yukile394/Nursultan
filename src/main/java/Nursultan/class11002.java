@@ -78,7 +78,6 @@ public class class11002 {
    }
 
    public class11002(EntityESP var1) {
-      super();
       this.z();
       this.L_0 = class06202.Nq();
       this.L_1 = new class10203(null, 1, 1, true);

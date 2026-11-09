@@ -8,7 +8,6 @@ public class class11815 {
    public boolean N_init;
 
    public class11815(UUID var1, boolean var2) {
-      super();
       this.i();
       this.N_0 = var1;
       this.N_1 = var2;

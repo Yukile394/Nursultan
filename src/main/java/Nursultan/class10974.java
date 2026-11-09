@@ -4,7 +4,6 @@ public class class10974 {
    public static Object N_0 = new class10974();
 
    public class10974() {
-      super();
    }
 
    static {

@@ -9,7 +9,6 @@ public class class11706 implements class11686 {
    }
 
    public class11706(class11693 var1) {
-      super();
       this.u();
       this.N_0 = var1;
    }

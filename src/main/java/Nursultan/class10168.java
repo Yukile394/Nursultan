@@ -11,7 +11,6 @@ public class class10168<T> implements class03257 {
    private final List<class00381<? super T>> y;
 
    public class10168(class03253 var1) {
-      super();
       this.N = var1;
       this.y = new ArrayList<>();
    }

@@ -20,7 +20,6 @@ public class class09088 implements class09086 {
    }
 
    public class09088(class09057 var1, class09057 var2, String var3) {
-      super();
       this.Z();
       this.N_0 = var1;
       this.N_1 = var2;

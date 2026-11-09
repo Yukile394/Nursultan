@@ -33,7 +33,6 @@ public class class11048 {
    }
 
    public class11048(class11328 var1, String var2, QuickUse var3) {
-      super();
       this.M();
       this.N_4 = -1;
       this.N_5 = -1;

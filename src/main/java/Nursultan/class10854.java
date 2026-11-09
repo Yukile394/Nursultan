@@ -45,7 +45,6 @@ public class class10854 extends class10742 {
    }
 
    public class10854() {
-      super();
       this.Z();
       this.N_0 = class11938.u().N();
    }

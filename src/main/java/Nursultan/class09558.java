@@ -10,7 +10,6 @@ import minecraft.class05946;
 
 public class class09558 implements class03542 {
    public class09558(class02074 var1) {
-      super();
       this.N = var1;
    }
 

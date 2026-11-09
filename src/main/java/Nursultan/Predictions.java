@@ -52,7 +52,6 @@ public class Predictions extends class11067 {
    }
 
    public Predictions() {
-      super();
       this.v();
       this.i_0 = new class11254("pearl", true, new class11228((class11225)class11225.L_2));
       this.i_1 = new class11254("trident", true, new class11249((class11225)class11225.L_1));

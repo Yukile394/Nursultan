@@ -14,7 +14,6 @@ public abstract class class10742 {
    public static Object L_0;
 
    public class10742() {
-      super();
       this.u();
       this.y_0 = class06202.Nq();
    }

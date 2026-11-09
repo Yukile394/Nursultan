@@ -9,7 +9,6 @@ import minecraft.class07305;
 
 public class class09955 implements class05706 {
    public class09955(class02796 var1, List var2, class07305 var3) {
-      super();
       this.N = var2;
       this.y = var3;
    }

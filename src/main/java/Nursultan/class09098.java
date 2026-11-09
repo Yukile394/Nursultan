@@ -16,7 +16,6 @@ public class class09098 implements class09057 {
    }
 
    public class09098(class09073 var1, int var2) {
-      super();
       this.Z();
       this.N_0 = var1;
       this.N_1 = var2;

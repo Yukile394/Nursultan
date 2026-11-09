@@ -41,7 +41,6 @@ public class ElytraHelper extends class11067 {
    }
 
    public ElytraHelper() {
-      super();
       this.P();
       this.L_0 = class11524.N(this, "swap-key", class12002.UNKNOWN);
       this.L_1 = class11524.N(this, "firework-key", class12002.UNKNOWN);

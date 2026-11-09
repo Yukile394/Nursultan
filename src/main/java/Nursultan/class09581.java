@@ -64,6 +64,5 @@ public class class09581 {
    public static final byte NZ = 69;
 
    public class09581() {
-      super();
    }
 }

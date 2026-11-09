@@ -27,7 +27,6 @@ public class class10555<T extends class06091> extends class07473 {
    }
 
    public class10555(T var1, double var2, double var4) {
-      super();
       this.y = (T)var1;
       this.L = var2;
       this.u = var4;

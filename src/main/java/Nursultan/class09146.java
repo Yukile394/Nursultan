@@ -49,7 +49,6 @@ public class class09146 {
    }
 
    public class09146() {
-      super();
       this.i();
       this.L_0 = new class09172();
       this.L_1 = new class09125();

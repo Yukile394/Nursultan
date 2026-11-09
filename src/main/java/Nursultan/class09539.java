@@ -11,7 +11,6 @@ public class class09539<T> extends AbstractList<T> implements class02657<T> {
    private final class04189<T> y;
 
    public class09539(class04189<T> var1, class04189 var2) {
-      super();
       this.N = var1;
       this.y = var2;
    }

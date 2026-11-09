@@ -12,7 +12,6 @@ public class class11360 {
    }
 
    public class11360() {
-      super();
       this.R();
    }
 

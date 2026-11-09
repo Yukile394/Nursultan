@@ -9,7 +9,6 @@ public class class09886 {
    public class06584 y;
 
    public class09886(class07209 var1, class06584 var2) {
-      super();
       this.N = var1;
       this.y = var2;
    }

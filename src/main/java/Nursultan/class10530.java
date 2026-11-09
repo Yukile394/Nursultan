@@ -12,7 +12,6 @@ public final class class10530 implements class05678<Runnable> {
    }
 
    public class10530(Queue<Runnable> var1) {
-      super();
       this.N = var1;
    }
 

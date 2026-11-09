@@ -5,7 +5,6 @@ import java.util.function.Consumer;
 public record class11861(boolean checked, Consumer<Boolean> onChange) {
 
    public class11861(boolean checked, Consumer<Boolean> onChange) {
-      super();
       this.checked = checked;
       this.onChange = onChange;
    }

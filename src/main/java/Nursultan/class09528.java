@@ -15,7 +15,6 @@ public class class09528 implements class01830 {
    }
 
    public class09528(class01837 var1) {
-      super();
       this.N = var1;
    }
 

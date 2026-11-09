@@ -16,7 +16,6 @@ public record class11565(String name, int durationTicks, class00891... blocks) i
    }
 
    public class11565(String name, int durationTicks, class00891... blocks) {
-      super();
       this.name = name;
       this.durationTicks = durationTicks;
       this.blocks = blocks;

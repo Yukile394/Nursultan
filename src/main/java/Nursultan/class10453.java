@@ -11,7 +11,6 @@ import minecraft.class07134;
 
 public class class10453 extends class04565<class07134> {
    public class10453() {
-      super();
    }
 
    public class04406 method_3090(

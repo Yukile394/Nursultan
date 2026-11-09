@@ -12,7 +12,6 @@ public class class10622 implements class06591 {
    }
 
    public class10622(class01929 var1) {
-      super();
       this.y = var1;
    }
 

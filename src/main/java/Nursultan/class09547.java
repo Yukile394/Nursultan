@@ -10,7 +10,6 @@ import minecraft.class05946;
 
 public class class09547 implements class01929 {
    public class09547(Map var1) {
-      super();
       this.N = var1;
    }
 

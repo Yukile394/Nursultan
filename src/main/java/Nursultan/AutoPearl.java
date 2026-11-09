@@ -33,7 +33,6 @@ public class AutoPearl extends class11067 {
    public boolean L_init;
 
    public AutoPearl() {
-      super();
       this.b();
       this.L_0 = class11524.N(this, "only-in-pvp", false);
       this.L_1 = class11524.N(this, "target-follow", false);

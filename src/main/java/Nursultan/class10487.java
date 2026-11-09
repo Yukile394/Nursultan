@@ -8,7 +8,6 @@ public class class10487 {
    private final int y;
 
    public class10487(class07209 var1, int var2) {
-      super();
       this.N = new class01467(var1, 0, false);
       this.y = var2;
    }

@@ -41,7 +41,6 @@ public class class11834 {
    }
 
    public class11834(class11845 var1, int var2, class11874 var3, class11849 var4, class11868 var5, long var6, boolean var8) {
-      super();
       this.T();
       this.y_0 = var1;
       this.y_1 = var2;

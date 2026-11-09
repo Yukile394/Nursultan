@@ -7,7 +7,6 @@ import minecraft.class03223;
 
 public class class10159 implements FlightRecorderListener {
    public class10159(class03223 var1) {
-      super();
       this.N = var1;
    }
 

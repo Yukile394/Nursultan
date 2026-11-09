@@ -79,7 +79,6 @@ public class AutoTotem extends class11067 {
    }
 
    public AutoTotem() {
-      super();
       this.j();
       this.i_0 = new class11701("health-trigger", true);
       this.i_1 = new class11713("elytra-health-trigger", false);

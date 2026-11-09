@@ -16,7 +16,6 @@ public class class11950 {
    }
 
    public class11950(class11985 var1) {
-      super();
       this.u();
       this.N_0 = new class11973();
       this.N_1 = new AtomicInteger();

@@ -32,7 +32,6 @@ public class class11519 {
    }
 
    public class11519() {
-      super();
       this.M();
       this.N_0 = ((Path)y_1).resolve(String.valueOf(((class11472)class11938.L_2).M()));
       this.N_1 = List.of(

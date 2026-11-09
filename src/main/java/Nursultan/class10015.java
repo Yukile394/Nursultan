@@ -12,7 +12,6 @@ public record class10015<T>(T value) implements class02818<T> {
    }
 
    public class10015(T value) {
-      super();
       this.value = (T)value;
    }
 

@@ -7,7 +7,6 @@ public class class11568 implements class11576 {
    public Object N_0;
 
    public class11568() {
-      super();
       this.i();
       this.N_0 = new LinkedList();
    }

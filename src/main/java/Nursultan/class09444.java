@@ -17,7 +17,6 @@ public final class class09444 {
    private List<class01203> L;
 
    public class09444(List<class01228> var1) {
-      super();
       this.N = var1;
    }
 

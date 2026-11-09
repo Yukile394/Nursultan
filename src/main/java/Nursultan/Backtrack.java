@@ -108,7 +108,6 @@ public class Backtrack extends class11067 {
    }
 
    public Backtrack() {
-      super();
       this.d();
       this.u_0 = class11524.N(this, "distance", 4.0F, 3.0F, 10.0F, 0.1F);
       this.u_1 = class11524.N(this, "delay", 4.0F, 1.0F, 20.0F, 1.0F).N((Supplier<String>)class11502.N_3);

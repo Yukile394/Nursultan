@@ -20,7 +20,6 @@ public class class11336 implements class00038 {
    }
 
    public class11336(class07438 var1, class00028 var2, class04770 var3) {
-      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;

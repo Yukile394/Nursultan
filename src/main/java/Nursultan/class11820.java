@@ -14,7 +14,6 @@ public class class11820 {
    }
 
    public class11820() {
-      super();
       this.i();
    }
 

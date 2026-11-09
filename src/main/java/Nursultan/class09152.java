@@ -29,7 +29,6 @@ public class class09152 {
    }
 
    public class09152() {
-      super();
       this.M();
    }
 

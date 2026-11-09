@@ -38,7 +38,6 @@ public class class10545 extends class05484 {
    private final boolean Z;
 
    public class10545(class04589 var1, class01894 var2) {
-      super();
       this.y = var1;
       this.N = Lists.newArrayList();
       this.u = var2;

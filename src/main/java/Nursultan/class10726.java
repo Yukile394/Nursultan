@@ -11,7 +11,6 @@ import org.joml.Vector2d;
 
 public class class10726 implements ArgumentType<Vector2d> {
    public class10726() {
-      super();
    }
 
    public static Vector2d N(CommandContext<class07689> var0, String var1) {

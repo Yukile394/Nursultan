@@ -10,7 +10,6 @@ public class class11800 extends ClassValue<class11818> {
    }
 
    public class11800(class11805 var1) {
-      super();
       this.L();
       this.N_0 = var1;
    }

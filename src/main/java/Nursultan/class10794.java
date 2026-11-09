@@ -20,7 +20,6 @@ public class class10794 implements ArgumentType<class09045> {
    }
 
    public class10794() {
-      super();
    }
 
    static {

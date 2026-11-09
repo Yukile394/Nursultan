@@ -15,7 +15,6 @@ public class class12000 extends class12024 {
    }
 
    public class12000() {
-      super();
    }
 
    static {

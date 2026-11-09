@@ -10,7 +10,6 @@ public class class10749 extends HashMap<class03556<class07084>, class07055> {
    public Object N_0;
 
    public class10749(class07438 var1) {
-      super();
       this.N();
       this.N_0 = var1;
    }

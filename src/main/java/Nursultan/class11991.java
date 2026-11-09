@@ -16,7 +16,6 @@ public non-sealed record class11991(String name, UUID skinUuid, boolean generate
    }
 
    public class11991(String name, UUID skinUuid, boolean generated) {
-      super();
       this.name = name;
       this.skinUuid = skinUuid;
       this.generated = generated;

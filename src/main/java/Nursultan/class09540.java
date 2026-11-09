@@ -10,7 +10,6 @@ import minecraft.class05946;
 
 public class class09540<T> implements class01903<T> {
    public class09540(class01921 var1, Predicate var2) {
-      super();
       this.y = var1;
       this.N = var2;
    }

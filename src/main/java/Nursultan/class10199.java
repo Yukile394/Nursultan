@@ -12,7 +12,6 @@ public class class10199 implements class03437 {
    }
 
    public class10199(class03459 var1, NetherNetAddress var2) {
-      super();
       this.N = var2;
    }
 

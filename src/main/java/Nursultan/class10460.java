@@ -10,7 +10,6 @@ public class class10460 {
    private final List<String> N = Lists.newArrayList();
 
    public class10460() {
-      super();
    }
 
    public class10460 N(String var1) {

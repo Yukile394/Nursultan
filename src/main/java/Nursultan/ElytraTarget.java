@@ -23,7 +23,6 @@ public class ElytraTarget extends class11067 {
    public boolean u_init;
 
    public ElytraTarget() {
-      super();
       this.m();
       this.L_0 = class11524.N(this, "chase-distance", 50.0F, 10.0F, 200.0F, 5.0F);
       this.L_1 = class11524.N(this, "overtake", true);

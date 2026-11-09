@@ -23,7 +23,6 @@ public class class11845 {
    }
 
    public class11845() {
-      super();
       this.z();
       this.y_0 = new CopyOnWriteArrayList();
       this.y_1 = new AtomicInteger();

@@ -14,7 +14,6 @@ public abstract class class11488 {
    public static Object u_0 = LogManager.getLogger(String.class);
 
    public class11488(String var1, int var2, class09378 var3) {
-      super();
       this.Z();
       this.L_0 = var1;
       this.L_1 = var2;

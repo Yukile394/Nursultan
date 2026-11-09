@@ -20,7 +20,6 @@ public class class09441<T> implements class01113, ToggleableMovementTracker {
    private int R;
 
    public class09441(T var1, long var2, class01101<T> param4, class01101 var5) {
-      super();
       this.y = var1;
       this.L = (T)var2;
       this.u = var3;

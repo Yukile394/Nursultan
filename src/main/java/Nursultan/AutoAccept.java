@@ -50,7 +50,6 @@ public class AutoAccept extends class11067 {
    }
 
    public AutoAccept() {
-      super();
       this.P();
       this.u_0 = new class11535("teleport-request", true);
       this.u_1 = new class11535("command-duel-request", false);

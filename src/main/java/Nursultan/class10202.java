@@ -8,7 +8,6 @@ import org.jspecify.annotations.Nullable;
 
 public class class10202 implements class03460 {
    public class10202(class03421 var1) {
-      super();
       this.N = var1;
    }
 

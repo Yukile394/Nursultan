@@ -22,7 +22,6 @@ public class class09345 {
    }
 
    public class09345() {
-      super();
       this.B();
       this.N_0 = new LinkedHashMap();
       this.N_1 = new LinkedHashSet();

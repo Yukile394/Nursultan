@@ -13,7 +13,6 @@ public class class11274 implements class11192<class11257> {
    public Object N_7;
 
    public class11274(class11213 var1, BooleanSupplier var2) {
-      super();
       this.R();
       this.N_3 = ((class09322)class11185.L_2).z("u_projection");
       this.N_4 = ((class09322)class11185.L_2).z("u_view");

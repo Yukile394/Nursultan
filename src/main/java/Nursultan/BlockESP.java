@@ -112,7 +112,6 @@ public class BlockESP extends class11067 {
    }
 
    public BlockESP() {
-      super();
       this.k();
       this.u_0 = Map.of();
       this.u_1 = (class11507)class11524.N(this, "delta-mode", false).N_6((var1, var2) -> this.l());

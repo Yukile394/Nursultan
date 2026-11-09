@@ -8,7 +8,6 @@ public class class10949 {
    public Object y_1;
 
    public class10949() {
-      super();
       this.u();
    }
 

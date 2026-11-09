@@ -4,7 +4,6 @@ public class class11821<T> {
    public Object N_0;
 
    public class11821(T var1) {
-      super();
       this.u();
       this.N_0 = var1;
    }

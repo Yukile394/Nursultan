@@ -13,7 +13,6 @@ public class ClickAction extends class11067 {
    public Object L_0;
 
    public ClickAction() {
-      super();
       this.s();
       this.L_0 = new ArrayList();
       this.N(new class11554(this));

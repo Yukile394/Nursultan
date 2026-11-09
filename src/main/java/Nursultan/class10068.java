@@ -22,7 +22,6 @@ public class class10068<B, C> implements class02362<B, C> {
       Function var14,
       Function var15
    ) {
-      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;

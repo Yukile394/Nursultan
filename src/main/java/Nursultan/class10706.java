@@ -9,7 +9,6 @@ public class class10706 implements Iterator<class07709> {
    private int y;
 
    public class10706(class07023 var1) {
-      super();
       this.N = var1;
    }
 

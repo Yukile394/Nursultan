@@ -14,7 +14,6 @@ public class class11812 implements class11804 {
    }
 
    public class11812() {
-      super();
       this.L();
       this.y_0 = new class11821<>(false);
       this.y_1 = new class11821<>(false);

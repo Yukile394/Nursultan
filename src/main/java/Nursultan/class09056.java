@@ -19,7 +19,6 @@ public class class09056 implements class11192<class09101> {
    }
 
    public class09056(class11213 var1, float var2) {
-      super();
       this.M();
       this.y_3 = ((class09322)class11185.B_3).z("u_projection");
       this.y_4 = ((class09322)class11185.B_3).z("u_view");

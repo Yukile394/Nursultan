@@ -11,7 +11,6 @@ public class class10578 implements class10579 {
    boolean N;
 
    public class10578(class06451 var1, int var2, int var3, int var4, class06465 var5, float var6, int var7) {
-      super();
       this.B = var1;
       this.y = var2;
       this.L = var3;

@@ -63,7 +63,6 @@ public class class11900 implements class11819 {
    }
 
    public class11900(int var1, int var2) {
-      super();
       this.N();
       this.N_0 = class06202.Nq();
       this.N_1 = new ArrayDeque();

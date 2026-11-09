@@ -4,13 +4,11 @@ public class class09289 implements class11951<class09263> {
    public Object N_0;
 
    public class09289(String var1) {
-      super();
       this.u();
       this.N_0 = var1;
    }
 
    public class09289() {
-      super();
       this.u();
    }
 

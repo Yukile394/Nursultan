@@ -37,7 +37,6 @@ public class class10584 extends class10742 {
    }
 
    public class10584() {
-      super();
       this.R();
       this.N_0 = class11938.E();
    }

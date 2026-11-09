@@ -55,7 +55,6 @@ public class class11061 {
    }
 
    public class11061() {
-      super();
       this.E();
       this.y_0 = class06202.Nq();
       this.y_1 = -1;

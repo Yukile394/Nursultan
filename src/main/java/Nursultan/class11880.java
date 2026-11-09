@@ -10,7 +10,6 @@ public class class11880 {
    }
 
    public class11880() {
-      super();
       this.i();
    }
 

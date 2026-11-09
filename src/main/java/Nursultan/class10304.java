@@ -21,7 +21,6 @@ public class class10304 implements class03881 {
    private final Map<class03877, class03877> u;
 
    public class10304(class04084 var1, long var2, boolean var4) {
-      super();
       this.L = var1;
       this.N = var2;
       this.y = var4;

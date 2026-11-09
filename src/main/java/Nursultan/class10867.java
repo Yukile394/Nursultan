@@ -9,7 +9,6 @@ public class class10867 implements class04803 {
    public Object N_0;
 
    public class10867(class08036 var1) {
-      super();
       this.u();
       this.N_0 = var1;
    }

@@ -38,7 +38,6 @@ public class ChestStealer extends class11067 {
    }
 
    public ChestStealer() {
-      super();
       this.n();
       this.L_0 = new class11671("normal", true);
       this.L_1 = new class11702("reverse");

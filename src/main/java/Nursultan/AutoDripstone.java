@@ -40,7 +40,6 @@ public class AutoDripstone extends class11067 {
    }
 
    public AutoDripstone() {
-      super();
       this.P();
    }
 
