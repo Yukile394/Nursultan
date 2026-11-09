@@ -60,48 +60,52 @@ jobs:
           from collections import Counter
 
           with open('/tmp/build.log', encoding='utf-8', errors='replace') as f:
-              log_lines = f.readlines()
+              lines = [l.rstrip('\n') for l in f]
 
-          # javac hata formati: <dosya>:<satir>: error: <mesaj>
-          err_pattern = re.compile(r'^(.+\.java):(\d+):\s*error:\s*(.+)$')
-          errors = []
-          for i, line in enumerate(log_lines):
-              m = err_pattern.match(line.strip())
-              if m:
-                  file_path, line_no, msg = m.groups()
-                  code_line = ""
-                  # hata mesajindan sonraki satir genelde kaynak kodu gosterir
-                  if i + 1 < len(log_lines) and log_lines[i + 1].strip() and not log_lines[i + 1].strip().startswith(('symbol', 'location')):
-                      code_line = log_lines[i + 1].rstrip('\n')
-                  errors.append((file_path, line_no, msg, code_line))
+          pat = re.compile(r'^(?:/.*?src/main/java/)?(.+\.java):(\d+): error: (.+)$')
+          errs = []
+          for i, l in enumerate(lines):
+              m = pat.match(l.strip())
+              if not m:
+                  continue
+              path, ln, msg = m.groups()
+              ctx = lines[i + 1:i + 6]
+              code = ctx[0].strip() if ctx else ''
+              sym = ''
+              for c in ctx:
+                  if c.strip().startswith('symbol:'):
+                      sym = c.strip()[7:].strip()
+                      break
+              errs.append((path, ln, msg, code, sym))
 
-          print("=" * 70)
-          print(f"HATA OZETI - toplam {len(errors)} hata")
-          print("=" * 70)
+          print('=' * 60)
+          print(f'TOPLAM {len(errs)} hata')
+          print('=' * 60)
 
-          type_counter = Counter()
-          for _, _, msg, _ in errors:
-              key = msg.split(':')[0].strip()[:80]
-              type_counter[key] += 1
+          types = Counter(e[2].split(':')[0].strip()[:70] for e in errs)
+          print('\nHATA TURLERI:')
+          for k, v in types.most_common(15):
+              print(f'  [{v}x] {k}')
 
-          print("\nHata turleri:")
-          for msg, count in type_counter.most_common():
-              print(f"  [{count}x] {msg}")
+          syms = Counter(e[4][:90] for e in errs if e[4])
+          print('\nEKSIK SEMBOLLER (cannot find symbol), ilk 40:')
+          for k, v in syms.most_common(40):
+              print(f'  [{v}x] {k}')
 
-          print("\nDetay (dosya:satir + kod):")
-          for file_path, line_no, msg, code_line in errors:
-              short_path = file_path.split('src/main/java/')[-1] if 'src/main/java/' in file_path else file_path
-              print(f"\n{short_path}:{line_no}")
-              print(f"  hata: {msg}")
-              if code_line:
-                  print(f"  kod : {code_line.strip()}")
+          files = Counter(e[0] for e in errs)
+          print('\nEN COK HATALI DOSYALAR, ilk 15:')
+          for k, v in files.most_common(15):
+              print(f'  [{v}x] {k}')
 
-          if not errors:
-              print("\njavac hata kalibi eslemedi, ham log kuyrugu:")
-              print(''.join(log_lines[-80:]))
-          print("\n" + "=" * 70)
-          print("Yukaridaki ciktiyi kopyalayip Claude'a yapistir.")
-          print("=" * 70)
+          print('\nORNEKLER (her turden 1):')
+          seen = set()
+          for path, ln, msg, code, sym in errs:
+              key = msg.split(':')[0].strip()[:70]
+              if key in seen or len(seen) >= 12:
+                  continue
+              seen.add(key)
+              print(f'\n{path}:{ln}\n  {msg[:150]}\n  {code[:150]}')
+          print('\n' + '=' * 60)
           PYEOF
           exit 1
 
