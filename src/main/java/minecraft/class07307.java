@@ -21,7 +21,7 @@ public interface class07307 {
    // Please report this to the Vineflower issue tracker, at https://github.com/Vineflower/vineflower/issues with a copy of the class file (if you have the rights to distribute it!)
    @Nullable
    static class07438 N(@Nullable class07049 var0) {
-      <unknown> ;
+      /* VF unknown expr removed */ ;
 
       return switch (var0) {
          case class00674 class00674 -> ((class00674)var0).z();
