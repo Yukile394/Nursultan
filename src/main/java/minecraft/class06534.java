@@ -37,8 +37,8 @@ public class class06534 extends class00622 {
       hashmap.put("minecraft:dropped", supplier);
       hashmap.put("minecraft:killed", supplier2);
       hashmap.put("minecraft:killed_by", supplier2);
-      hashmap.put("minecraft:custom", (Supplier<>)() -> DSL.optionalFields("id", DSL.constType(N())));
-      hashmap.put("_special", (Supplier<>)() -> DSL.optionalFields("id", DSL.constType(DSL.string())));
+      hashmap.put("minecraft:custom", (Supplier)() -> DSL.optionalFields("id", DSL.constType(N())));
+      hashmap.put("_special", (Supplier)() -> DSL.optionalFields("id", DSL.constType(DSL.string())));
       return hashmap;
    }
 

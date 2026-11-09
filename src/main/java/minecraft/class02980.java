@@ -75,7 +75,7 @@ public abstract class class02980 implements class01057 {
    protected void N(@Nullable Path var1, BiConsumer<String, Function<String, class01055>> var2) {
       if (var1 != null && Files.isDirectory(var1)) {
          try {
-            class01626.N(var1, this.B, (var2x, var3) -> var2.accept(N(var2x), (Function<String, >)var2xx -> this.N(var2xx, var3, this.N(var2xx))));
+            class01626.N(var1, this.B, (var2x, var3) -> var2.accept(N(var2x), (Function)var2xx -> this.N(var2xx, var3, this.N(var2xx))));
          } catch (IOException ioexception) {
             N.warn("Failed to discover packs in {}", var1, ioexception);
          }

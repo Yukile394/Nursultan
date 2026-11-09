@@ -66,23 +66,23 @@ public class class03310 extends class00622 {
                         "minecraft:debug",
                         DSL::remainder,
                         "minecraft:flat",
-                        (Supplier<>)() -> DSL.optionalFields(
+                        (Supplier)() -> DSL.optionalFields(
                            "settings",
                            DSL.optionalFields("biome", class06962.p.in(var1), "layers", DSL.list(DSL.optionalFields("block", class06962.q.in(var1))))
                         ),
                         "minecraft:noise",
-                        (Supplier<>)() -> DSL.optionalFields(
+                        (Supplier)() -> DSL.optionalFields(
                            "biome_source",
                            N(
                               "type",
                               DSL.string(),
                               ImmutableMap.of(
                                  "minecraft:fixed",
-                                 (Supplier<>)() -> DSL.fields("biome", class06962.p.in(var1)),
+                                 (Supplier)() -> DSL.fields("biome", class06962.p.in(var1)),
                                  "minecraft:multi_noise",
-                                 (Supplier<>)() -> DSL.or(DSL.fields("preset", class06962.F.in(var1)), DSL.list(DSL.fields("biome", class06962.p.in(var1)))),
+                                 (Supplier)() -> DSL.or(DSL.fields("preset", class06962.F.in(var1)), DSL.list(DSL.fields("biome", class06962.p.in(var1)))),
                                  "minecraft:checkerboard",
-                                 (Supplier<>)() -> DSL.fields("biomes", DSL.list(class06962.p.in(var1))),
+                                 (Supplier)() -> DSL.fields("biomes", DSL.list(class06962.p.in(var1))),
                                  "minecraft:the_end",
                                  DSL::remainder
                               )

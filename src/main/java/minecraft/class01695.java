@@ -212,7 +212,7 @@ public class class01695 extends class02796 {
             "@Redirect constructor handler net/minecraft/class_6306::replaceDefaultDataPackSettings returned null for net.minecraft.class_5359"
          );
       } else {
-         class03776./* $VF: Unable to resugar constructor */<init>(class01247, s);
+         new class03776(class01247, s);
          class03776 class03776x = class03776;
          class07312 class07312 = new class07312("Test Level", class07282.field_9220, false, class07086.field_5802, true, new class07305(s), class03776x);
          class01898 class01898 = new class01898(var2, class03776x, false, true);

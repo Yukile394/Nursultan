@@ -467,13 +467,13 @@ public class class01056 implements GuiAccessor {
       this.Nv = new class05808(var1);
       this.NH = ImmutableMap.of(
          class01069.field_59819,
-         (Supplier<>)() -> class08657.u,
+         (Supplier)() -> class08657.u,
          class01069.field_59820,
-         (Supplier<>)() -> new class08643(var1),
+         (Supplier)() -> new class08643(var1),
          class01069.field_59821,
-         (Supplier<>)() -> new class08685(var1),
+         (Supplier)() -> new class08685(var1),
          class01069.field_59822,
-         (Supplier<>)() -> new class08662(var1)
+         (Supplier)() -> new class08662(var1)
       );
       this.N();
    }

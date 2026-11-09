@@ -16,28 +16,28 @@ public class class02844 extends class00622 {
    public static SequencedMap<String, Supplier<TypeTemplate>> N(Schema var0) {
       LinkedHashMap linkedhashmap = new LinkedHashMap();
       linkedhashmap.put("minecraft:bees", () -> DSL.list(DSL.optionalFields("entity_data", class06962.J.in(var0))));
-      linkedhashmap.put("minecraft:block_entity_data", (Supplier<>)() -> class06962.G.in(var0));
-      linkedhashmap.put("minecraft:bundle_contents", (Supplier<>)() -> DSL.list(class06962.l.in(var0)));
+      linkedhashmap.put("minecraft:block_entity_data", (Supplier)() -> class06962.G.in(var0));
+      linkedhashmap.put("minecraft:bundle_contents", (Supplier)() -> DSL.list(class06962.l.in(var0)));
       linkedhashmap.put(
          "minecraft:can_break",
-         (Supplier<>)() -> DSL.optionalFields(
+         (Supplier)() -> DSL.optionalFields(
             "predicates", DSL.list(DSL.optionalFields("blocks", DSL.or(class06962.q.in(var0), DSL.list(class06962.q.in(var0)))))
          )
       );
       linkedhashmap.put(
          "minecraft:can_place_on",
-         (Supplier<>)() -> DSL.optionalFields(
+         (Supplier)() -> DSL.optionalFields(
             "predicates", DSL.list(DSL.optionalFields("blocks", DSL.or(class06962.q.in(var0), DSL.list(class06962.q.in(var0)))))
          )
       );
-      linkedhashmap.put("minecraft:charged_projectiles", (Supplier<>)() -> DSL.list(class06962.l.in(var0)));
+      linkedhashmap.put("minecraft:charged_projectiles", (Supplier)() -> DSL.list(class06962.l.in(var0)));
       linkedhashmap.put("minecraft:container", () -> DSL.list(DSL.optionalFields("item", class06962.l.in(var0))));
-      linkedhashmap.put("minecraft:entity_data", (Supplier<>)() -> class06962.J.in(var0));
-      linkedhashmap.put("minecraft:pot_decorations", (Supplier<>)() -> DSL.list(class06962.K.in(var0)));
+      linkedhashmap.put("minecraft:entity_data", (Supplier)() -> class06962.J.in(var0));
+      linkedhashmap.put("minecraft:pot_decorations", (Supplier)() -> DSL.list(class06962.K.in(var0)));
       linkedhashmap.put("minecraft:food", () -> DSL.optionalFields("using_converts_to", class06962.l.in(var0)));
-      linkedhashmap.put("minecraft:custom_name", (Supplier<>)() -> class06962.O.in(var0));
-      linkedhashmap.put("minecraft:item_name", (Supplier<>)() -> class06962.O.in(var0));
-      linkedhashmap.put("minecraft:lore", (Supplier<>)() -> DSL.list(class06962.O.in(var0)));
+      linkedhashmap.put("minecraft:custom_name", (Supplier)() -> class06962.O.in(var0));
+      linkedhashmap.put("minecraft:item_name", (Supplier)() -> class06962.O.in(var0));
+      linkedhashmap.put("minecraft:lore", (Supplier)() -> DSL.list(class06962.O.in(var0)));
       linkedhashmap.put(
          "minecraft:written_book_content",
          () -> DSL.optionalFields(

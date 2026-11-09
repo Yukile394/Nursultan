@@ -83,13 +83,13 @@ public class class08626
    private PBRAtlasHolder b;
    private boolean j = false;
    private final Map v = Map.of(
-      (Supplier<>)() -> SodiumExtraClientMod.options().animationSettings.water,
+      (Supplier)() -> SodiumExtraClientMod.options().animationSettings.water,
       List.of(class01894.N("minecraft", "block/water_still"), class01894.N("minecraft", "block/water_flow")),
-      (Supplier<>)() -> SodiumExtraClientMod.options().animationSettings.lava,
+      (Supplier)() -> SodiumExtraClientMod.options().animationSettings.lava,
       List.of(class01894.N("minecraft", "block/lava_still"), class01894.N("minecraft", "block/lava_flow")),
-      (Supplier<>)() -> SodiumExtraClientMod.options().animationSettings.portal,
+      (Supplier)() -> SodiumExtraClientMod.options().animationSettings.portal,
       List.of(class01894.N("minecraft", "block/nether_portal")),
-      (Supplier<>)() -> SodiumExtraClientMod.options().animationSettings.fire,
+      (Supplier)() -> SodiumExtraClientMod.options().animationSettings.fire,
       List.of(
          class01894.N("minecraft", "block/fire_0"),
          class01894.N("minecraft", "block/fire_1"),
@@ -100,7 +100,7 @@ public class class08626
          class01894.N("minecraft", "block/soul_campfire_fire"),
          class01894.N("minecraft", "block/soul_campfire_log_lit")
       ),
-      (Supplier<>)() -> SodiumExtraClientMod.options().animationSettings.blockAnimations,
+      (Supplier)() -> SodiumExtraClientMod.options().animationSettings.blockAnimations,
       List.of(
          class01894.N("minecraft", "block/magma"),
          class01894.N("minecraft", "block/lantern"),
@@ -121,7 +121,7 @@ public class class08626
          class01894.N("minecraft", "entity/conduit/wind"),
          class01894.N("minecraft", "entity/conduit/wind_vertical")
       ),
-      (Supplier<>)() -> SodiumExtraClientMod.options().animationSettings.sculkSensor,
+      (Supplier)() -> SodiumExtraClientMod.options().animationSettings.sculkSensor,
       List.of(
          class01894.N("minecraft", "block/sculk"),
          class01894.N("minecraft", "block/sculk_catalyst_top_bloom"),

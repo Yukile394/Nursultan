@@ -93,7 +93,7 @@ public class class00757 extends class00891 {
          if (callbackinforeturnable.isCancelled()) {
             return (class07082)callbackinforeturnable.getReturnValue();
          } else {
-            class06584./* $VF: Unable to resugar constructor */<init>(this.u);
+            new class06584(this.u);
             class06584 class06584x = class06584;
             if (!var4.method_7270(class06584x)) {
                var4.method_7328(class06584x, false);

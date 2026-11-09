@@ -19,8 +19,8 @@ public class class08586 extends class00622 {
 
    public static SequencedMap<String, Supplier<TypeTemplate>> N(Schema var0) {
       SequencedMap sequencedmap = class08274.N(var0);
-      sequencedmap.put("minecraft:can_place_on", (Supplier<>)() -> y(var0));
-      sequencedmap.put("minecraft:can_break", (Supplier<>)() -> y(var0));
+      sequencedmap.put("minecraft:can_place_on", (Supplier)() -> y(var0));
+      sequencedmap.put("minecraft:can_break", (Supplier)() -> y(var0));
       return sequencedmap;
    }
 

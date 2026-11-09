@@ -87,21 +87,21 @@ public record class00948(
    ) {
       return new class00948(
          (class00891)var1.apply(
-            var0, (Function<class01362, >)var1x -> (class00891)var3.apply(class02774.field_28704, var1x), (class01362)var4.apply(class02774.field_28704)
+            var0, (Function)var1x -> (class00891)var3.apply(class02774.field_28704, var1x), (class01362)var4.apply(class02774.field_28704)
          ),
          (class00891)var1.apply(
             "exposed_" + var0,
-            (Function<class01362, >)var1x -> (class00891)var3.apply(class02774.field_28705, var1x),
+            (Function)var1x -> (class00891)var3.apply(class02774.field_28705, var1x),
             (class01362)var4.apply(class02774.field_28705)
          ),
          (class00891)var1.apply(
             "weathered_" + var0,
-            (Function<class01362, >)var1x -> (class00891)var3.apply(class02774.field_28706, var1x),
+            (Function)var1x -> (class00891)var3.apply(class02774.field_28706, var1x),
             (class01362)var4.apply(class02774.field_28706)
          ),
          (class00891)var1.apply(
             "oxidized_" + var0,
-            (Function<class01362, >)var1x -> (class00891)var3.apply(class02774.field_28707, var1x),
+            (Function)var1x -> (class00891)var3.apply(class02774.field_28707, var1x),
             (class01362)var4.apply(class02774.field_28707)
          ),
          (class00891)var1.apply("waxed_" + var0, var2::apply, (class01362)var4.apply(class02774.field_28704)),
