@@ -9,7 +9,6 @@ public record class00893(int x, int z) {
    }
 
    public class00893(int x, int z) {
-      super();
       this.x = x;
       this.z = z;
    }

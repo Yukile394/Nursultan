@@ -2,7 +2,6 @@ package minecraft;
 
 public record class03897(class03909 type, class03877 wrapped) implements class03894 {
    public class03897(class03909 type, class03877 wrapped) {
-      super();
       this.type = type;
       this.wrapped = wrapped;
    }

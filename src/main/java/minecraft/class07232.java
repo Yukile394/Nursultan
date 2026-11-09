@@ -29,7 +29,6 @@ public record class07232(int id, int start, int length, List<class07248> suggest
    }
 
    public class07232(int id, int start, int length, List<class07248> suggestions) {
-      super();
       this.id = id;
       this.start = start;
       this.length = length;

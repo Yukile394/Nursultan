@@ -4,7 +4,6 @@ public record class07337(class00329 recipe) implements class00381<class08051> {
    public static final class02362<class00667, class07337> N = class02362.N(class00329.N, class07337::N, class07337::new);
 
    public class07337(class00329 recipe) {
-      super();
       this.recipe = recipe;
    }
 

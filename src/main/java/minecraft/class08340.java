@@ -10,7 +10,6 @@ record class08340(String format, String localeId, Optional<TimeZone> timeZone) {
    }
 
    class08340(String format, String localeId, Optional<TimeZone> timeZone) {
-      super();
       this.format = format;
       this.localeId = localeId;
       this.timeZone = timeZone;

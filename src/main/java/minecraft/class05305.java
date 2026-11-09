@@ -5,7 +5,6 @@ import java.util.List;
 record class05305(class00329 id, List<class06584> displayItems) {
 
    class05305(class00329 id, List<class06584> displayItems) {
-      super();
       this.id = id;
       this.displayItems = displayItems;
    }

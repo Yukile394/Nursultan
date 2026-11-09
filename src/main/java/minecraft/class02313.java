@@ -11,7 +11,6 @@ public record class02313<S, T>(
    }
 
    public class02313(class08501<S, T> element, class02353<List<T>> listName, class02315<S> separator, int minRepetitions, boolean allowTrailingSeparator) {
-      super();
       this.element = element;
       this.listName = listName;
       this.separator = separator;

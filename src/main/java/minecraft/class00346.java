@@ -14,7 +14,6 @@ public record class00346(class01894 texture) implements class00335 {
    }
 
    public class00346(class01894 texture) {
-      super();
       this.texture = texture;
    }
 

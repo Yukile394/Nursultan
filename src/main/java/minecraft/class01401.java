@@ -6,7 +6,6 @@ record class01401(boolean state) implements class01385 {
    public static final Codec<class01401> N = Codec.BOOL.xmap(class01401::new, class01401::N);
 
    class01401(boolean state) {
-      super();
       this.state = state;
    }
 

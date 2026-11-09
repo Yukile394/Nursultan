@@ -6,7 +6,6 @@ public record class01883(class01894 enabled, class01894 disabled, class01894 ena
    }
 
    public class01883(class01894 enabled, class01894 disabled, class01894 enabledFocused, class01894 disabledFocused) {
-      super();
       this.enabled = enabled;
       this.disabled = disabled;
       this.enabledFocused = enabledFocused;

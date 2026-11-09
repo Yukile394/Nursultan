@@ -29,7 +29,6 @@ public record class02191(class03543<class00891> blocks, Optional<Float> speed, O
    }
 
    public class02191(class03543<class00891> blocks, Optional<Float> speed, Optional<Boolean> correctForDrops) {
-      super();
       this.blocks = blocks;
       this.speed = speed;
       this.correctForDrops = correctForDrops;

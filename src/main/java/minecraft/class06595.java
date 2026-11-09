@@ -2,7 +2,6 @@ package minecraft;
 
 public record class06595(int button, int modifiers) implements class06611 {
    public class06595(int button, int modifiers) {
-      super();
       this.button = button;
       this.modifiers = modifiers;
    }

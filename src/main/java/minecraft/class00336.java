@@ -12,7 +12,6 @@ import java.util.stream.Collectors;
 
 public record class00336<P extends class00372<T>, T>(MapCodec<class08938<P, T>> switchCodec) {
    public class00336(MapCodec<class08938<P, T>> switchCodec) {
-      super();
       this.switchCodec = switchCodec;
    }
 

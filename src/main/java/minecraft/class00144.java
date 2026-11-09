@@ -22,7 +22,6 @@ record class00144(
       class01140 entityModelSet,
       class08836 specialBlockModelRenderer
    ) {
-      super();
       this.bakedModels = bakedModels;
       this.modelGroups = modelGroups;
       this.modelCache = modelCache;

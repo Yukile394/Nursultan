@@ -21,7 +21,6 @@ public record class00806(Optional<class05196> player, Optional<class00834> effec
    }
 
    public class00806(Optional<class05196> player, Optional<class00834> effects, Optional<class05196> source) {
-      super();
       this.player = player;
       this.effects = effects;
       this.source = source;

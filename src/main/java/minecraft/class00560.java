@@ -19,7 +19,6 @@ public record class00560(int slot, List<String> pages, Optional<String> title) i
    }
 
    public class00560(int slot, List<String> pages, Optional<String> title) {
-      super();
       pages = List.copyOf(pages);
       this.slot = slot;
       this.pages = pages;

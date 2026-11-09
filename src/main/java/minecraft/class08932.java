@@ -11,7 +11,6 @@ public record class08932(class08938<?, ?> unbakedSwitch, Optional<class08895> fa
    );
 
    public class08932(class08938<?, ?> unbakedSwitch, Optional<class08895> fallback) {
-      super();
       this.unbakedSwitch = unbakedSwitch;
       this.fallback = fallback;
    }

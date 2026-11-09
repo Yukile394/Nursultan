@@ -10,7 +10,6 @@ public record class00625(String command) implements class00647 {
    );
 
    public class00625(String command) {
-      super();
       this.command = command;
    }
 

@@ -54,7 +54,6 @@ public record class06425(
       boolean createWorldFog,
       Set<UUID> players
    ) {
-      super();
       this.name = name;
       this.visible = visible;
       this.value = value;

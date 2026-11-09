@@ -12,7 +12,6 @@ public record class03796(class05934 options, class03764 dimensions) {
    );
 
    public class03796(class05934 options, class03764 dimensions) {
-      super();
       this.options = options;
       this.dimensions = dimensions;
    }

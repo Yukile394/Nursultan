@@ -2,7 +2,6 @@ package minecraft;
 
 record class06437(class04469 signature, int deletableAfter) {
    class06437(class04469 signature, int deletableAfter) {
-      super();
       this.signature = signature;
       this.deletableAfter = deletableAfter;
    }

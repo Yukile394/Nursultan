@@ -8,7 +8,6 @@ public record class02043(class00392 message) {
    public static final class02043 i = new class02043(class00392.L("gui.abuseReport.send.not_attested"));
 
    public class02043(class00392 message) {
-      super();
       this.message = message;
    }
 

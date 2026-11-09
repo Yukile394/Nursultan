@@ -22,7 +22,6 @@ public record class09001(class09039 common, Optional<class08734> exitAction, int
    }
 
    public class09001(class09039 common, Optional<class08734> exitAction, int columns, int buttonWidth) {
-      super();
       this.common = common;
       this.exitAction = exitAction;
       this.columns = columns;

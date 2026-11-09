@@ -12,7 +12,6 @@ import org.jspecify.annotations.Nullable;
 
 public record class03039<S>(List<class03067<S>> arguments) {
    public class03039(List<class03067<S>> arguments) {
-      super();
       this.arguments = arguments;
    }
 

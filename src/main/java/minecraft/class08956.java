@@ -19,7 +19,6 @@ public record class08956(class08961 owner, class06889 offset) implements class08
    }
 
    public class08956(class08961 owner, class06889 offset) {
-      super();
       this.owner = owner;
       this.offset = offset;
    }

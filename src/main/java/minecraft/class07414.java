@@ -12,7 +12,6 @@ public record class07414(String title, String version) {
    );
 
    public class07414(String title, String version) {
-      super();
       this.title = title;
       this.version = version;
    }

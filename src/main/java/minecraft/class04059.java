@@ -31,7 +31,6 @@ public record class04059(
    public class04059(
       int chargeCount, int amountPerCharge, int spreadAttempts, int growthRounds, int spreadRounds, class02142 extraRareGrowths, float catalystChance
    ) {
-      super();
       this.chargeCount = chargeCount;
       this.amountPerCharge = amountPerCharge;
       this.spreadAttempts = spreadAttempts;

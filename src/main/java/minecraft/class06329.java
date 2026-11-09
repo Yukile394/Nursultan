@@ -16,7 +16,6 @@ public record class06329(String name) implements class06348 {
    }
 
    public class06329(String name) {
-      super();
       this.name = name;
    }
 

@@ -9,7 +9,6 @@ record class03765<T>(class03552<T> tag) implements class03782<T> {
    }
 
    class03765(class03552<T> tag) {
-      super();
       this.tag = tag;
    }
 

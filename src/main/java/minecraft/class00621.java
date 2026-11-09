@@ -22,7 +22,6 @@ public record class00621(Optional<class05075> defaultMusic, Optional<class05075>
    }
 
    public class00621(Optional<class05075> defaultMusic, Optional<class05075> creativeMusic, Optional<class05075> underwaterMusic) {
-      super();
       this.defaultMusic = defaultMusic;
       this.creativeMusic = creativeMusic;
       this.underwaterMusic = underwaterMusic;

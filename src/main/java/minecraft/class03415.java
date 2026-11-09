@@ -23,7 +23,6 @@ public record class03415(String clientVersion, class03405 server) {
    }
 
    public class03415(String clientVersion, @Nullable class03405 server) {
-      super();
       this.clientVersion = clientVersion;
       this.server = server;
    }

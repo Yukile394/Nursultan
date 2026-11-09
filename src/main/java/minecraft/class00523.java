@@ -11,7 +11,6 @@ record class00523(String id, class06763<?> argumentType, class01894 suggestionId
    }
 
    class00523(String id, class06763<?> argumentType, @Nullable class01894 suggestionId) {
-      super();
       this.id = id;
       this.argumentType = argumentType;
       this.suggestionId = suggestionId;

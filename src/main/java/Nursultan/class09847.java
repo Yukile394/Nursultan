@@ -5,7 +5,6 @@ record class09847(boolean changed) {
    static final class09847 y = new class09847(true);
 
    class09847(boolean changed) {
-      super();
       this.changed = changed;
    }
 

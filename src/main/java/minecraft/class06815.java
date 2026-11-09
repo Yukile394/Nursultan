@@ -5,7 +5,6 @@ import java.util.stream.Stream;
 
 public record class06815(class06838 slots, Predicate<class06584> filter) implements class06838 {
    public class06815(class06838 slots, Predicate<class06584> filter) {
-      super();
       this.slots = slots;
       this.filter = filter;
    }

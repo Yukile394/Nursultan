@@ -8,7 +8,6 @@ public record class00541(class03737 information) implements class00381<class0165
    }
 
    public class00541(class03737 information) {
-      super();
       this.information = information;
    }
 

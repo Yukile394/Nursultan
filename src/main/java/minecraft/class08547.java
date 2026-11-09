@@ -10,7 +10,6 @@ public record class08547(class03543<class04748> requiredStructures) implements c
    );
 
    public class08547(class03543<class04748> requiredStructures) {
-      super();
       this.requiredStructures = requiredStructures;
    }
 

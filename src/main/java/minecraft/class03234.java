@@ -19,7 +19,6 @@ public record class03234(
       Duration timeSpentInIO,
       List<Pair<String, Long>> topTenContributorsByTotalBytes
    ) {
-      super();
       this.totalBytes = totalBytes;
       this.bytesPerSecond = bytesPerSecond;
       this.counts = counts;

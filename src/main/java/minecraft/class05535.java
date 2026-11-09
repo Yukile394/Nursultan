@@ -7,7 +7,6 @@ public record class05535(int color, String text, long removeAtTime) {
    }
 
    public class05535(int color, String text, long removeAtTime) {
-      super();
       this.color = color;
       this.text = text;
       this.removeAtTime = removeAtTime;

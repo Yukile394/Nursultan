@@ -13,7 +13,6 @@ public record class03219(Duration duration, String path, long bytes) {
    }
 
    public class03219(Duration duration, @Nullable String path, long bytes) {
-      super();
       this.duration = duration;
       this.path = path;
       this.bytes = bytes;

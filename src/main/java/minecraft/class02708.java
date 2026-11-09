@@ -13,7 +13,6 @@ public record class02708(List<class02717> layers) implements class02694 {
    public static final class02362<class04247, class02708> i = class02717.y.N_33(class02389.N()).N_10(class02708::new, class02708::y);
 
    public class02708(List<class02717> layers) {
-      super();
       this.layers = (List<class02717>)layers;
    }
 

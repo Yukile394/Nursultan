@@ -12,7 +12,6 @@ public record class02847(Map<class03556<class00891>, class08092<?>> properties) 
    }, class08092::R)).xmap(class02847::new, class02847::N);
 
    public class02847(Map<class03556<class00891>, class08092<?>> properties) {
-      super();
       this.properties = properties;
    }
 

@@ -11,7 +11,6 @@ record class02991(Map<String, class02991> children, Map<String, Path> files) {
    }
 
    private class02991(Map<String, class02991> children, Map<String, Path> files) {
-      super();
       this.children = children;
       this.files = files;
    }

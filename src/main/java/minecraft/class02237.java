@@ -10,7 +10,6 @@ public record class02237(class00549 targetStatus, class02209 directDependencies,
    }
 
    public class02237(class00549 targetStatus, class02209 directDependencies, class02209 accumulatedDependencies, int blockStateWriteRadius, class00574 task) {
-      super();
       this.targetStatus = targetStatus;
       this.directDependencies = directDependencies;
       this.accumulatedDependencies = accumulatedDependencies;

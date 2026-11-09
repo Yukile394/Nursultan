@@ -8,7 +8,6 @@ public record class03226(double jvm, double userJvm, double system) {
    }
 
    public class03226(double jvm, double userJvm, double system) {
-      super();
       this.jvm = jvm;
       this.userJvm = userJvm;
       this.system = system;

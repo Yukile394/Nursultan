@@ -82,7 +82,6 @@ public record class00821(
       Optional<class02506> slots,
       class00142 components
    ) {
-      super();
       this.entityType = entityType;
       this.distanceToPlayer = distanceToPlayer;
       this.movement = movement;

@@ -47,7 +47,6 @@ public record class04505(
       Optional<class00808> nextSpawnData,
       Optional<class05946<class05074>> ejectingLootTable
    ) {
-      super();
       this.detectedPlayers = detectedPlayers;
       this.currentMobs = currentMobs;
       this.cooldownEndsAt = cooldownEndsAt;

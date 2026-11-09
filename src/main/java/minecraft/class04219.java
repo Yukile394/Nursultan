@@ -10,7 +10,6 @@ public record class04219(class04421 filter) implements class04233 {
    );
 
    public class04219(class04421 filter) {
-      super();
       this.filter = filter;
    }
 

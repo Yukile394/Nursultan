@@ -13,7 +13,6 @@ public record class06660(int id, List<class02998<?>> packedItems) implements cla
    }
 
    public class06660(int id, List<class02998<?>> packedItems) {
-      super();
       this.id = id;
       this.packedItems = packedItems;
    }

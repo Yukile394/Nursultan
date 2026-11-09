@@ -18,7 +18,6 @@ public record class06609(class02689 player, boolean hat) implements class00926 {
    }
 
    public class06609(class02689 player, boolean hat) {
-      super();
       this.player = player;
       this.hat = hat;
    }

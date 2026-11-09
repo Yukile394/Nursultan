@@ -10,7 +10,6 @@ public record class06063(int offset) implements class06055 {
    }
 
    public class06063(int offset) {
-      super();
       this.offset = offset;
    }
 

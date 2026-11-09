@@ -13,7 +13,6 @@ public record class04523<T>(T value, int weight) {
    private static final Logger L = LogUtils.getLogger();
 
    public class04523(T value, int weight) {
-      super();
       if (weight < 0) {
          throw (IllegalArgumentException)class07536.y(new IllegalArgumentException("Weight should be >= 0"));
       } else {

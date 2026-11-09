@@ -19,7 +19,6 @@ public record class00851(class03556<class00891> block, Optional<class01400> prop
    }
 
    public class00851(class03556<class00891> block, Optional<class01400> properties) {
-      super();
       this.block = block;
       this.properties = properties;
    }

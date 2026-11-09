@@ -19,7 +19,6 @@ public record class00578(float L, float u, float i, float R, float M, class00405
    }
 
    public class00578(float L, float u, float i, float R, float M, class00405 B) {
-      super();
       this.L = L;
       this.u = u;
       this.i = i;

@@ -124,7 +124,6 @@ public record class02587(String header, List<String> nuggets) {
    }
 
    public class02587(String header, List<String> nuggets) {
-      super();
       this.header = header;
       this.nuggets = nuggets;
    }

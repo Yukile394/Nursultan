@@ -12,7 +12,6 @@ public record class00923(class00926 contents) implements class04439 {
    );
 
    public class00923(class00926 contents) {
-      super();
       this.contents = contents;
    }
 

@@ -22,7 +22,6 @@ public record class07019(double value) implements class07737 {
       forRemoval = true
    )
    public class07019(double value) {
-      super();
       this.value = value;
    }
 

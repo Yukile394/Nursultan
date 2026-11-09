@@ -7,7 +7,6 @@ import org.jspecify.annotations.Nullable;
 public record class08550(UUID profileId, Property packedTextures) {
 
    public class08550(UUID profileId, @Nullable Property packedTextures) {
-      super();
       this.profileId = profileId;
       this.packedTextures = packedTextures;
    }

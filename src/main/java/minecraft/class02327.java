@@ -2,7 +2,6 @@ package minecraft;
 
 public record class02327<S>(class02315<S> term, boolean positive) implements class02315<S> {
    public class02327(class02315<S> term, boolean positive) {
-      super();
       this.term = term;
       this.positive = positive;
    }

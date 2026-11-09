@@ -20,7 +20,6 @@ public record class08148(class06889 direction, class06889 coordinateScale, class
    }
 
    public class08148(class06889 direction, class06889 coordinateScale, class02546 magnitude) {
-      super();
       this.direction = direction;
       this.coordinateScale = coordinateScale;
       this.magnitude = magnitude;

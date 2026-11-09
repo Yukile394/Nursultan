@@ -6,7 +6,6 @@ import java.util.List;
 public record class04749(List<class04779> levels) implements Iterable<class04779> {
 
    public class04749(List<class04779> levels) {
-      super();
       this.levels = levels;
    }
 

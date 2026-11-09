@@ -11,7 +11,6 @@ public record class01449(class01894 id) implements class04457 {
    );
 
    public class01449(class01894 id) {
-      super();
       this.id = id;
    }
 

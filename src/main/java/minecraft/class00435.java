@@ -6,7 +6,6 @@ public record class00435(class03556<class01194> event, class06889 pos) {
    );
 
    public class00435(class03556<class01194> event, class06889 pos) {
-      super();
       this.event = event;
       this.pos = pos;
    }

@@ -15,7 +15,6 @@ public record class06953(class01894 id, class01894 texturePath) implements class
    }
 
    public class06953(class01894 id, class01894 texturePath) {
-      super();
       this.id = id;
       this.texturePath = texturePath;
    }

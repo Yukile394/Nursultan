@@ -27,7 +27,6 @@ public record class00355(class07030 kind, Optional<class01894> textureOverride, 
    }
 
    public class00355(class07030 kind, Optional<class01894> textureOverride, float animation) {
-      super();
       this.kind = kind;
       this.textureOverride = textureOverride;
       this.animation = animation;

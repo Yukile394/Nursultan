@@ -34,7 +34,6 @@ public record class05987(
       Optional<Integer> grassColorOverride,
       class06009 grassColorModifier
    ) {
-      super();
       this.waterColor = waterColor;
       this.foliageColorOverride = foliageColorOverride;
       this.dryFoliageColorOverride = dryFoliageColorOverride;

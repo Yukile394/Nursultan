@@ -17,7 +17,6 @@ public record class08085(class03556<class07468> attribute, double base, Collecti
    }
 
    public class08085(class03556<class07468> attribute, double base, Collection<class07471> modifiers) {
-      super();
       this.attribute = attribute;
       this.base = base;
       this.modifiers = modifiers;

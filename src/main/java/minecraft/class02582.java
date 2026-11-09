@@ -9,7 +9,6 @@ public record class02582(int entityId, List<class02769> lerpSteps) implements cl
    );
 
    public class02582(int entityId, List<class02769> lerpSteps) {
-      super();
       this.entityId = entityId;
       this.lerpSteps = lerpSteps;
    }

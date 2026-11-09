@@ -19,7 +19,6 @@ record class08398<K, U, V>(BiFunction<K, U, V> operation, Object[] keys, Object[
    }
 
    private class08398(BiFunction<K, U, V> operation, Object[] keys, Object[] values) {
-      super();
       this.operation = operation;
       this.keys = keys;
       this.values = values;

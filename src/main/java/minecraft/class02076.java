@@ -12,7 +12,6 @@ public record class02076<T>(class05946<? extends class00751<T>> key, Lifecycle l
    }
 
    public class02076(class05946<? extends class00751<T>> key, Lifecycle lifecycle, class02039<T> bootstrap) {
-      super();
       this.key = key;
       this.lifecycle = lifecycle;
       this.bootstrap = bootstrap;

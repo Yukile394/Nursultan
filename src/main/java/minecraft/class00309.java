@@ -35,7 +35,6 @@ public record class00309(class00299 template, class00299 base, class00299 additi
    }
 
    public class00309(class00299 template, class00299 base, class00299 addition, class00299 result, class00299 craftingStation) {
-      super();
       this.template = template;
       this.base = base;
       this.addition = addition;

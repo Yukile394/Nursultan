@@ -5,7 +5,6 @@ import java.util.List;
 
 public record class02358<S, T>(class08501<S, T> element, class02353<List<T>> listName, int minRepetitions) implements class02315<S> {
    public class02358(class08501<S, T> element, class02353<List<T>> listName, int minRepetitions) {
-      super();
       this.element = element;
       this.listName = listName;
       this.minRepetitions = minRepetitions;

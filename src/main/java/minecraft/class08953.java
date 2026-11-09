@@ -12,7 +12,6 @@ public record class08953(class07284 level, class08960 block, class07209 pos, cla
    }
 
    public class08953(class07284 level, class08960 block, class07209 pos, class08972 part) {
-      super();
       this.level = level;
       this.block = block;
       this.pos = pos;

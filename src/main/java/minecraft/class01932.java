@@ -2,7 +2,6 @@ package minecraft;
 
 public record class01932(class06143 sprite) implements class04417<class01904> {
    public class01932(class06143 sprite) {
-      super();
       this.sprite = sprite;
    }
 

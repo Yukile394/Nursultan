@@ -8,7 +8,6 @@ public record class07044(class00845 predicate) {
    public static final String L = "lock";
 
    public class07044(class00845 predicate) {
-      super();
       this.predicate = predicate;
    }
 

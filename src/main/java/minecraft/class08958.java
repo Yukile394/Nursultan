@@ -7,7 +7,6 @@ public record class08958(class07209 pos) implements class08976 {
    }
 
    public class08958(class07209 pos) {
-      super();
       this.pos = pos;
    }
 

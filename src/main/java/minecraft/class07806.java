@@ -26,7 +26,6 @@ public record class07806(
    public class07806(
       class00392 description, Optional<class07837> players, Optional<class07808> version, Optional<class07824> favicon, boolean enforcesSecureChat
    ) {
-      super();
       this.description = description;
       this.players = players;
       this.version = version;

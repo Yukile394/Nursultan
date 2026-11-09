@@ -19,7 +19,6 @@ public record class08421(int index, Optional<Integer> time) {
    }
 
    public class08421(int index, Optional<Integer> time) {
-      super();
       this.index = index;
       this.time = time;
    }

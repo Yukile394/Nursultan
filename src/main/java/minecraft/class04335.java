@@ -8,7 +8,6 @@ public record class04335(String direction, String protocolId, String packetId) {
    }
 
    public class04335(String direction, String protocolId, String packetId) {
-      super();
       this.direction = direction;
       this.protocolId = protocolId;
       this.packetId = packetId;

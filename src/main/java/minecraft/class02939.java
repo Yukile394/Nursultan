@@ -11,7 +11,6 @@ public record class02939(Optional<class02648<class02826<String>, class02916>> pa
    );
 
    public class02939(Optional<class02648<class02826<String>, class02916>> pages) {
-      super();
       this.pages = pages;
    }
 

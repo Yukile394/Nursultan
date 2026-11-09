@@ -9,7 +9,6 @@ public record class04712(int statusCode, String errorMessage) {
    }
 
    public class04712(int statusCode, @Nullable String errorMessage) {
-      super();
       this.statusCode = statusCode;
       this.errorMessage = errorMessage;
    }

@@ -11,7 +11,6 @@ public record class00627(String value) implements class00647 {
    );
 
    public class00627(String value) {
-      super();
       this.value = value;
    }
 

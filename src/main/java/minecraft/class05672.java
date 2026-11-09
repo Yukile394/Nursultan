@@ -41,7 +41,6 @@ public record class05672(
       ImmutableSet<class00891> secondaryPoi,
       @Nullable class04891 workSound
    ) {
-      super();
       this.name = name;
       this.heldJobSite = heldJobSite;
       this.acquirableJobSite = acquirableJobSite;

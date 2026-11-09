@@ -7,7 +7,6 @@ record class01899(class07312 levelSettings, class05934 options, class00751<class
    }
 
    class01899(class07312 levelSettings, class05934 options, class00751<class01255> existingDimensions) {
-      super();
       this.levelSettings = levelSettings;
       this.options = options;
       this.existingDimensions = existingDimensions;

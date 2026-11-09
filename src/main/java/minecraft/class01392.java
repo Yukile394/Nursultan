@@ -33,7 +33,6 @@ public record class01392(Optional<class03543<class00891>> blocks, Optional<class
    }
 
    public class01392(Optional<class03543<class00891>> blocks, Optional<class01400> properties, Optional<class00809> nbt, class00142 components) {
-      super();
       this.blocks = blocks;
       this.properties = properties;
       this.nbt = nbt;

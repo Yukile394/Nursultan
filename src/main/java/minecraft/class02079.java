@@ -11,7 +11,6 @@ public record class02079(List<UUID> profileIds) implements class00381<class07280
    }
 
    public class02079(List<UUID> profileIds) {
-      super();
       this.profileIds = profileIds;
    }
 

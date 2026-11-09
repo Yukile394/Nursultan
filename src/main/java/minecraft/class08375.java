@@ -15,7 +15,6 @@ public record class08375(ByteBuf contents) implements ReferenceCounted {
    }
 
    public class08375(ByteBuf contents) {
-      super();
       this.contents = ByteBufUtil.ensureAccessible(contents);
    }
 

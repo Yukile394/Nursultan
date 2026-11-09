@@ -27,7 +27,6 @@ public record class02918(
    public class02918(
       Optional<class03543<class07468>> attribute, Optional<class01894> id, class00816 amount, Optional<class07463> operation, Optional<class02834> slot
    ) {
-      super();
       this.attribute = attribute;
       this.id = id;
       this.amount = amount;

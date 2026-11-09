@@ -5,7 +5,6 @@ import java.util.concurrent.CompletableFuture;
 record class08639(class08361 texture, CompletableFuture<class08354> newContents) {
 
    class08639(class08361 texture, CompletableFuture<class08354> newContents) {
-      super();
       this.texture = texture;
       this.newContents = newContents;
    }

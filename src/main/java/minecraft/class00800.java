@@ -16,7 +16,6 @@ public record class00800(Optional<class03543<class07304>> enchantments, class008
    );
 
    public class00800(Optional<class03543<class07304>> enchantments, class00836 level) {
-      super();
       this.enchantments = enchantments;
       this.level = level;
    }

@@ -6,7 +6,6 @@ record class04841(class01894 fontId, String pack, int index) {
    }
 
    class04841(class01894 fontId, String pack, int index) {
-      super();
       this.fontId = fontId;
       this.pack = pack;
       this.index = index;

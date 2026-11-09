@@ -8,7 +8,6 @@ import org.lwjgl.opengl.GL33;
 public record class11189(int unit, IntSupplier texture) implements class11211 {
 
    class11189(int unit, IntSupplier texture) {
-      super();
       Objects.requireNonNull(texture, "texture");
       this.unit = unit;
       this.texture = texture;

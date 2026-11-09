@@ -5,7 +5,6 @@ import java.util.Optional;
 
 record class00970(class01894 id, Optional<List<class01894>> sprites) {
    class00970(class01894 id, Optional<List<class01894>> sprites) {
-      super();
       this.id = id;
       this.sprites = sprites;
    }

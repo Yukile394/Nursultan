@@ -13,7 +13,6 @@ public record class01155(class07209 pos) implements class01190 {
    public static final class02362<ByteBuf, class01155> y = class02362.N(class07209.field_48404, class01155::y, class01155::new);
 
    public class01155(class07209 pos) {
-      super();
       this.pos = pos;
    }
 

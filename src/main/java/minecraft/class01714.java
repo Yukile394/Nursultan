@@ -10,7 +10,6 @@ import net.fabricmc.fabric.impl.entity.event.effect.MobEffectUtil;
 
 public record class01714<T>(class03099 frame, class01742<T> action) {
    public class01714(class03099 frame, class01742<T> action) {
-      super();
       this.frame = frame;
       this.action = action;
    }

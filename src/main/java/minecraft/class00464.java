@@ -9,7 +9,6 @@ public record class00464(Optional<Integer> attackTarget, Optional<class07209> ju
    );
 
    public class00464(Optional<Integer> attackTarget, Optional<class07209> jumpTarget) {
-      super();
       this.attackTarget = attackTarget;
       this.jumpTarget = jumpTarget;
    }

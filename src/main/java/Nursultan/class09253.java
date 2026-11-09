@@ -1,13 +1,12 @@
 package Nursultan;
 
-public non-sealed record class09253(int outcome, String presetName, String creator) implements class09282 {
+public record class09253(int outcome, String presetName, String creator) implements class09282 {
 
    public int L() {
       return this.outcome;
    }
 
    public class09253(int outcome, String presetName, String creator) {
-      super();
       this.outcome = outcome;
       this.presetName = presetName;
       this.creator = creator;

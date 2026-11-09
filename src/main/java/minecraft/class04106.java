@@ -6,7 +6,6 @@ import java.util.Optional;
 
 public record class04106<Value>(class05378<Value> memory) implements class04109<Mu, Value> {
    public class04106(class05378<Value> memory) {
-      super();
       this.memory = memory;
    }
 

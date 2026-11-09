@@ -10,7 +10,6 @@ public record class08149(class08159 permission) implements class08164 {
    );
 
    public class08149(class08159 permission) {
-      super();
       this.permission = permission;
    }
 

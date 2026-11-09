@@ -21,7 +21,6 @@ public record class09020(class00392 label, boolean initial, String onTrue, Strin
    }
 
    public class09020(class00392 label, boolean initial, String onTrue, String onFalse) {
-      super();
       this.label = label;
       this.initial = initial;
       this.onTrue = onTrue;

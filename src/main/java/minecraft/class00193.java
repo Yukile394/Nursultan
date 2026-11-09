@@ -10,7 +10,6 @@ public record class00193(class00213 weather) implements class00225 {
    );
 
    public class00193(class00213 weather) {
-      super();
       this.weather = weather;
    }
 

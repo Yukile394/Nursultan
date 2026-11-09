@@ -13,7 +13,6 @@ record class07407(String ip, String reason, String source, Optional<Instant> exp
    }
 
    class07407(String ip, @Nullable String reason, String source, Optional<Instant> expires) {
-      super();
       this.ip = ip;
       this.reason = reason;
       this.source = source;

@@ -28,7 +28,6 @@ public record class07589(class08545<class07582> modelAndTexture, class08585 spaw
    }
 
    public class07589(class08545<class07582> modelAndTexture, class08585 spawnConditions) {
-      super();
       this.modelAndTexture = modelAndTexture;
       this.spawnConditions = spawnConditions;
    }

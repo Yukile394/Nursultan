@@ -5,7 +5,6 @@ import java.util.List;
 record class02444(List<class06584> items, boolean isResultSlot) {
 
    class02444(List<class06584> items, boolean isResultSlot) {
-      super();
       this.items = items;
       this.isResultSlot = isResultSlot;
    }

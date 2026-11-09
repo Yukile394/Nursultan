@@ -8,7 +8,6 @@ import java.util.List;
 public record class08940<T>(List<T> values, class08895 model) {
 
    public class08940(List<T> values, class08895 model) {
-      super();
       this.values = values;
       this.model = model;
    }

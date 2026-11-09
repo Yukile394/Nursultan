@@ -19,7 +19,6 @@ public record class00397(String y, class00874 L) implements class04457 {
    }
 
    public class00397(String y, @Nullable class00874 L) {
-      super();
       this.y = y;
       this.L = L;
    }

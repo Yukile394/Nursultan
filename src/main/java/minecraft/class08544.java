@@ -11,7 +11,6 @@ public record class08544(class02470<?> predicate) implements class08909 {
    );
 
    public class08544(class02470<?> predicate) {
-      super();
       this.predicate = predicate;
    }
 

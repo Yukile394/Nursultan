@@ -9,7 +9,6 @@ public record class04136(class07185 axis, float angle) implements class04122 {
    }
 
    public class04136(class07185 axis, float angle) {
-      super();
       this.axis = axis;
       this.angle = angle;
    }

@@ -19,7 +19,6 @@ public record class00316(class00299 input, class00299 result, class00299 craftin
    public static final class00273<class00316> L = new class00273<>(N, y);
 
    public class00316(class00299 input, class00299 result, class00299 craftingStation) {
-      super();
       this.input = input;
       this.result = result;
       this.craftingStation = craftingStation;

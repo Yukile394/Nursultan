@@ -14,7 +14,6 @@ public record class03205<T extends class03230>(T fastest, T slowest, T secondSlo
    }
 
    public class03205(T fastest, T slowest, @Nullable T secondSlowest, int count, Map<Integer, Double> percentilesNanos, Duration totalDuration) {
-      super();
       this.fastest = (T)fastest;
       this.slowest = (T)slowest;
       this.secondSlowest = (T)secondSlowest;

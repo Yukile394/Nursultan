@@ -6,7 +6,6 @@ public record class06588<T extends class06516>(T trigger, class03711 advancement
    }
 
    public class06588(T trigger, class03711 advancement, String criterion) {
-      super();
       this.trigger = (T)trigger;
       this.advancement = advancement;
       this.criterion = criterion;

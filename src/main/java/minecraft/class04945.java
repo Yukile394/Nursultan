@@ -12,7 +12,6 @@ public record class04945(String downloadLink, String resourcePackUrl, String res
    }
 
    public class04945(String downloadLink, String resourcePackUrl, String resourcePackHash) {
-      super();
       this.downloadLink = downloadLink;
       this.resourcePackUrl = resourcePackUrl;
       this.resourcePackHash = resourcePackHash;

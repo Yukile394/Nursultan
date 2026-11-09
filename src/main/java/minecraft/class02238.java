@@ -33,7 +33,6 @@ public record class02238(ImmutableList<class02237> steps) {
       .N();
 
    public class02238(ImmutableList<class02237> steps) {
-      super();
       this.steps = steps;
    }
 

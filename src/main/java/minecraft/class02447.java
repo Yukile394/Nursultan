@@ -21,7 +21,6 @@ public record class02447(String samplerName, class01894 targetId, boolean useDep
    }
 
    public class02447(String samplerName, class01894 targetId, boolean useDepthBuffer, boolean bilinear) {
-      super();
       this.samplerName = samplerName;
       this.targetId = targetId;
       this.useDepthBuffer = useDepthBuffer;

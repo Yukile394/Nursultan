@@ -3,7 +3,6 @@ package Nursultan;
 public record class09130(float yawDelta, float pitchDelta) {
 
    public class09130(float yawDelta, float pitchDelta) {
-      super();
       this.yawDelta = yawDelta;
       this.pitchDelta = pitchDelta;
    }

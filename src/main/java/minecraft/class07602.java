@@ -18,7 +18,6 @@ public record class07602(float x1, float y1, float x2, float y2) {
    }
 
    public class07602(float x1, float y1, float x2, float y2) {
-      super();
       this.x1 = x1;
       this.y1 = y1;
       this.x2 = x2;

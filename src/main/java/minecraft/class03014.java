@@ -6,7 +6,6 @@ import org.jspecify.annotations.Nullable;
 
 record class03014(List<class03003> rules) implements class03003 {
    class03014(List<class03003> rules) {
-      super();
       this.rules = rules;
    }
 

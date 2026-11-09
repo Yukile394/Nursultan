@@ -6,7 +6,6 @@ record class03947(int featureIndex, int step, class04336 feature) {
    }
 
    class03947(int featureIndex, int step, class04336 feature) {
-      super();
       this.featureIndex = featureIndex;
       this.step = step;
       this.feature = feature;

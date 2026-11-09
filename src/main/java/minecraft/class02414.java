@@ -16,7 +16,6 @@ public record class02414(Map<class01894, class02430> internalTargets, List<class
    );
 
    public class02414(Map<class01894, class02430> internalTargets, List<class02433> passes) {
-      super();
       this.internalTargets = internalTargets;
       this.passes = passes;
    }

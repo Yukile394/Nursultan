@@ -10,7 +10,6 @@ public record class00206(class06826 gameRulesMap) implements class00225 {
    );
 
    public class00206(class06826 gameRulesMap) {
-      super();
       this.gameRulesMap = gameRulesMap;
    }
 

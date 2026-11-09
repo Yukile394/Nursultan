@@ -19,7 +19,6 @@ public record class02177(String command, Instant timeStamp, long salt, class0445
    }
 
    public class02177(String command, Instant timeStamp, long salt, class04455 argumentSignatures, class03058 lastSeenMessages) {
-      super();
       this.command = command;
       this.timeStamp = timeStamp;
       this.salt = salt;

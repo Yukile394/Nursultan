@@ -7,7 +7,6 @@ import com.mojang.serialization.DynamicOps;
 
 public record class02178<T, O>(class05946<T> key) implements class02172<T, O> {
    public class02178(class05946<T> key) {
-      super();
       this.key = key;
    }
 

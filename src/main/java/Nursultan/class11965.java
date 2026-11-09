@@ -2,14 +2,13 @@ package Nursultan;
 
 import java.util.UUID;
 
-public non-sealed record class11965(UUID clientId, int formatVersion, String name, byte[] data) implements class11946 {
+public record class11965(UUID clientId, int formatVersion, String name, byte[] data) implements class11946 {
 
    public byte[] L() {
       return this.data;
    }
 
    public class11965(UUID clientId, int formatVersion, String name, byte[] data) {
-      super();
       this.clientId = clientId;
       this.formatVersion = formatVersion;
       this.name = name;

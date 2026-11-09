@@ -7,7 +7,6 @@ record class06248(class06267 contents, int left, int right) implements class0094
    }
 
    class06248(class06267 contents, int left, int right) {
-      super();
       this.contents = contents;
       this.left = left;
       this.right = right;

@@ -8,7 +8,6 @@ public record class09196(float deltaH, float ratioS, float ratioL, int alpha) {
    }
 
    public class09196(float deltaH, float ratioS, float ratioL, int alpha) {
-      super();
       this.deltaH = deltaH;
       this.ratioS = ratioS;
       this.ratioL = ratioL;

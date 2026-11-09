@@ -2,7 +2,6 @@ package minecraft;
 
 record class03685(class01404 previous, class01404 current) implements class03665<class01404> {
    class03685(class01404 previous, class01404 current) {
-      super();
       this.previous = previous;
       this.current = current;
    }

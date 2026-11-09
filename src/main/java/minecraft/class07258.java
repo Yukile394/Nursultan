@@ -6,7 +6,6 @@ public record class07258(class07086 difficulty, boolean locked) implements class
    public static final class02362<ByteBuf, class07258> N = class02362.N(class07086.field_60664, class07258::N, class02389.y, class07258::y, class07258::new);
 
    public class07258(class07086 difficulty, boolean locked) {
-      super();
       this.difficulty = difficulty;
       this.locked = locked;
    }

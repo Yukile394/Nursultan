@@ -12,7 +12,6 @@ public record class02766(int value) {
    public static final class02362<ByteBuf, class02766> y = class02362.N(class02389.B, class02766::N, class02766::new);
 
    public class02766(int value) {
-      super();
       if (value <= 0) {
          throw new IllegalArgumentException("Enchantment value must be positive, but was " + value);
       } else {

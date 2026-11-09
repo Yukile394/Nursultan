@@ -30,7 +30,6 @@ public record class04811(
       class08097 materials,
       class07949 playerSkinRenderCache
    ) {
-      super();
       this.blockEntityRenderDispatcher = blockEntityRenderDispatcher;
       this.blockRenderDispatcher = blockRenderDispatcher;
       this.itemModelResolver = itemModelResolver;

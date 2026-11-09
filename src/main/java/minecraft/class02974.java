@@ -11,7 +11,6 @@ public record class02974(class03767 flags) {
    public static final class02968<class02974> N = new class02968<>("features", L);
 
    public class02974(class03767 flags) {
-      super();
       this.flags = flags;
    }
 

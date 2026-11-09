@@ -9,7 +9,6 @@ public record class04353(float lengthInSeconds, boolean looping, Map<String, Lis
    }
 
    public class04353(float lengthInSeconds, boolean looping, Map<String, List<class04373>> boneAnimations) {
-      super();
       this.lengthInSeconds = lengthInSeconds;
       this.looping = looping;
       this.boneAnimations = boneAnimations;

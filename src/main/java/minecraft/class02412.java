@@ -22,7 +22,6 @@ public record class02412(String samplerName, class01894 location, int width, int
    }
 
    public class02412(String samplerName, class01894 location, int width, int height, boolean bilinear) {
-      super();
       this.samplerName = samplerName;
       this.location = location;
       this.width = width;

@@ -3,7 +3,6 @@ package Nursultan;
 public record class09214(String query, class11854 category) {
 
    public class09214(String query, class11854 category) {
-      super();
       this.query = query;
       this.category = category;
    }

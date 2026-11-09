@@ -12,7 +12,6 @@ public record class12028(int syncId, int slotId, int button, class07510 actionTy
    }
 
    public class12028(int syncId, int slotId, int button, class07510 actionType) {
-      super();
       this.syncId = syncId;
       this.slotId = slotId;
       this.button = button;

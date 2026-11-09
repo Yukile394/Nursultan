@@ -14,7 +14,6 @@ public record class03814(Map<UUID, Path> downloaded, Set<UUID> failed) {
    }
 
    public class03814(Map<UUID, Path> downloaded, Set<UUID> failed) {
-      super();
       this.downloaded = downloaded;
       this.failed = failed;
    }

@@ -20,7 +20,6 @@ public record class04930(class01263 settings, List<class05946<class06521<?>>> kn
    }
 
    public class04930(class01263 settings, List<class05946<class06521<?>>> known, List<class05946<class06521<?>>> highlight) {
-      super();
       this.settings = settings;
       this.known = known;
       this.highlight = highlight;

@@ -12,7 +12,6 @@ public record class05947(Optional<class05196> player, class05946<class05074> loo
    );
 
    public class05947(Optional<class05196> player, class05946<class05074> lootTable) {
-      super();
       this.player = player;
       this.lootTable = lootTable;
    }

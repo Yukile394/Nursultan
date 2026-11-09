@@ -67,7 +67,6 @@ public record class07376(
       class00587 attributes,
       class03543<class07587> timelines
    ) {
-      super();
       if (height < 16) {
          throw new IllegalStateException("height has to be at least 16");
       } else if (minY + height > u + 1) {

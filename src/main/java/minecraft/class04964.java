@@ -11,7 +11,6 @@ public record class04964(Set<String> ops) {
    private static final Logger y = LogUtils.getLogger();
 
    public class04964(Set<String> ops) {
-      super();
       this.ops = ops;
    }
 

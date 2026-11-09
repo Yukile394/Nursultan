@@ -9,7 +9,6 @@ public record class02456(int width, int height, boolean useDepth, int clearColor
    }
 
    public class02456(int width, int height, boolean useDepth, int clearColor) {
-      super();
       this.width = width;
       this.height = height;
       this.useDepth = useDepth;

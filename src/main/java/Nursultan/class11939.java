@@ -1,8 +1,7 @@
 package Nursultan;
 
-public non-sealed record class11939() implements class11946 {
+public record class11939() implements class11946 {
    public class11939() {
-      super();
    }
 
    public static class11939 y(class11940 var0) {

@@ -49,7 +49,6 @@ public record class06669(
       int listOrder,
       @Nullable class02048 chatSession
    ) {
-      super();
       this.profileId = profileId;
       this.profile = profile;
       this.listed = listed;

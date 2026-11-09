@@ -20,7 +20,6 @@ public record class05245(class05272 glyph, float x0, float y0, float x1, float y
    }
 
    public class05245(class05272 glyph, float x0, float y0, float x1, float y1, float depth, int color, int shadowColor, float shadowOffset) {
-      super();
       this.glyph = glyph;
       this.x0 = x0;
       this.y0 = y0;

@@ -15,7 +15,6 @@ public record class07808(String name, int protocol) {
    }
 
    public class07808(String name, int protocol) {
-      super();
       this.name = name;
       this.protocol = protocol;
    }

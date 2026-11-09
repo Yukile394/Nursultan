@@ -23,7 +23,6 @@ public record class03488(Optional<class05196> player, class05946<class06521<?>> 
    }
 
    public class03488(Optional<class05196> player, class05946<class06521<?>> recipeId, List<class00845> ingredients) {
-      super();
       this.player = player;
       this.recipeId = recipeId;
       this.ingredients = ingredients;

@@ -26,7 +26,6 @@ public record class06614(
       class03556<class00780> defaultBiome,
       Codec<class03925<class03556<class00780>>> biomeContainerCodec
    ) {
-      super();
       this.blockStatesStrategy = blockStatesStrategy;
       this.defaultBlockState = defaultBlockState;
       this.blockStatesContainerCodec = blockStatesContainerCodec;

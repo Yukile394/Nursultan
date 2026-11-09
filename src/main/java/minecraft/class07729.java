@@ -21,7 +21,6 @@ public record class07729(long value) implements class07737 {
       forRemoval = true
    )
    public class07729(long value) {
-      super();
       this.value = value;
    }
 

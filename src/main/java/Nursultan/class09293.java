@@ -1,9 +1,8 @@
 package Nursultan;
 
-public non-sealed record class09293(long id) implements class09279 {
+public record class09293(long id) implements class09279 {
 
    public class09293(long id) {
-      super();
       this.id = id;
    }
 

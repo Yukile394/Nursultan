@@ -20,7 +20,6 @@ public record class08609(int itemDamagePerAttack, float disableBlockingForSecond
    }
 
    public class08609(int itemDamagePerAttack, float disableBlockingForSeconds) {
-      super();
       this.itemDamagePerAttack = itemDamagePerAttack;
       this.disableBlockingForSeconds = disableBlockingForSeconds;
    }

@@ -7,7 +7,6 @@ record class02744(float partialTicksInStep, class02769 currentStep, class02769 p
    }
 
    class02744(float partialTicksInStep, class02769 currentStep, class02769 previousStep) {
-      super();
       this.partialTicksInStep = partialTicksInStep;
       this.currentStep = currentStep;
       this.previousStep = previousStep;

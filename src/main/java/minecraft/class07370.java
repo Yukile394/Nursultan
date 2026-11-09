@@ -15,7 +15,6 @@ public record class07370(class02142 monsterSpawnLightTest, int monsterSpawnBlock
    );
 
    public class07370(class02142 monsterSpawnLightTest, int monsterSpawnBlockLightLimit) {
-      super();
       this.monsterSpawnLightTest = monsterSpawnLightTest;
       this.monsterSpawnBlockLightLimit = monsterSpawnBlockLightLimit;
    }

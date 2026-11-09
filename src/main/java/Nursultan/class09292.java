@@ -1,13 +1,12 @@
 package Nursultan;
 
-public non-sealed record class09292(class11827 preset, int formatVersion, byte[] data) implements class09279 {
+public record class09292(class11827 preset, int formatVersion, byte[] data) implements class09279 {
 
    public int L() {
       return this.formatVersion;
    }
 
    public class09292(class11827 preset, int formatVersion, byte[] data) {
-      super();
       this.preset = preset;
       this.formatVersion = formatVersion;
       this.data = data;

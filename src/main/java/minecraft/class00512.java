@@ -4,7 +4,6 @@ public record class00512(class01894 cooldownGroup, int duration) implements clas
    public static final class02362<class04247, class00512> N = class02362.N(class01894.y, class00512::N, class02389.B, class00512::y, class00512::new);
 
    public class00512(class01894 cooldownGroup, int duration) {
-      super();
       this.cooldownGroup = cooldownGroup;
       this.duration = duration;
    }

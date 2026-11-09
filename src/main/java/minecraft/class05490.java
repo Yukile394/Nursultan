@@ -6,7 +6,6 @@ record class05490(class01894 first, class01894 middle, class01894 last) {
    }
 
    class05490(class01894 first, class01894 middle, class01894 last) {
-      super();
       this.first = first;
       this.middle = middle;
       this.last = last;

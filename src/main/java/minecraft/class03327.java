@@ -20,7 +20,6 @@ record class03327(class03342 quickPlayWorld, Instant lastPlayedTime, class07282 
    }
 
    class03327(class03342 quickPlayWorld, Instant lastPlayedTime, class07282 gamemode) {
-      super();
       this.quickPlayWorld = quickPlayWorld;
       this.lastPlayedTime = lastPlayedTime;
       this.gamemode = gamemode;

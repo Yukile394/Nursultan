@@ -8,7 +8,6 @@ public record class07245(Object2IntMap<class04907<?>> stats) implements class003
    public static final class02362<class04247, class07245> N = L.N_10(class07245::new, class07245::N);
 
    public class07245(Object2IntMap<class04907<?>> stats) {
-      super();
       this.stats = (Object2IntMap<class04907<?>>)stats;
    }
 

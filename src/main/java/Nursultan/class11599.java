@@ -18,7 +18,6 @@ public record class11599(Vector4fc rect, Vector4fc round) {
    }
 
    public class11599(Vector4fc rect, Vector4fc round) {
-      super();
       Vector4f vector4f = new Vector4f(rect);
       Vector4f vector4f1 = new Vector4f(round);
       this.rect = vector4f;

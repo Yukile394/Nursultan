@@ -23,7 +23,6 @@ public record class02559(class03543<class07084> toApply, class02546 minDuration,
    }
 
    public class02559(class03543<class07084> toApply, class02546 minDuration, class02546 maxDuration, class02546 minAmplifier, class02546 maxAmplifier) {
-      super();
       this.toApply = toApply;
       this.minDuration = minDuration;
       this.maxDuration = maxDuration;

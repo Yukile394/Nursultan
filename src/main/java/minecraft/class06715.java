@@ -10,7 +10,6 @@ public record class06715(int color, float scale, OptionalDouble adjustLeft) {
    }
 
    public class06715(int color, float scale, OptionalDouble adjustLeft) {
-      super();
       this.color = color;
       this.scale = scale;
       this.adjustLeft = adjustLeft;

@@ -13,7 +13,6 @@ public record class07353(int location, int samplerIndex, TextureFormat format, i
    }
 
    public class07353(int location, int samplerIndex, TextureFormat format, int texture) {
-      super();
       this.location = location;
       this.samplerIndex = samplerIndex;
       this.format = format;

@@ -2,7 +2,6 @@ package Nursultan;
 
 public record class09888(float radius) implements class09914 {
    public class09888(float radius) {
-      super();
       this.radius = radius;
    }
 

@@ -8,7 +8,6 @@ public record class02531(List<class02560> effects) implements class02560 {
    public static final MapCodec<class02531> N = class02556.N(class02560.y, class02531::new, class02531::y);
 
    public class02531(List<class02560> effects) {
-      super();
       this.effects = effects;
    }
 

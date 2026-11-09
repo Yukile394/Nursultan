@@ -8,7 +8,6 @@ public record class03067<S>(ArgumentCommandNode<S, ?> node, String value) {
    }
 
    public class03067(ArgumentCommandNode<S, ?> node, String value) {
-      super();
       this.node = node;
       this.value = value;
    }

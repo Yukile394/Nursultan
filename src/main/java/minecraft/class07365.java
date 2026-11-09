@@ -9,7 +9,6 @@ public record class07365<T>(class06617 configuration, class04552 storage, class0
    }
 
    public class07365(class06617 configuration, class04552 storage, class07340<T> palette) {
-      super();
       this.configuration = configuration;
       this.storage = storage;
       this.palette = palette;

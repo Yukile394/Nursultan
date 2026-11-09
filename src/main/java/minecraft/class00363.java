@@ -17,7 +17,6 @@ public record class00363(String property) implements class00372<String> {
    }
 
    public class00363(String property) {
-      super();
       this.property = property;
    }
 

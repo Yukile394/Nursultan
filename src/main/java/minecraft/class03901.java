@@ -6,7 +6,6 @@ record class03901(class03907 specificType, class03877 input, double minValue, do
    }
 
    class03901(class03907 specificType, class03877 input, double minValue, double maxValue, double argument) {
-      super();
       this.specificType = specificType;
       this.input = input;
       this.minValue = minValue;

@@ -10,7 +10,6 @@ public record class08588(List<class05534> bees) implements class02694 {
    public static final class08588 L = new class08588(List.of());
 
    public class08588(List<class05534> bees) {
-      super();
       this.bees = (List<class05534>)bees;
    }
 

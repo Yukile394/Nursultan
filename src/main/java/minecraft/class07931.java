@@ -18,7 +18,6 @@ public record class07931<Params, Result>(String description, Optional<class07920
    }
 
    public class07931(String description, Optional<class07920<Params>> params, Optional<class07941<Result>> result) {
-      super();
       this.description = description;
       this.params = params;
       this.result = result;

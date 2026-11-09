@@ -2,7 +2,6 @@ package minecraft;
 
 public record class02897<T extends class00381<?>>(class00423 flow, class01894 id) {
    public class02897(class00423 flow, class01894 id) {
-      super();
       this.flow = flow;
       this.id = id;
    }

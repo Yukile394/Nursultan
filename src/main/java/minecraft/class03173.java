@@ -13,7 +13,6 @@ public record class03173(int depth, Map<String, class01424<?>> selectedFields, M
    }
 
    public class03173(int depth, Map<String, class01424<?>> selectedFields, Map<String, class03173> fieldsToRecurse) {
-      super();
       this.depth = depth;
       this.selectedFields = selectedFields;
       this.fieldsToRecurse = fieldsToRecurse;

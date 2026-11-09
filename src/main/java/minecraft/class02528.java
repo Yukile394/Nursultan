@@ -61,7 +61,6 @@ public record class02528(
       class04540<class00931> blockParticles,
       class03556<class04891> sound
    ) {
-      super();
       this.attributeToUser = attributeToUser;
       this.damageType = damageType;
       this.knockbackMultiplier = knockbackMultiplier;

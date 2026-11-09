@@ -4,7 +4,6 @@ import java.util.Optional;
 
 record class04147<T>(class02082<T> value, Optional<class03529<T>> holder) {
    class04147(class02082<T> value, Optional<class03529<T>> holder) {
-      super();
       this.value = value;
       this.holder = holder;
    }

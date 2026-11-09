@@ -26,7 +26,6 @@ public record class03562(class01894 id, class03581 provider) {
    }
 
    public class03562(class01894 id, class03581 provider) {
-      super();
       this.id = id;
       this.provider = provider;
    }

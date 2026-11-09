@@ -6,7 +6,6 @@ public record class08204(Map<class08205, String> shaderSources, Map<class01894, 
    public static final class08204 L = new class08204(Map.of(), Map.of());
 
    public class08204(Map<class08205, String> shaderSources, Map<class01894, class02414> postChains) {
-      super();
       this.shaderSources = shaderSources;
       this.postChains = postChains;
    }

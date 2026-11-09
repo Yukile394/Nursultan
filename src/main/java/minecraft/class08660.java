@@ -14,7 +14,6 @@ public record class08660(List<class05005> chartData, int x0, int y0, int x1, int
    }
 
    public class08660(List<class05005> chartData, int x0, int y0, int x1, int y1, @Nullable class03255 scissorArea, @Nullable class03255 bounds) {
-      super();
       this.chartData = chartData;
       this.x0 = x0;
       this.y0 = y0;

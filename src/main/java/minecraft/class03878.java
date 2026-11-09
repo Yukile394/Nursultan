@@ -29,7 +29,6 @@ public record class03878(class03877 shiftX, class03877 shiftY, class03877 shiftZ
    }
 
    public class03878(class03877 shiftX, class03877 shiftY, class03877 shiftZ, double xzScale, double yScale, class03876 noise) {
-      super();
       this.shiftX = shiftX;
       this.shiftY = shiftY;
       this.shiftZ = shiftZ;

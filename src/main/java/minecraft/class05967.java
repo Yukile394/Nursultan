@@ -29,7 +29,6 @@ public record class05967(int minY, int height, int noiseSizeHorizontal, int nois
    }
 
    public class05967(int minY, int height, int noiseSizeHorizontal, int noiseSizeVertical) {
-      super();
       this.minY = minY;
       this.height = height;
       this.noiseSizeHorizontal = noiseSizeHorizontal;

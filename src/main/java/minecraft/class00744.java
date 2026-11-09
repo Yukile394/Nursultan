@@ -18,7 +18,6 @@ public record class00744(float x, float y, float z) {
    }
 
    public class00744(float x, float y, float z) {
-      super();
       x = !Float.isInfinite(x) && !Float.isNaN(x) ? x % 360.0F : 0.0F;
       y = !Float.isInfinite(y) && !Float.isNaN(y) ? y % 360.0F : 0.0F;
       z = !Float.isInfinite(z) && !Float.isNaN(z) ? z % 360.0F : 0.0F;

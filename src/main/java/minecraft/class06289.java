@@ -17,7 +17,6 @@ public record class06289(class05946<class07299> dimension, class07209 pos) {
    );
 
    public class06289(class05946<class07299> dimension, class07209 pos) {
-      super();
       this.dimension = dimension;
       this.pos = pos;
    }

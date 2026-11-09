@@ -3,7 +3,6 @@ package minecraft;
 record class03441(class03457 type, int depth) {
 
    class03441(class03457 type, int depth) {
-      super();
       this.type = type;
       this.depth = depth;
    }

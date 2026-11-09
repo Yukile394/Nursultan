@@ -11,7 +11,6 @@ public record class04448(class04025 ifTrue, class01471 then) {
    );
 
    public class04448(class04025 ifTrue, class01471 then) {
-      super();
       this.ifTrue = ifTrue;
       this.then = then;
    }

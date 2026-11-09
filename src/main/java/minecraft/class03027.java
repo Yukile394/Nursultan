@@ -2,7 +2,6 @@ package minecraft;
 
 public record class03027(double alpha, double blendingOffset) {
    public class03027(double alpha, double blendingOffset) {
-      super();
       this.alpha = alpha;
       this.blendingOffset = blendingOffset;
    }

@@ -7,7 +7,6 @@ record class10064(class10052 run) implements class10053 {
    }
 
    class10064(class10052 run) {
-      super();
       this.run = run;
    }
 

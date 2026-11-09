@@ -17,7 +17,6 @@ public record class04412(List<class04419> structures, class03532 placement) {
    }
 
    public class04412(List<class04419> structures, class03532 placement) {
-      super();
       this.structures = structures;
       this.placement = placement;
    }

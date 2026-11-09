@@ -14,7 +14,6 @@ public record class02570(class00392 reason, Optional<Path> report, Optional<URI>
    }
 
    public class02570(class00392 reason, Optional<Path> report, Optional<URI> bugReportLink) {
-      super();
       this.reason = reason;
       this.report = report;
       this.bugReportLink = bugReportLink;

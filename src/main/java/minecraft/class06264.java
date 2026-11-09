@@ -11,7 +11,6 @@ public record class06264(class06243 hat) {
    public static final class02968<class06264> y = new class02968<>("villager", N);
 
    public class06264(class06243 hat) {
-      super();
       this.hat = hat;
    }
 

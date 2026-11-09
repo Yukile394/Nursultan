@@ -16,7 +16,6 @@ public record class02532(float base, float perLevelAboveFirst) implements class0
    }
 
    public class02532(float base, float perLevelAboveFirst) {
-      super();
       this.base = base;
       this.perLevelAboveFirst = perLevelAboveFirst;
    }

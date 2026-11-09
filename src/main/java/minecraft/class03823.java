@@ -8,7 +8,6 @@ record class03823(Path path, FileTime modifiedTime) {
    public static final Comparator<class03823> y = Comparator.comparing(class03823::y).reversed();
 
    class03823(Path path, FileTime modifiedTime) {
-      super();
       this.path = path;
       this.modifiedTime = modifiedTime;
    }

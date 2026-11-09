@@ -10,7 +10,6 @@ public record class06809(class01894 tagId) implements class07220<class02796> {
    );
 
    public class06809(class01894 tagId) {
-      super();
       this.tagId = tagId;
    }
 

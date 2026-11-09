@@ -3,7 +3,6 @@ package minecraft;
 record class05798(class06889 location, long time) {
 
    class05798(class06889 location, long time) {
-      super();
       this.location = location;
       this.time = time;
    }

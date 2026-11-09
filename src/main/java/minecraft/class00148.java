@@ -10,7 +10,6 @@ public record class00148(class03556<class06581> item, int count, class00146 comp
    }
 
    public class00148(class03556<class06581> item, int count, class00146 components) {
-      super();
       this.item = item;
       this.count = count;
       this.components = components;

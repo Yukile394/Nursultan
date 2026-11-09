@@ -20,7 +20,6 @@ public record class05434(List<class04982> templates, int page, int size, int tot
    }
 
    public class05434(List<class04982> templates, int page, int size, int total) {
-      super();
       this.templates = templates;
       this.page = page;
       this.size = size;

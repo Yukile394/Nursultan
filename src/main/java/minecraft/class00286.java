@@ -25,7 +25,6 @@ public record class00286(class00299 base, class00299 material, class03556<class0
    }
 
    public class00286(class00299 base, class00299 material, class03556<class03246> pattern) {
-      super();
       this.base = base;
       this.material = material;
       this.pattern = pattern;

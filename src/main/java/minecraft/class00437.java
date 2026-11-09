@@ -4,7 +4,6 @@ public record class00437(class07209 blockPos, class00442<?> update) implements c
    public static final class02362<class04247, class00437> N = class02362.N(class07209.field_48404, class00437::N, class00442.N, class00437::y, class00437::new);
 
    public class00437(class07209 blockPos, class00442<?> update) {
-      super();
       this.blockPos = blockPos;
       this.update = update;
    }

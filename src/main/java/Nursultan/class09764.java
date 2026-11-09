@@ -3,7 +3,6 @@ package Nursultan;
 public record class09764(String location, Class<? extends Throwable> cls) {
 
    public class09764(String location, Class<? extends Throwable> cls) {
-      super();
       this.location = location;
       this.cls = cls;
    }

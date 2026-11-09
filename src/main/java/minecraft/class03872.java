@@ -21,7 +21,6 @@ public record class03872(class03877 input, class03876 noise, class03873 rarityVa
    }
 
    public class03872(class03877 input, class03876 noise, class03873 rarityValueMapper) {
-      super();
       this.input = input;
       this.noise = noise;
       this.rarityValueMapper = rarityValueMapper;

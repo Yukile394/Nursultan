@@ -12,7 +12,6 @@ public record class04362<T>(List<T> values, Codec<T> codec) implements class0435
    }
 
    public class04362(List<T> values, Codec<T> codec) {
-      super();
       this.values = values;
       this.codec = codec;
    }

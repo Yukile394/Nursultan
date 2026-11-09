@@ -4,7 +4,6 @@ import java.util.UUID;
 
 record class03389(UUID sender, class03404 entry) {
    class03389(UUID sender, class03404 entry) {
-      super();
       this.sender = sender;
       this.entry = entry;
    }

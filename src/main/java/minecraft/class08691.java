@@ -8,7 +8,6 @@ record class08691(class03254 trim, class08719 layerType, class05946<class11647> 
    }
 
    class08691(class03254 trim, class08719 layerType, class05946<class11647> equipmentAssetId) {
-      super();
       this.trim = trim;
       this.layerType = layerType;
       this.equipmentAssetId = equipmentAssetId;

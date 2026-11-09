@@ -11,7 +11,6 @@ record class04166(class08780 format, String overlay) implements class08736 {
    );
 
    class04166(class08780 format, String overlay) {
-      super();
       this.format = format;
       this.overlay = overlay;
    }

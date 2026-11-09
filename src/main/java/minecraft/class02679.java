@@ -16,7 +16,6 @@ public record class02679(class03556<class07084> effect, int duration) {
    }
 
    public class02679(class03556<class07084> effect, int duration) {
-      super();
       this.effect = effect;
       this.duration = duration;
    }

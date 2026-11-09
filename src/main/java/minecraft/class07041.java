@@ -8,7 +8,6 @@ public record class07041(class07064 swingSource, class07056 itemContext) impleme
    }
 
    public class07041(class07064 swingSource, class07056 itemContext) {
-      super();
       this.swingSource = swingSource;
       this.itemContext = itemContext;
    }

@@ -4,7 +4,6 @@ import jdk.jfr.consumer.RecordedEvent;
 
 public record class08175(int fps) {
    public class08175(int fps) {
-      super();
       this.fps = fps;
    }
 

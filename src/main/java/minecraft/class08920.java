@@ -24,7 +24,6 @@ public record class08920(class06572 property, float scale, List<class08912> entr
    }
 
    public class08920(class06572 property, float scale, List<class08912> entries, Optional<class08895> fallback) {
-      super();
       this.property = property;
       this.scale = scale;
       this.entries = entries;

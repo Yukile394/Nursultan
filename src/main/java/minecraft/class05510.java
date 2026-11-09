@@ -2,7 +2,6 @@ package minecraft;
 
 record class05510(class07701 source) implements class04251 {
    class05510(class07701 source) {
-      super();
       this.source = source;
    }
 

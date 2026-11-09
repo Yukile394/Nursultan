@@ -8,7 +8,6 @@ public record class04022(int simulationDistance) implements class00381<class0728
    }
 
    public class04022(int simulationDistance) {
-      super();
       this.simulationDistance = simulationDistance;
    }
 

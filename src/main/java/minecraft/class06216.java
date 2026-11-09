@@ -3,7 +3,6 @@ package minecraft;
 public record class06216(class05111 realmsClient, class01040 quickPlayData) {
 
    public class06216(class05111 realmsClient, class01040 quickPlayData) {
-      super();
       this.realmsClient = realmsClient;
       this.quickPlayData = quickPlayData;
    }

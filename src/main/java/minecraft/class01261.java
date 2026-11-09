@@ -15,7 +15,6 @@ public record class01261(boolean open, boolean filtering) {
    public static final class02362<ByteBuf, class01261> B = class02362.N(class02389.y, class01261::N, class02389.y, class01261::y, class01261::new);
 
    public class01261(boolean open, boolean filtering) {
-      super();
       this.open = open;
       this.filtering = filtering;
    }

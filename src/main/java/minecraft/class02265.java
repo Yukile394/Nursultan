@@ -10,7 +10,6 @@ public record class02265(int id) implements class02694 {
    private static final class00392 u = class00392.L("filled_map.locked").N(class06541.field_1080);
 
    public class02265(int id) {
-      super();
       this.id = id;
    }
 

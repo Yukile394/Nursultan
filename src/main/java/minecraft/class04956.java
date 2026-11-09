@@ -12,7 +12,6 @@ public record class04956(List<class04957> pendingInvites) {
    private static final Logger y = LogUtils.getLogger();
 
    public class04956(List<class04957> pendingInvites) {
-      super();
       this.pendingInvites = pendingInvites;
    }
 

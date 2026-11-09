@@ -1,9 +1,8 @@
 package Nursultan;
 
-public non-sealed record class11960(int kindId) implements class11981 {
+public record class11960(int kindId) implements class11981 {
 
    public class11960(int kindId) {
-      super();
       this.kindId = kindId;
    }
 

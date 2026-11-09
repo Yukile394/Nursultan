@@ -47,7 +47,6 @@ public record class07826(
       Optional<class07209> exitPortalLocation,
       Optional<List<Integer>> gateways
    ) {
-      super();
       this.needsStateScanning = needsStateScanning;
       this.dragonKilled = dragonKilled;
       this.previouslyKilled = previouslyKilled;

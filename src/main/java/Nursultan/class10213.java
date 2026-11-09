@@ -18,7 +18,6 @@ public record class10213<T>(T value) implements class03556<T> {
    }
 
    public class10213(T value) {
-      super();
       this.value = (T)value;
    }
 

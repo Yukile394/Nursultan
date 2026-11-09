@@ -17,7 +17,6 @@ public record class05507(class07701 source, class05494 tracker) implements class
    }
 
    public class05507(class07701 source, class05494 tracker) {
-      super();
       this.source = source;
       this.tracker = tracker;
    }

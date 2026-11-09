@@ -27,7 +27,6 @@ public record class08049(String owner, String objectiveName, int score, Optional
    }
 
    public class08049(String owner, String objectiveName, int score, Optional<class00392> display, Optional<class01762> numberFormat) {
-      super();
       this.owner = owner;
       this.objectiveName = objectiveName;
       this.score = score;

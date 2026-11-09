@@ -12,7 +12,6 @@ public record class07668(Optional<class05196> player, Optional<class00845> item)
    );
 
    public class07668(Optional<class05196> player, Optional<class00845> item) {
-      super();
       this.player = player;
       this.item = item;
    }

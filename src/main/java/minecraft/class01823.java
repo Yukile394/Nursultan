@@ -4,7 +4,6 @@ import org.jspecify.annotations.Nullable;
 
 public record class01823(class01828[] materialRuleList) implements class01828 {
    public class01823(class01828[] materialRuleList) {
-      super();
       this.materialRuleList = materialRuleList;
    }
 

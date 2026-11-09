@@ -6,7 +6,6 @@ record class09887(float minX, float minY, float maxX, float maxY) {
    }
 
    class09887(float minX, float minY, float maxX, float maxY) {
-      super();
       this.minX = minX;
       this.minY = minY;
       this.maxX = maxX;

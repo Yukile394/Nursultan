@@ -2,7 +2,6 @@ package minecraft;
 
 public record class07403(Integer connectionId) {
    public class07403(Integer connectionId) {
-      super();
       this.connectionId = connectionId;
    }
 

@@ -14,7 +14,6 @@ public record class00778(class04548<Integer> blockLightLimit, class04548<Integer
    );
 
    public class00778(class04548<Integer> blockLightLimit, class04548<Integer> skyLightLimit) {
-      super();
       this.blockLightLimit = blockLightLimit;
       this.skyLightLimit = skyLightLimit;
    }

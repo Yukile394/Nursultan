@@ -8,7 +8,6 @@ public record class00834(Map<class03556<class07084>, class00849> effectMap) {
    public static final Codec<class00834> N = Codec.unboundedMap(class07084.N, class00849.N).xmap(class00834::new, class00834::N);
 
    public class00834(Map<class03556<class07084>, class00849> effectMap) {
-      super();
       this.effectMap = effectMap;
    }
 

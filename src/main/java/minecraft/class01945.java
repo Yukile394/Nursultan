@@ -9,7 +9,6 @@ record class01945(double xd, double yd, double zd) {
    }
 
    private class01945(double xd, double yd, double zd) {
-      super();
       this.xd = xd;
       this.yd = yd;
       this.zd = zd;

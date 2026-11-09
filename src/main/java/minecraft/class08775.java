@@ -17,7 +17,6 @@ public record class08775(class01894 id, Optional<class07001> additions) implemen
    }
 
    public class08775(class01894 id, Optional<class07001> additions) {
-      super();
       this.id = id;
       this.additions = additions;
    }

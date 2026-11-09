@@ -33,7 +33,6 @@ public record class01896(
       class03776 dataConfiguration,
       class08707 initialWorldCreationOptions
    ) {
-      super();
       this.options = options;
       this.datapackDimensions = datapackDimensions;
       this.selectedDimensions = selectedDimensions;

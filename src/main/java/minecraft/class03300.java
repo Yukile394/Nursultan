@@ -25,7 +25,6 @@ public record class03300(List<class04890> pieces) {
    }
 
    public class03300(List<class04890> pieces) {
-      super();
       this.pieces = List.copyOf(pieces);
    }
 

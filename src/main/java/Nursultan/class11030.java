@@ -3,7 +3,6 @@ package Nursultan;
 public record class11030(int[] lines, int[] cubes) {
 
    class11030(int[] lines, int[] cubes) {
-      super();
       this.lines = lines;
       this.cubes = cubes;
    }

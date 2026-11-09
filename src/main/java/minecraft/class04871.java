@@ -4,7 +4,6 @@ import java.util.function.Supplier;
 
 public record class04871(Supplier<class07948> any, Supplier<class07948> nonFishy) {
    public class04871(Supplier<class07948> any, Supplier<class07948> nonFishy) {
-      super();
       this.any = any;
       this.nonFishy = nonFishy;
    }

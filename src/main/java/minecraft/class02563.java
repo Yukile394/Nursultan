@@ -11,7 +11,6 @@ public record class02563(float added) implements class02546 {
    );
 
    public class02563(float added) {
-      super();
       this.added = added;
    }
 

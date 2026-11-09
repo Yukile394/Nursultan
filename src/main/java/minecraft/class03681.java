@@ -7,7 +7,6 @@ public record class03681(class00392 text, int lineWidth, class03692 textOpacity,
    }
 
    public class03681(class00392 text, int lineWidth, class03692 textOpacity, class03692 backgroundColor, byte flags) {
-      super();
       this.text = text;
       this.lineWidth = lineWidth;
       this.textOpacity = textOpacity;

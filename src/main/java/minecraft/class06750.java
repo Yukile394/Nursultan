@@ -30,7 +30,6 @@ public record class06750<Value>(
       class00610<Value> spatialLerp,
       class00610<Value> partialTickLerp
    ) {
-      super();
       this.valueCodec = valueCodec;
       this.modifierLibrary = modifierLibrary;
       this.modifierCodec = modifierCodec;

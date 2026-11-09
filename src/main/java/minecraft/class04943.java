@@ -20,7 +20,6 @@ public record class04943(Optional<class05196> player, class00836 signalStrength,
    }
 
    public class04943(Optional<class05196> player, class00836 signalStrength, Optional<class05196> projectile) {
-      super();
       this.player = player;
       this.signalStrength = signalStrength;
       this.projectile = projectile;

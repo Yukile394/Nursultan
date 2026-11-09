@@ -49,7 +49,6 @@ public record class06517(Optional<class03556<class06525>> potion, Optional<Integ
    }
 
    public class06517(Optional<class03556<class06525>> potion, Optional<Integer> customColor, List<class07055> customEffects, Optional<String> customName) {
-      super();
       this.potion = potion;
       this.customColor = customColor;
       this.customEffects = customEffects;

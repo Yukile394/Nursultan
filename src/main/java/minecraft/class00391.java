@@ -10,7 +10,6 @@ public record class00391(class00398 entity) implements class00395 {
    );
 
    public class00391(class00398 entity) {
-      super();
       this.entity = entity;
    }
 

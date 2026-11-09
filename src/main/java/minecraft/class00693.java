@@ -37,7 +37,6 @@ public record class00693(int width, int height, class01894 assetId, Optional<cla
    }
 
    public class00693(int width, int height, class01894 assetId, Optional<class00392> title, Optional<class00392> author) {
-      super();
       this.width = width;
       this.height = height;
       this.assetId = assetId;

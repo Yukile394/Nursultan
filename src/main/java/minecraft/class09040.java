@@ -23,7 +23,6 @@ public record class09040(class09039 common, class03543<class09037> dialogs, Opti
    }
 
    public class09040(class09039 common, class03543<class09037> dialogs, Optional<class08734> exitAction, int columns, int buttonWidth) {
-      super();
       this.common = common;
       this.dialogs = dialogs;
       this.exitAction = exitAction;

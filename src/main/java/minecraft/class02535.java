@@ -26,7 +26,6 @@ public record class02535(class02538 type, float offset, float scale) {
    }
 
    public class02535(class02538 type, float offset, float scale) {
-      super();
       this.type = type;
       this.offset = offset;
       this.scale = scale;

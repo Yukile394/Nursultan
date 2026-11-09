@@ -12,7 +12,6 @@ public record class03649(class01471 fallback, List<class04448> rules) {
    );
 
    public class03649(class01471 fallback, List<class04448> rules) {
-      super();
       this.fallback = fallback;
       this.rules = rules;
    }

@@ -79,7 +79,6 @@ public record class08174(
       Optional<class03556<class04891>> sound,
       Optional<class03556<class04891>> hitSound
    ) {
-      super();
       this.contactCooldownTicks = contactCooldownTicks;
       this.delayTicks = delayTicks;
       this.dismountConditions = dismountConditions;

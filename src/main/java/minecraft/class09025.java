@@ -21,7 +21,6 @@ public record class09025(String id, Optional<class00392> display, boolean initia
    }
 
    public class09025(String id, Optional<class00392> display, boolean initial) {
-      super();
       this.id = id;
       this.display = display;
       this.initial = initial;

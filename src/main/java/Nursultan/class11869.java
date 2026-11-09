@@ -11,7 +11,6 @@ public record class11869(class06584 stack) implements class11849 {
    }
 
    public class11869(class06584 stack) {
-      super();
       this.stack = stack;
    }
 

@@ -12,7 +12,6 @@ public record class02550<T>(class02558 enchanted, class02558 affected, T effect,
    }
 
    public class02550(class02558 enchanted, class02558 affected, T effect, Optional<class05957> requirements) {
-      super();
       this.enchanted = enchanted;
       this.affected = affected;
       this.effect = (T)effect;

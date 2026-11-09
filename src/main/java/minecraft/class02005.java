@@ -6,7 +6,6 @@ public record class02005(class06581 template, class05946<class03246> patternId, 
    }
 
    public class02005(class06581 template, class05946<class03246> patternId, class05946<class06521<?>> recipeId) {
-      super();
       this.template = template;
       this.patternId = patternId;
       this.recipeId = recipeId;

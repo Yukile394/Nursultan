@@ -15,7 +15,6 @@ public record class07920<Param>(String name, class07389<Param> schema, boolean r
    }
 
    public class07920(String name, class07389<Param> schema, boolean required) {
-      super();
       this.name = name;
       this.schema = schema;
       this.required = required;

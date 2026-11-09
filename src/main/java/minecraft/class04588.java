@@ -11,7 +11,6 @@ public record class04588(Optional<class05196> player) implements class01425 {
    );
 
    public class04588(Optional<class05196> player) {
-      super();
       this.player = player;
    }
 

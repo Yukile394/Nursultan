@@ -27,7 +27,6 @@ public record class00493(
    public class00493(
       String name, class06675 criteria, class00392 displayName, class06640 renderType, boolean displayAutoUpdate, Optional<class01762> numberFormat
    ) {
-      super();
       this.name = name;
       this.criteria = criteria;
       this.displayName = displayName;

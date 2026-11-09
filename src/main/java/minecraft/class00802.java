@@ -23,7 +23,6 @@ public record class00802(Optional<class05196> player, Optional<class05196> paren
    }
 
    public class00802(Optional<class05196> player, Optional<class05196> parent, Optional<class05196> partner, Optional<class05196> child) {
-      super();
       this.player = player;
       this.parent = parent;
       this.partner = partner;

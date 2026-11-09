@@ -34,7 +34,6 @@ public record class00480(class02265 mapId, byte scale, boolean locked, Optional<
    }
 
    public class00480(class02265 mapId, byte scale, boolean locked, Optional<List<class00768>> decorations, Optional<class07790> colorPatch) {
-      super();
       this.mapId = mapId;
       this.scale = scale;
       this.locked = locked;

@@ -8,7 +8,6 @@ public record class08621(class00392 status, Optional<class00753> size) implement
    );
 
    public class08621(class00392 status, Optional<class00753> size) {
-      super();
       this.status = status;
       this.size = size;
    }

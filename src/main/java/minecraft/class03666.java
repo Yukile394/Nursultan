@@ -2,7 +2,6 @@ package minecraft;
 
 public record class03666(class06584 itemStack, class03662 itemTransform) {
    public class03666(class06584 itemStack, class03662 itemTransform) {
-      super();
       this.itemStack = itemStack;
       this.itemTransform = itemTransform;
    }

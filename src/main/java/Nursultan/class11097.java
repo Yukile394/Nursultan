@@ -35,7 +35,6 @@ public record class11097(
       float pitchError,
       double distance
    ) {
-      super();
       this.rotation = rotation;
       this.currentHardRaycast = currentHardRaycast;
       this.serverHardRaycast = serverHardRaycast;

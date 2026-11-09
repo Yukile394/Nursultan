@@ -10,7 +10,6 @@ public record class08068(long gameTime, long dayTime, boolean tickDayTime) imple
    }
 
    public class08068(long gameTime, long dayTime, boolean tickDayTime) {
-      super();
       this.gameTime = gameTime;
       this.dayTime = dayTime;
       this.tickDayTime = tickDayTime;

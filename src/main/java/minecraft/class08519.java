@@ -43,7 +43,6 @@ public record class08519(
       class03556<class04891> pantSound,
       class03556<class04891> whineSound
    ) {
-      super();
       this.ambientSound = ambientSound;
       this.deathSound = deathSound;
       this.growlSound = growlSound;

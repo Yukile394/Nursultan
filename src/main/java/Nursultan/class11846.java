@@ -7,7 +7,6 @@ public record class11846(class11067 module, String description, String anchorKey
    }
 
    public class11846(class11067 module, String description, String anchorKey) {
-      super();
       this.module = module;
       this.description = description;
       this.anchorKey = anchorKey;

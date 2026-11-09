@@ -10,7 +10,6 @@ public record class07367(UUID id, class07369 action) implements class00381<class
    }
 
    public class07367(UUID id, class07369 action) {
-      super();
       this.id = id;
       this.action = action;
    }

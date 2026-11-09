@@ -17,7 +17,6 @@ public record class04796(class06378 provider, class05338 range) implements class
    }
 
    public class04796(class06378 provider, class05338 range) {
-      super();
       this.provider = provider;
       this.range = range;
    }

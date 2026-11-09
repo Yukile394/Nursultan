@@ -25,7 +25,6 @@ public record class02505(class02497 assetInfo, class08585 spawnConditions) imple
    }
 
    public class02505(class02497 assetInfo, class08585 spawnConditions) {
-      super();
       this.assetInfo = assetInfo;
       this.spawnConditions = spawnConditions;
    }

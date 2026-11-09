@@ -20,7 +20,6 @@ public record class08390(class05904 woodType, Optional<class01894> texture) impl
    }
 
    public class08390(class05904 woodType, Optional<class01894> texture) {
-      super();
       this.woodType = woodType;
       this.texture = texture;
    }

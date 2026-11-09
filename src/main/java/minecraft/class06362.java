@@ -21,7 +21,6 @@ public record class06362(class06348 target, String score, float scale) implement
    }
 
    public class06362(class06348 target, String score, float scale) {
-      super();
       this.target = target;
       this.score = score;
       this.scale = scale;

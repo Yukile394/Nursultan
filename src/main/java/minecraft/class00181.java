@@ -5,7 +5,6 @@ import java.util.Map;
 record class00181(class08529 missing, Map<class01894, class08529> models) {
 
    class00181(class08529 missing, Map<class01894, class08529> models) {
-      super();
       this.missing = missing;
       this.models = models;
    }

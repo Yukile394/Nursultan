@@ -20,7 +20,6 @@ public record class04987(boolean worldClosed, String token, URI uploadEndpoint) 
    }
 
    public class04987(boolean worldClosed, @Nullable String token, URI uploadEndpoint) {
-      super();
       this.worldClosed = worldClosed;
       this.token = token;
       this.uploadEndpoint = uploadEndpoint;

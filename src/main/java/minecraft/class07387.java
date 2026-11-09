@@ -8,7 +8,6 @@ record class07387(class08774 user, Optional<class08195> permissionLevel, Optiona
    }
 
    class07387(class08774 user, Optional<class08195> permissionLevel, Optional<Boolean> bypassesPlayerLimit) {
-      super();
       this.user = user;
       this.permissionLevel = permissionLevel;
       this.bypassesPlayerLimit = bypassesPlayerLimit;

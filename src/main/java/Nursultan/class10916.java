@@ -11,7 +11,6 @@ public record class10916(class00500 state, class00494 shape, class07209 pos, boo
    }
 
    class10916(class00500 state, class00494 shape, class07209 pos, boolean open) {
-      super();
       this.state = state;
       this.shape = shape;
       this.pos = pos;

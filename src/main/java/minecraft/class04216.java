@@ -23,7 +23,6 @@ public record class04216(class01894 resourceId, Optional<class01894> spriteId) i
    }
 
    public class04216(class01894 resourceId, Optional<class01894> spriteId) {
-      super();
       this.resourceId = resourceId;
       this.spriteId = spriteId;
    }

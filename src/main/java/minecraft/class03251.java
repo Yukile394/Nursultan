@@ -2,7 +2,6 @@ package minecraft;
 
 public record class03251(boolean forward) implements class02089 {
    public class03251(boolean forward) {
-      super();
       this.forward = forward;
    }
 

@@ -19,7 +19,6 @@ public record class08902(class02477<?> componentType, boolean ignoreDefault) imp
    }
 
    public class08902(class02477<?> componentType, boolean ignoreDefault) {
-      super();
       this.componentType = componentType;
       this.ignoreDefault = ignoreDefault;
    }

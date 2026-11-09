@@ -8,7 +8,6 @@ record class07270(class00392 name) implements class07238 {
    }
 
    class07270(class00392 name) {
-      super();
       this.name = name;
    }
 

@@ -7,7 +7,6 @@ public record class01138(float animationPos, float pageFlip1, float pageFlip2, f
    }
 
    public class01138(float animationPos, float pageFlip1, float pageFlip2, float open) {
-      super();
       this.animationPos = animationPos;
       this.pageFlip1 = pageFlip1;
       this.pageFlip2 = pageFlip2;

@@ -7,7 +7,6 @@ record class03588(String url, class03596 urlText) {
    private static final String u = "urlText";
 
    private class03588(String url, class03596 urlText) {
-      super();
       this.url = url;
       this.urlText = urlText;
    }

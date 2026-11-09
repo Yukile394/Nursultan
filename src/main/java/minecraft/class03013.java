@@ -16,7 +16,6 @@ record class03013(class04017 ifTrue, class03028 thenRun) implements class03028 {
    }
 
    class03013(class04017 ifTrue, class03028 thenRun) {
-      super();
       this.ifTrue = ifTrue;
       this.thenRun = thenRun;
    }

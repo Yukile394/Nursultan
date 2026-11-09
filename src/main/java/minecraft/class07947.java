@@ -15,7 +15,6 @@ public record class07947(Optional<UUID> id, Optional<String> name) {
    );
 
    public class07947(Optional<UUID> id, Optional<String> name) {
-      super();
       this.id = id;
       this.name = name;
    }

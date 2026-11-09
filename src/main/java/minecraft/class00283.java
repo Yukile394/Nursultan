@@ -14,7 +14,6 @@ public record class00283(List<class00299> contents) implements class00299 {
    public static final class00319<class00283> i = new class00319<>(L, u);
 
    public class00283(List<class00299> contents) {
-      super();
       this.contents = contents;
    }
 

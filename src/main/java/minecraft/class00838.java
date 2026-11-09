@@ -11,7 +11,6 @@ public record class00838(class00819<Float> bounds) implements class00850<Float> 
    public static final class02362<ByteBuf, class00838> i = class00819.N(class02389.E).N_10(class00838::new, class00838::N);
 
    public class00838(class00819<Float> bounds) {
-      super();
       this.bounds = (class00819<Float>)bounds;
    }
 

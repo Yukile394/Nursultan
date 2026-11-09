@@ -21,7 +21,6 @@ public record class03900(class03877 input, double minValue, double maxValue) imp
    }
 
    protected class03900(class03877 input, double minValue, double maxValue) {
-      super();
       this.input = input;
       this.minValue = minValue;
       this.maxValue = maxValue;

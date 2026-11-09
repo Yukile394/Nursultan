@@ -14,7 +14,6 @@ public record class01415(Optional<class03543<class04651>> fluids, Optional<class
    );
 
    public class01415(Optional<class03543<class04651>> fluids, Optional<class01400> properties) {
-      super();
       this.fluids = fluids;
       this.properties = properties;
    }

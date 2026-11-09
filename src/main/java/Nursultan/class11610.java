@@ -3,7 +3,6 @@ package Nursultan;
 public record class11610(float opacity, boolean visible) {
 
    public class11610(float opacity, boolean visible) {
-      super();
       this.opacity = opacity;
       this.visible = visible;
    }

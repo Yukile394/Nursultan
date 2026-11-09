@@ -10,7 +10,6 @@ public record class00215(int time) implements class00225 {
    );
 
    public class00215(int time) {
-      super();
       this.time = time;
    }
 

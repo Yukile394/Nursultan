@@ -11,7 +11,6 @@ record class02351(int bonusMultiplier) implements class02339 {
    public static final class02320 y = new class02320(class01894.y("uniform_bonus_count"), N);
 
    class02351(int bonusMultiplier) {
-      super();
       this.bonusMultiplier = bonusMultiplier;
    }
 

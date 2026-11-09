@@ -13,7 +13,6 @@ public record class00302(class06584 stack) implements class00299 {
    public static final class00319<class00302> i = new class00319<>(L, u);
 
    public class00302(class06584 stack) {
-      super();
       this.stack = stack;
    }
 

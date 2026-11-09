@@ -10,7 +10,6 @@ public record class02213(Either<class02222, class00392> type, URI link) {
    }
 
    public class02213(Either<class02222, class00392> type, URI link) {
-      super();
       this.type = type;
       this.link = link;
    }

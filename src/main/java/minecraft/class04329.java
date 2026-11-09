@@ -19,7 +19,6 @@ public record class04329(int spreadWidth, int spreadHeight, int maxHeight) imple
    }
 
    public class04329(int spreadWidth, int spreadHeight, int maxHeight) {
-      super();
       this.spreadWidth = spreadWidth;
       this.spreadHeight = spreadHeight;
       this.maxHeight = maxHeight;

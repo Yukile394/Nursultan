@@ -19,7 +19,6 @@ record class01419<T>(class04922<T> type, class03556<T> value, class00836 range, 
    }
 
    private class01419(class04922<T> type, class03556<T> value, class00836 range, Supplier<class04907<T>> stat) {
-      super();
       this.type = type;
       this.value = value;
       this.range = range;

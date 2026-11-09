@@ -19,7 +19,6 @@ public record class02551(class02546 minDamage, class02546 maxDamage, class03556<
    }
 
    public class02551(class02546 minDamage, class02546 maxDamage, class03556<class03689> damageType) {
-      super();
       this.minDamage = minDamage;
       this.maxDamage = maxDamage;
       this.damageType = damageType;

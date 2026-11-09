@@ -24,7 +24,6 @@ public record class04333(int minSection, int maxSection, Optional<double[]> heig
    }
 
    public class04333(int minSection, int maxSection, Optional<double[]> heights) {
-      super();
       this.minSection = minSection;
       this.maxSection = maxSection;
       this.heights = heights;

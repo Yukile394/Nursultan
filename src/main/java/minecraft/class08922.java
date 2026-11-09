@@ -11,7 +11,6 @@ public record class08922(class01894 base, class00335 specialModel) implements cl
    );
 
    public class08922(class01894 base, class00335 specialModel) {
-      super();
       this.base = base;
       this.specialModel = specialModel;
    }

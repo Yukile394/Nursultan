@@ -8,7 +8,6 @@ public record class02275(List<class02298> knownPacks) implements class00381<clas
    public static final class02362<ByteBuf, class02275> N = class02362.N(class02298.N.N_33(class02389.L(N(64))), class02275::N, class02275::new);
 
    public class02275(List<class02298> knownPacks) {
-      super();
       this.knownPacks = knownPacks;
    }
 

@@ -17,7 +17,6 @@ public record class08186(class08155 type, int duration) {
    public static final class02362<ByteBuf, class08186> L = class02362.N(class08155.field_63402, class08186::N, class02389.B, class08186::y, class08186::new);
 
    public class08186(class08155 type, int duration) {
-      super();
       this.type = type;
       this.duration = duration;
    }

@@ -14,7 +14,6 @@ public record class00465(class07209 pos, class03556<class05369> poiType, int fre
    }
 
    public class00465(class07209 pos, class03556<class05369> poiType, int freeTicketCount) {
-      super();
       this.pos = pos;
       this.poiType = poiType;
       this.freeTicketCount = freeTicketCount;

@@ -8,7 +8,6 @@ public record class05531(int index, Collection<class05513> gameTestInfos, class0
    }
 
    public class05531(int index, Collection<class05513> gameTestInfos, class03556<class00225> environment) {
-      super();
       if (gameTestInfos.isEmpty()) {
          throw new IllegalArgumentException("A GameTestBatch must include at least one GameTestInfo!");
       } else {

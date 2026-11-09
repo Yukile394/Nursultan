@@ -53,7 +53,6 @@ public record class07151(
       boolean sendsTelemetryEvent,
       Optional<class00392> name
    ) {
-      super();
       this.parent = parent;
       this.display = display;
       this.rewards = rewards;

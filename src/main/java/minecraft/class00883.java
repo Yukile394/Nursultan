@@ -14,7 +14,6 @@ public record class00883(boolean relative, double value) {
    }
 
    public class00883(boolean relative, double value) {
-      super();
       this.relative = relative;
       this.value = value;
    }

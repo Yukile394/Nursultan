@@ -9,7 +9,6 @@ public record class10908(int hotbarSlot, int inventorySlot, class07050 hand, int
    }
 
    class10908(int hotbarSlot, int inventorySlot, class07050 hand, int pitch, boolean jump, int delayAfter) {
-      super();
       this.hotbarSlot = hotbarSlot;
       this.inventorySlot = inventorySlot;
       this.hand = hand;

@@ -14,7 +14,6 @@ public record class03313<C extends class06386>(
    public class03313(
       C config, class08088 chunkGenerator, class01224 structureTemplateManager, class07321 chunkPos, class05474 heightAccessor, class07836 random, long seed
    ) {
-      super();
       this.config = (C)config;
       this.chunkGenerator = chunkGenerator;
       this.structureTemplateManager = structureTemplateManager;

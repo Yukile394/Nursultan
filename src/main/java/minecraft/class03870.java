@@ -22,7 +22,6 @@ public record class03870(class03876 noise, @Deprecated double xzScale, double yS
    }
 
    public class03870(class03876 noise, @Deprecated double xzScale, double yScale) {
-      super();
       this.noise = noise;
       this.xzScale = xzScale;
       this.yScale = yScale;

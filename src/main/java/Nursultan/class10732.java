@@ -7,7 +7,6 @@ public record class10732(int kindId, long updatedAt) {
    }
 
    public class10732(int kindId, long updatedAt) {
-      super();
       this.kindId = kindId;
       this.updatedAt = updatedAt;
    }

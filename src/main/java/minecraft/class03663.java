@@ -5,7 +5,6 @@ import java.util.List;
 
 public record class03663(List<class10228> lines, int width) {
    public class03663(List<class10228> lines, int width) {
-      super();
       this.lines = lines;
       this.width = width;
    }

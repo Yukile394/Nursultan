@@ -9,7 +9,6 @@ public record class08130(Matrix4f pose, float radius, List<class08453> pieces) {
    }
 
    public class08130(Matrix4f pose, float radius, List<class08453> pieces) {
-      super();
       this.pose = pose;
       this.radius = radius;
       this.pieces = pieces;

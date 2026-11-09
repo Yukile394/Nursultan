@@ -20,7 +20,6 @@ public record class08687(boolean forward, boolean backward, boolean left, boolea
    }
 
    public class08687(boolean forward, boolean backward, boolean left, boolean right, boolean jump, boolean shift, boolean sprint) {
-      super();
       this.forward = forward;
       this.backward = backward;
       this.left = left;

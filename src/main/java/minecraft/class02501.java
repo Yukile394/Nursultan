@@ -7,7 +7,6 @@ import java.util.List;
 
 public record class02501<T>(List<T> value, class02489 operation) {
    public class02501(List<T> value, class02489 operation) {
-      super();
       this.value = value;
       this.operation = operation;
    }

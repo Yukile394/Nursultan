@@ -15,7 +15,6 @@ public record class00102(Optional<Integer> maxLines, Optional<Integer> height) {
    );
 
    public class00102(Optional<Integer> maxLines, Optional<Integer> height) {
-      super();
       this.maxLines = maxLines;
       this.height = height;
    }

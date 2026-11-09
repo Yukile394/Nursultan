@@ -19,7 +19,6 @@ public record class06679(String owner, String objective, class00488 score) {
    }
 
    public class06679(String owner, String objective, class00488 score) {
-      super();
       this.owner = owner;
       this.objective = objective;
       this.score = score;

@@ -9,7 +9,6 @@ record class01416(String value) implements class01426 {
    public static final class02362<ByteBuf, class01416> y = class02389.s.N_10(class01416::new, class01416::N);
 
    class01416(String value) {
-      super();
       this.value = value;
    }
 

@@ -12,7 +12,6 @@ public record class07575(Optional<class05196> player, Optional<Integer> count) i
    );
 
    public class07575(Optional<class05196> player, Optional<Integer> count) {
-      super();
       this.player = player;
       this.count = count;
    }

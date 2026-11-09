@@ -2,7 +2,6 @@ package Nursultan;
 
 public record class09672(float width, float height) {
    public class09672(float width, float height) {
-      super();
       this.width = width;
       this.height = height;
    }

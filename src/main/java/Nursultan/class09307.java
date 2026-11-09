@@ -7,7 +7,6 @@ public record class09307(String name, int type, int size) {
    }
 
    class09307(String name, int type, int size) {
-      super();
       this.name = name;
       this.type = type;
       this.size = size;

@@ -8,7 +8,6 @@ public record class00444(class07209 absolutePos, class07209 relativePos) impleme
    );
 
    public class00444(class07209 absolutePos, class07209 relativePos) {
-      super();
       this.absolutePos = absolutePos;
       this.relativePos = relativePos;
    }

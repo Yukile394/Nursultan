@@ -2,7 +2,6 @@ package minecraft;
 
 public record class02131<T>(int N, class04383<T> y) {
    public class02131(int N, class04383<T> y) {
-      super();
       this.N = N;
       this.y = y;
    }

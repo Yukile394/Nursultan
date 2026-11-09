@@ -11,7 +11,6 @@ public record class02575(int slotId, int selectedItemIndex) implements class0038
    }
 
    public class02575(int slotId, int selectedItemIndex) {
-      super();
       this.slotId = slotId;
       this.selectedItemIndex = selectedItemIndex;
    }

@@ -39,7 +39,6 @@ public record class09041(float start, float end, Optional<Float> initial, Option
    }
 
    public class09041(float start, float end, Optional<Float> initial, Optional<Float> step) {
-      super();
       this.start = start;
       this.end = end;
       this.initial = initial;

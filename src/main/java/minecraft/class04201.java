@@ -21,7 +21,6 @@ public record class04201(class01894 sprite, double x, double y, double width, do
    }
 
    public class04201(class01894 sprite, double x, double y, double width, double height) {
-      super();
       this.sprite = sprite;
       this.x = x;
       this.y = y;

@@ -9,7 +9,6 @@ record class08862(class01894 id, ShaderType type, class08227 defines) {
    }
 
    class08862(class01894 id, ShaderType type, class08227 defines) {
-      super();
       this.id = id;
       this.type = type;
       this.defines = defines;

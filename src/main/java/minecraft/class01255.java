@@ -14,7 +14,6 @@ public record class01255(class03556<class07376> type, class08088 generator) {
    public static final class05946<class01255> u = class05946.N(class04227.yI, class01894.y("the_end"));
 
    public class01255(class03556<class07376> type, class08088 generator) {
-      super();
       this.type = type;
       this.generator = generator;
    }

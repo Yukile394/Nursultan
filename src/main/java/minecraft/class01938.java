@@ -25,7 +25,6 @@ public record class01938(int entityId, class03556<class03689> sourceType, int so
    }
 
    public class01938(int entityId, class03556<class03689> sourceType, int sourceCauseId, int sourceDirectId, Optional<class06889> sourcePosition) {
-      super();
       this.entityId = entityId;
       this.sourceType = sourceType;
       this.sourceCauseId = sourceCauseId;

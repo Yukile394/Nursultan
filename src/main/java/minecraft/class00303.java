@@ -22,7 +22,6 @@ public record class00303(class06889 target, int color, int duration) implements 
    }
 
    public class00303(class06889 target, int color, int duration) {
-      super();
       this.target = target;
       this.color = color;
       this.duration = duration;

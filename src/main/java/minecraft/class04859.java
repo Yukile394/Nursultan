@@ -23,7 +23,6 @@ record class04859(class01894 fontId, List<class04870> builders, Set<class01894> 
    }
 
    private class04859(class01894 fontId, List<class04870> builders, Set<class01894> dependencies) {
-      super();
       this.fontId = fontId;
       this.builders = builders;
       this.dependencies = dependencies;

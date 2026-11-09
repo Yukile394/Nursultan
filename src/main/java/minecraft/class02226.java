@@ -14,7 +14,6 @@ public record class02226(class02546 amount) implements class06378 {
    }
 
    public class02226(class02546 amount) {
-      super();
       this.amount = amount;
    }
 

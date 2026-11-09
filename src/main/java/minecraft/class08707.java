@@ -9,7 +9,6 @@ public record class08707(class03678 selectedGameMode, class06826 gameRuleOverwri
    }
 
    public class08707(class03678 selectedGameMode, class06826 gameRuleOverwrites, @Nullable class05946<class04086> flatLevelPreset) {
-      super();
       this.selectedGameMode = selectedGameMode;
       this.gameRuleOverwrites = gameRuleOverwrites;
       this.flatLevelPreset = flatLevelPreset;

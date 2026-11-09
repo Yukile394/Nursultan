@@ -6,7 +6,6 @@ import org.joml.Vector3fc;
 
 public record class08505(List<class02081> elements) implements class08534 {
    public class08505(List<class02081> elements) {
-      super();
       this.elements = elements;
    }
 

@@ -4,7 +4,6 @@ import org.jspecify.annotations.Nullable;
 
 public record class02319<S, T>(class02341<S, T> action, class02315<S> child) implements class02324<S, T> {
    public class02319(class02341<S, T> action, class02315<S> child) {
-      super();
       this.action = action;
       this.child = child;
    }

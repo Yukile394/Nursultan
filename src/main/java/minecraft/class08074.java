@@ -34,7 +34,6 @@ public record class08074(
    public class08074(
       double centerX, double centerZ, double damagePerBlock, double safeZone, int warningBlocks, int warningTime, double size, long lerpTime, double lerpTarget
    ) {
-      super();
       this.centerX = centerX;
       this.centerZ = centerZ;
       this.damagePerBlock = damagePerBlock;

@@ -3,7 +3,6 @@ package minecraft;
 record class04737(class00392 title, class00392 detail) {
 
    class04737(class00392 title, class00392 detail) {
-      super();
       this.title = title;
       this.detail = detail;
    }

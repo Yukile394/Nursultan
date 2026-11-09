@@ -72,7 +72,6 @@ public record class07389<T>(
    public class07389(
       Optional<URI> reference, List<String> type, Optional<class07389<?>> items, Map<String, class07389<?>> properties, List<String> enumValues, Codec<T> codec
    ) {
-      super();
       this.reference = reference;
       this.type = type;
       this.items = items;

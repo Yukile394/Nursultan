@@ -27,7 +27,6 @@ public record class02216(int bottom, int top) {
    }
 
    public class02216(int bottom, int top) {
-      super();
       this.bottom = bottom;
       this.top = top;
    }

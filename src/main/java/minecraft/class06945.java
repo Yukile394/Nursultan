@@ -7,7 +7,6 @@ public record class06945(class03767 enabledFeatures, boolean hasPermissions, cla
    }
 
    public class06945(class03767 enabledFeatures, boolean hasPermissions, class01929 holders) {
-      super();
       this.enabledFeatures = enabledFeatures;
       this.hasPermissions = hasPermissions;
       this.holders = holders;

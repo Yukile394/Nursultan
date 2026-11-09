@@ -2,7 +2,6 @@ package minecraft;
 
 public record class02200<S>(class02315<S>[] elements) implements class02315<S> {
    public class02200(class02315<S>[] elements) {
-      super();
       this.elements = elements;
    }
 

@@ -8,7 +8,6 @@ public record class03961(String command) implements class00381<class08051> {
    }
 
    public class03961(String command) {
-      super();
       this.command = command;
    }
 

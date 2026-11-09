@@ -8,7 +8,6 @@ public record class00279<T extends class06521<?>>(List<class00252<T>> entries) {
    }
 
    public class00279(List<class00252<T>> entries) {
-      super();
       this.entries = entries;
    }
 

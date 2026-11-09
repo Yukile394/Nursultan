@@ -2,7 +2,6 @@ package minecraft;
 
 public record class03064(class03048 lastSeen, class03058 update) {
    public class03064(class03048 lastSeen, class03058 update) {
-      super();
       this.lastSeen = lastSeen;
       this.update = update;
    }

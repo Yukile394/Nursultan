@@ -29,7 +29,6 @@ public record class09013(class06584 item, Optional<class09022> description, bool
    }
 
    public class09013(class06584 item, Optional<class09022> description, boolean showDecorations, boolean showTooltip, int width, int height) {
-      super();
       this.item = item;
       this.description = description;
       this.showDecorations = showDecorations;

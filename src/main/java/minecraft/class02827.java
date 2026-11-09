@@ -33,7 +33,6 @@ public record class02827(class02835 shape, IntList colors, IntList fadeColors, b
    }
 
    public class02827(class02835 shape, IntList colors, IntList fadeColors, boolean hasTrail, boolean hasTwinkle) {
-      super();
       this.shape = shape;
       this.colors = colors;
       this.fadeColors = fadeColors;

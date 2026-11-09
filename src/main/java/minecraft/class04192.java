@@ -14,7 +14,6 @@ public record class04192(String id) {
    public static final class04192 B = new class04192("water");
 
    public class04192(String id) {
-      super();
       this.id = id;
    }
 

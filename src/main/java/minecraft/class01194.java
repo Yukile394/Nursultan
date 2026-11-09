@@ -67,7 +67,6 @@ public record class01194(int notificationRadius) {
    public static final Codec<class03556<class01194>> Nz = class03539.N(class04227.c);
 
    public class01194(int notificationRadius) {
-      super();
       this.notificationRadius = notificationRadius;
    }
 

@@ -20,7 +20,6 @@ public record class08839(class08895 model, class08906 properties, class00203 reg
    }
 
    public class08839(class08895 model, class08906 properties, @Nullable class00203 registrySwapper) {
-      super();
       this.model = model;
       this.properties = properties;
       this.registrySwapper = registrySwapper;

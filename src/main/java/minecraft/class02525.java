@@ -14,7 +14,6 @@ public record class02525(class06584 itemStack, class07085 inSlot, class07438 own
    }
 
    public class02525(class06584 itemStack, @Nullable class07085 inSlot, @Nullable class07438 owner, Consumer<class06581> onBreak) {
-      super();
       this.itemStack = itemStack;
       this.inSlot = inSlot;
       this.owner = owner;

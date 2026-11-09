@@ -29,7 +29,6 @@ public record class00819<T extends Number & Comparable<T>>(Optional<T> min, Opti
    }
 
    public class00819(Optional<T> min, Optional<T> max) {
-      super();
       this.min = min;
       this.max = max;
    }

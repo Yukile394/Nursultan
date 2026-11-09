@@ -6,7 +6,6 @@ public record class08517(boolean usesBlockLight, class08388 particleIcon, class0
    }
 
    public class08517(boolean usesBlockLight, class08388 particleIcon, class03702 transforms) {
-      super();
       this.usesBlockLight = usesBlockLight;
       this.particleIcon = particleIcon;
       this.transforms = transforms;

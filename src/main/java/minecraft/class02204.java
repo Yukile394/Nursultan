@@ -12,7 +12,6 @@ public record class02204<T>(Either<class03556<T>, class05946<T>> contents) {
    }
 
    public class02204(Either<class03556<T>, class05946<T>> contents) {
-      super();
       this.contents = contents;
    }
 

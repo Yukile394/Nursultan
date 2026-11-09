@@ -8,7 +8,6 @@ public record class01018(int width, int height, OptionalInt fullscreenWidth, Opt
    }
 
    public class01018(int width, int height, OptionalInt fullscreenWidth, OptionalInt fullscreenHeight, boolean isFullscreen) {
-      super();
       this.width = width;
       this.height = height;
       this.fullscreenWidth = fullscreenWidth;

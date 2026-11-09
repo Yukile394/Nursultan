@@ -10,7 +10,6 @@ public record class11751(class01894 groupId, class06584 stack, int remainingTick
    }
 
    class11751(class01894 groupId, class06584 stack, int remainingTicks) {
-      super();
       this.groupId = groupId;
       this.stack = stack;
       this.remainingTicks = remainingTicks;

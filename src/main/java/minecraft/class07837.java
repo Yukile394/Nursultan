@@ -20,7 +20,6 @@ public record class07837(int max, int online, List<class08774> sample) {
    }
 
    public class07837(int max, int online, List<class08774> sample) {
-      super();
       this.max = max;
       this.online = online;
       this.sample = sample;

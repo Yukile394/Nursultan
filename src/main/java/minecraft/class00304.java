@@ -13,7 +13,6 @@ public record class00304(class03530<class06581> tag) implements class00299 {
    public static final class00319<class00304> i = new class00319<>(L, u);
 
    public class00304(class03530<class06581> tag) {
-      super();
       this.tag = tag;
    }
 

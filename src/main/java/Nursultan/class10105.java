@@ -7,7 +7,6 @@ import minecraft.class04770;
 
 public record class10105(class00392 content) implements class03059 {
    public class10105(class00392 content) {
-      super();
       this.content = content;
    }
 

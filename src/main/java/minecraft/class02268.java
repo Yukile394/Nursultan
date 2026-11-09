@@ -6,7 +6,6 @@ public record class02268(boolean required, class01090 defaultPosition, boolean f
    }
 
    public class02268(boolean required, class01090 defaultPosition, boolean fixedPosition) {
-      super();
       this.required = required;
       this.defaultPosition = defaultPosition;
       this.fixedPosition = fixedPosition;

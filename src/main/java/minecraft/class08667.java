@@ -29,7 +29,6 @@ public record class08667(
       @Nullable class03255 scissorArea,
       @Nullable class03255 bounds
    ) {
-      super();
       this.flag = flag;
       this.baseColor = baseColor;
       this.resultBannerPatterns = resultBannerPatterns;

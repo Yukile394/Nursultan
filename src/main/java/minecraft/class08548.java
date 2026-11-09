@@ -35,7 +35,6 @@ public record class08548(class08569 base, Map<class05946<class11647>, class08569
    public static final class08548 m = N("resin");
 
    public class08548(class08569 base, Map<class05946<class11647>, class08569> overrides) {
-      super();
       this.base = base;
       this.overrides = overrides;
    }

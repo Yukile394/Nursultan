@@ -14,7 +14,6 @@ public record class07679(Optional<class05196> player, class00816 distance) imple
    );
 
    public class07679(Optional<class05196> player, class00816 distance) {
-      super();
       this.player = player;
       this.distance = distance;
    }

@@ -5,7 +5,6 @@ import minecraft.class04995;
 
 public record class10226(int previous, int current) implements class03692 {
    public class10226(int previous, int current) {
-      super();
       this.previous = previous;
       this.current = current;
    }

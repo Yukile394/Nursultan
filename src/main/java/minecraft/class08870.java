@@ -9,7 +9,6 @@ public record class08870(RenderPipeline info, class02255 program) implements Com
    }
 
    public class08870(RenderPipeline info, class02255 program) {
-      super();
       this.info = info;
       this.program = program;
    }

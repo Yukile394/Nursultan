@@ -21,7 +21,6 @@ public record class08751(class00647 value) implements class08752 {
    });
 
    public class08751(class00647 value) {
-      super();
       this.value = value;
    }
 

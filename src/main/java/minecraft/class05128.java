@@ -9,7 +9,6 @@ public record class05128(int httpCode, String payload) implements class05108 {
    }
 
    public class05128(int httpCode, String payload) {
-      super();
       this.httpCode = httpCode;
       this.payload = payload;
    }

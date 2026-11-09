@@ -9,7 +9,6 @@ record class01432(Object2BooleanMap<String> criterions) implements class01385 {
    public static final Codec<class01432> N = class06338.R(Codec.STRING).xmap(class01432::new, class01432::N);
 
    class01432(Object2BooleanMap<String> criterions) {
-      super();
       this.criterions = criterions;
    }
 

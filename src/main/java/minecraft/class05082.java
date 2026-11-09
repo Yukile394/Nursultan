@@ -46,7 +46,6 @@ public record class05082(
       boolean replaceWithBlackstone,
       float weight
    ) {
-      super();
       this.placement = placement;
       this.airPocketProbability = airPocketProbability;
       this.mossiness = mossiness;

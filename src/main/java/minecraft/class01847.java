@@ -10,7 +10,6 @@ record class01847(UUID id, URL url, String hash) {
    }
 
    class01847(UUID id, URL url, String hash) {
-      super();
       this.id = id;
       this.url = url;
       this.hash = hash;

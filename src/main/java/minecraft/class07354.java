@@ -8,7 +8,6 @@ public record class07354(Optional<class03556<class07084>> primary, Optional<clas
    );
 
    public class07354(Optional<class03556<class07084>> primary, Optional<class03556<class07084>> secondary) {
-      super();
       this.primary = primary;
       this.secondary = secondary;
    }

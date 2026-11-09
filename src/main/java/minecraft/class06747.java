@@ -8,7 +8,6 @@ public record class06747(int stroke, float strokeWidth, int fill) {
    }
 
    public class06747(int stroke, float strokeWidth, int fill) {
-      super();
       this.stroke = stroke;
       this.strokeWidth = strokeWidth;
       this.fill = fill;

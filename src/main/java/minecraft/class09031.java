@@ -15,7 +15,6 @@ public record class09031(class09039 common, class08734 yesButton, class08734 noB
    );
 
    public class09031(class09039 common, class08734 yesButton, class08734 noButton) {
-      super();
       this.common = common;
       this.yesButton = yesButton;
       this.noButton = noButton;

@@ -16,7 +16,6 @@ public record class00146(Map<class02477<?>, Integer> addedComponents, Set<class0
    );
 
    public class00146(Map<class02477<?>, Integer> addedComponents, Set<class02477<?>> removedComponents) {
-      super();
       this.addedComponents = addedComponents;
       this.removedComponents = removedComponents;
    }

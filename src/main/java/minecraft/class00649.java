@@ -20,7 +20,6 @@ public record class00649(class03556<class00629> chatType, class00392 name, Optio
    }
 
    public class00649(class03556<class00629> chatType, class00392 name, Optional<class00392> targetName) {
-      super();
       this.chatType = chatType;
       this.name = name;
       this.targetName = targetName;

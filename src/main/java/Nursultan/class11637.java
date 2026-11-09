@@ -7,7 +7,6 @@ public record class11637(String normalizedRef, int width, int height, byte[] rgb
    }
 
    private class11637(String normalizedRef, int width, int height, byte[] rgbaPixels, byte[] alphaMask, String failureReason) {
-      super();
       this.normalizedRef = normalizedRef;
       this.width = width;
       this.height = height;

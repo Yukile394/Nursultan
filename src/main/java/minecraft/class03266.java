@@ -39,7 +39,6 @@ public record class03266(List<class01894> textures, class01894 paletteKey, Map<S
    }
 
    public class03266(List<class01894> textures, class01894 paletteKey, Map<String, class01894> permutations, String separator) {
-      super();
       this.textures = textures;
       this.paletteKey = paletteKey;
       this.permutations = permutations;

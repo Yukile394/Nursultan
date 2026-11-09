@@ -9,7 +9,6 @@ public record class02480<T>(class02477<T> type, T value) {
    public static final class02362<class04247, class02480<?>> N = new class02464();
 
    public class02480(class02477<T> type, T value) {
-      super();
       this.type = type;
       this.value = (T)value;
    }

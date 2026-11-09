@@ -19,7 +19,6 @@ public record class00489(class01659 payload) implements class00381<class01662>, 
    public static final class02362<class00667, class00489> L;
 
    public class00489(class01659 payload) {
-      super();
       this.payload = payload;
    }
 

@@ -30,7 +30,6 @@ public record class08301(int nearDistance, int farDistance, List<class01894> spr
    }
 
    public class08301(int nearDistance, int farDistance, List<class01894> sprites, List<class01894> spriteLocations) {
-      super();
       this.nearDistance = nearDistance;
       this.farDistance = farDistance;
       this.sprites = sprites;

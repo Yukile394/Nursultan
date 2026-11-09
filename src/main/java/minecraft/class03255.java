@@ -32,7 +32,6 @@ public record class03255(class03283 position, int width, int height) {
    }
 
    public class03255(class03283 position, int width, int height) {
-      super();
       this.position = position;
       this.width = width;
       this.height = height;

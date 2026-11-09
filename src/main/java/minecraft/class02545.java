@@ -20,7 +20,6 @@ public record class02545(class03543<class07304> enchantments, int minCost, int m
    }
 
    public class02545(class03543<class07304> enchantments, int minCost, int maxCostSpan) {
-      super();
       this.enchantments = enchantments;
       this.minCost = minCost;
       this.maxCostSpan = maxCostSpan;

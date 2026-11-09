@@ -8,7 +8,6 @@ public record class02870(String host, int port) implements class00381<class01662
    }
 
    public class02870(String host, int port) {
-      super();
       this.host = host;
       this.port = port;
    }

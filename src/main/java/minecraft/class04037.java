@@ -6,7 +6,6 @@ public record class04037(long seedLo, long seedHi) {
    }
 
    public class04037(long seedLo, long seedHi) {
-      super();
       this.seedLo = seedLo;
       this.seedHi = seedHi;
    }

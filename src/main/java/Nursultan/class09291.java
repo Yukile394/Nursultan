@@ -1,9 +1,8 @@
 package Nursultan;
 
-public non-sealed record class09291(class11827 preset) implements class09279 {
+public record class09291(class11827 preset) implements class09279 {
 
    public class09291(class11827 preset) {
-      super();
       this.preset = preset;
    }
 

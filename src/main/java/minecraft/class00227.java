@@ -16,7 +16,6 @@ public record class00227(List<class03556<class00225>> definitions) implements cl
    }
 
    public class00227(List<class03556<class00225>> definitions) {
-      super();
       this.definitions = definitions;
    }
 

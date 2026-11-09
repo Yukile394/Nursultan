@@ -15,7 +15,6 @@ public record class00815(class05957 term) implements class05957 {
    }
 
    public class00815(class05957 term) {
-      super();
       this.term = term;
    }
 

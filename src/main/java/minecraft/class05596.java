@@ -2,7 +2,6 @@ package minecraft;
 
 public record class05596(class06889 position) implements class05617 {
    public class05596(class06889 position) {
-      super();
       this.position = position;
    }
 

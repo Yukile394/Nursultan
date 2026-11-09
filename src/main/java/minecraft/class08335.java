@@ -8,7 +8,6 @@ public record class08335(String name, class07709 tag, Error<?> error) implements
    }
 
    public class08335(String name, class07709 tag, Error<?> error) {
-      super();
       this.name = name;
       this.tag = tag;
       this.error = error;

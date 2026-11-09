@@ -26,7 +26,6 @@ public record class02524(class02546 value, float min, float max) implements clas
    }
 
    public class02524(class02546 value, float min, float max) {
-      super();
       this.value = value;
       this.min = min;
       this.max = max;

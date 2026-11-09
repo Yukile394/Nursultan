@@ -31,7 +31,6 @@ public record class09141(
       float pitchOffset,
       boolean angularOffset
    ) {
-      super();
       this.active = active;
       this.yawMultiplier = yawMultiplier;
       this.pitchMultiplier = pitchMultiplier;

@@ -24,7 +24,6 @@ public record class01706(class01699[] vertices, Vector3fc normal) {
    }
 
    public class01706(class01699[] vertices, Vector3fc normal) {
-      super();
       this.vertices = vertices;
       this.normal = normal;
    }

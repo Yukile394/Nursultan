@@ -5,7 +5,6 @@ import java.util.function.Supplier;
 record class06845(class01894 location, Supplier<class08188> sampler) {
 
    class06845(class01894 location, Supplier<class08188> sampler) {
-      super();
       this.location = location;
       this.sampler = sampler;
    }

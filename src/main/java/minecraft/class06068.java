@@ -11,7 +11,6 @@ public record class06068(String raw, class03055 mask) {
    }
 
    public class06068(String raw, class03055 mask) {
-      super();
       this.raw = raw;
       this.mask = mask;
    }

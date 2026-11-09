@@ -11,7 +11,6 @@ public record class08834(int value) implements class08843 {
    );
 
    public class08834(int value) {
-      super();
       value = class02566.M(value);
       this.value = value;
    }

@@ -9,7 +9,6 @@ public record class04979(String newsLink) {
    private static final Logger y = LogUtils.getLogger();
 
    public class04979(@Nullable String newsLink) {
-      super();
       this.newsLink = newsLink;
    }
 

@@ -20,7 +20,6 @@ public record class00855(class00836 occupied, class00836 full, class00836 empty)
    }
 
    public class00855(class00836 occupied, class00836 full, class00836 empty) {
-      super();
       this.occupied = occupied;
       this.full = full;
       this.empty = empty;

@@ -23,7 +23,6 @@ public record class08242(List<class07055> effects, float probability) implements
    }
 
    public class08242(List<class07055> effects, float probability) {
-      super();
       this.effects = effects;
       this.probability = probability;
    }

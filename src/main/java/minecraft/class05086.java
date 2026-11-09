@@ -19,7 +19,6 @@ public record class05086(class01894 id) {
    }
 
    public class05086(class01894 id) {
-      super();
       this.id = id;
    }
 

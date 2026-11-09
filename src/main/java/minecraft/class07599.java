@@ -11,7 +11,6 @@ record class07599<T>(class07586 easing, T fromValue, int fromTicks, T toValue, i
    }
 
    class07599(class07586 easing, T fromValue, int fromTicks, T toValue, int toTicks) {
-      super();
       this.easing = easing;
       this.fromValue = (T)fromValue;
       this.fromTicks = fromTicks;

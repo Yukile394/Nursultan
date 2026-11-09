@@ -3,7 +3,6 @@ package minecraft;
 public record class06484(class00295 display, class03729<?> parent) {
 
    public class06484(class00295 display, class03729<?> parent) {
-      super();
       this.display = display;
       this.parent = parent;
    }

@@ -10,7 +10,6 @@ public record class07903<Result>(class03529<? extends class07940<?, ? extends Re
    }
 
    public class07903(class03529<? extends class07940<?, ? extends Result>> method, CompletableFuture<Result> resultFuture, long timeoutTime) {
-      super();
       this.method = method;
       this.resultFuture = resultFuture;
       this.timeoutTime = timeoutTime;

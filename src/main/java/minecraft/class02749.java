@@ -30,7 +30,6 @@ public record class02749(
       int enchantmentValue,
       class03530<class06581> repairItems
    ) {
-      super();
       this.incorrectBlocksForDrops = incorrectBlocksForDrops;
       this.durability = durability;
       this.speed = speed;

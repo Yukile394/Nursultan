@@ -6,7 +6,6 @@ import java.util.UUID;
 
 public record class02048(UUID sessionId, class04454 profilePublicKey) {
    public class02048(UUID sessionId, class04454 profilePublicKey) {
-      super();
       this.sessionId = sessionId;
       this.profilePublicKey = profilePublicKey;
    }

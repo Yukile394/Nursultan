@@ -6,7 +6,6 @@ public record class08963(class04891 spinHeadSound, class04891 hurtSound, class04
    }
 
    public class08963(class04891 spinHeadSound, class04891 hurtSound, class04891 deathSound, class04891 stepSound, class01894 texture, class01894 eyeTexture) {
-      super();
       this.spinHeadSound = spinHeadSound;
       this.hurtSound = hurtSound;
       this.deathSound = deathSound;

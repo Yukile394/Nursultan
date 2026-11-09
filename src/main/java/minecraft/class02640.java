@@ -20,7 +20,6 @@ public record class02640(boolean hasRaid, boolean isCaptain) implements class036
    }
 
    public class02640(boolean hasRaid, boolean isCaptain) {
-      super();
       this.hasRaid = hasRaid;
       this.isCaptain = isCaptain;
    }

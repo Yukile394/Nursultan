@@ -6,7 +6,6 @@ import java.util.function.Predicate;
 
 public record class08525(class08509 operation, List<class01975> terms) implements class01975 {
    public class08525(class08509 operation, List<class01975> terms) {
-      super();
       this.operation = operation;
       this.terms = terms;
    }

@@ -15,7 +15,6 @@ public record class04306<T>(T type, class07209 pos, int delay, class00763 priori
    }
 
    public class04306(T type, class07209 pos, int delay, class00763 priority) {
-      super();
       this.type = (T)type;
       this.pos = pos;
       this.delay = delay;

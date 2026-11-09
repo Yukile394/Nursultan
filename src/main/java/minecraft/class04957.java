@@ -15,7 +15,6 @@ public record class04957(String invitationId, String realmName, String realmOwne
    }
 
    public class04957(String invitationId, String realmName, String realmOwnerName, UUID realmOwnerUuid, Instant date) {
-      super();
       this.invitationId = invitationId;
       this.realmName = realmName;
       this.realmOwnerName = realmOwnerName;

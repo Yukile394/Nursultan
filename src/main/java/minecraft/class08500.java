@@ -24,7 +24,6 @@ public record class08500(boolean blur, boolean clamp, class06846 mipmapStrategy,
    }
 
    public class08500(boolean blur, boolean clamp, class06846 mipmapStrategy, float alphaCutoffBias) {
-      super();
       this.blur = blur;
       this.clamp = clamp;
       this.mipmapStrategy = mipmapStrategy;

@@ -29,7 +29,6 @@ public record class07707(String value) implements class08884 {
       forRemoval = true
    )
    public class07707(String value) {
-      super();
       this.value = value;
    }
 

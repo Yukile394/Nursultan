@@ -10,7 +10,6 @@ record class06409(class07209 pos, class00500 state, class06404 blockEntityInfo, 
    }
 
    class06409(class07209 pos, class00500 state, @Nullable class06404 blockEntityInfo, class00500 previousStateAtDestination) {
-      super();
       this.pos = pos;
       this.state = state;
       this.blockEntityInfo = blockEntityInfo;

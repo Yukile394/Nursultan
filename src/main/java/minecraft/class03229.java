@@ -33,7 +33,6 @@ public record class03229(
    public class03229(
       class03195 temperature, class03195 humidity, class03195 continentalness, class03195 erosion, class03195 depth, class03195 weirdness, long offset
    ) {
-      super();
       this.temperature = temperature;
       this.humidity = humidity;
       this.continentalness = continentalness;

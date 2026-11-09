@@ -19,7 +19,6 @@ public record class08106(class01894 texture, class08973 pose) implements class00
    }
 
    public class08106(class01894 texture, class08973 pose) {
-      super();
       this.texture = texture;
       this.pose = pose;
    }

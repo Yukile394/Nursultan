@@ -13,7 +13,6 @@ public record class04150(List<class04152> overlays) {
    public static final class02968<class04150> y = new class02968<>("overlays", N(class01603.field_14190));
 
    public class04150(List<class04152> overlays) {
-      super();
       this.overlays = overlays;
    }
 

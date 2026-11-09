@@ -4,7 +4,6 @@ import java.util.List;
 
 public record class03379(List<class04981> serverList, List<class04981> availableSnapshotServers) {
    public class03379(List<class04981> serverList, List<class04981> availableSnapshotServers) {
-      super();
       this.serverList = serverList;
       this.availableSnapshotServers = availableSnapshotServers;
    }

@@ -19,7 +19,6 @@ public record class02699(List<class02826<String>> pages) implements class02499<S
    public static final class02362<ByteBuf, class02699> R = class02826.N(class02389.y(1024)).N_33(class02389.L(100)).N_10(class02699::new, class02699::N);
 
    public class02699(List<class02826<String>> pages) {
-      super();
       if (pages.size() > 100) {
          throw new IllegalArgumentException("Got " + pages.size() + " pages, but maximum is 100");
       } else {

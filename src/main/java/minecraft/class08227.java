@@ -27,7 +27,6 @@ public record class08227(Map<String, String> values, Set<String> flags) {
    }
 
    public class08227(Map<String, String> values, Set<String> flags) {
-      super();
       this.values = values;
       this.flags = flags;
    }

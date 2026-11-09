@@ -10,7 +10,6 @@ public record class02067(class07211 cullForDirection, int tintIndex, String text
    }
 
    public class02067(@Nullable class07211 cullForDirection, int tintIndex, String texture, @Nullable class02052 uvs, class08511 rotation) {
-      super();
       this.cullForDirection = cullForDirection;
       this.tintIndex = tintIndex;
       this.texture = texture;

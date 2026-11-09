@@ -4,7 +4,6 @@ import java.util.Optional;
 
 record class04318(class03238<?, ?> feature, Optional<class04336> topFeature) {
    class04318(class03238<?, ?> feature, Optional<class04336> topFeature) {
-      super();
       this.feature = feature;
       this.topFeature = topFeature;
    }

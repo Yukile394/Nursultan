@@ -8,7 +8,6 @@ import java.util.Optional;
 
 public record class02944<T>(T effect, Optional<class05957> requirements) {
    public class02944(T effect, Optional<class05957> requirements) {
-      super();
       this.effect = (T)effect;
       this.requirements = requirements;
    }

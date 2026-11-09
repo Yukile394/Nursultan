@@ -6,7 +6,6 @@ public record class03395(long realmId, int slotId) implements class03405 {
    }
 
    public class03395(long realmId, int slotId) {
-      super();
       this.realmId = realmId;
       this.slotId = slotId;
    }

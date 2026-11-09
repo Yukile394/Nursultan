@@ -20,7 +20,6 @@ public record class00857(Optional<class05196> player, Optional<class00798> damag
    }
 
    public class00857(Optional<class05196> player, Optional<class00798> damage, Optional<class05196> entity) {
-      super();
       this.player = player;
       this.damage = damage;
       this.entity = entity;

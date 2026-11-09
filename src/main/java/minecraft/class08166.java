@@ -4,7 +4,6 @@ import java.util.function.Predicate;
 
 public record class08166<T extends class08168>(class08164 test) implements Predicate<T> {
    public class08166(class08164 test) {
-      super();
       this.test = test;
    }
 

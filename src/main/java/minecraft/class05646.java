@@ -7,7 +7,6 @@ import org.jspecify.annotations.Nullable;
 
 public record class05646(Map<class05946<class05660>, class05663> trades) implements class05663 {
    public class05646(Map<class05946<class05660>, class05663> trades) {
-      super();
       this.trades = trades;
    }
 

@@ -11,7 +11,6 @@ public record class04345<T>(List<T> values, List<T> altValues, BooleanSupplier a
    }
 
    public class04345(List<T> values, List<T> altValues, BooleanSupplier altCondition, class04356<T> valueSetter, Codec<T> codec) {
-      super();
       this.values = values;
       this.altValues = altValues;
       this.altCondition = altCondition;

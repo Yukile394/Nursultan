@@ -21,7 +21,6 @@ record class00920(
    class00920(
       class03504 renderTypes, GpuTextureView textureView, class08388 sprite, float x, float y, int color, int shadowColor, float shadowOffset, class00405 style
    ) {
-      super();
       this.renderTypes = renderTypes;
       this.textureView = textureView;
       this.sprite = sprite;

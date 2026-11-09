@@ -10,7 +10,6 @@ public record class08561(class03543<class00780> requiredBiomes) implements class
    );
 
    public class08561(class03543<class00780> requiredBiomes) {
-      super();
       this.requiredBiomes = requiredBiomes;
    }
 

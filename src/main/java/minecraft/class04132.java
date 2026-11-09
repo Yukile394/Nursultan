@@ -4,7 +4,6 @@ import Nursultan.class10312;
 
 public record class04132<T>(class01921<T> lookup, class03515<T> opsInfo) {
    class04132(class01921<T> lookup, class03515<T> opsInfo) {
-      super();
       this.lookup = lookup;
       this.opsInfo = opsInfo;
    }

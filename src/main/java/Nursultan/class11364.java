@@ -3,7 +3,6 @@ package Nursultan;
 public record class11364(class09378 kind) {
 
    public class11364(class09378 kind) {
-      super();
       this.kind = kind;
    }
 

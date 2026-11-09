@@ -11,7 +11,6 @@ public record class07300(int base, int perLevelAboveFirst) {
    );
 
    public class07300(int base, int perLevelAboveFirst) {
-      super();
       this.base = base;
       this.perLevelAboveFirst = perLevelAboveFirst;
    }

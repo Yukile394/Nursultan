@@ -22,7 +22,6 @@ public record class04502(class03556<class04513> normal, class03556<class04513> o
    }
 
    public class04502(class03556<class04513> normal, class03556<class04513> ominous, int targetCooldownLength, int requiredPlayerRange) {
-      super();
       this.normal = normal;
       this.ominous = ominous;
       this.targetCooldownLength = targetCooldownLength;

@@ -8,7 +8,6 @@ import com.mojang.serialization.codecs.RecordCodecBuilder.Instance;
 
 public record class00599<Value, Argument>(Argument argument, class00619<Value, Argument> modifier) {
    public class00599(Argument argument, class00619<Value, Argument> modifier) {
-      super();
       this.argument = (Argument)argument;
       this.modifier = modifier;
    }

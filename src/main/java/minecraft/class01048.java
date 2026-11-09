@@ -7,7 +7,6 @@ record class01048(class00392 name, class00392 score, int scoreWidth) {
    }
 
    class01048(class00392 name, class00392 score, int scoreWidth) {
-      super();
       this.name = name;
       this.score = score;
       this.scoreWidth = scoreWidth;

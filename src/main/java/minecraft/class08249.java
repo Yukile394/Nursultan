@@ -10,7 +10,6 @@ record class08249(class08264 format, class08269 entry) {
    );
 
    class08249(class08264 format, class08269 entry) {
-      super();
       this.format = format;
       this.entry = entry;
    }

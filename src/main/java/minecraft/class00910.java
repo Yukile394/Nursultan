@@ -2,7 +2,6 @@ package minecraft;
 
 public record class00910(class07948 glyph) implements class08985 {
    public class00910(class07948 glyph) {
-      super();
       this.glyph = glyph;
    }
 

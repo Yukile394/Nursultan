@@ -12,7 +12,6 @@ public record class06327(
    }
 
    public class06327(class01423 pose, class07311 renderType, class08887 model, float r, float g, float b, int lightCoords, int overlayCoords, int outlineColor) {
-      super();
       this.pose = pose;
       this.renderType = renderType;
       this.model = model;

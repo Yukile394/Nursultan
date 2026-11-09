@@ -8,7 +8,6 @@ import java.util.concurrent.TimeUnit;
 
 public record class08717(ExecutorService service) implements Executor {
    public class08717(ExecutorService service) {
-      super();
       this.service = service;
    }
 

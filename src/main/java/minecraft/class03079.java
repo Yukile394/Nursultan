@@ -26,7 +26,6 @@ public record class03079(String content, Instant timeStamp, long salt, class0304
    }
 
    public class03079(String content, Instant timeStamp, long salt, class03048 lastSeen) {
-      super();
       this.content = content;
       this.timeStamp = timeStamp;
       this.salt = salt;

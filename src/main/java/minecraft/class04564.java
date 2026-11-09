@@ -19,7 +19,6 @@ public record class04564<C, I extends class04573<C>>(
    }
 
    public class04564(I coordinate, float[] locations, List<class04562<C, I>> values, float[] derivatives, float minValue, float maxValue) {
-      super();
       N(locations, values, derivatives);
       this.coordinate = (I)coordinate;
       this.locations = locations;

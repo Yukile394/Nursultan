@@ -22,7 +22,6 @@ public record class00824(Optional<class05196> player, Optional<class00845> rod, 
    }
 
    public class00824(Optional<class05196> player, Optional<class00845> rod, Optional<class05196> entity, Optional<class00845> item) {
-      super();
       this.player = player;
       this.rod = rod;
       this.entity = entity;

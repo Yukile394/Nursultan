@@ -5,7 +5,6 @@ import java.util.List;
 
 public record class04971(List<class04970> pingResults, List<Long> realmIds) implements class04942 {
    public class04971(List<class04970> pingResults, List<Long> realmIds) {
-      super();
       this.pingResults = pingResults;
       this.realmIds = realmIds;
    }

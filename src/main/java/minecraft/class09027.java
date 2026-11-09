@@ -25,7 +25,6 @@ public record class09027(class00392 label, Optional<class00392> tooltip, int wid
    }
 
    public class09027(class00392 label, Optional<class00392> tooltip, int width) {
-      super();
       this.label = label;
       this.tooltip = tooltip;
       this.width = width;

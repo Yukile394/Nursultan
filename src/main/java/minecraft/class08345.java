@@ -7,7 +7,6 @@ public record class08345<T extends class08387>(T entry, int width, int height) {
    }
 
    public class08345(T entry, int width, int height) {
-      super();
       this.entry = (T)entry;
       this.width = width;
       this.height = height;

@@ -16,7 +16,6 @@ public record class06250(int left, int right) {
    }
 
    public class06250(int left, int right) {
-      super();
       this.left = left;
       this.right = right;
    }

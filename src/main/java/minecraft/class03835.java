@@ -7,7 +7,6 @@ record class03835(Path path, int removalPriority) {
    public static final Comparator<class03835> L = Comparator.comparing(class03835::y).reversed();
 
    class03835(Path path, int removalPriority) {
-      super();
       this.path = path;
       this.removalPriority = removalPriority;
    }

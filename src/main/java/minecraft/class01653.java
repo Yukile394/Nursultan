@@ -34,7 +34,6 @@ public record class01653(Optional<class06953> body, Optional<class06953> cape, O
    }
 
    public class01653(Optional<class06953> body, Optional<class06953> cape, Optional<class06953> elytra, Optional<class04208> model) {
-      super();
       this.body = body;
       this.cape = cape;
       this.elytra = elytra;

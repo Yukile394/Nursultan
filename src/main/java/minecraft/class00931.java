@@ -23,7 +23,6 @@ public record class00931(class07126 particle, float scaling, float speed) {
    }
 
    public class00931(class07126 particle, float scaling, float speed) {
-      super();
       this.particle = particle;
       this.scaling = scaling;
       this.speed = speed;

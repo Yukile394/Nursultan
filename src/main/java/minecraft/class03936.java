@@ -16,7 +16,6 @@ public record class03936<T>(List<T> paletteEntries, Optional<LongStream> storage
    }
 
    public class03936(List<T> paletteEntries, Optional<LongStream> storage, int bitsPerEntry) {
-      super();
       this.paletteEntries = paletteEntries;
       this.storage = storage;
       this.bitsPerEntry = bitsPerEntry;

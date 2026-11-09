@@ -29,7 +29,6 @@ public record class08393(
    public class08393(
       Optional<List<class08421>> frames, Optional<Integer> frameWidth, Optional<Integer> frameHeight, int defaultFrameTime, boolean interpolatedFrames
    ) {
-      super();
       this.frames = frames;
       this.frameWidth = frameWidth;
       this.frameHeight = frameHeight;

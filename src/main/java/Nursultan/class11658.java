@@ -7,7 +7,6 @@ import net.fabricmc.api.Environment;
 @Environment(EnvType.CLIENT)
 public record class11658(List<Object> subkeys) {
    public class11658(List<Object> subkeys) {
-      super();
       this.subkeys = subkeys;
    }
 

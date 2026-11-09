@@ -10,7 +10,6 @@ public record class00447(class00891 type, int occupantCount, int honeyLevel, boo
    }
 
    public class00447(class00891 type, int occupantCount, int honeyLevel, boolean sedated) {
-      super();
       this.type = type;
       this.occupantCount = occupantCount;
       this.honeyLevel = honeyLevel;

@@ -24,7 +24,6 @@ public record class02197(List<class02191> rules, float defaultMiningSpeed, int d
    }
 
    public class02197(List<class02191> rules, float defaultMiningSpeed, int damagePerBlock, boolean canDestroyBlocksInCreative) {
-      super();
       this.rules = rules;
       this.defaultMiningSpeed = defaultMiningSpeed;
       this.damagePerBlock = damagePerBlock;

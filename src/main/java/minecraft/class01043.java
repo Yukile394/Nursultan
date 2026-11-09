@@ -13,7 +13,6 @@ public record class01043(double energyBudget, double charge) {
    );
 
    public class01043(double energyBudget, double charge) {
-      super();
       this.energyBudget = energyBudget;
       this.charge = charge;
    }

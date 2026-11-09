@@ -2,7 +2,6 @@ package minecraft;
 
 public record class02109(class04654 component) implements class02106 {
    public class02109(class04654 component) {
-      super();
       this.component = component;
    }
 

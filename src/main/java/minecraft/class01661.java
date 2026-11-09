@@ -7,7 +7,6 @@ record class01661(class01676 storage, class01672 events) {
    }
 
    private class01661(class01676 storage, class01672 events) {
-      super();
       this.storage = storage;
       this.events = events;
    }

@@ -12,7 +12,6 @@ public record class10638(int bitsInMemory, int bitsInStorage) implements class06
    }
 
    public class10638(int bitsInMemory, int bitsInStorage) {
-      super();
       this.bitsInMemory = bitsInMemory;
       this.bitsInStorage = bitsInStorage;
    }

@@ -11,7 +11,6 @@ public record class03807(Optional<UUID> id) implements class00381<class01662> {
    }
 
    public class03807(Optional<UUID> id) {
-      super();
       this.id = id;
    }
 

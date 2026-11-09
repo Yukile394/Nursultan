@@ -15,7 +15,6 @@ public record class09073(
    public class09073(
       int width, int height, class11181 format, class11199 minFilter, class11199 magFilter, class11175 wrapS, class11175 wrapT, boolean mipmapped, int usage
    ) {
-      super();
       this.width = width;
       this.height = height;
       this.format = format;

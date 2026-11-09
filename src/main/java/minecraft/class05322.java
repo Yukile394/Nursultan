@@ -12,7 +12,6 @@ public record class05322(class06584 primaryIcon, Optional<class06584> secondaryI
    }
 
    public class05322(class06584 primaryIcon, Optional<class06584> secondaryIcon, class00242 category) {
-      super();
       this.primaryIcon = primaryIcon;
       this.secondaryIcon = secondaryIcon;
       this.category = category;

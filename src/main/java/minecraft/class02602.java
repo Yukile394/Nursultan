@@ -12,7 +12,6 @@ public record class02602(Map<String, String> details) implements class00381<clas
    public static final class02362<ByteBuf, class02602> N = class02362.N(R, class02602::N, class02602::new);
 
    public class02602(Map<String, String> details) {
-      super();
       this.details = details;
    }
 

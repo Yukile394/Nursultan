@@ -14,7 +14,6 @@ public record class09024(class09039 common, class08734 action) implements class0
    );
 
    public class09024(class09039 common, class08734 action) {
-      super();
       this.common = common;
       this.action = action;
    }

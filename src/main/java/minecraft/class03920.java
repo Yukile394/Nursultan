@@ -9,7 +9,6 @@ public record class03920(class03956 xFace, class03956 yFace, class03956 zFace) {
    }
 
    public class03920(class03956 xFace, class03956 yFace, class03956 zFace) {
-      super();
       this.xFace = xFace;
       this.yFace = yFace;
       this.zFace = zFace;

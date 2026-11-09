@@ -21,7 +21,6 @@ public record class03657(
       class03664 shadowStrength,
       int glowColorOverride
    ) {
-      super();
       this.transformation = transformation;
       this.billboardConstraints = billboardConstraints;
       this.brightnessOverride = brightnessOverride;

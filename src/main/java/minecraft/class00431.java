@@ -9,7 +9,6 @@ public record class00431(class05163 boundingBox, List<class00426> pieces) {
    );
 
    public class00431(class05163 boundingBox, List<class00426> pieces) {
-      super();
       this.boundingBox = boundingBox;
       this.pieces = pieces;
    }

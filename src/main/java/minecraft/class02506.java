@@ -9,7 +9,6 @@ public record class02506(Map<class02466, class00845> slots) {
    public static final Codec<class02506> N = Codec.unboundedMap(class02488.N, class00845.N).xmap(class02506::new, class02506::N);
 
    public class02506(Map<class02466, class00845> slots) {
-      super();
       this.slots = slots;
    }
 

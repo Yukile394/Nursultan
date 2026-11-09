@@ -23,7 +23,6 @@ public record class07385(String ip, Optional<String> reason, Optional<String> so
    }
 
    public class07385(String ip, Optional<String> reason, Optional<String> source, Optional<Instant> expires) {
-      super();
       this.ip = ip;
       this.reason = reason;
       this.source = source;

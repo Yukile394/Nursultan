@@ -58,7 +58,6 @@ public record class02706(class02826<String> title, String author, int generation
    }
 
    public class02706(class02826<String> title, String author, int generation, List<class02826<class00392>> pages, boolean resolved) {
-      super();
       if (generation >= 0 && generation <= 3) {
          this.title = title;
          this.author = author;

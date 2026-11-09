@@ -23,7 +23,6 @@ public record class00759(List<class03659<class03689>> tags, Optional<class00821>
    }
 
    public class00759(List<class03659<class03689>> tags, Optional<class00821> directEntity, Optional<class00821> sourceEntity, Optional<Boolean> isDirect) {
-      super();
       this.tags = tags;
       this.directEntity = directEntity;
       this.sourceEntity = sourceEntity;

@@ -21,7 +21,6 @@ public record class06384(class01894 id) {
    public static final class06384 Z = N("debug");
 
    public class06384(class01894 id) {
-      super();
       this.id = id;
    }
 

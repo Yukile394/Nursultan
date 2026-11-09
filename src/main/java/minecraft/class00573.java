@@ -20,7 +20,6 @@ public record class00573(String message, Instant timeStamp, long salt, class0446
    }
 
    public class00573(String message, Instant timeStamp, long salt, @Nullable class04469 signature, class03058 lastSeenMessages) {
-      super();
       this.message = message;
       this.timeStamp = timeStamp;
       this.salt = salt;

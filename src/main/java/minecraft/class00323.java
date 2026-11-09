@@ -9,7 +9,6 @@ public record class00323(Duration duration, class07321 chunkPos, String structur
    }
 
    public class00323(Duration duration, class07321 chunkPos, String structureName, String level, boolean success) {
-      super();
       this.duration = duration;
       this.chunkPos = chunkPos;
       this.structureName = structureName;

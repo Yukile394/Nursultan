@@ -21,7 +21,6 @@ public record class00777(boolean hasPrecipitation, float temperature, class00785
    }
 
    public class00777(boolean hasPrecipitation, float temperature, class00785 temperatureModifier, float downfall) {
-      super();
       this.hasPrecipitation = hasPrecipitation;
       this.temperature = temperature;
       this.temperatureModifier = temperatureModifier;

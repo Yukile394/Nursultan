@@ -61,7 +61,6 @@ public record class07304(class00392 description, class07286 definition, class035
    }
 
    public class07304(class00392 description, class07286 definition, class03543<class07304> exclusiveSet, class02695 effects) {
-      super();
       this.description = description;
       this.definition = definition;
       this.exclusiveSet = exclusiveSet;

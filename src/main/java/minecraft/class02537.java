@@ -15,7 +15,6 @@ public record class02537(class02546 numerator, class02546 denominator) implement
    }
 
    public class02537(class02546 numerator, class02546 denominator) {
-      super();
       this.numerator = numerator;
       this.denominator = denominator;
    }

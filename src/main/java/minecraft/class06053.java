@@ -6,7 +6,6 @@ public record class06053(class05163 box, class06040 terrainAdjustment, int groun
    }
 
    public class06053(class05163 box, class06040 terrainAdjustment, int groundLevelDelta) {
-      super();
       this.box = box;
       this.terrainAdjustment = terrainAdjustment;
       this.groundLevelDelta = groundLevelDelta;

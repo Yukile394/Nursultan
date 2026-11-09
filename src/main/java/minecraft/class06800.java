@@ -9,7 +9,6 @@ record class06800(class06798 modifier, Predicate<class06790> canUse, class00392 
    }
 
    class06800(class06798 modifier, Predicate<class06790> canUse, class00392 description) {
-      super();
       this.modifier = modifier;
       this.canUse = canUse;
       this.description = description;

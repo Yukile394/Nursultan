@@ -23,7 +23,6 @@ public record class02187(Optional<class05196> player, Optional<class00817> start
    }
 
    public class02187(Optional<class05196> player, Optional<class00817> startPosition, Optional<class00761> distance, Optional<class05196> cause) {
-      super();
       this.player = player;
       this.startPosition = startPosition;
       this.distance = distance;

@@ -8,7 +8,6 @@ public record class01658(int batchSize) implements class00381<class07280> {
    }
 
    public class01658(int batchSize) {
-      super();
       this.batchSize = batchSize;
    }
 

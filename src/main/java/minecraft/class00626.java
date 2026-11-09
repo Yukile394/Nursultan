@@ -10,7 +10,6 @@ public record class00626(class03556<class09037> dialog) implements class00647 {
    );
 
    public class00626(class03556<class09037> dialog) {
-      super();
       this.dialog = dialog;
    }
 

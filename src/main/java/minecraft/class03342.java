@@ -20,7 +20,6 @@ record class03342(class03371 type, String id, String name) {
    }
 
    class03342(class03371 type, String id, String name) {
-      super();
       this.type = type;
       this.id = id;
       this.name = name;

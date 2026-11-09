@@ -10,7 +10,6 @@ public record class03505(float x, float y) {
       .comapFlatMap(var0 -> class07536.N(var0, 2).map(var0x -> new class03505((Float)var0x.get(0), (Float)var0x.get(1))), var0 -> List.of(var0.x, var0.y));
 
    public class03505(float x, float y) {
-      super();
       this.x = x;
       this.y = y;
    }

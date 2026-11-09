@@ -11,7 +11,6 @@ record class00998(List<class00963> states) implements class00972 {
    }
 
    class00998(List<class00963> states) {
-      super();
       this.states = states;
    }
 

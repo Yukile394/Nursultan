@@ -4,7 +4,6 @@ public record class02046(class00392 message, class00649 chatType) implements cla
    public static final class02362<class04247, class02046> N = class02362.N(class03748.u, class02046::N, class00649.N, class02046::y, class02046::new);
 
    public class02046(class00392 message, class00649 chatType) {
-      super();
       this.message = message;
       this.chatType = chatType;
    }

@@ -4,7 +4,6 @@ import java.nio.file.Path;
 
 public record class04168(Path link, Path target) {
    public class04168(Path link, Path target) {
-      super();
       this.link = link;
       this.target = target;
    }

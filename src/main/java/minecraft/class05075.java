@@ -20,7 +20,6 @@ public record class05075(class03556<class04891> sound, int minDelay, int maxDela
    }
 
    public class05075(class03556<class04891> sound, int minDelay, int maxDelay, boolean replaceCurrentMusic) {
-      super();
       this.sound = sound;
       this.minDelay = minDelay;
       this.maxDelay = maxDelay;

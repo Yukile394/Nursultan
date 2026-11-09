@@ -2,7 +2,6 @@ package Nursultan;
 
 record class09811(class09799 root) {
    class09811(class09799 root) {
-      super();
       this.root = root;
    }
 

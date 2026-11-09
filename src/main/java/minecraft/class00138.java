@@ -10,7 +10,6 @@ public record class00138(class01763[] openSet, class01763[] closedSet, Set<class
    }
 
    public class00138(class01763[] openSet, class01763[] closedSet, Set<class04604> targetNodes) {
-      super();
       this.openSet = openSet;
       this.closedSet = closedSet;
       this.targetNodes = targetNodes;

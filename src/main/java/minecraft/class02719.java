@@ -8,7 +8,6 @@ public record class02719(Map<String, class02685> decorations) {
    public static final Codec<class02719> y = Codec.unboundedMap(Codec.STRING, class02685.N).xmap(class02719::new, class02719::N);
 
    public class02719(Map<String, class02685> decorations) {
-      super();
       this.decorations = decorations;
    }
 

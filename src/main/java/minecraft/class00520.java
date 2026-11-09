@@ -46,7 +46,6 @@ public record class00520(
       class03556<class04891> explosionSound,
       class04540<class00931> blockParticles
    ) {
-      super();
       this.center = center;
       this.radius = radius;
       this.blockCount = blockCount;

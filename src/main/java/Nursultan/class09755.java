@@ -6,7 +6,6 @@ public record class09755(float[] pixels, int width, int height, int channels, do
    }
 
    public class09755(float[] pixels, int width, int height, int channels, double advance) {
-      super();
       this.pixels = pixels;
       this.width = width;
       this.height = height;

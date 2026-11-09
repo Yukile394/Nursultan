@@ -9,7 +9,6 @@ record class02317() implements class02339 {
    public static final class02320 L = new class02320(class01894.y("ore_drops"), y);
 
    private class02317() {
-      super();
    }
 
    @Override

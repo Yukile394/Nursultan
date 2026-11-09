@@ -6,7 +6,6 @@ public record class08453(float relativeX, float relativeY, float relativeZ, clas
    }
 
    public class08453(float relativeX, float relativeY, float relativeZ, class00494 shapeBelow, float alpha) {
-      super();
       this.relativeX = relativeX;
       this.relativeY = relativeY;
       this.relativeZ = relativeZ;

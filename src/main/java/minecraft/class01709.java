@@ -9,7 +9,6 @@ record class01709(Map<class01894, class08019> map) {
    public static final Codec<class01709> N = Codec.unboundedMap(class01894.N, class08019.N).xmap(class01709::new, class01709::N);
 
    class01709(Map<class01894, class08019> map) {
-      super();
       this.map = map;
    }
 

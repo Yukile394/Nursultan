@@ -7,7 +7,6 @@ public record class02448(long[] cells, int width, int height) {
    }
 
    public class02448(long[] cells, int width, int height) {
-      super();
       this.cells = cells;
       this.width = width;
       this.height = height;

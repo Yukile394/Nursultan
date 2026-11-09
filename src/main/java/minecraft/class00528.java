@@ -9,7 +9,6 @@ public record class00528(String samplerName, class08918 texture, int width, int 
    }
 
    public class00528(String samplerName, class08918 texture, int width, int height, boolean bilinear) {
-      super();
       this.samplerName = samplerName;
       this.texture = texture;
       this.width = width;

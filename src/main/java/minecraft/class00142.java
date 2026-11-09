@@ -23,7 +23,6 @@ public record class00142(class02471 exact, Map<class02487<?>, class02500> partia
    }
 
    public class00142(class02471 exact, Map<class02487<?>, class02500> partial) {
-      super();
       this.exact = exact;
       this.partial = partial;
    }

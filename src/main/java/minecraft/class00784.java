@@ -20,7 +20,6 @@ public record class00784(Optional<class05196> player, Optional<class05196> zombi
    }
 
    public class00784(Optional<class05196> player, Optional<class05196> zombie, Optional<class05196> villager) {
-      super();
       this.player = player;
       this.zombie = zombie;
       this.villager = villager;

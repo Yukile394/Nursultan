@@ -9,7 +9,6 @@ public record class07846(class07806 status) implements class00381<class07834> {
    public static final class02362<ByteBuf, class07846> N = class02362.N(class02389.R(32767).N_33(class02389.N(L, class07806.N)), class07846::N, class07846::new);
 
    public class07846(class07806 status) {
-      super();
       this.status = status;
    }
 

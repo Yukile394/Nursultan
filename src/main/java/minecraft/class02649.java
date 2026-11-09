@@ -10,7 +10,6 @@ public record class02649(class02627 positionFunction, float uncertainty, float p
    }
 
    public class02649(class02627 positionFunction, float uncertainty, float power, OptionalInt overrideDispenseEvent) {
-      super();
       this.positionFunction = positionFunction;
       this.uncertainty = uncertainty;
       this.power = power;

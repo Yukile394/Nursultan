@@ -8,7 +8,6 @@ public record class03076(int offset) implements class00381<class08051> {
    }
 
    public class03076(int offset) {
-      super();
       this.offset = offset;
    }
 

@@ -26,7 +26,6 @@ public record class00768(class03556<class02195> type, byte x, byte y, byte rot, 
    }
 
    public class00768(class03556<class02195> type, byte x, byte y, byte rot, Optional<class00392> name) {
-      super();
       rot = (byte)(rot & 15);
       this.type = type;
       this.x = x;

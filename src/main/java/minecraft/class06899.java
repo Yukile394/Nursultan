@@ -2,7 +2,6 @@ package minecraft;
 
 public record class06899(class05946<class05074> id) implements class04480 {
    public class06899(class05946<class05074> id) {
-      super();
       this.id = id;
    }
 

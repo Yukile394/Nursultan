@@ -2,7 +2,6 @@ package Nursultan;
 
 record class09732(int[] glyphs) {
    class09732(int[] glyphs) {
-      super();
       this.glyphs = glyphs;
    }
 

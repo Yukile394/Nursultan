@@ -10,7 +10,6 @@ public record class01631(class06955 body, class06955 cape, class06955 elytra, cl
    }
 
    public class01631(class06955 body, @Nullable class06955 cape, @Nullable class06955 elytra, class04208 model, boolean secure) {
-      super();
       this.body = body;
       this.cape = cape;
       this.elytra = elytra;

@@ -26,7 +26,6 @@ public record class08679(GpuTextureView texure0, GpuTextureView texure1, GpuText
       @Nullable class08188 sampler1,
       @Nullable class08188 sampler2
    ) {
-      super();
       this.texure0 = texure0;
       this.texure1 = texure1;
       this.texure2 = texure2;

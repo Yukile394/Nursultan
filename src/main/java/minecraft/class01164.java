@@ -4,7 +4,6 @@ import org.jspecify.annotations.Nullable;
 
 public record class01164(class07049 sourceEntity, class00500 affectedState) {
    public class01164(@Nullable class07049 sourceEntity, @Nullable class00500 affectedState) {
-      super();
       this.sourceEntity = sourceEntity;
       this.affectedState = affectedState;
    }

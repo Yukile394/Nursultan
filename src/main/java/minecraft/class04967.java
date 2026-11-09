@@ -9,7 +9,6 @@ public record class04967(List<class04981> servers) implements class04942 {
    private static final Logger y = LogUtils.getLogger();
 
    public class04967(List<class04981> servers) {
-      super();
       this.servers = servers;
    }
 

@@ -12,7 +12,6 @@ record class06764(class01894 id, Decoder<? extends Predicate<class06584>> type) 
    }
 
    class06764(class01894 id, Decoder<? extends Predicate<class06584>> type) {
-      super();
       this.id = id;
       this.type = type;
    }

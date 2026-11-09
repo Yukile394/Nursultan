@@ -9,7 +9,6 @@ public record class01644(String brand) implements class01659 {
    }
 
    public class01644(String brand) {
-      super();
       this.brand = brand;
    }
 

@@ -8,7 +8,6 @@ public record class04272(int numberOfTries, boolean haltOnFailure) {
    }
 
    public class04272(int numberOfTries, boolean haltOnFailure) {
-      super();
       this.numberOfTries = numberOfTries;
       this.haltOnFailure = haltOnFailure;
    }

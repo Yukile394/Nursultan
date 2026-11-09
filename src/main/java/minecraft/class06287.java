@@ -6,7 +6,6 @@ public record class06287(class07086 difficulty) implements class00381<class08051
    public static final class02362<ByteBuf, class06287> N = class02362.N(class07086.field_60664, class06287::N, class06287::new);
 
    public class06287(class07086 difficulty) {
-      super();
       this.difficulty = difficulty;
    }
 

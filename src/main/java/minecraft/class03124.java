@@ -8,7 +8,6 @@ public record class03124(int tickSteps) implements class00381<class07280> {
    }
 
    public class03124(int tickSteps) {
-      super();
       this.tickSteps = tickSteps;
    }
 

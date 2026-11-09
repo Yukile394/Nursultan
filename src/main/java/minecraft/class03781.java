@@ -9,7 +9,6 @@ public record class03781(class00751<class01255> dimensions, class06228 specialWo
    }
 
    public class03781(class00751<class01255> dimensions, class06228 specialWorldProperty) {
-      super();
       this.dimensions = dimensions;
       this.specialWorldProperty = specialWorldProperty;
    }

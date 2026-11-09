@@ -14,7 +14,6 @@ public record class03628(class01471 aboveRootProvider, float aboveRootPlacementC
    );
 
    public class03628(class01471 aboveRootProvider, float aboveRootPlacementChance) {
-      super();
       this.aboveRootProvider = aboveRootProvider;
       this.aboveRootPlacementChance = aboveRootPlacementChance;
    }

@@ -6,7 +6,6 @@ import java.util.concurrent.CompletableFuture;
 record class08104(class08119 entry, CompletableFuture<class02008> preparations) {
 
    class08104(class08119 entry, CompletableFuture<class02008> preparations) {
-      super();
       this.entry = entry;
       this.preparations = preparations;
    }

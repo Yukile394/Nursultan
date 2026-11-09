@@ -11,7 +11,6 @@ public record class08354(class08280 image, class08500 metadata) implements Close
    }
 
    public class08354(class08280 image, @Nullable class08500 metadata) {
-      super();
       this.image = image;
       this.metadata = metadata;
    }

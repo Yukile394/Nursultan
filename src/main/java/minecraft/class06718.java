@@ -32,7 +32,6 @@ record class06718(
       float swayScaleSlow,
       float swayScaleFast
    ) {
-      super();
       this.raiseProgress = raiseProgress;
       this.raiseProgressStart = raiseProgressStart;
       this.raiseProgressMiddle = raiseProgressMiddle;

@@ -14,7 +14,6 @@ public record class03347<T>(class05946<class00751<T>> registryKey, Codec<T> code
    }
 
    public class03347(class05946<class00751<T>> registryKey, Codec<T> codec, class03350<T> validator) {
-      super();
       this.registryKey = registryKey;
       this.codec = codec;
       this.validator = validator;

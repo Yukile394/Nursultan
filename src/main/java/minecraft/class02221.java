@@ -8,7 +8,6 @@ public record class02221(float yOffset, float skullYOffset, float horizontalScal
    }
 
    public class02221(float yOffset, float skullYOffset, float horizontalScale) {
-      super();
       this.yOffset = yOffset;
       this.skullYOffset = skullYOffset;
       this.horizontalScale = horizontalScale;

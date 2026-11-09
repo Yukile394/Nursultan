@@ -21,7 +21,6 @@ record class08269(boolean elements, boolean tags, boolean stable) {
    }
 
    class08269(boolean elements, boolean tags, boolean stable) {
-      super();
       this.elements = elements;
       this.tags = tags;
       this.stable = stable;

@@ -9,7 +9,6 @@ public record class11997(String name, String text, int key) {
    }
 
    public class11997(String name, String text, int key) {
-      super();
       this.name = name;
       this.text = text;
       this.key = key;

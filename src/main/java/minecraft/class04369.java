@@ -14,7 +14,6 @@ public record class04369(int minInclusive, int maxInclusive, boolean applyValueI
    }
 
    public class04369(int minInclusive, int maxInclusive, boolean applyValueImmediately) {
-      super();
       this.minInclusive = minInclusive;
       this.maxInclusive = maxInclusive;
       this.applyValueImmediately = applyValueImmediately;

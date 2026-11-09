@@ -8,7 +8,6 @@ public record class01829(int version, String series) {
    }
 
    public class01829(int version, String series) {
-      super();
       this.version = version;
       this.series = series;
    }

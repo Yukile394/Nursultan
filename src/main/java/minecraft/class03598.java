@@ -11,7 +11,6 @@ public record class03598(List<class03590> chunkBiomeData) implements class00381<
    }
 
    public class03598(List<class03590> chunkBiomeData) {
-      super();
       this.chunkBiomeData = chunkBiomeData;
    }
 

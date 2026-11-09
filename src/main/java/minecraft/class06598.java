@@ -17,7 +17,6 @@ record class06598(Supplier<class07923> skin, boolean hat, float x, float y, int 
    }
 
    class06598(Supplier<class07923> skin, boolean hat, float x, float y, int color, int shadowColor, float shadowOffset, class00405 style) {
-      super();
       this.skin = skin;
       this.hat = hat;
       this.x = x;

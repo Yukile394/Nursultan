@@ -6,7 +6,6 @@ public record class00380(class06584 item) implements class00395 {
    public static final MapCodec<class00380> y = class06584.N.xmap(class00380::new, class00380::y);
 
    public class00380(class06584 item) {
-      super();
       item = item.t();
       this.item = item;
    }

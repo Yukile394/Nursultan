@@ -24,7 +24,6 @@ public record class00805(Map<String, class05338> scores, class05919 entityTarget
    }
 
    public class00805(Map<String, class05338> scores, class05919 entityTarget) {
-      super();
       this.scores = scores;
       this.entityTarget = entityTarget;
    }

@@ -19,7 +19,6 @@ public record class08723(List<class08200> deathEffects) {
    );
 
    public class08723(List<class08200> deathEffects) {
-      super();
       this.deathEffects = deathEffects;
    }
 

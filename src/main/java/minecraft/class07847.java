@@ -15,7 +15,6 @@ public record class07847(int transactionId, class04191 payload) implements class
    }
 
    public class07847(int transactionId, @Nullable class04191 payload) {
-      super();
       this.transactionId = transactionId;
       this.payload = payload;
    }

@@ -11,7 +11,6 @@ public record class08721(class03530<class03689> types) {
    public static final class02362<class04247, class08721> y = class02362.N(class03530.L(class04227.yN), class08721::N, class08721::new);
 
    public class08721(class03530<class03689> types) {
-      super();
       this.types = types;
    }
 

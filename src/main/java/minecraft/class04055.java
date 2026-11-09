@@ -21,7 +21,6 @@ public record class04055(List<class04031> layers, class07211 direction, class040
    }
 
    public class04055(List<class04031> layers, class07211 direction, class04025 allowedPlacement, boolean prioritizeTip) {
-      super();
       this.layers = layers;
       this.direction = direction;
       this.allowedPlacement = allowedPlacement;

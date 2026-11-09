@@ -8,7 +8,6 @@ public record class06915<T extends class06516>(class06583<T> trigger, T triggerI
    public static final Codec<class06915<?>> N = u.codec();
 
    public class06915(class06583<T> trigger, T triggerInstance) {
-      super();
       this.trigger = trigger;
       this.triggerInstance = (T)triggerInstance;
    }

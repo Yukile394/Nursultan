@@ -50,7 +50,6 @@ public record class00817(
       Optional<class01415> fluid,
       Optional<Boolean> canSeeSky
    ) {
-      super();
       this.position = position;
       this.biomes = biomes;
       this.structures = structures;

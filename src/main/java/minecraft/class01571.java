@@ -3,7 +3,6 @@ package minecraft;
 record class01571(class07209 pos, class00500 oldState) {
 
    class01571(class07209 pos, class00500 oldState) {
-      super();
       this.pos = pos;
       this.oldState = oldState;
    }

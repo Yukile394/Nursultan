@@ -8,7 +8,6 @@ public record class04278(class01894 key) implements class00381<class04288> {
    }
 
    public class04278(class01894 key) {
-      super();
       this.key = key;
    }
 

@@ -7,7 +7,6 @@ public record class02581(List<class02231> links) implements class00381<class0166
    public static final class02362<ByteBuf, class02581> N = class02362.N(class02243.L, class02581::N, class02581::new);
 
    public class02581(List<class02231> links) {
-      super();
       this.links = links;
    }
 

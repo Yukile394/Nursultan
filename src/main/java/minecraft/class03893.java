@@ -27,7 +27,6 @@ record class03893(class03877 input, double minInclusive, double maxExclusive, cl
    }
 
    class03893(class03877 input, double minInclusive, double maxExclusive, class03877 whenInRange, class03877 whenOutOfRange) {
-      super();
       this.input = input;
       this.minInclusive = minInclusive;
       this.maxExclusive = maxExclusive;

@@ -12,7 +12,6 @@ public record class11214<C>(Supplier<class08066> framebuffer, boolean viewport) 
    }
 
    class11214(Supplier<class08066> framebuffer, boolean viewport) {
-      super();
       this.framebuffer = Objects.requireNonNull(framebuffer, L[0]);
       this.viewport = viewport;
    }

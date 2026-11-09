@@ -8,7 +8,6 @@ public record class03053(class03928 messageSignature) implements class00381<clas
    }
 
    public class03053(class03928 messageSignature) {
-      super();
       this.messageSignature = messageSignature;
    }
 

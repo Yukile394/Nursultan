@@ -22,7 +22,6 @@ public record class07397(class07947 player, Optional<class08195> permissionLevel
    }
 
    public class07397(class07947 player, Optional<class08195> permissionLevel, Optional<Boolean> bypassesPlayerLimit) {
-      super();
       this.player = player;
       this.permissionLevel = permissionLevel;
       this.bypassesPlayerLimit = bypassesPlayerLimit;

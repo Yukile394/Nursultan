@@ -3,7 +3,6 @@ package minecraft;
 record class08218(class05946<class04513> normal, class05946<class04513> ominous) {
 
    private class08218(class05946<class04513> normal, class05946<class04513> ominous) {
-      super();
       this.normal = normal;
       this.ominous = ominous;
    }

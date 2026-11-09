@@ -22,7 +22,6 @@ public record class00488(int value, boolean locked, Optional<class00392> display
    }
 
    public class00488(int value, boolean locked, Optional<class00392> display, Optional<class01762> numberFormat) {
-      super();
       this.value = value;
       this.locked = locked;
       this.display = display;

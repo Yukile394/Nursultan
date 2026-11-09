@@ -9,7 +9,6 @@ public record class00085(Matrix4fc value) implements class00069 {
    public static final Codec<class00085> y = class06338.U.xmap(class00085::new, class00085::y);
 
    public class00085(Matrix4fc value) {
-      super();
       this.value = value;
    }
 

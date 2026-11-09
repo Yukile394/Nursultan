@@ -16,7 +16,6 @@ record class01420(Optional<String> minValue, Optional<String> maxValue) implemen
    );
 
    private class01420(Optional<String> minValue, Optional<String> maxValue) {
-      super();
       this.minValue = minValue;
       this.maxValue = maxValue;
    }

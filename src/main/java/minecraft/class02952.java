@@ -21,7 +21,6 @@ public record class02952(Optional<class02835> shape, Optional<Boolean> twinkle, 
    }
 
    public class02952(Optional<class02835> shape, Optional<Boolean> twinkle, Optional<Boolean> trail) {
-      super();
       this.shape = shape;
       this.twinkle = twinkle;
       this.trail = trail;

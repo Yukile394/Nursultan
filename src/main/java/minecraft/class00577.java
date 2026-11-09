@@ -16,7 +16,6 @@ public record class00577(Matrix3x2fc pose, float opacity, class03255 scissor) {
    }
 
    public class00577(Matrix3x2fc pose, float opacity, @Nullable class03255 scissor) {
-      super();
       this.pose = pose;
       this.opacity = opacity;
       this.scissor = scissor;

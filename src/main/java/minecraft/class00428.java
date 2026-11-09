@@ -6,7 +6,6 @@ public record class00428<T>(class00455<T> subscription, T value) {
    public static final class02362<class04247, class00428<?>> N = class02389.N(class04227.v).y(class00428::N, class00428::N);
 
    public class00428(class00455<T> subscription, T value) {
-      super();
       this.subscription = subscription;
       this.value = (T)value;
    }

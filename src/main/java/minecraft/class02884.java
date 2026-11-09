@@ -8,7 +8,6 @@ public record class02884(Set<class00455<?>> subscriptions) implements class00381
    public static final class02362<class04247, class02884> N = L.N_10(class02884::new, class02884::N);
 
    public class02884(Set<class00455<?>> subscriptions) {
-      super();
       this.subscriptions = (Set<class00455<?>>)subscriptions;
    }
 

@@ -11,7 +11,6 @@ public record class04419(class03556<class04748> structure, int weight) {
    );
 
    public class04419(class03556<class04748> structure, int weight) {
-      super();
       this.structure = structure;
       this.weight = weight;
    }

@@ -22,7 +22,6 @@ public record class02552(class00753 offset, Optional<class04025> predicate, clas
    }
 
    public class02552(class00753 offset, Optional<class04025> predicate, class01471 blockState, Optional<class03556<class01194>> triggerGameEvent) {
-      super();
       this.offset = offset;
       this.predicate = predicate;
       this.blockState = blockState;

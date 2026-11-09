@@ -11,7 +11,6 @@ public record class00350(float period) implements class06572 {
    );
 
    public class00350(float period) {
-      super();
       this.period = period;
    }
 

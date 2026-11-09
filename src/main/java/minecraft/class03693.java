@@ -2,7 +2,6 @@ package minecraft;
 
 record class03693(float previous, float current) implements class03664 {
    class03693(float previous, float current) {
-      super();
       this.previous = previous;
       this.current = current;
    }

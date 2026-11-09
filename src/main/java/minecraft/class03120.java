@@ -20,7 +20,6 @@ public record class03120(class05946<class05281> alias, class04540<class05946<cla
    }
 
    public class03120(class05946<class05281> alias, class04540<class05946<class05281>> targets) {
-      super();
       this.alias = alias;
       this.targets = targets;
    }

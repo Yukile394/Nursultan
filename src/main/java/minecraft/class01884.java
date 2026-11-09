@@ -9,7 +9,6 @@ record class01884(class00381<? extends class01636> packet, BooleanSupplier sendC
    }
 
    class01884(class00381<? extends class01636> packet, BooleanSupplier sendCondition, long expirationTime) {
-      super();
       this.packet = packet;
       this.sendCondition = sendCondition;
       this.expirationTime = expirationTime;

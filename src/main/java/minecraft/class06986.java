@@ -4,7 +4,6 @@ record class06986<T>(T value, long expiresAfterTime) {
    private static final long L = -1L;
 
    class06986(T value, long expiresAfterTime) {
-      super();
       this.value = (T)value;
       this.expiresAfterTime = expiresAfterTime;
    }

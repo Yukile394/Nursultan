@@ -20,7 +20,6 @@ public record class08927(class08909 property, class08895 onTrue, class08895 onFa
    }
 
    public class08927(class08909 property, class08895 onTrue, class08895 onFalse) {
-      super();
       this.property = property;
       this.onTrue = onTrue;
       this.onFalse = onFalse;

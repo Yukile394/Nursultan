@@ -15,7 +15,6 @@ public record class03726(int width, int height) {
    private static final int R = 13;
 
    public class03726(int width, int height) {
-      super();
       this.width = width;
       this.height = height;
    }

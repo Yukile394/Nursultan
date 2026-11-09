@@ -14,7 +14,6 @@ public record class04086(class03556<class06581> displayItem, class01584 settings
    public static final Codec<class03556<class04086>> y = class01281.N(class04227.yM, N);
 
    public class04086(class03556<class06581> displayItem, class01584 settings) {
-      super();
       this.displayItem = displayItem;
       this.settings = settings;
    }

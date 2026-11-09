@@ -7,7 +7,6 @@ public record class07056(boolean wasItemInteraction, class06584 heldItemTransfor
    static class07056 u = new class07056(true, null);
 
    public class07056(boolean wasItemInteraction, @Nullable class06584 heldItemTransformedTo) {
-      super();
       this.wasItemInteraction = wasItemInteraction;
       this.heldItemTransformedTo = heldItemTransformedTo;
    }

@@ -9,7 +9,6 @@ public record class00087(Vector3ic value) implements class00069 {
    public static final Codec<class00087> y = class06338.R.xmap(class00087::new, class00087::y);
 
    public class00087(Vector3ic value) {
-      super();
       this.value = value;
    }
 

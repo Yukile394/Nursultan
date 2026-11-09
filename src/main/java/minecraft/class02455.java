@@ -11,7 +11,6 @@ public record class02455(int x, int z, int bottomY, int topY, float uOffset, flo
    }
 
    public class02455(int x, int z, int bottomY, int topY, float uOffset, float vOffset, int lightCoords) {
-      super();
       this.x = x;
       this.z = z;
       this.bottomY = bottomY;

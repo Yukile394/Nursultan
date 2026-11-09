@@ -39,7 +39,6 @@ public record class00482(
       class04167 commonPlayerSpawnInfo,
       boolean enforcesSecureChat
    ) {
-      super();
       this.playerId = playerId;
       this.hardcore = hardcore;
       this.levels = levels;

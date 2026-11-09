@@ -8,7 +8,6 @@ public record class04175(float desiredChunksPerTick) implements class00381<class
    }
 
    public class04175(float desiredChunksPerTick) {
-      super();
       this.desiredChunksPerTick = desiredChunksPerTick;
    }
 

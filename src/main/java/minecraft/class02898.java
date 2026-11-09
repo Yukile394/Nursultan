@@ -14,7 +14,6 @@ record class02898<T extends class00638, P extends class00381<? super T>, B exten
    }
 
    class02898(class02897<P> type, class02362<? super B, P> serializer, @Nullable class00145<B, P, C> modifier) {
-      super();
       this.type = type;
       this.serializer = serializer;
       this.modifier = modifier;

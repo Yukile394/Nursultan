@@ -10,7 +10,6 @@ public record class07378(int containerId, class00329 recipe, boolean useMaxItems
    }
 
    public class07378(int containerId, class00329 recipe, boolean useMaxItems) {
-      super();
       this.containerId = containerId;
       this.recipe = recipe;
       this.useMaxItems = useMaxItems;

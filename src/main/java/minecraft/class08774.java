@@ -16,7 +16,6 @@ public record class08774(UUID id, String name) {
    );
 
    public class08774(UUID id, String name) {
-      super();
       this.id = id;
       this.name = name;
    }

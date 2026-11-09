@@ -13,7 +13,6 @@ public record class08912(float threshold, class08895 model) {
    public static final Comparator<class08912> u = Comparator.comparingDouble(class08912::N);
 
    public class08912(float threshold, class08895 model) {
-      super();
       this.threshold = threshold;
       this.model = model;
    }

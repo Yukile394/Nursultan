@@ -45,7 +45,6 @@ record class07069(int amplifier, int duration, boolean ambient, boolean showPart
    }
 
    class07069(int amplifier, int duration, boolean ambient, boolean showParticles, boolean showIcon, Optional<class07069> hiddenEffect) {
-      super();
       this.amplifier = amplifier;
       this.duration = duration;
       this.ambient = ambient;

@@ -20,7 +20,6 @@ public record class06589(Optional<class03556<class04891>> start, Optional<class0
    }
 
    public class06589(Optional<class03556<class04891>> start, Optional<class03556<class04891>> mid, Optional<class03556<class04891>> end) {
-      super();
       this.start = start;
       this.mid = mid;
       this.end = end;

@@ -4,7 +4,6 @@ record class01634(int count, int age) {
    static final class01634 L = new class01634(0, Integer.MAX_VALUE);
 
    private class01634(int count, int age) {
-      super();
       this.count = count;
       this.age = age;
    }

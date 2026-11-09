@@ -9,7 +9,6 @@ record class03062(class04469 signature, BooleanSupplier handler) {
    }
 
    class03062(@Nullable class04469 signature, BooleanSupplier handler) {
-      super();
       this.signature = signature;
       this.handler = handler;
    }

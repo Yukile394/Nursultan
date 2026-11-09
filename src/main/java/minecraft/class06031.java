@@ -8,7 +8,6 @@ public record class06031(class01423 pose, class08800 entityRenderState, Quaterni
    }
 
    public class06031(class01423 pose, class08800 entityRenderState, Quaternionf rotation) {
-      super();
       this.pose = pose;
       this.entityRenderState = entityRenderState;
       this.rotation = rotation;

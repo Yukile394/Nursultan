@@ -241,7 +241,6 @@ public record class01960(
       class04891 buttonClickOff,
       class04891 buttonClickOn
    ) {
-      super();
       this.name = name;
       this.canOpenByHand = canOpenByHand;
       this.canOpenByWindCharge = canOpenByWindCharge;

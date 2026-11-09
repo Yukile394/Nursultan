@@ -12,7 +12,6 @@ public record class04470(class04454 data) {
    public static final Codec<class04470> L = class04454.y.xmap(class04470::new, class04470::y);
 
    public class04470(class04454 data) {
-      super();
       this.data = data;
    }
 

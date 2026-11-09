@@ -11,7 +11,6 @@ public record class06643(class04167 commonPlayerSpawnInfo, byte dataToKeep) impl
    }
 
    public class06643(class04167 commonPlayerSpawnInfo, byte dataToKeep) {
-      super();
       this.commonPlayerSpawnInfo = commonPlayerSpawnInfo;
       this.dataToKeep = dataToKeep;
    }

@@ -21,7 +21,6 @@ public record class09011(int width, class00392 label, String labelFormat, class0
    }
 
    public class09011(int width, class00392 label, String labelFormat, class09041 rangeInfo) {
-      super();
       this.width = width;
       this.label = label;
       this.labelFormat = labelFormat;

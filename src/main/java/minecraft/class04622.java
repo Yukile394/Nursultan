@@ -8,7 +8,6 @@ public record class04622(int sequence) implements class00381<class07280> {
    }
 
    public class04622(int sequence) {
-      super();
       this.sequence = sequence;
    }
 

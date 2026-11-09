@@ -10,7 +10,6 @@ public record class00487(class00508 stub, int flags, int redirect, int[] childre
    }
 
    class00487(@Nullable class00508 stub, int flags, int redirect, int[] children) {
-      super();
       this.stub = stub;
       this.flags = flags;
       this.redirect = redirect;

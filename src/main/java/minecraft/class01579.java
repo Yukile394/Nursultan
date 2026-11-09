@@ -11,7 +11,6 @@ public record class01579(class01471 fluid, class01471 barrier) implements class0
    );
 
    public class01579(class01471 fluid, class01471 barrier) {
-      super();
       this.fluid = fluid;
       this.barrier = barrier;
    }

@@ -24,7 +24,6 @@ public record class02334(class07209 min, class07209 max) implements Iterable<cla
    }
 
    public class02334(class07209 min, class07209 max) {
-      super();
       this.min = class07209.method_58249(min, max);
       this.max = class07209.method_58250(min, max);
    }

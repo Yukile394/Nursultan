@@ -23,7 +23,6 @@ record class03902(int fromY, int toY, double fromValue, double toValue) implemen
    }
 
    class03902(int fromY, int toY, double fromValue, double toValue) {
-      super();
       this.fromY = fromY;
       this.toY = toY;
       this.fromValue = fromValue;

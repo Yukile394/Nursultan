@@ -2,7 +2,6 @@ package minecraft;
 
 public record class00164(String id, int argCount) {
    public class00164(String id, int argCount) {
-      super();
       this.id = id;
       this.argCount = argCount;
    }

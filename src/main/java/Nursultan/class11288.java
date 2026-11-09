@@ -15,7 +15,6 @@ public record class11288(class11067 module) implements class11287 {
    }
 
    public class11288(class11067 module) {
-      super();
       this.module = module;
    }
 

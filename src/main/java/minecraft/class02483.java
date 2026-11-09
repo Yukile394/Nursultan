@@ -6,7 +6,6 @@ public record class02483(class00809 value) implements class02500 {
    public static final Codec<class02483> N = class00809.N.xmap(class02483::new, class02483::N);
 
    public class02483(class00809 value) {
-      super();
       this.value = value;
    }
 

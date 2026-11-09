@@ -26,7 +26,6 @@ public record class01624(long timeout, int flags) {
    }
 
    public class01624(long timeout, int flags) {
-      super();
       this.timeout = timeout;
       this.flags = flags;
    }

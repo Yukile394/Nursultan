@@ -6,7 +6,6 @@ public record class03298(class01089 resourceManager, class01042 registryAccess, 
    }
 
    public class03298(class01089 resourceManager, class01042 registryAccess, class01224 structureTemplateManager) {
-      super();
       this.resourceManager = resourceManager;
       this.registryAccess = registryAccess;
       this.structureTemplateManager = structureTemplateManager;

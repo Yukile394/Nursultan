@@ -6,7 +6,6 @@ record class10063(float width, float height, float minWidth, float minHeight) {
    }
 
    class10063(float width, float height, float minWidth, float minHeight) {
-      super();
       this.width = width;
       this.height = height;
       this.minWidth = minWidth;

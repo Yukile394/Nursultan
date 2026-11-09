@@ -26,7 +26,6 @@ public record class03701(class08511 x, class08511 y, class08511 z, boolean uvLoc
    }
 
    public class03701(class08511 x, class08511 y, class08511 z, boolean uvLock) {
-      super();
       this.x = x;
       this.y = y;
       this.z = z;

@@ -12,7 +12,6 @@ public record class01904(float roll) implements class07126 {
    public static final class02362<class04247, class01904> y = class02362.N(class02389.E, var0 -> var0.roll, class01904::new);
 
    public class01904(float roll) {
-      super();
       this.roll = roll;
    }
 

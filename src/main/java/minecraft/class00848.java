@@ -20,7 +20,6 @@ record class00848(class00816 x, class00816 y, class00816 z) {
    }
 
    private class00848(class00816 x, class00816 y, class00816 z) {
-      super();
       this.x = x;
       this.y = y;
       this.z = z;

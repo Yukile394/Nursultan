@@ -9,7 +9,6 @@ record class06701(class05946<class07299> dimensionKey, class06172 storage, ListI
    }
 
    class06701(class05946<class07299> dimensionKey, class06172 storage, ListIterator<class06699> files) {
-      super();
       this.dimensionKey = dimensionKey;
       this.storage = storage;
       this.files = files;

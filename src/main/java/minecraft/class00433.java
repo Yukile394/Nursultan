@@ -22,7 +22,6 @@ public record class00433(Optional<class07209> hivePos, Optional<class07209> flow
    }
 
    public class00433(Optional<class07209> hivePos, Optional<class07209> flowerPos, int travelTicks, List<class07209> blacklistedHives) {
-      super();
       this.hivePos = hivePos;
       this.flowerPos = flowerPos;
       this.travelTicks = travelTicks;

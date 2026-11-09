@@ -6,7 +6,6 @@ public record class06626(int codepoint, int modifiers) {
    }
 
    public class06626(int codepoint, int modifiers) {
-      super();
       this.codepoint = codepoint;
       this.modifiers = modifiers;
    }

@@ -8,7 +8,6 @@ public record class02232(class02204<class02206> song) implements class02694 {
    public static final class02362<class04247, class02232> y = class02362.N(class02204.N(class04227.yz, class02206.u), class02232::N, class02232::new);
 
    public class02232(class02204<class02206> song) {
-      super();
       this.song = song;
    }
 

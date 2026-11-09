@@ -5,7 +5,6 @@ import java.util.List;
 
 public record class00053(List<class00065> regionData) implements class04942 {
    public class00053(List<class00065> regionData) {
-      super();
       this.regionData = regionData;
    }
 

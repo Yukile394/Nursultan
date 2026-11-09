@@ -2,7 +2,6 @@ package minecraft;
 
 record class03000(class00500 state) implements class03003 {
    class03000(class00500 state) {
-      super();
       this.state = state;
    }
 

@@ -7,7 +7,6 @@ public record class09153(class11499 rotation, float yawSpeed, float pitchSpeed) 
    }
 
    public class09153(class11499 rotation, float yawSpeed, float pitchSpeed) {
-      super();
       this.rotation = rotation;
       this.yawSpeed = yawSpeed;
       this.pitchSpeed = pitchSpeed;

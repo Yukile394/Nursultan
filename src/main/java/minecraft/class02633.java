@@ -6,7 +6,6 @@ import java.util.function.Predicate;
 
 public record class02633<T, P extends Predicate<T>>(List<class02620<T, P>> entries) implements class02646<T, P> {
    public class02633(List<class02620<T, P>> entries) {
-      super();
       this.entries = entries;
    }
 

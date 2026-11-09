@@ -7,7 +7,6 @@ record class07462(class07830 heightMap, class02875 placement, class07441<?> pred
    }
 
    class07462(class07830 heightMap, class02875 placement, class07441<?> predicate) {
-      super();
       this.heightMap = heightMap;
       this.placement = placement;
       this.predicate = predicate;

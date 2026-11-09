@@ -10,7 +10,6 @@ public record class03126(byte flags) {
    }
 
    public class03126(byte flags) {
-      super();
       this.flags = flags;
    }
 

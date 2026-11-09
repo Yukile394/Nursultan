@@ -10,7 +10,6 @@ public record class07346(short slotNum, class06584 itemStack) implements class00
    }
 
    public class07346(short slotNum, class06584 itemStack) {
-      super();
       this.slotNum = slotNum;
       this.itemStack = itemStack;
    }

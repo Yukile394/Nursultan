@@ -18,7 +18,6 @@ public record class04966(Map<Long, List<class02689>> servers) {
    private static final Logger y = LogUtils.getLogger();
 
    public class04966(Map<Long, List<class02689>> servers) {
-      super();
       this.servers = servers;
    }
 

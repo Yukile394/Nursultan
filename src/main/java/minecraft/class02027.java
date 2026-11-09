@@ -9,7 +9,6 @@ public record class02027(UUID sessionId, class04470 profilePublicKey) {
    }
 
    public class02027(UUID sessionId, class04470 profilePublicKey) {
-      super();
       this.sessionId = sessionId;
       this.profilePublicKey = profilePublicKey;
    }

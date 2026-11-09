@@ -16,7 +16,6 @@ public record class03490(Optional<class06581> back, Optional<class06581> left, O
    }
 
    public class03490(Optional<class06581> back, Optional<class06581> left, Optional<class06581> right, Optional<class06581> front) {
-      super();
       this.back = back;
       this.left = left;
       this.right = right;

@@ -8,7 +8,6 @@ public record class02075(class02048 chatSession) implements class00381<class0805
    }
 
    public class02075(class02048 chatSession) {
-      super();
       this.chatSession = chatSession;
    }
 

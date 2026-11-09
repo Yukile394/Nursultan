@@ -9,7 +9,6 @@ public record class10285(int blockX, int blockY, int blockZ) implements class038
    }
 
    public class10285(int blockX, int blockY, int blockZ) {
-      super();
       this.blockX = blockX;
       this.blockY = blockY;
       this.blockZ = blockZ;

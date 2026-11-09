@@ -26,7 +26,6 @@ public record class00849(class00836 amplifier, class00836 duration, Optional<Boo
    }
 
    public class00849(class00836 amplifier, class00836 duration, Optional<Boolean> ambient, Optional<Boolean> visible) {
-      super();
       this.amplifier = amplifier;
       this.duration = duration;
       this.ambient = ambient;

@@ -20,7 +20,6 @@ public record class04558(class00836 blocksSetOnFire, Optional<class00821> entity
    }
 
    public class04558(class00836 blocksSetOnFire, Optional<class00821> entityStruck) {
-      super();
       this.blocksSetOnFire = blocksSetOnFire;
       this.entityStruck = entityStruck;
    }

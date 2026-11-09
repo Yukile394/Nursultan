@@ -10,7 +10,6 @@ public record class11343(boolean passed, String failedCheck) {
    }
 
    private class11343(boolean passed, String failedCheck) {
-      super();
       this.passed = passed;
       this.failedCheck = failedCheck;
    }

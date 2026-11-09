@@ -12,7 +12,6 @@ public record class02692(List<class02679> effects) implements class02694, class0
    public static final class02362<class04247, class02692> u = class02679.y.N_33(class02389.N()).N_10(class02692::new, class02692::N);
 
    public class02692(List<class02679> effects) {
-      super();
       this.effects = (List<class02679>)effects;
    }
 

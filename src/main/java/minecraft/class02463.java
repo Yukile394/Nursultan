@@ -26,7 +26,6 @@ public record class02463(int offset, Optional<Integer> size) implements class024
    }
 
    public class02463(int offset, Optional<Integer> size) {
-      super();
       this.offset = offset;
       this.size = size;
    }

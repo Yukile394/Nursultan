@@ -10,7 +10,6 @@ public record class04170(class04186 type, String pattern) {
    }
 
    public class04170(class04186 type, String pattern) {
-      super();
       this.type = type;
       this.pattern = pattern;
    }

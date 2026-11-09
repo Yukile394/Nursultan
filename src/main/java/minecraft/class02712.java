@@ -2,7 +2,6 @@ package minecraft;
 
 record class02712<T extends class02666>(class07491<? extends T> contextParam) implements class07579<T, class02666> {
    class02712(class07491<? extends T> contextParam) {
-      super();
       this.contextParam = contextParam;
    }
 

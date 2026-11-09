@@ -9,7 +9,6 @@ public record class10671(class06889 pos, int color, float size) {
    }
 
    public class10671(class06889 pos, int color, float size) {
-      super();
       this.pos = pos;
       this.color = color;
       this.size = size;

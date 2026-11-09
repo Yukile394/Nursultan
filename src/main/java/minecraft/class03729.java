@@ -6,7 +6,6 @@ public record class03729<T extends class06521<?>>(class05946<class06521<?>> y, T
    );
 
    public class03729(class05946<class06521<?>> y, T L) {
-      super();
       this.y = y;
       this.L = (T)L;
    }

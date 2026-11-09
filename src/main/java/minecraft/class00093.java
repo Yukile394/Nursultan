@@ -16,7 +16,6 @@ public record class00093(String address, String resourcePackUrl, String resource
    }
 
    public class00093(@Nullable String address, @Nullable String resourcePackUrl, @Nullable String resourcePackHash, @Nullable class00114 regionData) {
-      super();
       this.address = address;
       this.resourcePackUrl = resourcePackUrl;
       this.resourcePackHash = resourcePackHash;

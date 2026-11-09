@@ -25,7 +25,6 @@ public record class05534(class08983<class07078<?>> entityData, int ticksInHive, 
    }
 
    public class05534(class08983<class07078<?>> entityData, int ticksInHive, int minTicksInHive) {
-      super();
       this.entityData = entityData;
       this.ticksInHive = ticksInHive;
       this.minTicksInHive = minTicksInHive;

@@ -14,7 +14,6 @@ public record class05380(boolean isValid, List<class05342> records) {
    );
 
    public class05380(boolean isValid, List<class05342> records) {
-      super();
       this.isValid = isValid;
       this.records = records;
    }

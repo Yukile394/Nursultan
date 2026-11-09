@@ -19,7 +19,6 @@ public record class02497(class06953 wild, class06953 tame, class06953 angry) {
    }
 
    public class02497(class06953 wild, class06953 tame, class06953 angry) {
-      super();
       this.wild = wild;
       this.tame = tame;
       this.angry = angry;

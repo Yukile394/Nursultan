@@ -13,7 +13,6 @@ public record class01368(class03556<class04891> soundEvent, double tickChance) {
    );
 
    public class01368(class03556<class04891> soundEvent, double tickChance) {
-      super();
       this.soundEvent = soundEvent;
       this.tickChance = tickChance;
    }

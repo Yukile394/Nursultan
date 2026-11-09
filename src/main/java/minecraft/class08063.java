@@ -12,7 +12,6 @@ public record class08063(int id, class08716 change, Set<class06681> relatives, b
    }
 
    public class08063(int id, class08716 change, Set<class06681> relatives, boolean onGround) {
-      super();
       this.id = id;
       this.change = change;
       this.relatives = relatives;

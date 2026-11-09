@@ -5,7 +5,6 @@ import com.mojang.serialization.Codec;
 
 public record class02968<T>(String name, Codec<T> codec) {
    public class02968(String name, Codec<T> codec) {
-      super();
       this.name = name;
       this.codec = codec;
    }

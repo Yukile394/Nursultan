@@ -33,7 +33,6 @@ public record class02219(
    }
 
    public class02219(class00816 x, class00816 y, class00816 z, class00816 speed, class00816 horizontalSpeed, class00816 verticalSpeed, class00816 fallDistance) {
-      super();
       this.x = x;
       this.y = y;
       this.z = z;

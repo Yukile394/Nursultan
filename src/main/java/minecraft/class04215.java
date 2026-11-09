@@ -9,7 +9,6 @@ public record class04215(LocalDate date, int index) {
    private static final DateTimeFormatter L = DateTimeFormatter.BASIC_ISO_DATE;
 
    public class04215(LocalDate date, int index) {
-      super();
       this.date = date;
       this.index = index;
    }

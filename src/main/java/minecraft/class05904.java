@@ -43,7 +43,6 @@ public record class05904(
    public class05904(
       String name, class01960 setType, class07752 soundType, class07752 hangingSignSoundType, class04891 fenceGateClose, class04891 fenceGateOpen
    ) {
-      super();
       this.name = name;
       this.setType = setType;
       this.soundType = soundType;

@@ -13,7 +13,6 @@ public record class03066(List<class03928> entries) {
    }
 
    public class03066(List<class03928> entries) {
-      super();
       this.entries = entries;
    }
 

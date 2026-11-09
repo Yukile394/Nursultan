@@ -7,7 +7,6 @@ record class00916(class06889 center, float radius, int blockCount, class04540<cl
    }
 
    class00916(class06889 center, float radius, int blockCount, class04540<class00931> blockParticles) {
-      super();
       this.center = center;
       this.radius = radius;
       this.blockCount = blockCount;

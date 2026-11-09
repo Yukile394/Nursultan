@@ -42,7 +42,6 @@ public record class08595(
    public class08595(
       Optional<class05946<class00201>> test, class00753 size, class06993 rotation, boolean ignoreEntities, class08625 status, Optional<class00392> errorMessage
    ) {
-      super();
       this.test = test;
       this.size = size;
       this.rotation = rotation;

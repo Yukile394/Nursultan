@@ -9,7 +9,6 @@ public record class01012<T>(class05946<? extends class00751<T>> key, class00751<
    }
 
    public class01012(class05946<? extends class00751<T>> key, class00751<T> value) {
-      super();
       this.key = key;
       this.value = value;
    }

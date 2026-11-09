@@ -16,7 +16,6 @@ public record class06142(class06378 n, class06378 p) implements class06378 {
    }
 
    public class06142(class06378 n, class06378 p) {
-      super();
       this.n = n;
       this.p = p;
    }

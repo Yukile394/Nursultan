@@ -6,7 +6,6 @@ public record class06737(class00734 aabb, class06747 style, boolean coloredCorne
    }
 
    public class06737(class00734 aabb, class06747 style, boolean coloredCornerStroke) {
-      super();
       this.aabb = aabb;
       this.style = style;
       this.coloredCornerStroke = coloredCornerStroke;

@@ -23,7 +23,6 @@ public record class09007(class09039 common, List<class08734> actions, Optional<c
    }
 
    public class09007(class09039 common, List<class08734> actions, Optional<class08734> exitAction, int columns) {
-      super();
       this.common = common;
       this.actions = actions;
       this.exitAction = exitAction;

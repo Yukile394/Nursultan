@@ -8,7 +8,6 @@ public record class03515<T>(class02042<T> owner, class02055<T> getter, Lifecycle
    }
 
    public class03515(class02042<T> owner, class02055<T> getter, Lifecycle elementsLifecycle) {
-      super();
       this.owner = owner;
       this.getter = getter;
       this.elementsLifecycle = elementsLifecycle;

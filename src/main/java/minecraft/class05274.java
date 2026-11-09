@@ -20,7 +20,6 @@ record class05274(float x, float y, int color, int shadowColor, class05272 glyph
    }
 
    class05274(float x, float y, int color, int shadowColor, class05272 glyph, class00405 style, float boldOffset, float shadowOffset) {
-      super();
       this.x = x;
       this.y = y;
       this.color = color;

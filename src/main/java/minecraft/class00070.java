@@ -43,7 +43,6 @@ public record class00070(
       @Nullable String templateImage,
       boolean hardcore
    ) {
-      super();
       this.slotId = slotId;
       this.spawnProtection = spawnProtection;
       this.forceGameMode = forceGameMode;

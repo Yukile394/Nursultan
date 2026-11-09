@@ -6,7 +6,6 @@ public record class07210(class04782 level, class07209 pos, class00500 state, cla
    }
 
    public class07210(class04782 level, class07209 pos, class00500 state, class07243 blockEntity) {
-      super();
       this.level = level;
       this.pos = pos;
       this.state = state;

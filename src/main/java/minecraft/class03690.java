@@ -12,7 +12,6 @@ public record class03690(class03556<class04382> preset) {
    }
 
    public class03690(@Nullable class03556<class04382> preset) {
-      super();
       this.preset = preset;
    }
 

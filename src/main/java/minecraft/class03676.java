@@ -3,7 +3,6 @@ package minecraft;
 record class03676(int maxInfoRows, boolean alwaysMaxHeight) {
 
    class03676(int maxInfoRows, boolean alwaysMaxHeight) {
-      super();
       this.maxInfoRows = maxInfoRows;
       this.alwaysMaxHeight = alwaysMaxHeight;
    }

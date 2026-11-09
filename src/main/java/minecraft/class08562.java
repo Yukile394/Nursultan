@@ -23,7 +23,6 @@ public record class08562(boolean hideTooltip, SequencedSet<class02477<?>> hidden
    public static final class08562 L = new class08562(false, ReferenceSortedSets.emptySet());
 
    public class08562(boolean hideTooltip, SequencedSet<class02477<?>> hiddenComponents) {
-      super();
       this.hideTooltip = hideTooltip;
       this.hiddenComponents = hiddenComponents;
    }

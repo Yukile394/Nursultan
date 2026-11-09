@@ -3,7 +3,6 @@ package minecraft;
 public record class02797(class03554 resourceManager, class01248 managers) implements AutoCloseable {
 
    public class02797(class03554 resourceManager, class01248 managers) {
-      super();
       this.resourceManager = resourceManager;
       this.managers = managers;
    }

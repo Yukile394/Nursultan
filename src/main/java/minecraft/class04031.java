@@ -11,7 +11,6 @@ public record class04031(class02142 height, class01471 state) {
    );
 
    public class04031(class02142 height, class01471 state) {
-      super();
       this.height = height;
       this.state = state;
    }

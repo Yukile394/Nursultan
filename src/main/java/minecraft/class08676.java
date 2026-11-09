@@ -45,7 +45,6 @@ public record class08676(
       @Nullable class03255 scissorArea,
       @Nullable class03255 bounds
    ) {
-      super();
       this.playerModel = playerModel;
       this.texture = texture;
       this.rotationX = rotationX;

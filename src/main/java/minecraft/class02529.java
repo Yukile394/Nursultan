@@ -15,7 +15,6 @@ public record class02529(class02546 base, class02546 power) implements class0254
    }
 
    public class02529(class02546 base, class02546 power) {
-      super();
       this.base = base;
       this.power = power;
    }

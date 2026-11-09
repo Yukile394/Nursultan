@@ -16,7 +16,6 @@ public record class03876(class03556<class05056> noiseData, class05041 noise) {
    }
 
    public class03876(class03556<class05056> noiseData, @Nullable class05041 noise) {
-      super();
       this.noiseData = noiseData;
       this.noise = noise;
    }

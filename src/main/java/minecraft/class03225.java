@@ -13,7 +13,6 @@ public record class03225(Instant timestamp, long heapUsed, class03210 timing) {
    }
 
    public class03225(Instant timestamp, long heapUsed, class03210 timing) {
-      super();
       this.timestamp = timestamp;
       this.heapUsed = heapUsed;
       this.timing = timing;

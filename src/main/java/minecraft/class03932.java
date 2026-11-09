@@ -14,7 +14,6 @@ public record class03932(List<class01215> entries, boolean replace) {
    );
 
    public class03932(List<class01215> entries, boolean replace) {
-      super();
       this.entries = entries;
       this.replace = replace;
    }

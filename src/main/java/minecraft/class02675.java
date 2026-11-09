@@ -4,7 +4,6 @@ public record class02675(int playerId, class00392 message) implements class00381
    public static final class02362<class04247, class02675> N = class02362.N(class02389.B, class02675::N, class03748.u, class02675::y, class02675::new);
 
    public class02675(int playerId, class00392 message) {
-      super();
       this.playerId = playerId;
       this.message = message;
    }

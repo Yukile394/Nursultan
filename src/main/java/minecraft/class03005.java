@@ -21,7 +21,6 @@ public record class03005(class01894 randomName, class06055 trueAtAndBelow, class
    }
 
    class03005(class01894 randomName, class06055 trueAtAndBelow, class06055 falseAtAndAbove) {
-      super();
       this.randomName = randomName;
       this.trueAtAndBelow = trueAtAndBelow;
       this.falseAtAndAbove = falseAtAndAbove;

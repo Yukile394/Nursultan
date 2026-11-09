@@ -36,7 +36,6 @@ record class02473(class02477<?> type, boolean removed) {
    }
 
    class02473(class02477<?> type, boolean removed) {
-      super();
       this.type = type;
       this.removed = removed;
    }

@@ -10,7 +10,6 @@ public record class02227(List<class07282> types) {
    public static final Codec<class02227> L = class07282.field_41676.listOf().xmap(class02227::new, class02227::N);
 
    public class02227(List<class07282> types) {
-      super();
       this.types = types;
    }
 

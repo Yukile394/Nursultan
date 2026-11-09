@@ -22,7 +22,6 @@ public record class05912(Optional<class05196> player, Optional<class03556<class0
    }
 
    public class05912(Optional<class05196> player, Optional<class03556<class00891>> block, Optional<class00845> item, class00836 beesInside) {
-      super();
       this.player = player;
       this.block = block;
       this.item = item;

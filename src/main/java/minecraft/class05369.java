@@ -11,7 +11,6 @@ public record class05369(Set<class00500> matchingStates, int maxTickets, int val
    }
 
    public class05369(Set<class00500> matchingStates, int maxTickets, int validRange) {
-      super();
       matchingStates = Set.copyOf(matchingStates);
       this.matchingStates = matchingStates;
       this.maxTickets = maxTickets;

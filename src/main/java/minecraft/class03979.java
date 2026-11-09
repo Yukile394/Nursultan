@@ -4,7 +4,6 @@ import com.mojang.serialization.MapCodec;
 
 public record class03979<A>(MapCodec<A> codec) {
    public class03979(MapCodec<A> codec) {
-      super();
       this.codec = codec;
    }
 

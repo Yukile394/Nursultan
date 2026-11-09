@@ -13,7 +13,6 @@ public record class02298(String namespace, String id, String version) {
    }
 
    public class02298(String namespace, String id, String version) {
-      super();
       this.namespace = namespace;
       this.id = id;
       this.version = version;

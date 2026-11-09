@@ -2,7 +2,6 @@ package minecraft;
 
 record class04229(class03695 container, class00392 narration) {
    class04229(class03695 container, class00392 narration) {
-      super();
       this.container = container;
       this.narration = narration;
    }

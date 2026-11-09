@@ -14,7 +14,6 @@ public record class00614(float brightness, float factor) {
    );
 
    public class00614(float brightness, float factor) {
-      super();
       this.brightness = brightness;
       this.factor = factor;
    }

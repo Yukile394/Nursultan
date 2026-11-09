@@ -8,7 +8,6 @@ public record class08197(class06584 convertInto) {
    public static final class02362<class04247, class08197> y = class02362.N(class06584.z, class08197::N, class08197::new);
 
    public class08197(class06584 convertInto) {
-      super();
       this.convertInto = convertInto;
    }
 

@@ -3,7 +3,6 @@ package Nursultan;
 public record class11137(int syncId, int slot) {
 
    class11137(int syncId, int slot) {
-      super();
       this.syncId = syncId;
       this.slot = slot;
    }

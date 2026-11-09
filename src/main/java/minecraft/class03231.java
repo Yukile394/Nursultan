@@ -11,7 +11,6 @@ public record class03231(long temperature, long humidity, long continentalness, 
    }
 
    public class03231(long temperature, long humidity, long continentalness, long erosion, long depth, long weirdness) {
-      super();
       this.temperature = temperature;
       this.humidity = humidity;
       this.continentalness = continentalness;

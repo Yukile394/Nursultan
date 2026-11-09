@@ -14,7 +14,6 @@ public record class07890(class07892 pattern, class06563 baseColor, class06563 pa
    }
 
    public class07890(class07892 pattern, class06563 baseColor, class06563 patternColor) {
-      super();
       this.pattern = pattern;
       this.baseColor = baseColor;
       this.patternColor = patternColor;

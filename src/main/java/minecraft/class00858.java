@@ -22,7 +22,6 @@ public record class00858(Optional<class05196> player, Optional<class03556<class0
    }
 
    public class00858(Optional<class05196> player, Optional<class03556<class00891>> block, Optional<class01400> state) {
-      super();
       this.player = player;
       this.block = block;
       this.state = state;

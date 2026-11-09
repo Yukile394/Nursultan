@@ -21,7 +21,6 @@ public record class06526(class03556<class07304> enchantment, List<Float> values)
    }
 
    public class06526(class03556<class07304> enchantment, List<Float> values) {
-      super();
       this.enchantment = enchantment;
       this.values = values;
    }

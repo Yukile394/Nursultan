@@ -15,7 +15,6 @@ public record class04209(Path path, class04215 id) implements class04200 {
    }
 
    public class04209(Path path, class04215 id) {
-      super();
       this.path = path;
       this.id = id;
    }

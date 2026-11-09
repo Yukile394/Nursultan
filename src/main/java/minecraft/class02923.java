@@ -19,7 +19,6 @@ public record class02923(Optional<class03543<class03252>> material, Optional<cla
    }
 
    public class02923(Optional<class03543<class03252>> material, Optional<class03543<class03246>> pattern) {
-      super();
       this.material = material;
       this.pattern = pattern;
    }

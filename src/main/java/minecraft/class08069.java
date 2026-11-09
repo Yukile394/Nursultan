@@ -9,7 +9,6 @@ public record class08069(Map<class05946<class00263>, class00263> itemSets, class
    );
 
    public class08069(Map<class05946<class00263>, class00263> itemSets, class00279<class06156> stonecutterRecipes) {
-      super();
       this.itemSets = itemSets;
       this.stonecutterRecipes = stonecutterRecipes;
    }

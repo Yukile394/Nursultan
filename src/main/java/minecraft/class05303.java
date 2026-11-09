@@ -9,7 +9,6 @@ public record class05303(int x, int y, List<class06584> ingredients) {
    }
 
    public class05303(int x, int y, List<class06584> ingredients) {
-      super();
       if (ingredients.isEmpty()) {
          throw new IllegalArgumentException("Ingredient list must be non-empty");
       } else {

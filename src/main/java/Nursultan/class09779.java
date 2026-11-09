@@ -10,7 +10,6 @@ record class09779(List<class09799> desiredChildren, List<class10021> immediateDe
    }
 
    class09779(List<class09799> desiredChildren, List<class10021> immediateDetachChildren, List<class10021> exitingChildren) {
-      super();
       this.desiredChildren = desiredChildren == null ? List.of() : List.copyOf(desiredChildren);
       this.immediateDetachChildren = immediateDetachChildren == null ? List.of() : List.copyOf(immediateDetachChildren);
       this.exitingChildren = exitingChildren == null ? List.of() : List.copyOf(exitingChildren);

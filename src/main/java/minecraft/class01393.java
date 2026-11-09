@@ -10,7 +10,6 @@ public record class01393(class00836 composite) {
    );
 
    public class01393(class00836 composite) {
-      super();
       this.composite = composite;
    }
 

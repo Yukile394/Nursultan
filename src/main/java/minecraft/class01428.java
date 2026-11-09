@@ -7,7 +7,6 @@ record class01428(String name, class01426 valueMatcher) {
    public static final class02362<ByteBuf, class01428> N = class02362.N(class02389.s, class01428::N, class01426.u, class01428::y, class01428::new);
 
    class01428(String name, class01426 valueMatcher) {
-      super();
       this.name = name;
       this.valueMatcher = valueMatcher;
    }

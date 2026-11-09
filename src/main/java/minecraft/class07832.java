@@ -8,7 +8,6 @@ public record class07832(long time) implements class00381<class03730> {
    }
 
    public class07832(long time) {
-      super();
       this.time = time;
    }
 

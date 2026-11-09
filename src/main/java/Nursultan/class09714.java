@@ -6,7 +6,6 @@ record class09714(int[] start, int[] end, int[] cls) {
    }
 
    class09714(int[] start, int[] end, int[] cls) {
-      super();
       this.start = start;
       this.end = end;
       this.cls = cls;

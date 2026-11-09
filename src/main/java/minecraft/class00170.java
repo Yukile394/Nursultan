@@ -12,7 +12,6 @@ record class00170(class00150 sign, class00182 base, String digits, class00154 su
    }
 
    class00170(class00150 sign, class00182 base, String digits, class00154 suffix) {
-      super();
       this.sign = sign;
       this.base = base;
       this.digits = digits;

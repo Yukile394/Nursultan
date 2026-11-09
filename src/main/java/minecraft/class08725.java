@@ -86,7 +86,6 @@ public record class08725(
       boolean canBeSheared,
       class03556<class04891> shearingSound
    ) {
-      super();
       this.slot = slot;
       this.equipSound = equipSound;
       this.assetId = assetId;

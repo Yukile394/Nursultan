@@ -10,7 +10,6 @@ import java.util.concurrent.CompletableFuture;
 record class06801(class01894 name, SuggestionProvider<class07689> delegate) implements SuggestionProvider<class07689> {
 
    class06801(class01894 name, SuggestionProvider<class07689> delegate) {
-      super();
       this.name = name;
       this.delegate = delegate;
    }

@@ -8,7 +8,6 @@ public record class08215() implements class08200 {
    public static final class02362<class04247, class08215> L = class02362.N(N);
 
    public class08215() {
-      super();
    }
 
    @Override

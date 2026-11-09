@@ -17,7 +17,6 @@ public record class02183(class01894 storage, class07793 path) implements class06
    }
 
    public class02183(class01894 storage, class07793 path) {
-      super();
       this.storage = storage;
       this.path = path;
    }

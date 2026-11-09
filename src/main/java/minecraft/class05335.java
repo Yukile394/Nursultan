@@ -14,7 +14,6 @@ record class05335(Optional<class05679> profile, Optional<Map<class01894, class06
    );
 
    class05335(Optional<class05679> profile, Optional<Map<class01894, class06276>> custom) {
-      super();
       this.profile = profile;
       this.custom = custom;
    }

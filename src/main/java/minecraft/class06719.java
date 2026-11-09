@@ -6,7 +6,6 @@ public record class06719(class06889 pos, String text, class06715 style) implemen
    }
 
    public class06719(class06889 pos, String text, class06715 style) {
-      super();
       this.pos = pos;
       this.text = text;
       this.style = style;

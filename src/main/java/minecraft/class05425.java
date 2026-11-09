@@ -8,7 +8,6 @@ record class05425(Optional<class01975> condition, class03264 variants) {
    }
 
    class05425(Optional<class01975> condition, class03264 variants) {
-      super();
       this.condition = condition;
       this.variants = variants;
    }

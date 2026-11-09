@@ -4,7 +4,6 @@ import com.mojang.serialization.Codec;
 
 record class02320(class01894 id, Codec<? extends class02339> codec) {
    class02320(class01894 id, Codec<? extends class02339> codec) {
-      super();
       this.id = id;
       this.codec = codec;
    }

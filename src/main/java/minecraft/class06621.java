@@ -9,7 +9,6 @@ public record class06621(class07373 factory, int bits) implements class06617 {
    }
 
    public class06621(class07373 factory, int bits) {
-      super();
       this.factory = factory;
       this.bits = bits;
    }

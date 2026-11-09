@@ -6,7 +6,6 @@ record class04569<C, I extends class04573<C>>(float location, class04562<C, I> v
    }
 
    class04569(float location, class04562<C, I> value, float derivative) {
-      super();
       this.location = location;
       this.value = value;
       this.derivative = derivative;

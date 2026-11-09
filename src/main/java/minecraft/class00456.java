@@ -6,7 +6,6 @@ public record class00456(String secretKey) {
    private static final String y = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
    public class00456(String secretKey) {
-      super();
       this.secretKey = secretKey;
    }
 

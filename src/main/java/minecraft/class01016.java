@@ -21,7 +21,6 @@ public record class01016(class07078<?> type, int minCount, int maxCount) {
    }
 
    public class01016(class07078<?> type, int minCount, int maxCount) {
-      super();
       type = type.i() == class07428.field_17715 ? class07078.Nh : type;
       this.type = type;
       this.minCount = minCount;

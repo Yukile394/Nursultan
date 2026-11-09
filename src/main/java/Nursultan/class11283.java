@@ -7,7 +7,6 @@ public record class11283(class11301 kind, class09378 configKind) {
    }
 
    public class11283(class11301 kind, class09378 configKind) {
-      super();
       this.kind = kind;
       this.configKind = configKind;
    }

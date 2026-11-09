@@ -6,7 +6,6 @@ public record class06974(class01894 texturePath, String url) implements class069
    }
 
    public class06974(class01894 texturePath, String url) {
-      super();
       this.texturePath = texturePath;
       this.url = url;
    }

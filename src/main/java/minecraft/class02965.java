@@ -16,7 +16,6 @@ public record class02965<T>(class05946<? extends class00751<T>> key, Codec<T> el
    }
 
    public class02965(class05946<? extends class00751<T>> key, Codec<T> elementCodec, boolean requiredNonEmpty) {
-      super();
       this.key = key;
       this.elementCodec = elementCodec;
       this.requiredNonEmpty = requiredNonEmpty;

@@ -8,7 +8,6 @@ public record class02861(long[] sample, class02303 debugSampleType) implements c
    }
 
    public class02861(long[] sample, class02303 debugSampleType) {
-      super();
       this.sample = sample;
       this.debugSampleType = debugSampleType;
    }

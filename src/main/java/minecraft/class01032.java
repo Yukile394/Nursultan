@@ -40,7 +40,6 @@ public record class01032(
       Set<class06681> relatives,
       class01026 postTeleportTransition
    ) {
-      super();
       this.newLevel = newLevel;
       this.position = position;
       this.deltaMovement = deltaMovement;

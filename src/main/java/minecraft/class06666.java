@@ -29,7 +29,6 @@ public record class06666(UUID id, String url, String hash, boolean required, Opt
    }
 
    public class06666(UUID id, String url, String hash, boolean required, Optional<class00392> prompt) {
-      super();
       if (hash.length() > 40) {
          throw new IllegalArgumentException("Hash is too long (max 40, was " + hash.length() + ")");
       } else {

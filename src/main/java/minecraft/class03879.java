@@ -12,7 +12,6 @@ record class03879(double value) implements class03908 {
    }
 
    class03879(double value) {
-      super();
       this.value = value;
    }
 

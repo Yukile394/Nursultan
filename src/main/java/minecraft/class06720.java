@@ -40,7 +40,6 @@ record class06720(boolean opaque, List<class10668> lines, List<class06754> quads
    private class06720(
       boolean opaque, List<class10668> lines, List<class06754> quads, List<class06752> triangleFans, List<class10672> texts, List<class10671> points
    ) {
-      super();
       this.opaque = opaque;
       this.lines = lines;
       this.quads = quads;

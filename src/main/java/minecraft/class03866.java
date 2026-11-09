@@ -72,7 +72,6 @@ public record class03866(
       class03877 veinRidged,
       class03877 veinGap
    ) {
-      super();
       this.barrierNoise = barrierNoise;
       this.fluidLevelFloodednessNoise = fluidLevelFloodednessNoise;
       this.fluidLevelSpreadNoise = fluidLevelSpreadNoise;

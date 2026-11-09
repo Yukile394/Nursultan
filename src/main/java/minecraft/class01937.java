@@ -4,7 +4,6 @@ public record class01937(String value, boolean negated) {
    private static final String L = "!";
 
    public class01937(String value, boolean negated) {
-      super();
       if (value.isEmpty()) {
          throw new IllegalArgumentException("Empty term");
       } else {

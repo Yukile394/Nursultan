@@ -10,7 +10,6 @@ public record class06779(class01894 functionId) implements class07220<class02796
    );
 
    public class06779(class01894 functionId) {
-      super();
       this.functionId = functionId;
    }
 

@@ -10,7 +10,6 @@ public record class00896(class03543<class00891> tag, Map<String, String> vaguePr
    }
 
    public class00896(class03543<class00891> tag, Map<String, String> vagueProperties, @Nullable class07001 nbt) {
-      super();
       this.tag = tag;
       this.vagueProperties = vagueProperties;
       this.nbt = nbt;

@@ -5,7 +5,6 @@ import com.mojang.serialization.Lifecycle;
 record class02082<T>(T value, Lifecycle lifecycle) {
 
    class02082(T value, Lifecycle lifecycle) {
-      super();
       this.value = (T)value;
       this.lifecycle = lifecycle;
    }

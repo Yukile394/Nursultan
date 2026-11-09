@@ -3,7 +3,6 @@ package Nursultan;
 public record class10917(String command, int tick) {
 
    class10917(String command, int tick) {
-      super();
       this.command = command;
       this.tick = tick;
    }

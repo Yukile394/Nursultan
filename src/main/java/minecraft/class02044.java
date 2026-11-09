@@ -9,7 +9,6 @@ public record class02044(UUID id, class03752 reportType, AbuseReport report) {
    }
 
    public class02044(UUID id, class03752 reportType, AbuseReport report) {
-      super();
       this.id = id;
       this.reportType = reportType;
       this.report = report;

@@ -32,7 +32,6 @@ public record class06932(
       class03530<class06581> repairIngredient,
       class05946<class11647> assetId
    ) {
-      super();
       this.durability = durability;
       this.defense = defense;
       this.enchantmentValue = enchantmentValue;

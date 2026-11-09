@@ -7,7 +7,6 @@ public record class11208(String name, boolean uniform, Object value, class11169 
    }
 
    private class11208(String name, boolean uniform, Object value, class11169 expectedType) {
-      super();
       this.name = name;
       this.uniform = uniform;
       this.value = value;

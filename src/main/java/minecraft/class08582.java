@@ -9,7 +9,6 @@ public record class08582(class02204<class04449> instrument) implements class0269
    public static final class02362<class04247, class08582> y = class02204.N(class04227.yZ, class04449.u).N_10(class08582::new, class08582::N);
 
    public class08582(class02204<class04449> instrument) {
-      super();
       this.instrument = (class02204<class04449>)instrument;
    }
 

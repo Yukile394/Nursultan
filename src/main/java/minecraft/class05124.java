@@ -17,7 +17,6 @@ public record class05124(int httpCode, class00392 payload) implements class05108
    }
 
    public class05124(int httpCode, @Nullable class00392 payload) {
-      super();
       this.httpCode = httpCode;
       this.payload = payload;
    }

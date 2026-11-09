@@ -7,7 +7,6 @@ public record class01759(class00405 style) implements class01762 {
    public static final class01759 u = new class01759(class00405.N.N(class06541.field_1054));
 
    public class01759(class00405 style) {
-      super();
       this.style = style;
    }
 

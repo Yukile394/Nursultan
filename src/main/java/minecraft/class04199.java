@@ -8,7 +8,6 @@ public record class04199(class02129 type, class02108 properties) {
    public static final Codec<class04199> N = class02129.y.dispatchStable(class04199::N, class02129::L);
 
    public class04199(class02129 type, class02108 properties) {
-      super();
       properties.y().forEach(var1x -> {
          if (!var1.N((class02117<?>)var1x)) {
             throw new IllegalArgumentException("Property '" + var1x.y() + "' not expected for event: '" + var1.N() + "'");

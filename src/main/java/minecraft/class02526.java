@@ -10,7 +10,6 @@ public record class02526(class02546 duration) implements class02560 {
    );
 
    public class02526(class02546 duration) {
-      super();
       this.duration = duration;
    }
 

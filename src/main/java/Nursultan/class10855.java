@@ -8,7 +8,6 @@ import minecraft.class07940;
 
 public record class10855<Result>(class07931<Void, Result> info, class07924 attributes) implements class07940<Void, Result> {
    public class10855(class07931<Void, Result> info, class07924 attributes) {
-      super();
       this.info = info;
       this.attributes = attributes;
    }

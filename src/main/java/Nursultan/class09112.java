@@ -15,7 +15,6 @@ public record class09112(Matrix4fc modelView, int x, int y, int z, float visibil
    }
 
    public class09112(Matrix4fc modelView, int x, int y, int z, float visibility, int textureAtlasWidth, int textureAtlasHeight) {
-      super();
       this.modelView = modelView;
       this.x = x;
       this.y = y;

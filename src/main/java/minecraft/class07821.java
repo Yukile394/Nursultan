@@ -10,7 +10,6 @@ public record class07821(int protocolVersion, String hostName, int port, class04
 
    @Deprecated
    public class07821(int protocolVersion, String hostName, int port, class04193 intention) {
-      super();
       this.protocolVersion = protocolVersion;
       this.hostName = hostName;
       this.port = port;

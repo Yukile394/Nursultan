@@ -2,7 +2,6 @@ package minecraft;
 
 record class05391(class05403 template, String modelSuffix) {
    class05391(class05403 template, String modelSuffix) {
-      super();
       this.template = template;
       this.modelSuffix = modelSuffix;
    }

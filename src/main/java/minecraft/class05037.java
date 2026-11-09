@@ -9,7 +9,6 @@ public record class05037(class06478 widget, class04370<?> optionInstance) {
    }
 
    public class05037(class06478 widget, @Nullable class04370<?> optionInstance) {
-      super();
       this.widget = widget;
       this.optionInstance = optionInstance;
    }

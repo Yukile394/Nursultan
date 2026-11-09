@@ -11,7 +11,6 @@ public record class02935(Optional<class02648<class02824, class02918>> modifiers)
    );
 
    public class02935(Optional<class02648<class02824, class02918>> modifiers) {
-      super();
       this.modifiers = modifiers;
    }
 

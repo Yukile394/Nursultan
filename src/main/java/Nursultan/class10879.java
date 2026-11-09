@@ -11,7 +11,6 @@ public record class10879<T>(String name, Function<class06584, T> getter, BiPredi
    }
 
    class10879(String name, Function<class06584, T> getter, BiPredicate<T, T> equals) {
-      super();
       this.name = name;
       this.getter = getter;
       this.equals = equals;

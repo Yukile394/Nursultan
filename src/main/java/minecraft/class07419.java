@@ -13,7 +13,6 @@ record class07419(class08774 player, String reason, String source, Optional<Inst
    }
 
    class07419(class08774 player, @Nullable String reason, String source, Optional<Instant> expires) {
-      super();
       this.player = player;
       this.reason = reason;
       this.source = source;

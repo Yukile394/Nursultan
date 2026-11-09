@@ -4,7 +4,6 @@ public record class02580(class06584 contents) implements class00381<class07280> 
    public static final class02362<class04247, class02580> N = class02362.N(class06584.B, class02580::N, class02580::new);
 
    public class02580(class06584 contents) {
-      super();
       this.contents = contents;
    }
 

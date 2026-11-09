@@ -14,7 +14,6 @@ record class02214(class00753 offset) implements class04025 {
    }
 
    class02214(class00753 offset) {
-      super();
       this.offset = offset;
    }
 

@@ -4,7 +4,6 @@ import java.util.Optional;
 
 public record class01725(String text) implements class01751 {
    public class01725(String text) {
-      super();
       this.text = text;
    }
 

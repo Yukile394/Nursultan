@@ -11,7 +11,6 @@ public record class11635(List<Vector4f> rects, List<Vector4f> rounds, Optional<c
    }
 
    public class11635(List<Vector4f> rects, List<Vector4f> rounds, Optional<class11599> currentMask, Optional<class11599> effectiveMask) {
-      super();
       this.rects = rects;
       this.rounds = rounds;
       this.currentMask = currentMask;

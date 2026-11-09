@@ -16,7 +16,6 @@ public record class02717(class03556<class00412> pattern, class06563 color) {
    }
 
    public class02717(class03556<class00412> pattern, class06563 color) {
-      super();
       this.pattern = pattern;
       this.color = color;
    }

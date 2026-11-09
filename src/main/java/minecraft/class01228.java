@@ -11,7 +11,6 @@ public record class01228(class07209 pos, class00500 state, class07001 nbt) {
    }
 
    public class01228(class07209 pos, class00500 state, @Nullable class07001 nbt) {
-      super();
       this.pos = pos;
       this.state = state;
       this.nbt = nbt;

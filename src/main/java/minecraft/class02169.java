@@ -12,7 +12,6 @@ import java.util.stream.Collectors;
 
 public record class02169<T>(class02344<StringReader> rules, class08501<StringReader, T> top) implements class08530<T> {
    public class02169(class02344<StringReader> rules, class08501<StringReader, T> top) {
-      super();
       rules.N();
       this.rules = rules;
       this.top = top;

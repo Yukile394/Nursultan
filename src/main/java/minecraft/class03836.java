@@ -8,7 +8,6 @@ public record class03836(class06889 position, class06889 forward, class06889 up)
    }
 
    public class03836(class06889 position, class06889 forward, class06889 up) {
-      super();
       this.position = position;
       this.forward = forward;
       this.up = up;

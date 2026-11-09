@@ -22,7 +22,6 @@ public record class08832(float temperature, float downfall) implements class0884
    }
 
    public class08832(float temperature, float downfall) {
-      super();
       this.temperature = temperature;
       this.downfall = downfall;
    }

@@ -23,7 +23,6 @@ public record class07037(byte value) implements class07737 {
       forRemoval = true
    )
    public class07037(byte value) {
-      super();
       this.value = value;
    }
 

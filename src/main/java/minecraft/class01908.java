@@ -7,7 +7,6 @@ public record class01908(class01898 packConfig, class07671 commandSelection, cla
    }
 
    public class01908(class01898 packConfig, class07671 commandSelection, class08152 functionCompilationPermissions) {
-      super();
       this.packConfig = packConfig;
       this.commandSelection = commandSelection;
       this.functionCompilationPermissions = functionCompilationPermissions;

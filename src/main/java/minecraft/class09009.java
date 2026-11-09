@@ -10,7 +10,6 @@ public record class09009(String key, class09015 control) {
    );
 
    public class09009(String key, class09015 control) {
-      super();
       this.key = key;
       this.control = control;
    }

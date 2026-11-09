@@ -9,7 +9,6 @@ public record class07425<T>(String name, URI ref, class07389<T> schema) {
    }
 
    public class07425(String name, URI ref, class07389<T> schema) {
-      super();
       this.name = name;
       this.ref = ref;
       this.schema = schema;

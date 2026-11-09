@@ -8,7 +8,6 @@ public record class01040(String logPath, class01276 variant) {
    }
 
    public class01040(@Nullable String logPath, class01276 variant) {
-      super();
       this.logPath = logPath;
       this.variant = variant;
    }

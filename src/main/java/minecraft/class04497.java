@@ -3,7 +3,6 @@ package minecraft;
 record class04497(class04482 source, class04480 problem) {
 
    class04497(class04482 source, class04480 problem) {
-      super();
       this.source = source;
       this.problem = problem;
    }

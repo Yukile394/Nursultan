@@ -16,7 +16,6 @@ public record class02208(Optional<class03543<class02206>> song) implements class
    }
 
    public class02208(Optional<class03543<class02206>> song) {
-      super();
       this.song = song;
    }
 

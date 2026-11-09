@@ -23,7 +23,6 @@ public record class02769(class06889 position, class06889 movement, float yRot, f
    }
 
    public class02769(class06889 position, class06889 movement, float yRot, float xRot, float weight) {
-      super();
       this.position = position;
       this.movement = movement;
       this.yRot = yRot;

@@ -15,7 +15,6 @@ public record class03538(class03556<class04412> otherSet, int chunkCount) {
    );
 
    public class03538(class03556<class04412> otherSet, int chunkCount) {
-      super();
       this.otherSet = otherSet;
       this.chunkCount = chunkCount;
    }

@@ -12,7 +12,6 @@ record class04047(class00500 resultState, class03000 rule) implements class03028
    }
 
    private class04047(class00500 resultState, class03000 rule) {
-      super();
       this.resultState = resultState;
       this.rule = rule;
    }

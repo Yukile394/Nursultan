@@ -64,7 +64,6 @@ public record class03224(
       List<class03201> chunkGenStats,
       List<class00323> structureGenStats
    ) {
-      super();
       this.recordingStarted = recordingStarted;
       this.recordingEnded = recordingEnded;
       this.recordingDuration = recordingDuration;

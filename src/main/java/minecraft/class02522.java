@@ -41,7 +41,6 @@ public record class02522(
       class01471 blockState,
       Optional<class03556<class01194>> triggerGameEvent
    ) {
-      super();
       this.radius = radius;
       this.height = height;
       this.offset = offset;

@@ -6,7 +6,6 @@ record class06754(class06889 a, class06889 b, class06889 c, class06889 d, int co
    }
 
    class06754(class06889 a, class06889 b, class06889 c, class06889 d, int color) {
-      super();
       this.a = a;
       this.b = b;
       this.c = c;

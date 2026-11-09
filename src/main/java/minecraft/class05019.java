@@ -10,7 +10,6 @@ record class05019(class00392 name, int score, class00392 formattedScore, int sco
    }
 
    class05019(class00392 name, int score, @Nullable class00392 formattedScore, int scoreWidth) {
-      super();
       this.name = name;
       this.score = score;
       this.formattedScore = formattedScore;

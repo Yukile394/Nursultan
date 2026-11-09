@@ -17,7 +17,6 @@ record class01059(class01894 fileLocation, class01894 metadataLocation, List<cla
    }
 
    private class01059(class01894 fileLocation, class01894 metadataLocation, List<class01071> fileSources, Map<class01622, class03652<InputStream>> metaSources) {
-      super();
       this.fileLocation = fileLocation;
       this.metadataLocation = metadataLocation;
       this.fileSources = fileSources;

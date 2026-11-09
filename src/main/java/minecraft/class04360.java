@@ -17,7 +17,6 @@ public record class04360(Map<Integer, Float> advances) implements class06270 {
    }
 
    public class04360(Map<Integer, Float> advances) {
-      super();
       this.advances = advances;
    }
 

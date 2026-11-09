@@ -6,7 +6,6 @@ public record class09791(int maxDepth, String subtreeKey, boolean fullStyle) {
    }
 
    public class09791(int maxDepth, String subtreeKey, boolean fullStyle) {
-      super();
       this.maxDepth = maxDepth;
       this.subtreeKey = subtreeKey;
       this.fullStyle = fullStyle;

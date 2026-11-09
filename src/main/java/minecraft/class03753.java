@@ -30,7 +30,6 @@ public record class03753(List<List<String>> requirements) {
    }
 
    public class03753(List<List<String>> requirements) {
-      super();
       this.requirements = requirements;
    }
 

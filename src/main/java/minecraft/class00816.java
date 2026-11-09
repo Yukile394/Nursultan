@@ -19,7 +19,6 @@ public record class00816(class00819<Double> bounds, class00819<Double> boundsSqr
    }
 
    public class00816(class00819<Double> bounds, class00819<Double> boundsSqr) {
-      super();
       this.bounds = bounds;
       this.boundsSqr = boundsSqr;
    }

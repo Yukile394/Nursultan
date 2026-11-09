@@ -54,7 +54,6 @@ public record class08665(
       @Nullable class03255 scissorArea,
       @Nullable class03255 bounds
    ) {
-      super();
       this.renderState = renderState;
       this.translation = translation;
       this.rotation = rotation;

@@ -25,7 +25,6 @@ public record class02680(class03556<class06581> item, int count, class02471 comp
    }
 
    public class02680(class03556<class06581> item, int count, class02471 components, class06584 itemStack) {
-      super();
       this.item = item;
       this.count = count;
       this.components = components;

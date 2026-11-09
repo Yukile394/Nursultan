@@ -19,7 +19,6 @@ public record class07326(class07209 pos, int rotation, int entityId) {
    }
 
    public class07326(class07209 pos, int rotation, int entityId) {
-      super();
       this.pos = pos;
       this.rotation = rotation;
       this.entityId = entityId;

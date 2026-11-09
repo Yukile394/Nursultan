@@ -17,7 +17,6 @@ public record class03203(Instant timestamp, String threadName, long totalBytes) 
    }
 
    public class03203(Instant timestamp, String threadName, long totalBytes) {
-      super();
       this.timestamp = timestamp;
       this.threadName = threadName;
       this.totalBytes = totalBytes;

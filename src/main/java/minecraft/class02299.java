@@ -8,7 +8,6 @@ public record class02299(String level, String dimension, int x, int z) {
    }
 
    public class02299(String level, String dimension, int x, int z) {
-      super();
       this.level = level;
       this.dimension = dimension;
       this.x = x;

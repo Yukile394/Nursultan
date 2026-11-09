@@ -19,7 +19,6 @@ public record class02513(class03543<class07078<?>> entityTypes, boolean joinTeam
    }
 
    public class02513(class03543<class07078<?>> entityTypes, boolean joinTeam) {
-      super();
       this.entityTypes = entityTypes;
       this.joinTeam = joinTeam;
    }

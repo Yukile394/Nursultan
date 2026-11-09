@@ -34,7 +34,6 @@ public record class08172(boolean dealsKnockback, boolean dismounts, Optional<cla
    }
 
    public class08172(boolean dealsKnockback, boolean dismounts, Optional<class03556<class04891>> sound, Optional<class03556<class04891>> hitSound) {
-      super();
       this.dealsKnockback = dealsKnockback;
       this.dismounts = dismounts;
       this.sound = sound;

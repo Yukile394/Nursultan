@@ -12,7 +12,6 @@ public record class02816(int rgb) implements class02694 {
    public static final int L = -6265536;
 
    public class02816(int rgb) {
-      super();
       this.rgb = rgb;
    }
 

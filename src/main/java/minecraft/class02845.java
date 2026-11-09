@@ -40,7 +40,6 @@ public record class02845(List<Float> floats, List<Boolean> flags, List<String> s
    }
 
    public class02845(List<Float> floats, List<Boolean> flags, List<String> strings, List<Integer> colors) {
-      super();
       this.floats = floats;
       this.flags = flags;
       this.strings = strings;

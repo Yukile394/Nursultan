@@ -10,7 +10,6 @@ public record class04947(String seed, long worldTemplateId, int levelType, boole
    }
 
    public class04947(String seed, long worldTemplateId, int levelType, boolean generateStructures, Set<String> experiments) {
-      super();
       this.seed = seed;
       this.worldTemplateId = worldTemplateId;
       this.levelType = levelType;

@@ -6,7 +6,6 @@ public record class08192(long creationTime, long accumulatedElapsedTime) {
    }
 
    public class08192(long creationTime, long accumulatedElapsedTime) {
-      super();
       this.creationTime = creationTime;
       this.accumulatedElapsedTime = accumulatedElapsedTime;
    }

@@ -4,7 +4,6 @@ import java.util.function.Consumer;
 
 record class03708(class00392 message, Consumer<class03723> action) {
    class03708(class00392 message, Consumer<class03723> action) {
-      super();
       this.message = message;
       this.action = action;
    }

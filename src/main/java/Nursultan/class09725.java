@@ -6,7 +6,6 @@ record class09725(class09732 cov, class09714 c1, class09714 c2, int[][] adv) imp
    }
 
    class09725(class09732 cov, class09714 c1, class09714 c2, int[][] adv) {
-      super();
       this.cov = cov;
       this.c1 = c1;
       this.c2 = c2;

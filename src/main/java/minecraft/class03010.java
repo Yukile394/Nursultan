@@ -8,7 +8,6 @@ record class03010(List<class03028> sequence) implements class03028 {
    static final class03979<class03010> N = class03979.N(class03028.y.listOf().xmap(class03010::new, class03010::y).fieldOf("sequence"));
 
    class03010(List<class03028> sequence) {
-      super();
       this.sequence = sequence;
    }
 

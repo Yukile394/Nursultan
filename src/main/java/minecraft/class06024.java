@@ -15,7 +15,6 @@ public record class06024(class07126 particle, float probability) {
    );
 
    public class06024(class07126 particle, float probability) {
-      super();
       this.particle = particle;
       this.probability = probability;
    }

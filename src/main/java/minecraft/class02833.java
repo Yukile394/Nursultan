@@ -18,7 +18,6 @@ public record class02833(List<class02824> modifiers) {
    public static final DecimalFormat u = new DecimalFormat("#.##", DecimalFormatSymbols.getInstance(Locale.ROOT));
 
    public class02833(List<class02824> modifiers) {
-      super();
       this.modifiers = modifiers;
    }
 

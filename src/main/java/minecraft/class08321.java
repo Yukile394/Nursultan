@@ -8,7 +8,6 @@ public record class08321(String name, Object value, Error<?> error) implements c
    }
 
    public class08321(String name, Object value, Error<?> error) {
-      super();
       this.name = name;
       this.value = value;
       this.error = error;

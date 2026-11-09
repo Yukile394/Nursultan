@@ -5,7 +5,6 @@ import java.util.stream.Stream;
 
 public record class06836(class06838 slots, Function<class06584, ? extends class06838> mapper) implements class06838 {
    public class06836(class06838 slots, Function<class06584, ? extends class06838> mapper) {
-      super();
       this.slots = slots;
       this.mapper = mapper;
    }

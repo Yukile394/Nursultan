@@ -12,7 +12,6 @@ public record class08942(boolean normalize) implements class06572 {
    );
 
    public class08942(boolean normalize) {
-      super();
       this.normalize = normalize;
    }
 

@@ -12,7 +12,6 @@ public record class02688(
    public class02688(
       class04782 level, class08088 generator, class01224 structureManager, class04775 lightEngine, Executor mainThreadExecutor, class00568 unsavedListener
    ) {
-      super();
       this.level = level;
       this.generator = generator;
       this.structureManager = structureManager;

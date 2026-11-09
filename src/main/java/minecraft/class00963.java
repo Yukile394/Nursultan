@@ -7,7 +7,6 @@ record class00963(class06271<class06244> model, class01421 poseStack, class07311
    }
 
    private class00963(class06271<class06244> model, class01421 poseStack, class07311 renderType, int color) {
-      super();
       this.model = model;
       this.poseStack = poseStack;
       this.renderType = renderType;

@@ -9,7 +9,6 @@ public record class07829<WC extends class06034>(class02158<WC> worldCarver, WC c
    public static final Codec<class03543<class07829<?>>> L = class03541.N(class04227.ND, N);
 
    public class07829(class02158<WC> worldCarver, WC config) {
-      super();
       this.worldCarver = worldCarver;
       this.config = (WC)config;
    }

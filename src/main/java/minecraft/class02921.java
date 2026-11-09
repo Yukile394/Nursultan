@@ -19,7 +19,6 @@ public record class02921(Optional<class02648<class02827, class02952>> explosions
    }
 
    public class02921(Optional<class02648<class02827, class02952>> explosions, class00836 flightDuration) {
-      super();
       this.explosions = explosions;
       this.flightDuration = flightDuration;
    }

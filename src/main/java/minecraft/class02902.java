@@ -11,7 +11,6 @@ public record class02902(Optional<class02648<class06584, class00845>> items) imp
    );
 
    public class02902(Optional<class02648<class06584, class00845>> items) {
-      super();
       this.items = items;
    }
 

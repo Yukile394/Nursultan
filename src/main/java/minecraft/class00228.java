@@ -6,7 +6,6 @@ import com.mojang.datafixers.util.Pair;
 
 record class00228(OpticFinder<?> itemFinder, OpticFinder<Pair<String, String>> itemIdFinder) {
    class00228(OpticFinder<?> itemFinder, OpticFinder<Pair<String, String>> itemIdFinder) {
-      super();
       this.itemFinder = itemFinder;
       this.itemIdFinder = itemIdFinder;
    }

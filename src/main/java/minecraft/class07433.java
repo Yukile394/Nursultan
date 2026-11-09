@@ -21,7 +21,6 @@ public record class07433(class03556<class07468> attribute, double baseValue, Lis
    }
 
    public class07433(class03556<class07468> attribute, double baseValue, List<class07471> modifiers) {
-      super();
       this.attribute = attribute;
       this.baseValue = baseValue;
       this.modifiers = modifiers;

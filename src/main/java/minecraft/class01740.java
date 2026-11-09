@@ -8,7 +8,6 @@ record class01740(class00743<class06584> key, int width, int height, class03729<
    }
 
    class01740(class00743<class06584> key, int width, int height, @Nullable class03729<class05857> value) {
-      super();
       this.key = key;
       this.width = width;
       this.height = height;

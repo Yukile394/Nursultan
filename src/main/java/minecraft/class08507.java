@@ -9,7 +9,6 @@ public record class08507(Map<String, class08430> languages) {
    public static final class02968<class08507> L = new class02968<>("language", y);
 
    public class08507(Map<String, class08430> languages) {
-      super();
       this.languages = languages;
    }
 

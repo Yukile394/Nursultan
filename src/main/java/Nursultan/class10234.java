@@ -8,7 +8,6 @@ public record class10234(class06909 row, int column, int page) {
    }
 
    public class10234(class06909 row, int column, int page) {
-      super();
       this.row = row;
       this.column = column;
       this.page = page;

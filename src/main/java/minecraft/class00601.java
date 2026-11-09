@@ -20,7 +20,6 @@ public record class00601(float value, float alpha) {
    }
 
    public class00601(float value, float alpha) {
-      super();
       this.value = value;
       this.alpha = alpha;
    }

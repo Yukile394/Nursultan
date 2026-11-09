@@ -40,7 +40,6 @@ public record class02540(
       class02517 verticalVelocity,
       class06052 speed
    ) {
-      super();
       this.particle = particle;
       this.horizontalPosition = horizontalPosition;
       this.verticalPosition = verticalPosition;

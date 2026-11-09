@@ -9,7 +9,6 @@ import org.jspecify.annotations.Nullable;
 
 public record class08654(Matrix3x2fc pose, class00941 renderable, class03255 scissorArea) implements class08669 {
    public class08654(Matrix3x2fc pose, class00941 renderable, @Nullable class03255 scissorArea) {
-      super();
       this.pose = pose;
       this.renderable = renderable;
       this.scissorArea = scissorArea;

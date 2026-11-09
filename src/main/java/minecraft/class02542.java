@@ -24,7 +24,6 @@ public record class02542(class02841 properties, class00753 offset, Optional<clas
    }
 
    public class02542(class02841 properties, class00753 offset, Optional<class03556<class01194>> triggerGameEvent) {
-      super();
       this.properties = properties;
       this.offset = offset;
       this.triggerGameEvent = triggerGameEvent;

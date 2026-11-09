@@ -15,7 +15,6 @@ public record class08150(class02546 base, class02546 exponent) implements class0
    }
 
    public class08150(class02546 base, class02546 exponent) {
-      super();
       this.base = base;
       this.exponent = exponent;
    }

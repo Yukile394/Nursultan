@@ -28,7 +28,6 @@ public record class02677(Optional<String> name, Optional<UUID> id, PropertyMap p
    }
 
    protected class02677(Optional<String> name, Optional<UUID> id, PropertyMap properties) {
-      super();
       this.name = name;
       this.id = id;
       this.properties = properties;

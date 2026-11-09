@@ -24,7 +24,6 @@ public record class08557(float threshold, float base, float factor) {
    }
 
    public class08557(float threshold, float base, float factor) {
-      super();
       this.threshold = threshold;
       this.base = base;
       this.factor = factor;

@@ -7,7 +7,6 @@ public record class00359(class01140 entityModelSet, class08097 materials, class0
    }
 
    public class00359(class01140 entityModelSet, class08097 materials, class07949 playerSkinRenderCache) {
-      super();
       this.entityModelSet = entityModelSet;
       this.materials = materials;
       this.playerSkinRenderCache = playerSkinRenderCache;

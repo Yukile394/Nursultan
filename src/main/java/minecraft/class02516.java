@@ -17,7 +17,6 @@ public record class02516(List<Float> values, class02546 fallback) implements cla
    }
 
    public class02516(List<Float> values, class02546 fallback) {
-      super();
       this.values = values;
       this.fallback = fallback;
    }

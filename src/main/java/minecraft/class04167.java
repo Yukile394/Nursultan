@@ -50,7 +50,6 @@ public record class04167(
       int portalCooldown,
       int seaLevel
    ) {
-      super();
       this.dimensionType = dimensionType;
       this.dimension = dimension;
       this.seed = seed;

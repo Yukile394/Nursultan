@@ -2,7 +2,6 @@ package minecraft;
 
 public record class06251(class06262 provider, class02263 filter) implements AutoCloseable {
    public class06251(class06262 provider, class02263 filter) {
-      super();
       this.provider = provider;
       this.filter = filter;
    }

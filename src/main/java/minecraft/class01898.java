@@ -9,7 +9,6 @@ public record class01898(class01623 packRepository, class03776 initialDataConfig
    }
 
    public class01898(class01623 packRepository, class03776 initialDataConfig, boolean safeMode, boolean initMode) {
-      super();
       this.packRepository = packRepository;
       this.initialDataConfig = initialDataConfig;
       this.safeMode = safeMode;

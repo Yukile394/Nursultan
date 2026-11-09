@@ -20,7 +20,6 @@ public record class00360(class01894 texture, float openness) implements class003
    }
 
    public class00360(class01894 texture, float openness) {
-      super();
       this.texture = texture;
       this.openness = openness;
    }

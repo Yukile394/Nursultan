@@ -23,7 +23,6 @@ public record class03689(String msgId, class03691 scaling, float exhaustion, cla
    }
 
    public class03689(String msgId, class03691 scaling, float exhaustion, class03699 effects, class03700 deathMessageType) {
-      super();
       this.msgId = msgId;
       this.scaling = scaling;
       this.exhaustion = exhaustion;

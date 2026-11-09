@@ -30,7 +30,6 @@ public record class08431(class08496 quads, boolean useAmbientOcclusion, class083
    }
 
    public class08431(class08496 quads, boolean useAmbientOcclusion, class08388 particleIcon) {
-      super();
       this.quads = quads;
       this.useAmbientOcclusion = useAmbientOcclusion;
       this.particleIcon = particleIcon;

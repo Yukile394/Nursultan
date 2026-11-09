@@ -24,7 +24,6 @@ public record class08169(int maxDurationTicks, float minSpeed, float minRelative
    }
 
    public class08169(int maxDurationTicks, float minSpeed, float minRelativeSpeed) {
-      super();
       this.maxDurationTicks = maxDurationTicks;
       this.minSpeed = minSpeed;
       this.minRelativeSpeed = minRelativeSpeed;

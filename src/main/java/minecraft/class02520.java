@@ -20,7 +20,6 @@ public record class02520(List<class03556<class04891>> soundEvents, class06052 vo
    }
 
    public class02520(List<class03556<class04891>> soundEvents, class06052 volume, class06052 pitch) {
-      super();
       this.soundEvents = soundEvents;
       this.volume = volume;
       this.pitch = pitch;

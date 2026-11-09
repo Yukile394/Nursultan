@@ -6,7 +6,6 @@ import com.mojang.serialization.codecs.RecordCodecBuilder.Instance;
 
 public record class07581<T>(int ticks, T value) {
    public class07581(int ticks, T value) {
-      super();
       this.ticks = ticks;
       this.value = (T)value;
    }

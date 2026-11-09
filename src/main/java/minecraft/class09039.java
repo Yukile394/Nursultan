@@ -52,7 +52,6 @@ public record class09039(
       List<class09034> body,
       List<class09009> inputs
    ) {
-      super();
       this.title = title;
       this.externalTitle = externalTitle;
       this.canCloseWithEscape = canCloseWithEscape;

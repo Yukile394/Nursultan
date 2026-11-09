@@ -18,7 +18,6 @@ public record class06340(class05919 target) implements class06348 {
    }
 
    public class06340(class05919 target) {
-      super();
       this.target = target;
    }
 

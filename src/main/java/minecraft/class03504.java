@@ -13,7 +13,6 @@ public record class03504(class07311 normal, class07311 seeThrough, class07311 po
    }
 
    public class03504(class07311 normal, class07311 seeThrough, class07311 polygonOffset, RenderPipeline guiPipeline) {
-      super();
       this.normal = normal;
       this.seeThrough = seeThrough;
       this.polygonOffset = polygonOffset;

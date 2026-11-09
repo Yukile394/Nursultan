@@ -9,7 +9,6 @@ public record class06155(String name, AtomicLong preparationNanos, AtomicLong pr
    }
 
    public class06155(String name, AtomicLong preparationNanos, AtomicLong preparationCount, AtomicLong reloadNanos, AtomicLong reloadCount) {
-      super();
       this.name = name;
       this.preparationNanos = preparationNanos;
       this.preparationCount = preparationCount;

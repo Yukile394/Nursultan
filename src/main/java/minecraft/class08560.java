@@ -10,7 +10,6 @@ public record class08560<C, T>(T entry, int priority, class08584<C> condition) {
    }
 
    public class08560(T entry, int priority, class08584<C> condition) {
-      super();
       this.entry = (T)entry;
       this.priority = priority;
       this.condition = condition;

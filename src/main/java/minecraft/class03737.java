@@ -46,7 +46,6 @@ public record class03737(
       boolean allowsListing,
       class01315 particleStatus
    ) {
-      super();
       this.language = language;
       this.viewDistance = viewDistance;
       this.chatVisibility = chatVisibility;

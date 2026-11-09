@@ -7,7 +7,6 @@ record class00994(class08800 itemRenderState, double xOffset, double yOffset, do
    }
 
    private class00994(class08800 itemRenderState, double xOffset, double yOffset, double zOffset) {
-      super();
       this.itemRenderState = itemRenderState;
       this.xOffset = xOffset;
       this.yOffset = yOffset;

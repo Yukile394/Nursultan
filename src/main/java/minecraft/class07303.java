@@ -6,7 +6,6 @@ public record class07303(class07209 pos, class00891 block, int paramA, int param
    }
 
    public class07303(class07209 pos, class00891 block, int paramA, int paramB) {
-      super();
       this.pos = pos;
       this.block = block;
       this.paramA = paramA;

@@ -12,7 +12,6 @@ record class02066<T>(class05946<? extends class00751<? extends T>> key, Lifecycl
    }
 
    class02066(class05946<? extends class00751<? extends T>> key, Lifecycle lifecycle, Map<class05946<T>, class04147<T>> values) {
-      super();
       this.key = key;
       this.lifecycle = lifecycle;
       this.values = values;

@@ -5,7 +5,6 @@ import org.jspecify.annotations.Nullable;
 
 public record class01852(class01880 type, class05097 exception) {
    public class01852(class01880 type, @Nullable class05097 exception) {
-      super();
       this.type = type;
       this.exception = exception;
    }

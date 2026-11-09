@@ -10,7 +10,6 @@ public record class00269(int id, class08716 values, boolean onGround) implements
    }
 
    public class00269(int id, class08716 values, boolean onGround) {
-      super();
       this.id = id;
       this.values = values;
       this.onGround = onGround;

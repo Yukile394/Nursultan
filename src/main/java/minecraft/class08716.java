@@ -14,7 +14,6 @@ public record class08716(class06889 position, class06889 deltaMovement, float yR
    }
 
    public class08716(class06889 position, class06889 deltaMovement, float yRot, float xRot) {
-      super();
       this.position = position;
       this.deltaMovement = deltaMovement;
       this.yRot = yRot;

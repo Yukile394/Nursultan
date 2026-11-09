@@ -15,7 +15,6 @@ import java.util.Optional;
 
 public record class06330<K, V>(Codec<K> keyCodec, Codec<V> elementCodec) implements Codec<Map<K, V>>, BaseMapCodec<K, V> {
    public class06330(Codec<K> keyCodec, Codec<V> elementCodec) {
-      super();
       this.keyCodec = keyCodec;
       this.elementCodec = elementCodec;
    }

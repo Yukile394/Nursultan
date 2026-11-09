@@ -4,7 +4,6 @@ import java.util.function.Function;
 
 public record class00177(class04540<class08880> entries) implements class08880 {
    public class00177(class04540<class08880> entries) {
-      super();
       this.entries = entries;
    }
 

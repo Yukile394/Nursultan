@@ -8,7 +8,6 @@ public record class06742(class06889 start, class06889 end, int color, float widt
    }
 
    public class06742(class06889 start, class06889 end, int color, float width) {
-      super();
       this.start = start;
       this.end = end;
       this.color = color;

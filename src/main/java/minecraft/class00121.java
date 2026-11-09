@@ -8,7 +8,6 @@ record class00121(class01686 part, class04364 target, class04341[] keyframes) {
    }
 
    class00121(class01686 part, class04364 target, class04341[] keyframes) {
-      super();
       this.part = part;
       this.target = target;
       this.keyframes = keyframes;

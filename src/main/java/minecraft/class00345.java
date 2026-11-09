@@ -9,7 +9,6 @@ public record class00345() implements class00372<class06558> {
    public static final class00336<class00345, class06558> y = class00336.N(MapCodec.unit(new class00345()), N);
 
    public class00345() {
-      super();
    }
 
    @Override

@@ -22,7 +22,6 @@ public record class03378(class03415 environment, UserApiService userApiService) 
    }
 
    public class03378(class03415 environment, UserApiService userApiService) {
-      super();
       this.environment = environment;
       this.userApiService = userApiService;
    }

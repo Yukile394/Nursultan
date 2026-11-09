@@ -48,7 +48,6 @@ public record class08209(
    }
 
    public class08209(float consumeSeconds, class06509 animation, class03556<class04891> sound, boolean hasConsumeParticles, List<class08200> onConsumeEffects) {
-      super();
       this.consumeSeconds = consumeSeconds;
       this.animation = animation;
       this.sound = sound;

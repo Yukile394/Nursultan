@@ -4,7 +4,6 @@ import com.mojang.blaze3d.shaders.ShaderType;
 
 record class08205(class01894 id, ShaderType type) {
    class08205(class01894 id, ShaderType type) {
-      super();
       this.id = id;
       this.type = type;
    }

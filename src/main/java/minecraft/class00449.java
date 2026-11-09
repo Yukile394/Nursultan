@@ -4,7 +4,6 @@ public record class00449(int entityId, class00442<?> update) implements class003
    public static final class02362<class04247, class00449> N = class02362.N(class02389.B, class00449::N, class00442.N, class00449::y, class00449::new);
 
    public class00449(int entityId, class00442<?> update) {
-      super();
       this.entityId = entityId;
       this.update = update;
    }

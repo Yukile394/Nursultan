@@ -25,7 +25,6 @@ public record class01031(int horizontal, int vertical) {
    }
 
    public class01031(int horizontal, int vertical) {
-      super();
       this.horizontal = horizontal;
       this.vertical = vertical;
    }

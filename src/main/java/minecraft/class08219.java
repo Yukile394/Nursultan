@@ -17,7 +17,6 @@ public record class08219(Optional<Boolean> sheared) implements class03622 {
    }
 
    public class08219(Optional<Boolean> sheared) {
-      super();
       this.sheared = sheared;
    }
 

@@ -8,6 +8,5 @@ public record class02557() {
    public static final Codec<class02557> y = MapCodec.unitCodec(N);
 
    public class02557() {
-      super();
    }
 }

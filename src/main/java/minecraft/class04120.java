@@ -16,7 +16,6 @@ public record class04120(Vector3fc origin, class04122 value, boolean rescale, Ma
    }
 
    public class04120(Vector3fc origin, class04122 value, boolean rescale, Matrix4fc transform) {
-      super();
       this.origin = origin;
       this.value = value;
       this.rescale = rescale;

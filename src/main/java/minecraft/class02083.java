@@ -23,7 +23,6 @@ public record class02083(int index, UUID sender, UUID sessionId) {
    }
 
    public class02083(int index, UUID sender, UUID sessionId) {
-      super();
       this.index = index;
       this.sender = sender;
       this.sessionId = sessionId;

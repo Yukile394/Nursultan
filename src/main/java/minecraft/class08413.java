@@ -5,7 +5,6 @@ import java.util.function.Supplier;
 
 public record class08413<T extends class06555>(String N, Supplier<T> y, Codec<T> L, class05715 u) {
    public class08413(String N, Supplier<T> y, Codec<T> L, class05715 u) {
-      super();
       this.N = N;
       this.y = y;
       this.L = L;

@@ -6,7 +6,6 @@ public record class03099(int depth, class03102 returnValueConsumer, class03115 f
    }
 
    public class03099(int depth, class03102 returnValueConsumer, class03115 frameControl) {
-      super();
       this.depth = depth;
       this.returnValueConsumer = returnValueConsumer;
       this.frameControl = frameControl;

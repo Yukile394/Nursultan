@@ -17,7 +17,6 @@ public record class00330(class03556<class06581> item) implements class00299 {
    }
 
    public class00330(class03556<class06581> item) {
-      super();
       this.item = item;
    }
 

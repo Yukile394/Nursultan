@@ -62,7 +62,6 @@ public record class08661(
       @Nullable class03255 scissorArea,
       @Nullable class03255 bounds
    ) {
-      super();
       this.pipeline = pipeline;
       this.textureSetup = textureSetup;
       this.pose = pose;

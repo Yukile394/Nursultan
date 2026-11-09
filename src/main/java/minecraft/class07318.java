@@ -16,7 +16,6 @@ public record class07318(Optional<class00759> predicate) implements class05957 {
    }
 
    public class07318(Optional<class00759> predicate) {
-      super();
       this.predicate = predicate;
    }
 

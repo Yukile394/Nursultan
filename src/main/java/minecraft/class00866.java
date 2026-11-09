@@ -17,7 +17,6 @@ public record class00866(Optional<Boolean> isRaining, Optional<Boolean> isThunde
    }
 
    public class00866(Optional<Boolean> isRaining, Optional<Boolean> isThundering) {
-      super();
       this.isRaining = isRaining;
       this.isThundering = isThundering;
    }

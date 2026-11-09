@@ -6,7 +6,6 @@ public record class02123(class01295 component, class02106 childPath) implements 
    }
 
    public class02123(class01295 component, class02106 childPath) {
-      super();
       this.component = component;
       this.childPath = childPath;
    }

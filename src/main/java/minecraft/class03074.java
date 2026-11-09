@@ -2,7 +2,6 @@ package minecraft;
 
 record class03074(class06732 standardPrimitives, class06732 alwaysOnTopPrimitives) {
    class03074(class06732 standardPrimitives, class06732 alwaysOnTopPrimitives) {
-      super();
       this.standardPrimitives = standardPrimitives;
       this.alwaysOnTopPrimitives = alwaysOnTopPrimitives;
    }

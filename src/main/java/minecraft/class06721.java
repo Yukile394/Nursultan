@@ -6,7 +6,6 @@ public record class06721(class06889 pos, int color, float size) implements class
    }
 
    public class06721(class06889 pos, int color, float size) {
-      super();
       this.pos = pos;
       this.color = color;
       this.size = size;

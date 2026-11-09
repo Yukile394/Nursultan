@@ -15,7 +15,6 @@ record class06797(class01894 id, Predicate<class06584> presenceChecker, Decoder<
    }
 
    class06797(class01894 id, Predicate<class06584> presenceChecker, Decoder<? extends Predicate<class06584>> valueChecker) {
-      super();
       this.id = id;
       this.presenceChecker = presenceChecker;
       this.valueChecker = valueChecker;

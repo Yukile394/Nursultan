@@ -19,7 +19,6 @@ public record class00196(Optional<class01894> setupFunction, Optional<class01894
    }
 
    public class00196(Optional<class01894> setupFunction, Optional<class01894> teardownFunction) {
-      super();
       this.setupFunction = setupFunction;
       this.teardownFunction = teardownFunction;
    }

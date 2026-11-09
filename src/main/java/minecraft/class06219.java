@@ -1,6 +1,6 @@
 package minecraft;
 
-public enum class06219 {
+public class class06219 {
    private static String[] strings_01e6bc0aa454033828fc8487f86a51a5a;
    public static class06219 staticFields_01e6bc0aa454033828fc8487f86a51a5a_0 = new class06219(strings_01e6bc0aa454033828fc8487f86a51a5a[0], 0, class05220.N) {
       @Override

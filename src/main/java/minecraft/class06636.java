@@ -4,7 +4,6 @@ public record class06636(int containerId, class00265 recipeDisplay) implements c
    public static final class02362<class04247, class06636> N = class02362.N(class02389.l, class06636::N, class00265.i, class06636::y, class06636::new);
 
    public class06636(int containerId, class00265 recipeDisplay) {
-      super();
       this.containerId = containerId;
       this.recipeDisplay = recipeDisplay;
    }

@@ -23,7 +23,6 @@ public record class00691(class00744 head, class00744 body, class00744 leftArm, c
    }
 
    public class00691(class00744 head, class00744 body, class00744 leftArm, class00744 rightArm, class00744 leftLeg, class00744 rightLeg) {
-      super();
       this.head = head;
       this.body = body;
       this.leftArm = leftArm;

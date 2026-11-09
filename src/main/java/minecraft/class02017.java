@@ -9,7 +9,6 @@ public record class02017(class01894 id, Optional<class07709> data) {
    );
 
    public class02017(class01894 id, Optional<class07709> data) {
-      super();
       this.id = id;
       this.data = data;
    }

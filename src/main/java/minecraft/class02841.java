@@ -15,7 +15,6 @@ public record class02841(Map<String, String> properties) implements class02694 {
    public static final class02362<ByteBuf, class02841> L = i.N_10(class02841::new, class02841::y);
 
    public class02841(Map<String, String> properties) {
-      super();
       this.properties = (Map<String, String>)properties;
    }
 

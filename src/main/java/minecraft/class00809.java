@@ -13,7 +13,6 @@ public record class00809(class07001 tag) {
    public static final String L = "SelectedItem";
 
    public class00809(class07001 tag) {
-      super();
       this.tag = tag;
    }
 

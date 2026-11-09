@@ -8,7 +8,6 @@ import java.util.Map.Entry;
 
 public record class02470<T extends class02500>(class02487<T> type, T predicate) {
    public class02470(class02487<T> type, T predicate) {
-      super();
       this.type = type;
       this.predicate = (T)predicate;
    }

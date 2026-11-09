@@ -2,7 +2,6 @@ package minecraft;
 
 public record class05601(class07049 entity, class07664 anchor) implements class05617 {
    public class05601(class07049 entity, class07664 anchor) {
-      super();
       this.entity = entity;
       this.anchor = anchor;
    }

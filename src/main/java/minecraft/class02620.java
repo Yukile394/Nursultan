@@ -7,7 +7,6 @@ import java.util.function.Predicate;
 
 public record class02620<T, P extends Predicate<T>>(P test, class00836 count) {
    public class02620(P test, class00836 count) {
-      super();
       this.test = (P)test;
       this.count = count;
    }

@@ -4,7 +4,6 @@ import org.joml.Matrix4fc;
 
 record class08539(class08510 parent) implements class04673 {
    class08539(class08510 parent) {
-      super();
       this.parent = parent;
    }
 

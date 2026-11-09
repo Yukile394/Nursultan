@@ -22,7 +22,6 @@ public record class08845(class01894 model, List<class08843> tints) implements cl
    );
 
    public class08845(class01894 model, List<class08843> tints) {
-      super();
       this.model = model;
       this.tints = tints;
    }

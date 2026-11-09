@@ -14,7 +14,6 @@ public record class03928(int id, class04469 fullSignature) {
    }
 
    public class03928(int id, @Nullable class04469 fullSignature) {
-      super();
       this.id = id;
       this.fullSignature = fullSignature;
    }

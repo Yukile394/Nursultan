@@ -9,7 +9,6 @@ record class00527(String samplerName, GpuTextureView view, class08188 sampler) {
    }
 
    class00527(String samplerName, GpuTextureView view, class08188 sampler) {
-      super();
       this.samplerName = samplerName;
       this.view = view;
       this.sampler = sampler;

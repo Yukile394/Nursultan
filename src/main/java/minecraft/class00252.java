@@ -7,7 +7,6 @@ public record class00252<T extends class06521<?>>(class06510 input, class00239<T
    }
 
    public class00252(class06510 input, class00239<T> recipe) {
-      super();
       this.input = input;
       this.recipe = recipe;
    }

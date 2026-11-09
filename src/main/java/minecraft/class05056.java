@@ -15,7 +15,6 @@ public record class05056(int firstOctave, DoubleList amplitudes) {
    public static final Codec<class03556<class05056>> u = class01281.N(class04227.yW, L);
 
    public class05056(int firstOctave, DoubleList amplitudes) {
-      super();
       this.firstOctave = firstOctave;
       this.amplitudes = amplitudes;
    }

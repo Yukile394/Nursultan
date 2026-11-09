@@ -20,7 +20,6 @@ public record class12012(boolean enabled, int srcRGB, int dstRGB, int srcA, int 
    }
 
    public class12012(boolean enabled, int srcRGB, int dstRGB, int srcA, int dstA) {
-      super();
       this.enabled = enabled;
       this.srcRGB = srcRGB;
       this.dstRGB = dstRGB;

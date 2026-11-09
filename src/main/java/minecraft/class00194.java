@@ -13,7 +13,6 @@ public record class00194(Map<class01894, class00195<class05946<class00225>>> tes
    }
 
    public class00194(Map<class01894, class00195<class05946<class00225>>> tests, class05946<Consumer<class05523>> functionKey, Consumer<class05523> function) {
-      super();
       this.tests = tests;
       this.functionKey = functionKey;
       this.function = function;

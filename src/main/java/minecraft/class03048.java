@@ -11,7 +11,6 @@ public record class03048(List<class04469> entries) {
    public static final int L = 20;
 
    public class03048(List<class04469> entries) {
-      super();
       this.entries = entries;
    }
 

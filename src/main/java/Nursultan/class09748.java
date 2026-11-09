@@ -4,7 +4,6 @@ import java.util.Map;
 
 record class09748(Map<Long, Integer> pairs) implements class09729 {
    class09748(Map<Long, Integer> pairs) {
-      super();
       this.pairs = pairs;
    }
 

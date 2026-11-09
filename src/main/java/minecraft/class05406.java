@@ -6,7 +6,6 @@ import java.util.stream.Stream;
 record class05406(class05390 properties, class03264 variant) {
 
    class05406(class05390 properties, class03264 variant) {
-      super();
       this.properties = properties;
       this.variant = variant;
    }

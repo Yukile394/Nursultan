@@ -42,7 +42,6 @@ public record class06543(float minRange, float maxRange, float minCreativeRange,
    }
 
    public class06543(float minRange, float maxRange, float minCreativeRange, float maxCreativeRange, float hitboxMargin, float mobFactor) {
-      super();
       this.minRange = minRange;
       this.maxRange = maxRange;
       this.minCreativeRange = minCreativeRange;

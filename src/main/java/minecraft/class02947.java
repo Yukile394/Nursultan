@@ -27,7 +27,6 @@ public record class02947(class05946<class05074> lootTable, Map<class07085, Float
    }
 
    public class02947(class05946<class05074> lootTable, Map<class07085, Float> slotDropChances) {
-      super();
       this.lootTable = lootTable;
       this.slotDropChances = slotDropChances;
    }

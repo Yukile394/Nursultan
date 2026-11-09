@@ -27,7 +27,6 @@ public record class02824(class03556<class07468> attribute, class07471 modifier, 
    }
 
    public class02824(class03556<class07468> attribute, class07471 modifier, class02834 slot, class02831 display) {
-      super();
       this.attribute = attribute;
       this.modifier = modifier;
       this.slot = slot;

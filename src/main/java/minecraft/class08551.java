@@ -8,7 +8,6 @@ public record class08551(class02204<class03252> material) {
    public static final class02362<class04247, class08551> y = class02204.N(class04227.yw, class03252.u).N_10(class08551::new, class08551::N);
 
    public class08551(class02204<class03252> material) {
-      super();
       this.material = (class02204<class03252>)material;
    }
 

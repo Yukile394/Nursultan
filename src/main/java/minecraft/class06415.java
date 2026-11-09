@@ -2,7 +2,6 @@ package minecraft;
 
 record class06415(class04782 dimension, class07209 position) {
    class06415(class04782 dimension, class07209 position) {
-      super();
       this.dimension = dimension;
       this.position = position;
    }

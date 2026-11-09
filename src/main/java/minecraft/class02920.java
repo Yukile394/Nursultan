@@ -7,7 +7,6 @@ public record class02920(class00392 contents) implements Predicate<class02826<cl
    public static final Codec<class02920> N = class03748.N.xmap(class02920::new, class02920::N);
 
    public class02920(class00392 contents) {
-      super();
       this.contents = contents;
    }
 

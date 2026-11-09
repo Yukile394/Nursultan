@@ -34,7 +34,6 @@ public record class02945(
       class00836 generation,
       Optional<Boolean> resolved
    ) {
-      super();
       this.pages = pages;
       this.author = author;
       this.title = title;

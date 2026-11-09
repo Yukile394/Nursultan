@@ -25,7 +25,6 @@ public record class00586(class00617 canSleep, class00617 canSetSpawn, boolean ex
    }
 
    public class00586(class00617 canSleep, class00617 canSetSpawn, boolean explodes, Optional<class00392> errorMessage) {
-      super();
       this.canSleep = canSleep;
       this.canSetSpawn = canSetSpawn;
       this.explodes = explodes;

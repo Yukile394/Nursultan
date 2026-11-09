@@ -24,7 +24,6 @@ public record class08153(boolean canSprint, boolean interactVibrations, float sp
    }
 
    public class08153(boolean canSprint, boolean interactVibrations, float speedMultiplier) {
-      super();
       this.canSprint = canSprint;
       this.interactVibrations = interactVibrations;
       this.speedMultiplier = speedMultiplier;

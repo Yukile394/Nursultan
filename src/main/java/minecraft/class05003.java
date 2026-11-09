@@ -15,7 +15,6 @@ public record class05003(long salt, byte[] signature) {
    }
 
    public class05003(long salt, byte[] signature) {
-      super();
       this.salt = salt;
       this.signature = signature;
    }

@@ -12,7 +12,6 @@ public record class00863(class00883 x, class00883 y, class00883 z) implements cl
    }
 
    public class00863(class00883 x, class00883 y, class00883 z) {
-      super();
       this.x = x;
       this.y = y;
       this.z = z;

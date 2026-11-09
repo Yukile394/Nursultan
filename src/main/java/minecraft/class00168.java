@@ -18,7 +18,6 @@ public record class00168(
    public class00168(
       double x0, double y0, double z0, double x1, double y1, double z1, float offsetX, float offsetY, float offsetZ, float red, float green, float blue
    ) {
-      super();
       this.x0 = x0;
       this.y0 = y0;
       this.z0 = z0;

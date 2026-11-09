@@ -12,7 +12,6 @@ public record class08213(int value) implements class02694, class08237 {
    public static final class02362<class04247, class08213> i = class02362.N(class02389.B, class08213::N, class08213::new);
 
    public class08213(int value) {
-      super();
       this.value = value;
    }
 

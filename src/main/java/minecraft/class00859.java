@@ -25,7 +25,6 @@ public record class00859(Optional<class00817> predicate, class07209 offset) impl
    }
 
    public class00859(Optional<class00817> predicate, class07209 offset) {
-      super();
       this.predicate = predicate;
       this.offset = offset;
    }

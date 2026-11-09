@@ -11,7 +11,6 @@ public record class03638(class00836 size) implements class03622 {
    );
 
    public class03638(class00836 size) {
-      super();
       this.size = size;
    }
 

@@ -20,7 +20,6 @@ public record class00357(class01894 texture, float openness, class07211 orientat
    }
 
    public class00357(class01894 texture, float openness, class07211 orientation) {
-      super();
       this.texture = texture;
       this.openness = openness;
       this.orientation = orientation;

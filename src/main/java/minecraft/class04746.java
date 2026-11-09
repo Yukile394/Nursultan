@@ -6,7 +6,6 @@ record class04746(class06889 position, float yaw, float pitch) {
    }
 
    class04746(class06889 position, float yaw, float pitch) {
-      super();
       this.position = position;
       this.yaw = yaw;
       this.pitch = pitch;

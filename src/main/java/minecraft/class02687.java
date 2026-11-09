@@ -16,7 +16,6 @@ public record class02687(Optional<class06289> target, boolean tracked) {
    );
 
    public class02687(Optional<class06289> target, boolean tracked) {
-      super();
       this.target = target;
       this.tracked = tracked;
    }

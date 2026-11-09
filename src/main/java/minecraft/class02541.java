@@ -21,7 +21,6 @@ public record class02541(class01894 id, class03556<class07468> attribute, class0
    }
 
    public class02541(class01894 id, class03556<class07468> attribute, class02546 amount, class07463 operation) {
-      super();
       this.id = id;
       this.attribute = attribute;
       this.amount = amount;

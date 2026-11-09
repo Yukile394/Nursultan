@@ -20,7 +20,6 @@ public record class00840(Optional<class05196> player, Optional<class00761> dista
    }
 
    public class00840(Optional<class05196> player, Optional<class00761> distance, class00836 duration) {
-      super();
       this.player = player;
       this.distance = distance;
       this.duration = duration;

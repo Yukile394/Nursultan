@@ -21,7 +21,6 @@ public record class04450(PrivateKey privateKey, class04470 publicKey, Instant re
    }
 
    public class04450(PrivateKey privateKey, class04470 publicKey, Instant refreshedAfter) {
-      super();
       this.privateKey = privateKey;
       this.publicKey = publicKey;
       this.refreshedAfter = refreshedAfter;

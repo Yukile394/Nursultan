@@ -22,7 +22,6 @@ public record class07420(String jsonRpcProtocolVersion, class07414 discoverInfo,
    }
 
    public class07420(String jsonRpcProtocolVersion, class07414 discoverInfo, List<class07905<?, ?>> methods, class07422 components) {
-      super();
       this.jsonRpcProtocolVersion = jsonRpcProtocolVersion;
       this.discoverInfo = discoverInfo;
       this.methods = methods;

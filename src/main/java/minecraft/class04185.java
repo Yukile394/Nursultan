@@ -4,7 +4,6 @@ public record class04185() implements class04191 {
    public static final class04185 N = new class04185();
 
    public class04185() {
-      super();
    }
 
    @Override

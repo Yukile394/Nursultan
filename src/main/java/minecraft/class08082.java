@@ -4,7 +4,6 @@ public record class08082(class00392 header, class00392 footer) implements class0
    public static final class02362<class04247, class08082> N = class02362.N(class03748.u, class08082::N, class03748.u, class08082::y, class08082::new);
 
    public class08082(class00392 header, class00392 footer) {
-      super();
       this.header = header;
       this.footer = footer;
    }

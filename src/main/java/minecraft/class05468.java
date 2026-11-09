@@ -3,7 +3,6 @@ package minecraft;
 public record class05468(class01028 text, int width) {
 
    public class05468(class01028 text, int width) {
-      super();
       this.text = text;
       this.width = width;
    }

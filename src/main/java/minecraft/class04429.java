@@ -9,7 +9,6 @@ import java.util.Map.Entry;
 record class04429(Map<String, String> biomeMapping, String fallback) {
 
    private class04429(Map<String, String> biomeMapping, String fallback) {
-      super();
       this.biomeMapping = biomeMapping;
       this.fallback = fallback;
    }

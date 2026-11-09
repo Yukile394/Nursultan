@@ -12,7 +12,6 @@ record class03295(String dimensionName, double x, double y, double z, float yRot
    }
 
    class03295(String dimensionName, double x, double y, double z, float yRot, float xRot) {
-      super();
       this.dimensionName = dimensionName;
       this.x = x;
       this.y = y;

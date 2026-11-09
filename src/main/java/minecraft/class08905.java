@@ -23,7 +23,6 @@ public record class08905(
       class08910 missingItemModel,
       @Nullable class00203 contextSwapper
    ) {
-      super();
       this.blockModelBaker = blockModelBaker;
       this.entityModelSet = entityModelSet;
       this.materials = materials;

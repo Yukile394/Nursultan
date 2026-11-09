@@ -7,7 +7,6 @@ public record class05117(class03434 entry, int index, class03432 priority) {
    }
 
    public class05117(class03434 entry, int index, class03432 priority) {
-      super();
       this.entry = entry;
       this.index = index;
       this.priority = priority;

@@ -20,7 +20,6 @@ public record class03674(class01894 modelLocation, class03701 modelState) implem
    }
 
    public class03674(class01894 modelLocation, class03701 modelState) {
-      super();
       this.modelLocation = modelLocation;
       this.modelState = modelState;
    }

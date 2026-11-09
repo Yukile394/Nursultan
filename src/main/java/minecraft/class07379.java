@@ -21,7 +21,6 @@ public record class07379(class07415 message, boolean overlay, Optional<List<clas
    }
 
    public class07379(class07415 message, boolean overlay, Optional<List<class07947>> receivingPlayers) {
-      super();
       this.message = message;
       this.overlay = overlay;
       this.receivingPlayers = receivingPlayers;

@@ -53,7 +53,6 @@ public record class01406(
       Optional<class00821> lookingAt,
       Optional<class08697> input
    ) {
-      super();
       this.level = level;
       this.gameType = gameType;
       this.stats = stats;

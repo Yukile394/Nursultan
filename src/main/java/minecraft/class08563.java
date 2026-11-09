@@ -10,7 +10,6 @@ public record class08563(class00816 range) implements class08568 {
    );
 
    public class08563(class00816 range) {
-      super();
       this.range = range;
    }
 

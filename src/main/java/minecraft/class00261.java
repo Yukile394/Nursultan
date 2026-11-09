@@ -10,7 +10,6 @@ public record class00261(float yRot, boolean relativeY, float xRot, boolean rela
    }
 
    public class00261(float yRot, boolean relativeY, float xRot, boolean relativeX) {
-      super();
       this.yRot = yRot;
       this.relativeY = relativeY;
       this.xRot = xRot;

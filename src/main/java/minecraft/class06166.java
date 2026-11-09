@@ -7,7 +7,6 @@ public record class06166(String name) {
    public static final class06166 u = new class06166("NO_RENDER");
 
    public class06166(String name) {
-      super();
       this.name = name;
    }
 

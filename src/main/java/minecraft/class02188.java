@@ -7,7 +7,6 @@ import com.mojang.serialization.DynamicOps;
 
 public record class02188<T, O>(O value) implements class02172<T, O> {
    public class02188(O value) {
-      super();
       this.value = (O)value;
    }
 

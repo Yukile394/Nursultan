@@ -31,7 +31,6 @@ public record class04237(class08534 geometry, class00140 guiLight, Boolean ambie
       class08814 textureSlots,
       @Nullable class01894 parent
    ) {
-      super();
       this.geometry = geometry;
       this.guiLight = guiLight;
       this.ambientOcclusion = ambientOcclusion;

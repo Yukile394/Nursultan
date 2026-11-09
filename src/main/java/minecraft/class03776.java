@@ -18,7 +18,6 @@ public record class03776(class01247 dataPacks, class03767 enabledFeatures) {
    public static final class03776 u = new class03776(class01247.N, class03794.B);
 
    public class03776(class01247 dataPacks, class03767 enabledFeatures) {
-      super();
       this.dataPacks = dataPacks;
       this.enabledFeatures = enabledFeatures;
    }

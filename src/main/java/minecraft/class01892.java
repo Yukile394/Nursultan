@@ -46,7 +46,6 @@ public record class01892(
       Map<UUID, class03458> seenPlayers,
       boolean seenInsecureChatWarning
    ) {
-      super();
       this.levelLoadTracker = levelLoadTracker;
       this.localGameProfile = localGameProfile;
       this.telemetryManager = telemetryManager;

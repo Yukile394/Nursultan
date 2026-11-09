@@ -70,7 +70,6 @@ public record class02117<T>(String id, String exportKey, Codec<T> codec, class02
    }
 
    public class02117(String id, String exportKey, Codec<T> codec, class02101<T> exporter) {
-      super();
       this.id = id;
       this.exportKey = exportKey;
       this.codec = codec;

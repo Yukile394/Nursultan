@@ -12,7 +12,6 @@ import java.util.Optional;
 
 public record class07606<T>(List<class07581<T>> keyframes, class07586 easingType) {
    public class07606(List<class07581<T>> keyframes, class07586 easingType) {
-      super();
       if (keyframes.isEmpty()) {
          throw new IllegalArgumentException("Track has no keyframes");
       } else {

@@ -11,7 +11,6 @@ public record class07909<Params, Result>(class07931<Params, Result> info, class0
    }
 
    public class07909(class07931<Params, Result> info, class07946 attributes, class07936<Result> supplier) {
-      super();
       this.info = info;
       this.attributes = attributes;
       this.supplier = supplier;

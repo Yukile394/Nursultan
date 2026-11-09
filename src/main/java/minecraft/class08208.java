@@ -23,7 +23,6 @@ public record class08208(float seconds, Optional<class01894> cooldownGroup) {
    }
 
    public class08208(float seconds, Optional<class01894> cooldownGroup) {
-      super();
       this.seconds = seconds;
       this.cooldownGroup = cooldownGroup;
    }

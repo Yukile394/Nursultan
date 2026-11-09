@@ -14,7 +14,6 @@ public record class02533(class01894 function) implements class02560 {
    );
 
    public class02533(class01894 function) {
-      super();
       this.function = function;
    }
 

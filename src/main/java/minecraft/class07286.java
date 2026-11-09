@@ -48,7 +48,6 @@ public record class07286(
       int anvilCost,
       List<class02834> slots
    ) {
-      super();
       this.supportedItems = supportedItems;
       this.primaryItems = primaryItems;
       this.weight = weight;

@@ -13,7 +13,6 @@ public record class08732(Map<class08719, List<class08706>> layers) {
    );
 
    public class08732(Map<class08719, List<class08706>> layers) {
-      super();
       this.layers = layers;
    }
 

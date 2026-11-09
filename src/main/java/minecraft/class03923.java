@@ -9,7 +9,6 @@ public record class03923(List<class04336> features, ToIntFunction<class04336> in
    }
 
    public class03923(List<class04336> features, ToIntFunction<class04336> indexMapping) {
-      super();
       this.features = features;
       this.indexMapping = indexMapping;
    }

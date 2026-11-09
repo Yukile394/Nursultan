@@ -7,7 +7,6 @@ public record class00442<T>(class00455<T> subscription, Optional<T> value) {
    public static final class02362<class04247, class00442<?>> N = class02389.N(class04227.v).y(class00442::N, class00442::N);
 
    public class00442(class00455<T> subscription, Optional<T> value) {
-      super();
       this.subscription = subscription;
       this.value = value;
    }

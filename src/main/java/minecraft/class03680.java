@@ -9,7 +9,6 @@ record class03680(class06366<Boolean> button, BooleanSupplier stateSupplier, Boo
    }
 
    class03680(class06366<Boolean> button, BooleanSupplier stateSupplier, @Nullable BooleanSupplier isActiveCondition) {
-      super();
       this.button = button;
       this.stateSupplier = stateSupplier;
       this.isActiveCondition = isActiveCondition;

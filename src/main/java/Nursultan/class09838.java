@@ -10,7 +10,6 @@ public record class09838(String family, float weight, class09870 slant) {
    }
 
    public class09838(String family, float weight, class09870 slant) {
-      super();
       family = N(family);
       weight = N(weight);
       slant = slant == null ? class09870.NORMAL : slant;

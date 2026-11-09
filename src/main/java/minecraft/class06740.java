@@ -6,7 +6,6 @@ public record class06740(class06889 a, class06889 b, class06889 c, class06889 d,
    }
 
    public class06740(class06889 a, class06889 b, class06889 c, class06889 d, class06747 style) {
-      super();
       this.a = a;
       this.b = b;
       this.c = c;

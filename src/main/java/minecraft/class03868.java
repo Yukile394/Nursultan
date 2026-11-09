@@ -9,7 +9,6 @@ record class03868(class03877 input) implements class03895 {
    }
 
    class03868(class03877 input) {
-      super();
       this.input = input;
    }
 

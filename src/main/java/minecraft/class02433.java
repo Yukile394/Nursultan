@@ -42,7 +42,6 @@ public record class02433(
    public class02433(
       class01894 vertexShaderId, class01894 fragmentShaderId, List<class02435> inputs, class01894 outputTarget, Map<String, List<class00069>> uniforms
    ) {
-      super();
       this.vertexShaderId = vertexShaderId;
       this.fragmentShaderId = fragmentShaderId;
       this.inputs = inputs;

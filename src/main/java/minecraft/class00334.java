@@ -12,7 +12,6 @@ public record class00334(boolean remaining) implements class06572 {
    );
 
    public class00334(boolean remaining) {
-      super();
       this.remaining = remaining;
    }
 

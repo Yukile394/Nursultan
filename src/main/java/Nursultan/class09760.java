@@ -12,7 +12,6 @@ record class09760(int contentBottom, int layoutBottom, int currentHeight, int ap
    }
 
    class09760(int contentBottom, int layoutBottom, int currentHeight, int appendX, int appendY, int appendRowHeight, ArrayList<class09756> freeRects) {
-      super();
       this.contentBottom = contentBottom;
       this.layoutBottom = layoutBottom;
       this.currentHeight = currentHeight;

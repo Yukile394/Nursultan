@@ -10,7 +10,6 @@ public record class06668(class06889 position, float yRot, float xRot) implements
    }
 
    public class06668(class06889 position, float yRot, float xRot) {
-      super();
       this.position = position;
       this.yRot = yRot;
       this.xRot = xRot;

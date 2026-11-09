@@ -21,7 +21,6 @@ public record class02813(int flightDuration, List<class02827> explosions) implem
    );
 
    public class02813(int flightDuration, List<class02827> explosions) {
-      super();
       if (explosions.size() > 256) {
          throw new IllegalArgumentException("Got " + explosions.size() + " explosions, but maximum is 256");
       } else {

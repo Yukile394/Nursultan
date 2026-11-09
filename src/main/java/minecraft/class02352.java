@@ -2,7 +2,6 @@ package minecraft;
 
 public record class02352<S, T>(class02353<T> name, T value) implements class02315<S> {
    public class02352(class02353<T> name, T value) {
-      super();
       this.name = name;
       this.value = (T)value;
    }

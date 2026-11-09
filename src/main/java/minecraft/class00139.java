@@ -3,7 +3,6 @@ package minecraft;
 record class00139<T>(class00150 sign, T value) {
 
    class00139(class00150 sign, T value) {
-      super();
       this.sign = sign;
       this.value = (T)value;
    }

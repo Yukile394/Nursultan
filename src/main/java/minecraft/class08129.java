@@ -32,7 +32,6 @@ public record class08129(
       class06581 waxedWeathered,
       class06581 waxedOxidized
    ) {
-      super();
       this.unaffected = unaffected;
       this.exposed = exposed;
       this.weathered = weathered;

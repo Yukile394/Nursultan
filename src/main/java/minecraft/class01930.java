@@ -6,7 +6,6 @@ public record class01930(class01089 resources, class03776 dataConfiguration, cla
    }
 
    public class01930(class01089 resources, class03776 dataConfiguration, class01929 datapackWorldgen, class01022 datapackDimensions) {
-      super();
       this.resources = resources;
       this.dataConfiguration = dataConfiguration;
       this.datapackWorldgen = datapackWorldgen;

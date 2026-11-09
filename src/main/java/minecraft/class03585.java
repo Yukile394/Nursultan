@@ -29,7 +29,6 @@ public record class03585(float sinHalf, float cosHalf) {
    }
 
    public class03585(float sinHalf, float cosHalf) {
-      super();
       this.sinHalf = sinHalf;
       this.cosHalf = cosHalf;
    }

@@ -11,7 +11,6 @@ public record class04976(List<class04948> backups) {
    private static final Logger y = LogUtils.getLogger();
 
    public class04976(List<class04948> backups) {
-      super();
       this.backups = backups;
    }
 

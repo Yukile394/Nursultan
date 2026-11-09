@@ -8,7 +8,6 @@ import java.util.function.LongSupplier;
 
 public record class07605<Value, Argument>(class00619<Value, Argument> modifier, class07606<Argument> argumentTrack) {
    public class07605(class00619<Value, Argument> modifier, class07606<Argument> argumentTrack) {
-      super();
       this.modifier = modifier;
       this.argumentTrack = argumentTrack;
    }

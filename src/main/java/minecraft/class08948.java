@@ -9,7 +9,6 @@ public record class08948(class07209 pos, class06695 container, class00394 blockE
    }
 
    public class08948(class07209 pos, class06695 container, class00394 blockEntity, class00500 state) {
-      super();
       this.pos = pos;
       this.container = container;
       this.blockEntity = blockEntity;

@@ -13,7 +13,6 @@ record class04870(class04841 id, class02263 filter, Either<CompletableFuture<Opt
    }
 
    class04870(class04841 id, class02263 filter, Either<CompletableFuture<Optional<class06262>>, class01894> result) {
-      super();
       this.id = id;
       this.filter = filter;
       this.result = result;

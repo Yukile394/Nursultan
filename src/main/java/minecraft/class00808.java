@@ -26,7 +26,6 @@ public record class00808(class07001 entityToSpawn, Optional<class00778> customSp
    }
 
    public class00808(class07001 entityToSpawn, Optional<class00778> customSpawnRules, Optional<class02947> equipment) {
-      super();
       Optional optional = entityToSpawn.N_15("id", class01894.N);
       if (optional.isPresent()) {
          entityToSpawn.N("id", class01894.N, (class01894)optional.get());

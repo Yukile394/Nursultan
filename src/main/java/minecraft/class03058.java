@@ -14,7 +14,6 @@ public record class03058(int offset, BitSet acknowledged, byte checksum) {
    }
 
    public class03058(int offset, BitSet acknowledged, byte checksum) {
-      super();
       this.offset = offset;
       this.acknowledged = acknowledged;
       this.checksum = checksum;

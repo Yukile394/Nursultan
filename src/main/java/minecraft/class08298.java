@@ -8,7 +8,6 @@ public record class08298(Object value, Error<?> error) implements class04480 {
    }
 
    public class08298(Object value, Error<?> error) {
-      super();
       this.value = value;
       this.error = error;
    }

@@ -12,7 +12,6 @@ record class01981(UUID player, long timestamp) {
    );
 
    class01981(UUID player, long timestamp) {
-      super();
       this.player = player;
       this.timestamp = timestamp;
    }

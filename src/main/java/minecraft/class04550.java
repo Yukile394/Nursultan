@@ -9,7 +9,6 @@ public record class04550<C, I extends class04573<C>>(float value) implements cla
    }
 
    public class04550(float value) {
-      super();
       this.value = value;
    }
 

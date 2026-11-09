@@ -10,7 +10,6 @@ record class09720(class09726 newPage, class09726 oldPage, int width, int height,
    }
 
    class09720(class09726 newPage, class09726 oldPage, int width, int height, int[] cp, int[] x, int[] y, int[] w, int[] h, int count) {
-      super();
       this.newPage = newPage;
       this.oldPage = oldPage;
       this.width = width;

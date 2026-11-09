@@ -9,7 +9,6 @@ public record class02716(int rgb) {
    public static final class02716 L = new class02716(4603950);
 
    public class02716(int rgb) {
-      super();
       this.rgb = rgb;
    }
 

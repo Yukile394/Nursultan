@@ -6,7 +6,6 @@ public record class00328(class07209 pos, boolean includeData) implements class00
    public static final class02362<ByteBuf, class00328> N = class02362.N(class07209.field_48404, class00328::N, class02389.y, class00328::y, class00328::new);
 
    public class00328(class07209 pos, boolean includeData) {
-      super();
       this.pos = pos;
       this.includeData = includeData;
    }

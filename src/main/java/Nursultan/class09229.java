@@ -7,7 +7,6 @@ public record class09229(class11854 displayed, class11854 previous, int directio
    }
 
    private class09229(class11854 displayed, class11854 previous, int direction, int generation, boolean active) {
-      super();
       this.displayed = displayed;
       this.previous = previous;
       this.direction = direction;

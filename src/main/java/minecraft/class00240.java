@@ -44,7 +44,6 @@ public record class00240(class00299 ingredient, class00299 fuel, class00299 resu
    }
 
    public class00240(class00299 ingredient, class00299 fuel, class00299 result, class00299 craftingStation, int duration, float experience) {
-      super();
       this.ingredient = ingredient;
       this.fuel = fuel;
       this.result = result;

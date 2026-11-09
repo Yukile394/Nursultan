@@ -10,7 +10,6 @@ public record class00904(class00500 blockState, Map<class08092<?>, Comparable<?>
    }
 
    public class00904(class00500 blockState, Map<class08092<?>, Comparable<?>> properties, @Nullable class07001 nbt) {
-      super();
       this.blockState = blockState;
       this.properties = properties;
       this.nbt = nbt;

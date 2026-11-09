@@ -14,7 +14,6 @@ public record class01612(class00392 description, class04548<class08735> supporte
    public static final class02968<class01612> L = new class02968<>("pack", R);
 
    public class01612(class00392 description, class04548<class08735> supportedFormats) {
-      super();
       this.description = description;
       this.supportedFormats = supportedFormats;
    }

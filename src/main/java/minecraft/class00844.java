@@ -28,7 +28,6 @@ public record class00844(Optional<class05196> player, List<class05196> victims, 
    }
 
    public class00844(Optional<class05196> player, List<class05196> victims, class00836 uniqueEntityTypes, Optional<class00845> firedFromWeapon) {
-      super();
       this.player = player;
       this.victims = victims;
       this.uniqueEntityTypes = uniqueEntityTypes;

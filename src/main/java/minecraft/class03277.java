@@ -4,7 +4,6 @@ public record class03277(int id, float yaw) implements class00381<class07280> {
    public static final class02362<class00667, class03277> N = class00381.N(class03277::N, class03277::new);
 
    public class03277(int id, float yaw) {
-      super();
       this.id = id;
       this.yaw = yaw;
    }

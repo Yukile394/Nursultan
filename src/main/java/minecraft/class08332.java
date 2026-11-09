@@ -10,7 +10,6 @@ public record class08332(int slot, class06584 stack) {
    );
 
    public class08332(int slot, class06584 stack) {
-      super();
       this.slot = slot;
       this.stack = stack;
    }

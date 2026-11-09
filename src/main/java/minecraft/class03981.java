@@ -3,7 +3,6 @@ package minecraft;
 public record class03981<D>(D cookie, class01022 finalDimensions) {
 
    public class03981(D cookie, class01022 finalDimensions) {
-      super();
       this.cookie = (D)cookie;
       this.finalDimensions = finalDimensions;
    }

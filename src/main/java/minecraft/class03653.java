@@ -36,7 +36,6 @@ public record class03653(
       int maxRootLength,
       float randomSkewChance
    ) {
-      super();
       this.canGrowThrough = canGrowThrough;
       this.muddyRootsIn = muddyRootsIn;
       this.muddyRootsProvider = muddyRootsProvider;

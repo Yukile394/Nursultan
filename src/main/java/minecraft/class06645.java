@@ -23,7 +23,6 @@ public record class06645(List<class00493> objectives, List<class06679> scores, M
    }
 
    public class06645(List<class00493> objectives, List<class06679> scores, Map<class01890, String> displaySlots, List<class00497> teams) {
-      super();
       this.objectives = objectives;
       this.scores = scores;
       this.displaySlots = displaySlots;

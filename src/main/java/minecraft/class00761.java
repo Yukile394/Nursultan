@@ -25,7 +25,6 @@ public record class00761(class00816 x, class00816 y, class00816 z, class00816 ho
    }
 
    public class00761(class00816 x, class00816 y, class00816 z, class00816 horizontal, class00816 absolute) {
-      super();
       this.x = x;
       this.y = y;
       this.z = z;

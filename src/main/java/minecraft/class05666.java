@@ -29,7 +29,6 @@ public record class05666(class03556<class05660> type, class03556<class05672> pro
    }
 
    public class05666(class03556<class05660> type, class03556<class05672> profession, int level) {
-      super();
       level = Math.max(1, level);
       this.type = type;
       this.profession = profession;

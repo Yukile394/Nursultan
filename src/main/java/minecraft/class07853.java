@@ -7,7 +7,6 @@ public record class07853(GameProfile gameProfile) implements class00381<class078
    public static final class02362<ByteBuf, class07853> N = class02362.N(class02389.k, class07853::N, class07853::new);
 
    public class07853(GameProfile gameProfile) {
-      super();
       this.gameProfile = gameProfile;
    }
 

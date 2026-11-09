@@ -4,7 +4,6 @@ import java.util.List;
 
 public record class03264(class04540<class03674> variants) {
    public class03264(class04540<class03674> variants) {
-      super();
       if (variants.L()) {
          throw new IllegalArgumentException("Variant list must contain at least one element");
       } else {

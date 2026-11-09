@@ -4,7 +4,6 @@ import java.util.Map;
 
 public record class04835(String name, Map<class06581, class04823> map) {
    public class04835(String name, Map<class06581, class04823> map) {
-      super();
       this.name = name;
       this.map = map;
    }

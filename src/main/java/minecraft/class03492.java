@@ -38,7 +38,6 @@ public record class03492(class01894 location, float size, float oversample, clas
    }
 
    public class03492(class01894 location, float size, float oversample, class03505 shift, String skip) {
-      super();
       this.location = location;
       this.size = size;
       this.oversample = oversample;

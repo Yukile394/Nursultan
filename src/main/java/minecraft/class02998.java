@@ -10,7 +10,6 @@ public record class02998<T>(int id, class04383<T> serializer, T value) {
    }
 
    public class02998(int id, class04383<T> serializer, T value) {
-      super();
       this.id = id;
       this.serializer = serializer;
       this.value = (T)value;

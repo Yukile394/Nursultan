@@ -6,7 +6,6 @@ public record class06524(boolean advanced, boolean creative) implements class064
    }
 
    public class06524(boolean advanced, boolean creative) {
-      super();
       this.advanced = advanced;
       this.creative = creative;
    }

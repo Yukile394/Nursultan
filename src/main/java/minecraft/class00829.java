@@ -6,7 +6,6 @@ public record class00829(class03543<class07078<?>> types) {
    public static final Codec<class00829> N = class03541.N(class04227.I).xmap(class00829::new, class00829::N);
 
    public class00829(class03543<class07078<?>> types) {
-      super();
       this.types = types;
    }
 

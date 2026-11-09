@@ -2,7 +2,6 @@ package minecraft;
 
 record class06752(class06889[] points, int color) {
    class06752(class06889[] points, int color) {
-      super();
       this.points = points;
       this.color = color;
    }

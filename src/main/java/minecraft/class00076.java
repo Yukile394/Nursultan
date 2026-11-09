@@ -8,7 +8,6 @@ public record class00076(float value) implements class00069 {
    public static final Codec<class00076> y = Codec.FLOAT.xmap(class00076::new, class00076::y);
 
    public class00076(float value) {
-      super();
       this.value = value;
    }
 

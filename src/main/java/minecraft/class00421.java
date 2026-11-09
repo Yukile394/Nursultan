@@ -24,7 +24,6 @@ public record class00421(Either<class08262, String> name, String objective) impl
    }
 
    public class00421(Either<class08262, String> name, String objective) {
-      super();
       this.name = name;
       this.objective = objective;
    }

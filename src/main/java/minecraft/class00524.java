@@ -12,7 +12,6 @@ public record class00524(int containerId, int stateId, List<class06584> items, c
    }
 
    public class00524(int containerId, int stateId, List<class06584> items, class06584 carriedItem) {
-      super();
       this.containerId = containerId;
       this.stateId = stateId;
       this.items = items;

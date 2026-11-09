@@ -16,7 +16,6 @@ public record class02205(boolean active) implements class05957 {
    }
 
    public class02205(boolean active) {
-      super();
       this.active = active;
    }
 

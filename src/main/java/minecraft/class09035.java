@@ -30,7 +30,6 @@ public record class09035(int width, class00392 label, boolean labelVisible, Stri
    }
 
    public class09035(int width, class00392 label, boolean labelVisible, String initial, int maxLength, Optional<class00102> multiline) {
-      super();
       this.width = width;
       this.label = label;
       this.labelVisible = labelVisible;

@@ -12,7 +12,6 @@ public record class06390(int addedTime, class00392 content, class04469 signature
    }
 
    public class06390(int addedTime, class00392 content, @Nullable class04469 signature, @Nullable class03054 tag) {
-      super();
       this.addedTime = addedTime;
       this.content = content;
       this.signature = signature;

@@ -20,7 +20,6 @@ public record class00833(Optional<class00817> located, Optional<class00817> step
    }
 
    public class00833(Optional<class00817> located, Optional<class00817> steppingOn, Optional<class00817> affectsMovement) {
-      super();
       this.located = located;
       this.steppingOn = steppingOn;
       this.affectsMovement = affectsMovement;

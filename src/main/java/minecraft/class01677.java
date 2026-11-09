@@ -12,7 +12,6 @@ public record class01677(class01650 scaling) {
    public static final class02968<class01677> L = new class02968<>("gui", y);
 
    public class01677(class01650 scaling) {
-      super();
       this.scaling = scaling;
    }
 

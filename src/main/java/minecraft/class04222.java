@@ -9,7 +9,6 @@ record class04222(class00392 message, int maxWidth, OptionalInt maxRows) {
    }
 
    class04222(class00392 message, int maxWidth, OptionalInt maxRows) {
-      super();
       this.message = message;
       this.maxWidth = maxWidth;
       this.maxRows = maxRows;

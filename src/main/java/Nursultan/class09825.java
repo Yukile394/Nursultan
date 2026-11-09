@@ -18,7 +18,6 @@ public record class09825(Reference2ObjectMap<class02477<?>, Object> map) impleme
    }
 
    public class09825(Reference2ObjectMap<class02477<?>, Object> map) {
-      super();
       this.map = map;
    }
 

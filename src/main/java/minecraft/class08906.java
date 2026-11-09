@@ -21,7 +21,6 @@ public record class08906(boolean handAnimationOnSwap, boolean oversizedInGui, fl
    }
 
    public class08906(boolean handAnimationOnSwap, boolean oversizedInGui, float swapAnimationScale) {
-      super();
       this.handAnimationOnSwap = handAnimationOnSwap;
       this.oversizedInGui = oversizedInGui;
       this.swapAnimationScale = swapAnimationScale;

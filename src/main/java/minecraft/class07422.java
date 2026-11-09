@@ -10,7 +10,6 @@ public record class07422(Map<String, class07389<?>> schemas) {
    public static final MapCodec<class07422> N = y();
 
    public class07422(Map<String, class07389<?>> schemas) {
-      super();
       this.schemas = schemas;
    }
 

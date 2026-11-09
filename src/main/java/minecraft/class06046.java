@@ -10,7 +10,6 @@ public record class06046(int y) implements class06055 {
    }
 
    public class06046(int y) {
-      super();
       this.y = y;
    }
 

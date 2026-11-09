@@ -16,7 +16,6 @@ public record class02478(int offset) implements class02489 {
    );
 
    public class02478(int offset) {
-      super();
       this.offset = offset;
    }
 

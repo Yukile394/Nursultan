@@ -19,7 +19,6 @@ public record class08430(String region, String name, boolean bidirectional) {
    }
 
    public class08430(String region, String name, boolean bidirectional) {
-      super();
       this.region = region;
       this.name = name;
       this.bidirectional = bidirectional;

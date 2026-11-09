@@ -18,7 +18,6 @@ public record class09022(class00392 contents, int width) implements class09034 {
    }
 
    public class09022(class00392 contents, int width) {
-      super();
       this.contents = contents;
       this.width = width;
    }

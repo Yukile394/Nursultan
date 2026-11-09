@@ -21,7 +21,6 @@ public record class07382(boolean started, List<class07947> players, class07808 v
    }
 
    public class07382(boolean started, List<class07947> players, class07808 version) {
-      super();
       this.started = started;
       this.players = players;
       this.version = version;

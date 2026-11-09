@@ -19,7 +19,6 @@ public record class00942(class01894 atlas, class01894 sprite) implements class00
    }
 
    public class00942(class01894 atlas, class01894 sprite) {
-      super();
       this.atlas = atlas;
       this.sprite = sprite;
    }

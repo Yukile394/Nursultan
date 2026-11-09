@@ -8,7 +8,6 @@ public record class08585(List<class08556<class08579, class08568>> selectors) {
    public static final Codec<class08585> y = class08556.N(class08568.y).listOf().xmap(class08585::new, class08585::N);
 
    public class08585(List<class08556<class08579, class08568>> selectors) {
-      super();
       this.selectors = selectors;
    }
 

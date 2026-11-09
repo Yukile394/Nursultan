@@ -6,7 +6,6 @@ public record class06359(class01894 id, boolean tag) {
    }
 
    public class06359(class01894 id, boolean tag) {
-      super();
       this.id = id;
       this.tag = tag;
    }

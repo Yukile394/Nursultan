@@ -18,7 +18,6 @@ public record class00779(Optional<class05196> player, class00836 level) implemen
    }
 
    public class00779(Optional<class05196> player, class00836 level) {
-      super();
       this.player = player;
       this.level = level;
    }

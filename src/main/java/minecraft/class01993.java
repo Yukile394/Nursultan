@@ -6,7 +6,6 @@ public record class01993(class04469 signature, boolean pending) {
    }
 
    public class01993(class04469 signature, boolean pending) {
-      super();
       this.signature = signature;
       this.pending = pending;
    }

@@ -19,7 +19,6 @@ public record class03141(class05946<class05281> alias, class05946<class05281> ta
    }
 
    public class03141(class05946<class05281> alias, class05946<class05281> target) {
-      super();
       this.alias = alias;
       this.target = target;
    }

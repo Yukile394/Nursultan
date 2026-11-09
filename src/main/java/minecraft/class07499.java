@@ -24,7 +24,6 @@ public record class07499(int experience, List<class05946<class05074>> loot, List
    }
 
    public class07499(int experience, List<class05946<class05074>> loot, List<class05946<class06521<?>>> recipes, Optional<class07692> function) {
-      super();
       this.experience = experience;
       this.loot = loot;
       this.recipes = recipes;

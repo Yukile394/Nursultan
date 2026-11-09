@@ -45,7 +45,6 @@ public record class06110(
       Optional<class00845> mainhand,
       Optional<class00845> offhand
    ) {
-      super();
       this.head = head;
       this.chest = chest;
       this.legs = legs;

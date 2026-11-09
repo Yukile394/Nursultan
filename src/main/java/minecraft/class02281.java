@@ -50,7 +50,6 @@ public record class02281(
       class04514 playerDetector,
       class04488 entitySelector
    ) {
-      super();
       this.lootTable = lootTable;
       this.activationRange = activationRange;
       this.deactivationRange = deactivationRange;

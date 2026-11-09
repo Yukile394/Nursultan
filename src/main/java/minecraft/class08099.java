@@ -14,7 +14,6 @@ public record class08099(class01929 registries) implements class02013 {
    );
 
    public class08099(class01929 registries) {
-      super();
       this.registries = registries;
    }
 

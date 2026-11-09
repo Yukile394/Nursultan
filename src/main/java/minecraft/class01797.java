@@ -11,7 +11,6 @@ public record class01797(HashFunction hashFunction, int maxSize, Map<String, Str
    }
 
    public class01797(HashFunction hashFunction, int maxSize, Map<String, String> headers, Proxy proxy, class05007 listener) {
-      super();
       this.hashFunction = hashFunction;
       this.maxSize = maxSize;
       this.headers = headers;

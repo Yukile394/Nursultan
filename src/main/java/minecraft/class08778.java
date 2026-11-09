@@ -10,7 +10,6 @@ public record class08778(class08650 guiItemRenderState, int x0, int y0, int x1, 
    }
 
    public class08778(class08650 guiItemRenderState, int x0, int y0, int x1, int y1) {
-      super();
       this.guiItemRenderState = guiItemRenderState;
       this.x0 = x0;
       this.y0 = y0;

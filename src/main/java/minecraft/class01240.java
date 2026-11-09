@@ -2,7 +2,6 @@ package minecraft;
 
 public record class01240(String realmId) implements class01276 {
    public class01240(String realmId) {
-      super();
       this.realmId = realmId;
    }
 

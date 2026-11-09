@@ -6,7 +6,6 @@ import java.util.Map;
 record class04843(Map<class01894, List<class06251>> fontSets, List<class06262> allProviders) {
 
    class04843(Map<class01894, List<class06251>> fontSets, List<class06262> allProviders) {
-      super();
       this.fontSets = fontSets;
       this.allProviders = allProviders;
    }

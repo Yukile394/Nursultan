@@ -49,7 +49,6 @@ public record class04764(
       class05474 heightAccessor,
       Predicate<class03556<class00780>> validBiome
    ) {
-      super();
       this.registryAccess = registryAccess;
       this.chunkGenerator = chunkGenerator;
       this.biomeSource = biomeSource;

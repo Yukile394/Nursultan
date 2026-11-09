@@ -6,7 +6,6 @@ public record class07129(String providerId, class07096 cache, int writes) {
    }
 
    public class07129(String providerId, class07096 cache, int writes) {
-      super();
       this.providerId = providerId;
       this.cache = cache;
       this.writes = writes;

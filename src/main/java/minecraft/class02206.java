@@ -27,7 +27,6 @@ public record class02206(class03556<class04891> soundEvent, class00392 descripti
    }
 
    public class02206(class03556<class04891> soundEvent, class00392 description, float lengthInSeconds, int comparatorOutput) {
-      super();
       this.soundEvent = soundEvent;
       this.description = description;
       this.lengthInSeconds = lengthInSeconds;

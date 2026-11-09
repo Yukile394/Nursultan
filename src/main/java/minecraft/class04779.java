@@ -10,7 +10,6 @@ public record class04779(Path path) {
    }
 
    public class04779(Path path) {
-      super();
       this.path = path;
    }
 

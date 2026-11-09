@@ -13,7 +13,6 @@ public record class08904(List<class08895> models) implements class08895 {
    );
 
    public class08904(List<class08895> models) {
-      super();
       this.models = models;
    }
 

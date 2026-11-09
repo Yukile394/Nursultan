@@ -8,7 +8,6 @@ public record class00278(List<class00268> entries, boolean replace) implements c
    );
 
    public class00278(List<class00268> entries, boolean replace) {
-      super();
       this.entries = entries;
       this.replace = replace;
    }

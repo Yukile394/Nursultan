@@ -7,7 +7,6 @@ public record class02916(String contents) implements Predicate<class02826<String
    public static final Codec<class02916> N = Codec.STRING.xmap(class02916::new, class02916::N);
 
    public class02916(String contents) {
-      super();
       this.contents = contents;
    }
 

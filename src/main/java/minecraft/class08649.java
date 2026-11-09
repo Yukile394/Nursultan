@@ -31,7 +31,6 @@ public record class08649(
       @Nullable class03255 scissorArea,
       @Nullable class03255 bounds
    ) {
-      super();
       this.bookModel = bookModel;
       this.texture = texture;
       this.open = open;

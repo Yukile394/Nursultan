@@ -14,7 +14,6 @@ public record class02648<T, P extends Predicate<T>>(Optional<class02638<T, P>> c
    }
 
    public class02648(Optional<class02638<T, P>> contains, Optional<class02646<T, P>> counts, Optional<class00836> size) {
-      super();
       this.contains = contains;
       this.counts = counts;
       this.size = size;

@@ -10,7 +10,6 @@ public record class04319(long totalCount, long totalSize) {
    }
 
    public class04319(long totalCount, long totalSize) {
-      super();
       this.totalCount = totalCount;
       this.totalSize = totalSize;
    }

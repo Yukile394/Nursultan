@@ -9,7 +9,6 @@ public record class11675(String name, String password, String lastLogin) {
    }
 
    public class11675(String name, String password, String lastLogin) {
-      super();
       this.name = name;
       this.password = password;
       this.lastLogin = lastLogin;

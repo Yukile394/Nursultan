@@ -5,7 +5,6 @@ public record class08944(class00392 label, float sortKey) {
    public static final class08944 y = new class08944(class00392.L("debug.options.category.renderer"), 2.0F);
 
    public class08944(class00392 label, float sortKey) {
-      super();
       this.label = label;
       this.sortKey = sortKey;
    }

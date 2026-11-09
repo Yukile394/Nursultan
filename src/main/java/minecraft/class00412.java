@@ -14,7 +14,6 @@ public record class00412(class01894 assetId, String translationKey) {
    public static final class02362<class04247, class03556<class00412>> u = class02389.N(class04227.NF, y);
 
    public class00412(class01894 assetId, String translationKey) {
-      super();
       this.assetId = assetId;
       this.translationKey = translationKey;
    }

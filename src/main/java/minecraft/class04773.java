@@ -21,7 +21,6 @@ public record class04773(Optional<class05946<class07299>> dimension, Optional<cl
    }
 
    public class04773(Optional<class05946<class07299>> dimension, Optional<class06889> position, Optional<class07109> rotation) {
-      super();
       this.dimension = dimension;
       this.position = position;
       this.rotation = rotation;

@@ -15,7 +15,6 @@ public record class02515(class03543<class07304> enchantments, class02142 cost) i
    }
 
    public class02515(class03543<class07304> enchantments, class02142 cost) {
-      super();
       this.enchantments = enchantments;
       this.cost = cost;
    }

@@ -14,7 +14,6 @@ public record class03887(class04562<class03903, class03890> spline) implements c
    }
 
    public class03887(class04562<class03903, class03890> spline) {
-      super();
       this.spline = spline;
    }
 

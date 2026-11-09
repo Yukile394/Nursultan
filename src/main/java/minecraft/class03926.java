@@ -42,7 +42,6 @@ public record class03926(class02083 link, class04469 signature, class03079 signe
    }
 
    public class03926(class02083 link, @Nullable class04469 signature, class03079 signedBody, @Nullable class00392 unsignedContent, class03055 filterMask) {
-      super();
       this.link = link;
       this.signature = signature;
       this.signedBody = signedBody;

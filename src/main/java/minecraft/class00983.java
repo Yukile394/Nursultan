@@ -14,7 +14,6 @@ public record class00983(List<class00994> instances) implements class00972 {
    }
 
    public class00983(List<class00994> instances) {
-      super();
       this.instances = instances;
    }
 

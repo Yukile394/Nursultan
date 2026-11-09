@@ -2,7 +2,6 @@ package minecraft;
 
 public record class02116(class03249 direction) implements class02089 {
    public class02116(class03249 direction) {
-      super();
       this.direction = direction;
    }
 

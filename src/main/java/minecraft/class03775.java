@@ -9,7 +9,6 @@ record class03775<T>(class03529<T> value) implements class03782<T> {
    }
 
    class03775(class03529<T> value) {
-      super();
       this.value = value;
    }
 

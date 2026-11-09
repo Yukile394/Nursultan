@@ -4,7 +4,6 @@ public record class08096(class05042 respawnData) implements class00381<class0728
    public static final class02362<class00667, class08096> N = class02362.N(class05042.u, class08096::N, class08096::new);
 
    public class08096(class05042 respawnData) {
-      super();
       this.respawnData = respawnData;
    }
 

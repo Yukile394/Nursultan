@@ -6,7 +6,6 @@ public record class06664(int slot) implements class00381<class07280> {
    public static final class02362<ByteBuf, class06664> N = class02362.N(class02389.B, class06664::N, class06664::new);
 
    public class06664(int slot) {
-      super();
       this.slot = slot;
    }
 

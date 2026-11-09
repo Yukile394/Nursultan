@@ -18,7 +18,6 @@ public record class00414(class08262 selector, Optional<class00392> separator) im
    }
 
    public class00414(class08262 selector, Optional<class00392> separator) {
-      super();
       this.selector = selector;
       this.separator = separator;
    }

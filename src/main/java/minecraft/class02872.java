@@ -12,7 +12,6 @@ public record class02872(class01894 key, byte[] payload) implements class00381<c
    }
 
    public class02872(class01894 key, byte[] payload) {
-      super();
       this.key = key;
       this.payload = payload;
    }

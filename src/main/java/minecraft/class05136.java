@@ -15,7 +15,6 @@ public record class05136(int httpCode, int code, String reason, String message) 
    }
 
    public class05136(int httpCode, int code, @Nullable String reason, @Nullable String message) {
-      super();
       this.httpCode = httpCode;
       this.code = code;
       this.reason = reason;

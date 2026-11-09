@@ -11,7 +11,6 @@ public record class09091(int glTextureId, float u0, float v0, float u1, float v1
    }
 
    public class09091(int glTextureId, float u0, float v0, float u1, float v1, float minX, float maxX, float minY, float maxY, float advance) {
-      super();
       this.glTextureId = glTextureId;
       this.u0 = u0;
       this.v0 = v0;

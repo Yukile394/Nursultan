@@ -10,7 +10,6 @@ public record class05390(List<class08084<?>> values) {
    private static final Comparator<class08084<?>> L = Comparator.comparing(var0 -> var0.N().R());
 
    public class05390(List<class08084<?>> values) {
-      super();
       this.values = values;
    }
 

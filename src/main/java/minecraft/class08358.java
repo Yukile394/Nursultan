@@ -11,7 +11,6 @@ public record class08358(int defaultColor) implements class08843 {
    );
 
    public class08358(int defaultColor) {
-      super();
       this.defaultColor = defaultColor;
    }
 

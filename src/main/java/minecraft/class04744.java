@@ -12,7 +12,6 @@ public record class04744(class05042 respawnData, boolean forced) {
    );
 
    public class04744(class05042 respawnData, boolean forced) {
-      super();
       this.respawnData = respawnData;
       this.forced = forced;
    }

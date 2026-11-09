@@ -2,7 +2,6 @@ package minecraft;
 
 public record class04809(float u, float v) {
    public class04809(float u, float v) {
-      super();
       this.u = u;
       this.v = v;
    }

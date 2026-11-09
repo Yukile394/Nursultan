@@ -30,7 +30,6 @@ public record class03978(class03556<class01194> gameEvent, float distance, class
    public class03978(
       class03556<class01194> gameEvent, float distance, class06889 pos, @Nullable UUID uuid, @Nullable UUID projectileOwnerUuid, @Nullable class07049 entity
    ) {
-      super();
       this.gameEvent = gameEvent;
       this.distance = distance;
       this.pos = pos;

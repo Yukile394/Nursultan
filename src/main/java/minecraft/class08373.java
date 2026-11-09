@@ -17,7 +17,6 @@ public record class08373(class06428 keybind) implements class08909 {
    );
 
    public class08373(class06428 keybind) {
-      super();
       this.keybind = keybind;
    }
 

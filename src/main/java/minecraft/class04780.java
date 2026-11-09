@@ -13,7 +13,6 @@ public record class04780(class07209 position, Either<Consumer<class03291>, class
    }
 
    public class04780(class07209 position, Either<Consumer<class03291>, class03291> generator) {
-      super();
       this.position = position;
       this.generator = generator;
    }

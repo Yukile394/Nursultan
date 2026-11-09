@@ -8,7 +8,6 @@ public record class03713(GameProfile gameProfile, int latency, class03737 client
    }
 
    public class03713(GameProfile gameProfile, int latency, class03737 clientInformation, boolean transferred) {
-      super();
       this.gameProfile = gameProfile;
       this.latency = latency;
       this.clientInformation = clientInformation;

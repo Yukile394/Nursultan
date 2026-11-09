@@ -12,7 +12,6 @@ public record class00080(class00070 options, List<class00064> settings, class000
    }
 
    public class00080(class00070 options, List<class00064> settings, @Nullable class00081 regionSelectionPreference, @Nullable class04951 description) {
-      super();
       this.options = options;
       this.settings = settings;
       this.regionSelectionPreference = regionSelectionPreference;

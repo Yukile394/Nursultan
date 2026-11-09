@@ -21,7 +21,6 @@ public record class07511(class07209 pos, class06563 color, Optional<class00392> 
    }
 
    public class07511(class07209 pos, class06563 color, Optional<class00392> name) {
-      super();
       this.pos = pos;
       this.color = color;
       this.name = name;

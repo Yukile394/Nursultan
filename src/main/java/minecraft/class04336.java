@@ -24,7 +24,6 @@ public record class04336(class03556<class03238<?, ?>> feature, List<class04297> 
    }
 
    public class04336(class03556<class03238<?, ?>> feature, List<class04297> placement) {
-      super();
       this.feature = feature;
       this.placement = placement;
    }

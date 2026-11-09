@@ -12,7 +12,6 @@ public record class08952(class08960 block, class07284 level, class07211 facing, 
    }
 
    public class08952(class08960 block, class07284 level, class07211 facing, class07209 center, Map<class07209, class08976> cache) {
-      super();
       this.block = block;
       this.level = level;
       this.facing = facing;

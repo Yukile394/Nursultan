@@ -22,7 +22,6 @@ public record class01968(List<class01937> entries) {
    public static final Codec<class01968> N = Codec.withAlternative(Codec.STRING, R).comapFlatMap(class01968::N, class01968::toString);
 
    public class01968(List<class01937> entries) {
-      super();
       if (entries.isEmpty()) {
          throw new IllegalArgumentException("Empty value for property");
       } else {

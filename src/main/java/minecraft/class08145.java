@@ -4,7 +4,6 @@ import java.util.function.BiConsumer;
 
 public record class08145(class01929 registries) implements class02013 {
    public class08145(class01929 registries) {
-      super();
       this.registries = registries;
    }
 

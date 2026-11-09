@@ -22,7 +22,6 @@ record class07096(String version, ImmutableMap<Path, HashCode> data) {
    }
 
    class07096(String version, ImmutableMap<Path, HashCode> data) {
-      super();
       this.version = version;
       this.data = data;
    }

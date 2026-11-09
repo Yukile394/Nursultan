@@ -9,7 +9,6 @@ import java.util.function.Function;
 
 public record class02826<T>(T raw, Optional<T> filtered) {
    public class02826(T raw, Optional<T> filtered) {
-      super();
       this.raw = (T)raw;
       this.filtered = filtered;
    }

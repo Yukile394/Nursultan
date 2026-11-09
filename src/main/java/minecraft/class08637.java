@@ -2,7 +2,6 @@ package minecraft;
 
 public record class08637<T extends class06271>(T adultModel, T babyModel) {
    public class08637(T adultModel, T babyModel) {
-      super();
       this.adultModel = (T)adultModel;
       this.babyModel = (T)babyModel;
    }

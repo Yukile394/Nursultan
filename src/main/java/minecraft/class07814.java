@@ -11,7 +11,6 @@ public record class07814(class00392 reason) implements class00381<class07844> {
    );
 
    public class07814(class00392 reason) {
-      super();
       this.reason = reason;
    }
 

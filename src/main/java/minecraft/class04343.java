@@ -17,7 +17,6 @@ public record class04343(int minInclusive, IntSupplier maxSupplier, int encodabl
    }
 
    public class04343(int minInclusive, IntSupplier maxSupplier, int encodableMaxInclusive) {
-      super();
       this.minInclusive = minInclusive;
       this.maxSupplier = maxSupplier;
       this.encodableMaxInclusive = encodableMaxInclusive;

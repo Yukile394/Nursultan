@@ -16,7 +16,6 @@ record class02330(int extraRounds, float probability) implements class02339 {
    }
 
    class02330(int extraRounds, float probability) {
-      super();
       this.extraRounds = extraRounds;
       this.probability = probability;
    }

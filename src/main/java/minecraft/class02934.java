@@ -6,7 +6,6 @@ public record class02934(class06584 template, class06584 base, class06584 additi
    }
 
    public class02934(class06584 template, class06584 base, class06584 addition) {
-      super();
       this.template = template;
       this.base = base;
       this.addition = addition;

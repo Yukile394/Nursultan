@@ -23,7 +23,6 @@ public record class01664(int width, int height, class01643 border, boolean stret
    }
 
    public class01664(int width, int height, class01643 border, boolean stretchInner) {
-      super();
       this.width = width;
       this.height = height;
       this.border = border;

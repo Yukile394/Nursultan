@@ -11,7 +11,6 @@ record class02809(int index, class06584 item) {
    );
 
    class02809(int index, class06584 item) {
-      super();
       this.index = index;
       this.item = item;
    }

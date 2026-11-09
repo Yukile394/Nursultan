@@ -18,7 +18,6 @@ public record class01325(float width, float height, float eyeHeight, class03810 
    }
 
    public class01325(float width, float height, float eyeHeight, class03810 attachments, boolean fixed) {
-      super();
       this.width = width;
       this.height = height;
       this.eyeHeight = eyeHeight;

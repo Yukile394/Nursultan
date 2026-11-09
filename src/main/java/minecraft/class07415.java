@@ -21,7 +21,6 @@ public record class07415(Optional<String> literal, Optional<String> translatable
    }
 
    public class07415(Optional<String> literal, Optional<String> translatable, Optional<List<String>> translatableParams) {
-      super();
       this.literal = literal;
       this.translatable = translatable;
       this.translatableParams = translatableParams;

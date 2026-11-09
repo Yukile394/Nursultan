@@ -8,7 +8,6 @@ import java.util.ArrayList;
 public record class07699(String text, class07771[] parts) {
 
    public class07699(String text, class07771[] parts) {
-      super();
       this.text = text;
       this.parts = parts;
    }

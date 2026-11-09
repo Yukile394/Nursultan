@@ -20,7 +20,6 @@ public record class02685(class03556<class02195> type, double x, double z, float 
    }
 
    public class02685(class03556<class02195> type, double x, double z, float rotation) {
-      super();
       this.type = type;
       this.x = x;
       this.z = z;

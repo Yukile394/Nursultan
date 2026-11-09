@@ -6,7 +6,6 @@ public record class08313(String name, class01424<?> actual) implements class0448
    }
 
    public class08313(String name, class01424<?> actual) {
-      super();
       this.name = name;
       this.actual = actual;
    }

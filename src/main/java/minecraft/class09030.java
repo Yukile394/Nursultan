@@ -7,7 +7,6 @@ public record class09030(class03556<class09037> dialog) implements class00381<cl
    public static final class02362<ByteBuf, class09030> y = class02362.N(class09037.M.N_10(class03556::N, class03556::N), class09030::N, class09030::new);
 
    public class09030(class03556<class09037> dialog) {
-      super();
       this.dialog = dialog;
    }
 

@@ -20,7 +20,6 @@ public record class01478(int tries, int xzSpread, int ySpread, class03556<class0
    }
 
    public class01478(int tries, int xzSpread, int ySpread, class03556<class04336> feature) {
-      super();
       this.tries = tries;
       this.xzSpread = xzSpread;
       this.ySpread = ySpread;

@@ -2,7 +2,6 @@ package minecraft;
 
 public record class05925<T>(class03347<T> type, T value) {
    public class05925(class03347<T> type, T value) {
-      super();
       this.type = type;
       this.value = (T)value;
    }

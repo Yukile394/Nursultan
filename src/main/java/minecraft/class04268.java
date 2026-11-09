@@ -12,7 +12,6 @@ public record class04268(Optional<class05196> player, Optional<class05196> locat
    );
 
    public class04268(Optional<class05196> player, Optional<class05196> location) {
-      super();
       this.player = player;
       this.location = location;
    }

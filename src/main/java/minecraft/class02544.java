@@ -10,7 +10,6 @@ public record class02544(class02546 factor) implements class02536 {
    );
 
    public class02544(class02546 factor) {
-      super();
       this.factor = factor;
    }
 

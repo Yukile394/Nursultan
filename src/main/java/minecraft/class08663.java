@@ -20,7 +20,6 @@ public record class08663(class06260 signModel, class05904 woodType, int x0, int 
    public class08663(
       class06260 signModel, class05904 woodType, int x0, int y0, int x1, int y1, float scale, @Nullable class03255 scissorArea, @Nullable class03255 bounds
    ) {
-      super();
       this.signModel = signModel;
       this.woodType = woodType;
       this.x0 = x0;

@@ -10,7 +10,6 @@ record class05264(JsonObject generatorSettings, String levelType) {
    private static final Map<String, class05946<class04382>> L = Map.of("default", class05964.N, "largebiomes", class05964.L);
 
    class05264(JsonObject generatorSettings, String levelType) {
-      super();
       this.generatorSettings = generatorSettings;
       this.levelType = levelType;
    }

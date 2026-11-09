@@ -20,7 +20,6 @@ public record class00315(List<class00299> ingredients, class00299 result, class0
    public static final class00273<class00315> L = new class00273<>(N, y);
 
    public class00315(List<class00299> ingredients, class00299 result, class00299 craftingStation) {
-      super();
       this.ingredients = ingredients;
       this.result = result;
       this.craftingStation = craftingStation;

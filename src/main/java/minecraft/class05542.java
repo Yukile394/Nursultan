@@ -4,7 +4,6 @@ import java.util.Set;
 
 public record class05542(Set<class07491<?>> notProvided) implements class04480 {
    public class05542(Set<class07491<?>> notProvided) {
-      super();
       this.notProvided = notProvided;
    }
 

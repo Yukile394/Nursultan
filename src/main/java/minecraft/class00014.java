@@ -6,7 +6,6 @@ public record class00014(class00039 operation, class00037 waypoint) implements c
    public static final class02362<class04247, class00014> N = class02362.N(class00039.field_59617, class00014::N, class00037.y, class00014::y, class00014::new);
 
    public class00014(class00039 operation, class00037 waypoint) {
-      super();
       this.operation = operation;
       this.waypoint = waypoint;
    }

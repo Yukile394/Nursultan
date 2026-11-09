@@ -3,7 +3,6 @@ package minecraft;
 public record class02753(double y, float yRot) {
 
    public class02753(double y, float yRot) {
-      super();
       this.y = y;
       this.yRot = yRot;
    }

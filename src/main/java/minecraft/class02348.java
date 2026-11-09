@@ -2,7 +2,6 @@ package minecraft;
 
 record class02348<S, T>(class02356<S, T> ruleToParse, class02353<T> nameToStore) implements class02315<S> {
    class02348(class02356<S, T> ruleToParse, class02353<T> nameToStore) {
-      super();
       this.ruleToParse = ruleToParse;
       this.nameToStore = nameToStore;
    }

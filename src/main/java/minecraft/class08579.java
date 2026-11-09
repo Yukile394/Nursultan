@@ -6,7 +6,6 @@ public record class08579(class07209 pos, class01001 level, class00611 environmen
    }
 
    public class08579(class07209 pos, class01001 level, class00611 environmentAttributes, class03556<class00780> biome) {
-      super();
       this.pos = pos;
       this.level = level;
       this.environmentAttributes = environmentAttributes;

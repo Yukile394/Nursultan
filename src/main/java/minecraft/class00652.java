@@ -11,7 +11,6 @@ public record class00652(URI uri) implements class00647 {
    );
 
    public class00652(URI uri) {
-      super();
       this.uri = uri;
    }
 

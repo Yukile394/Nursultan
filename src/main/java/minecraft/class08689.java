@@ -11,7 +11,6 @@ public record class08689(Optional<Integer> colorWhenUndyed) {
    );
 
    public class08689(Optional<Integer> colorWhenUndyed) {
-      super();
       this.colorWhenUndyed = colorWhenUndyed;
    }
 

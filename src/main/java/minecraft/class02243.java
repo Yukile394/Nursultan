@@ -15,7 +15,6 @@ public record class02243(List<class02213> entries) {
    }
 
    public class02243(List<class02213> entries) {
-      super();
       this.entries = entries;
    }
 

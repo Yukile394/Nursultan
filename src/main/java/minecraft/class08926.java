@@ -11,7 +11,6 @@ public record class08926(int index) implements class06572 {
    );
 
    public class08926(int index) {
-      super();
       this.index = index;
    }
 

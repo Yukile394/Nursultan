@@ -46,7 +46,6 @@ public record class05638(class01894 file, int height, int ascent, int[][] codepo
    }
 
    public class05638(class01894 file, int height, int ascent, int[][] codepointGrid) {
-      super();
       this.file = file;
       this.height = height;
       this.ascent = ascent;

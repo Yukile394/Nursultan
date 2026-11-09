@@ -6,7 +6,6 @@ public record class08324(String name, int index, class01424<?> expected, class01
    }
 
    public class08324(String name, int index, class01424<?> expected, class01424<?> actual) {
-      super();
       this.name = name;
       this.index = index;
       this.expected = expected;

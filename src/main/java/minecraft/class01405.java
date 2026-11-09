@@ -18,7 +18,6 @@ public record class01405(Optional<Long> period, class05338 value) implements cla
    }
 
    public class01405(Optional<Long> period, class05338 value) {
-      super();
       this.period = period;
       this.value = value;
    }

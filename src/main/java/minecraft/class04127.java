@@ -25,7 +25,6 @@ public record class04127(Optional<class04123> simpleModels, Optional<class04125>
       );
 
    public class04127(Optional<class04123> simpleModels, Optional<class04125> multiPart) {
-      super();
       this.simpleModels = simpleModels;
       this.multiPart = multiPart;
    }

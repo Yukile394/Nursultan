@@ -1,13 +1,12 @@
 package Nursultan;
 
-public non-sealed record class11982(long presetId, long expiresAtMillis, int activationLimit) implements class11942 {
+public record class11982(long presetId, long expiresAtMillis, int activationLimit) implements class11942 {
 
    public long L() {
       return this.presetId;
    }
 
    public class11982(long presetId, long expiresAtMillis, int activationLimit) {
-      super();
       this.presetId = presetId;
       this.expiresAtMillis = expiresAtMillis;
       this.activationLimit = activationLimit;

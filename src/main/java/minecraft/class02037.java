@@ -11,7 +11,6 @@ public record class02037(Set<class01894> features) implements class00381<class01
    }
 
    public class02037(Set<class01894> features) {
-      super();
       this.features = features;
    }
 

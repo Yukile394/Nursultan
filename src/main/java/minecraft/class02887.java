@@ -11,7 +11,6 @@ record class02887<L extends class00638>(class00648 id, class00423 flow, class023
    }
 
    class02887(class00648 id, class00423 flow, class02362<ByteBuf, class00381<? super L>> codec, @Nullable class03276 bundlerInfo) {
-      super();
       this.id = id;
       this.flow = flow;
       this.codec = codec;

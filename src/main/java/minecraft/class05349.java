@@ -22,7 +22,6 @@ public record class05349(int nutrition, float saturation, boolean canAlwaysEat) 
    }
 
    public class05349(int nutrition, float saturation, boolean canAlwaysEat) {
-      super();
       this.nutrition = nutrition;
       this.saturation = saturation;
       this.canAlwaysEat = canAlwaysEat;

@@ -8,7 +8,6 @@ public record class02018(UUID sessionId, class04450 keyPair) {
    }
 
    public class02018(UUID sessionId, class04450 keyPair) {
-      super();
       this.sessionId = sessionId;
       this.keyPair = keyPair;
    }

@@ -11,7 +11,6 @@ record class04886(List<class06261> providers) {
    );
 
    private class04886(List<class06261> providers) {
-      super();
       this.providers = providers;
    }
 

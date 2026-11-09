@@ -13,7 +13,6 @@ public record class03238<FC extends class06386, F extends class06391<FC>>(F feat
    }
 
    public class03238(F feature, FC config) {
-      super();
       this.feature = (F)feature;
       this.config = (FC)config;
    }

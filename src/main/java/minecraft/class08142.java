@@ -12,7 +12,6 @@ public record class08142(Matrix4f pose, float x, float y, class00392 text, int l
    }
 
    public class08142(Matrix4f pose, float x, float y, class00392 text, int lightCoords, int color, int backgroundColor, double distanceToCameraSq) {
-      super();
       this.pose = pose;
       this.x = x;
       this.y = y;

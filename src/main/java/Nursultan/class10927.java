@@ -7,7 +7,6 @@ public record class10927(int slot, class11499 rotation, class10891 entry, int co
    }
 
    class10927(int slot, class11499 rotation, class10891 entry, int commitTick) {
-      super();
       this.slot = slot;
       this.rotation = rotation;
       this.entry = entry;

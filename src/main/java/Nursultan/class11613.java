@@ -33,7 +33,6 @@ public record class11613(
       class11598<? super class11613> behavior,
       BiConsumer<class09784, class09809> content
    ) {
-      super();
       this.id = id;
       this.ref = ref;
       this.style = style;

@@ -6,7 +6,6 @@ record class06253(int[] contents, int bitWidth) implements class06267 {
    private static final int L = 24;
 
    private class06253(int[] contents, int bitWidth) {
-      super();
       this.contents = contents;
       this.bitWidth = bitWidth;
    }

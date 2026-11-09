@@ -12,7 +12,6 @@ public record class09907(float x, float y, float width, float height, float blur
    }
 
    public class09907(float x, float y, float width, float height, float blurRadius, int color, Vector4fc borderRadius) {
-      super();
       this.x = x;
       this.y = y;
       this.width = width;

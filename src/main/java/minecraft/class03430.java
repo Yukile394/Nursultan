@@ -3,7 +3,6 @@ package minecraft;
 public record class03430(int fluidLevel, class00500 fluidType) {
 
    public class03430(int fluidLevel, class00500 fluidType) {
-      super();
       this.fluidLevel = fluidLevel;
       this.fluidType = fluidType;
    }

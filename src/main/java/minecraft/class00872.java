@@ -12,7 +12,6 @@ public record class00872(double left, double up, double forwards) implements cla
    }
 
    public class00872(double left, double up, double forwards) {
-      super();
       this.left = left;
       this.up = up;
       this.forwards = forwards;

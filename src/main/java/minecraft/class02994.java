@@ -4,7 +4,6 @@ import java.util.Map;
 
 public record class02994(Map<String, class02973> children) implements class02960 {
    public class02994(Map<String, class02973> children) {
-      super();
       this.children = children;
    }
 

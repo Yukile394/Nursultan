@@ -10,7 +10,6 @@ record class08527<T>(T value, int markAfterParse) {
    }
 
    class08527(@Nullable T value, int markAfterParse) {
-      super();
       this.value = (T)value;
       this.markAfterParse = markAfterParse;
    }

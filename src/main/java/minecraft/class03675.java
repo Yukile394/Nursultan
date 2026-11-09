@@ -20,7 +20,6 @@ public record class03675(int block, int sky) {
    }
 
    public class03675(int block, int sky) {
-      super();
       this.block = block;
       this.sky = sky;
    }

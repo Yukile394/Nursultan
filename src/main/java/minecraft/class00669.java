@@ -16,7 +16,6 @@ public record class00669(class01894 id, Optional<class07709> payload) implements
    }
 
    public class00669(class01894 id, Optional<class07709> payload) {
-      super();
       this.id = id;
       this.payload = payload;
    }

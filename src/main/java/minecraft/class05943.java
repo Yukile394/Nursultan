@@ -80,7 +80,6 @@ public record class05943(
       boolean oreVeinsEnabled,
       boolean useLegacyRandomSource
    ) {
-      super();
       this.noiseSettings = noiseSettings;
       this.defaultBlock = defaultBlock;
       this.defaultFluid = defaultFluid;

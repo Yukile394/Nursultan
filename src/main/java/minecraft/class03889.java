@@ -24,7 +24,6 @@ record class03889(class03877 density, class03877 upperBound, int lowerBound, int
    }
 
    class03889(class03877 density, class03877 upperBound, int lowerBound, int cellHeight) {
-      super();
       this.density = density;
       this.upperBound = upperBound;
       this.lowerBound = lowerBound;

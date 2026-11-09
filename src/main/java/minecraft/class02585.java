@@ -6,7 +6,6 @@ public record class02585(class06889 force, double torque) {
    static class02585 N = new class02585(class06889.L, 0.0);
 
    public class02585(class06889 force, double torque) {
-      super();
       this.force = force;
       this.torque = torque;
    }

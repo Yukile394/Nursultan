@@ -9,7 +9,6 @@ public record class02794(UUID id, String url, String hash, boolean isRequired, c
    }
 
    public class02794(UUID id, String url, String hash, boolean isRequired, @Nullable class00392 prompt) {
-      super();
       this.id = id;
       this.url = url;
       this.hash = hash;

@@ -23,7 +23,6 @@ record class07965(class01894 id, class03556<class07468> attribute, class07463 op
    }
 
    class07965(class01894 id, class03556<class07468> attribute, class07463 operation, class06378 amount, List<class02834> slots) {
-      super();
       this.id = id;
       this.attribute = attribute;
       this.operation = operation;

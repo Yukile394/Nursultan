@@ -34,7 +34,6 @@ public record class03702(
       class03265 fixed,
       class03265 fixedFromBottom
    ) {
-      super();
       this.thirdPersonLeftHand = thirdPersonLeftHand;
       this.thirdPersonRightHand = thirdPersonRightHand;
       this.firstPersonLeftHand = firstPersonLeftHand;

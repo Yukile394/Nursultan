@@ -11,7 +11,6 @@ record class03261(class04224 baseImage, Supplier<IntUnaryOperator> palette, clas
    }
 
    class03261(class04224 baseImage, Supplier<IntUnaryOperator> palette, class01894 permutationLocation) {
-      super();
       this.baseImage = baseImage;
       this.palette = palette;
       this.permutationLocation = permutationLocation;

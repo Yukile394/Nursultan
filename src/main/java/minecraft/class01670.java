@@ -6,7 +6,6 @@ public record class01670() implements class01650 {
    public static final MapCodec<class01670> L = MapCodec.unit(class01670::new);
 
    public class01670() {
-      super();
    }
 
    @Override

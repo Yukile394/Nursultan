@@ -28,7 +28,6 @@ public record class08604(class03556<class06581> item, int count, class02678 comp
    }
 
    public class08604(class03556<class06581> item, int count, class02678 components) {
-      super();
       this.item = item;
       this.count = count;
       this.components = components;

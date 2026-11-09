@@ -20,7 +20,6 @@ public record class01812(class03649 stateProvider, class04025 target, class02142
    }
 
    public class01812(class03649 stateProvider, class04025 target, class02142 radius, int halfHeight) {
-      super();
       this.stateProvider = stateProvider;
       this.target = target;
       this.radius = radius;

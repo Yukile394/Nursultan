@@ -46,7 +46,6 @@ public record class04491(Map<Character, class06510> key, List<String> pattern) {
    );
 
    public class04491(Map<Character, class06510> key, List<String> pattern) {
-      super();
       this.key = key;
       this.pattern = pattern;
    }

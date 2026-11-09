@@ -6,7 +6,6 @@ import org.jspecify.annotations.Nullable;
 
 public record class07912<Params, Result>(class07931<Params, Result> info, class07924 attributes) implements class07940<Params, Result> {
    public class07912(class07931<Params, Result> info, class07924 attributes) {
-      super();
       this.info = info;
       this.attributes = attributes;
    }

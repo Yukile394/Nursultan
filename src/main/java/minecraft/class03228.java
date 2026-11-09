@@ -6,7 +6,6 @@ import jdk.jfr.consumer.RecordedEvent;
 
 public record class03228(Instant timestamp, Duration currentAverage) {
    public class03228(Instant timestamp, Duration currentAverage) {
-      super();
       this.timestamp = timestamp;
       this.currentAverage = currentAverage;
    }

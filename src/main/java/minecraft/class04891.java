@@ -18,7 +18,6 @@ public record class04891(class01894 location, Optional<Float> fixedRange) {
    public static final class02362<class04247, class03556<class04891>> u = class02389.N(class04227.NG, L);
 
    public class04891(class01894 location, Optional<Float> fixedRange) {
-      super();
       this.location = location;
       this.fixedRange = fixedRange;
    }

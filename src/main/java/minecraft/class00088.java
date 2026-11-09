@@ -9,7 +9,6 @@ public record class00088(Vector4fc value) implements class00069 {
    public static final Codec<class00088> y = class06338.M.xmap(class00088::new, class00088::y);
 
    public class00088(Vector4fc value) {
-      super();
       this.value = value;
    }
 

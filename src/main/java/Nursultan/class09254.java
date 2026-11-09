@@ -4,10 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public non-sealed record class09254(List<class11789> shares) implements class09282 {
+public record class09254(List<class11789> shares) implements class09282 {
 
    public class09254(List<class11789> shares) {
-      super();
       this.shares = shares;
    }
 

@@ -16,7 +16,6 @@ record class07097(String version, ConcurrentMap<Path, HashCode> data) {
    }
 
    private class07097(String version, ConcurrentMap<Path, HashCode> data) {
-      super();
       this.version = version;
       this.data = data;
    }

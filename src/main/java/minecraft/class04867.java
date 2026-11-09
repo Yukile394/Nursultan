@@ -9,7 +9,6 @@ record class04867(class05236 piece, MutableObject<class00494> free, int depth) {
    }
 
    class04867(class05236 piece, MutableObject<class00494> free, int depth) {
-      super();
       this.piece = piece;
       this.free = free;
       this.depth = depth;

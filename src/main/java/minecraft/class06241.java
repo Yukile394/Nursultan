@@ -5,7 +5,6 @@ import org.jspecify.annotations.Nullable;
 
 public record class06241(List<class00392> pages) {
    public class06241(List<class00392> pages) {
-      super();
       this.pages = pages;
    }
 

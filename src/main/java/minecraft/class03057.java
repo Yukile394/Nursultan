@@ -10,7 +10,6 @@ public record class03057(class03043 action, List<String> entries) implements cla
    }
 
    public class03057(class03043 action, List<String> entries) {
-      super();
       this.action = action;
       this.entries = entries;
    }

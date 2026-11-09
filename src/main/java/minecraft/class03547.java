@@ -7,7 +7,6 @@ public record class03547(long delay, long period, String title, String message) 
    }
 
    public class03547(long delay, long period, String title, String message) {
-      super();
       this.delay = delay != 0L ? delay : period;
       this.period = period;
       this.title = title;

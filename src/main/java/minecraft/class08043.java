@@ -27,7 +27,6 @@ public record class08043(boolean invulnerable, boolean flying, boolean mayFly, b
    }
 
    public class08043(boolean invulnerable, boolean flying, boolean mayFly, boolean instabuild, boolean mayBuild, float flyingSpeed, float walkingSpeed) {
-      super();
       this.invulnerable = invulnerable;
       this.flying = flying;
       this.mayFly = mayFly;

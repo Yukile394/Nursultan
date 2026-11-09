@@ -15,7 +15,6 @@ public record class02517(float movementScale, class06052 base) {
    );
 
    public class02517(float movementScale, class06052 base) {
-      super();
       this.movementScale = movementScale;
       this.base = base;
    }

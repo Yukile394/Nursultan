@@ -9,7 +9,6 @@ public record class08378() implements class00372<class05946<class07299>> {
    public static final class00336<class08378, class05946<class07299>> y = class00336.N(MapCodec.unit(new class08378()), N);
 
    public class08378() {
-      super();
    }
 
    @Override

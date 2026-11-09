@@ -8,7 +8,6 @@ public record class04108(float x, float y, float z) implements class04122 {
    }
 
    public class04108(float x, float y, float z) {
-      super();
       this.x = x;
       this.y = y;
       this.z = z;

@@ -11,7 +11,6 @@ public record class07790(int startX, int startY, int width, int height, byte[] m
    }
 
    public class07790(int startX, int startY, int width, int height, byte[] mapColors) {
-      super();
       this.startX = startX;
       this.startY = startY;
       this.width = width;

@@ -7,7 +7,6 @@ public record class11768(String text, String family, class09079 weight, boolean 
    }
 
    class11768(String text, String family, class09079 weight, boolean italic, float fontSize, float uiScale) {
-      super();
       this.text = text;
       this.family = family;
       this.weight = weight;

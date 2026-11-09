@@ -9,7 +9,6 @@ record class01441(class06584 item, Vector2i start, Vector2i end, long time) {
    }
 
    class01441(class06584 item, Vector2i start, Vector2i end, long time) {
-      super();
       this.item = item;
       this.start = start;
       this.end = end;

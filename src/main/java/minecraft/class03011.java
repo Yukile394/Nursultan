@@ -22,7 +22,6 @@ public record class03011(class05946<class05056> noise, double minThreshold, doub
    }
 
    class03011(class05946<class05056> noise, double minThreshold, double maxThreshold) {
-      super();
       this.noise = noise;
       this.minThreshold = minThreshold;
       this.maxThreshold = maxThreshold;

@@ -58,7 +58,6 @@ public record class00195<EnvironmentType>(
       int requiredSuccesses,
       boolean skyAccess
    ) {
-      super();
       this.environment = (EnvironmentType)environment;
       this.structure = structure;
       this.maxTicks = maxTicks;

@@ -10,7 +10,6 @@ public record class01785(String owner, String objectiveName) implements class003
    }
 
    public class01785(String owner, @Nullable String objectiveName) {
-      super();
       this.owner = owner;
       this.objectiveName = objectiveName;
    }

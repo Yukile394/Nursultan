@@ -9,7 +9,6 @@ public record class01078(class00392 description, class01614 compatibility, class
    }
 
    public class01078(class00392 description, class01614 compatibility, class03767 requestedFeatures, List<String> overlays) {
-      super();
       this.description = description;
       this.compatibility = compatibility;
       this.requestedFeatures = requestedFeatures;

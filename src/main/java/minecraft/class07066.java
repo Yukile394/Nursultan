@@ -9,7 +9,6 @@ public record class07066(class07072 source, float damage, class04192 fallLocatio
    }
 
    public class07066(class07072 source, float damage, @Nullable class04192 fallLocation, float fallDistance) {
-      super();
       this.source = source;
       this.damage = damage;
       this.fallLocation = fallLocation;

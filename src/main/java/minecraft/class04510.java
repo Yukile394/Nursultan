@@ -16,7 +16,6 @@ record class04510(class04489 element, List<class04480> problems, Map<class04489,
    }
 
    private class04510(class04489 element, List<class04480> problems, Map<class04489, class04510> children) {
-      super();
       this.element = element;
       this.problems = problems;
       this.children = children;

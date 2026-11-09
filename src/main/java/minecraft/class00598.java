@@ -6,7 +6,6 @@ public record class00598<Value>() implements class00619<Value, Value> {
    static final class00598<?> i = new class00598();
 
    public class00598() {
-      super();
    }
 
    @Override

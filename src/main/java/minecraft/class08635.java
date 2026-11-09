@@ -13,7 +13,6 @@ public record class08635(class07209 pos, class00392 text) {
    public static final Codec<List<class08635>> y = N.listOf();
 
    public class08635(class07209 pos, class00392 text) {
-      super();
       this.pos = pos;
       this.text = text;
    }

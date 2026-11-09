@@ -4,7 +4,6 @@ import java.util.List;
 
 record class08281(Object equalityGroup, List<Object> coloringValues) {
    private class08281(Object equalityGroup, List<Object> coloringValues) {
-      super();
       this.equalityGroup = equalityGroup;
       this.coloringValues = coloringValues;
    }

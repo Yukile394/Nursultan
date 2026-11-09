@@ -8,7 +8,6 @@ public record class04395(float startAlpha, float endAlpha, float startAtNormaliz
    }
 
    public class04395(float startAlpha, float endAlpha, float startAtNormalizedAge, float endAtNormalizedAge) {
-      super();
       this.startAlpha = startAlpha;
       this.endAlpha = endAlpha;
       this.startAtNormalizedAge = startAtNormalizedAge;

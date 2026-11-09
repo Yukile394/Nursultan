@@ -21,7 +21,6 @@ record class06233(int from, int to, class06250 dimensions) {
    }
 
    private class06233(int from, int to, class06250 dimensions) {
-      super();
       this.from = from;
       this.to = to;
       this.dimensions = dimensions;

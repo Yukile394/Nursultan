@@ -9,7 +9,6 @@ public record class10009(class09997 mode, float value) {
    }
 
    public class10009(class09997 mode, float value) {
-      super();
       mode = mode == null ? class09997.FIXED : mode;
       value = mode == class09997.AUTO ? 0.0F : y(value);
       this.mode = mode;

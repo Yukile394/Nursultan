@@ -13,7 +13,6 @@ public record class08126(class01894 textureId, class01894 definitionLocation, bo
    }
 
    public class08126(class01894 textureId, class01894 definitionLocation, boolean createMipmaps, Set<class02968<?>> additionalMetadata) {
-      super();
       this.textureId = textureId;
       this.definitionLocation = definitionLocation;
       this.createMipmaps = createMipmaps;

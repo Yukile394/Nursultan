@@ -8,7 +8,6 @@ public record class01654(class05946<? extends class00751<?>> registry, List<clas
    public static final class02362<class00667, class01654> N = class02362.N(u, class01654::N, class02017.N.N_33(class02389.N()), class01654::y, class01654::new);
 
    public class01654(class05946<? extends class00751<?>> registry, List<class02017> entries) {
-      super();
       this.registry = registry;
       this.entries = entries;
    }

@@ -14,7 +14,6 @@ public record class04944(Instant startDate, int daysLeft, class04959 type) {
    }
 
    public class04944(Instant startDate, int daysLeft, class04959 type) {
-      super();
       this.startDate = startDate;
       this.daysLeft = daysLeft;
       this.type = type;

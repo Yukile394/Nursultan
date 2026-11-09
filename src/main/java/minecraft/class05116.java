@@ -11,7 +11,6 @@ public record class05116(String message) implements class05108 {
    }
 
    public class05116(String message) {
-      super();
       this.message = message;
    }
 

@@ -13,7 +13,6 @@ public record class01942(Map<String, class01968> tests) implements class01975 {
    public static final Codec<class01942> L = class06338.u(Codec.unboundedMap(Codec.STRING, class01968.N)).xmap(class01942::new, class01942::N);
 
    public class01942(Map<String, class01968> tests) {
-      super();
       this.tests = tests;
    }
 

@@ -26,7 +26,6 @@ public record class04475(String translationKey, List<class04440> parameters, cla
    }
 
    public class04475(String translationKey, List<class04440> parameters, class00405 style) {
-      super();
       this.translationKey = translationKey;
       this.parameters = parameters;
       this.style = style;

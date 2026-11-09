@@ -13,7 +13,6 @@ public record class02720(class05946<class05074> lootTable, long seed) implements
    );
 
    public class02720(class05946<class05074> lootTable, long seed) {
-      super();
       this.lootTable = lootTable;
       this.seed = seed;
    }

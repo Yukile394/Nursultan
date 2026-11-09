@@ -4,7 +4,6 @@ import it.unimi.dsi.fastutil.ints.IntList;
 
 record class08868(class08855 model, IntList selectors) {
    class08868(class08855 model, IntList selectors) {
-      super();
       this.model = model;
       this.selectors = selectors;
    }

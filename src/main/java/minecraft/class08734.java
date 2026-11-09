@@ -11,7 +11,6 @@ public record class08734(class09027 button, Optional<class08752> action) {
    );
 
    public class08734(class09027 button, Optional<class08752> action) {
-      super();
       this.button = button;
       this.action = action;
    }

@@ -14,7 +14,6 @@ public record class00223<T>(class02477<T> componentType) implements class00372<T
    }
 
    public class00223(class02477<T> componentType) {
-      super();
       this.componentType = componentType;
    }
 

@@ -9,7 +9,6 @@ public record class06745(class06889 pos, float radius, class06747 style) impleme
    }
 
    public class06745(class06889 pos, float radius, class06747 style) {
-      super();
       this.pos = pos;
       this.radius = radius;
       this.style = style;

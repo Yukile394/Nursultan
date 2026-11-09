@@ -10,7 +10,6 @@ public record class00977(int indexCount, GpuBufferSlice dynamicTransforms, Map<c
    }
 
    public class00977(int indexCount, GpuBufferSlice dynamicTransforms, Map<class05846, class00984> layers) {
-      super();
       this.indexCount = indexCount;
       this.dynamicTransforms = dynamicTransforms;
       this.layers = layers;

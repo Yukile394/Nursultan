@@ -33,7 +33,6 @@ record class02036(
       Map<class05946<?>, class02082<?>> registeredValues,
       List<RuntimeException> errors
    ) {
-      super();
       this.owner = owner;
       this.lookup = lookup;
       this.registries = registries;

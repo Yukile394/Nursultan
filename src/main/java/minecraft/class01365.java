@@ -14,7 +14,6 @@ public record class01365(Optional<Boolean> inOpenWater) implements class03622 {
    );
 
    public class01365(Optional<Boolean> inOpenWater) {
-      super();
       this.inOpenWater = inOpenWater;
    }
 

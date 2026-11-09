@@ -10,7 +10,6 @@ public record class00364(class06563 baseColor) implements class00335 {
    );
 
    public class00364(class06563 baseColor) {
-      super();
       this.baseColor = baseColor;
    }
 

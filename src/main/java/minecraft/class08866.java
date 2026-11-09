@@ -5,7 +5,6 @@ import java.util.function.Predicate;
 public record class08866<T>(Predicate<class00500> condition, T model) {
 
    public class08866(Predicate<class00500> condition, T model) {
-      super();
       this.condition = condition;
       this.model = (T)model;
    }

@@ -11,7 +11,6 @@ public record class11186(Supplier<class08066> framebuffer, boolean viewport) imp
    }
 
    class11186(Supplier<class08066> framebuffer, boolean viewport) {
-      super();
       Objects.requireNonNull(framebuffer, "framebuffer");
       this.framebuffer = framebuffer;
       this.viewport = viewport;

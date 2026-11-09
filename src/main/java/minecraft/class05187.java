@@ -7,7 +7,6 @@ record class05187(class04453 player, class03448 level, class03063 levelRenderer,
    }
 
    class05187(class04453 player, class03448 level, class03063 levelRenderer, long timeoutAfter) {
-      super();
       this.player = player;
       this.level = level;
       this.levelRenderer = levelRenderer;

@@ -18,7 +18,6 @@ public record class02808(class00392 component) implements class02831 {
    }
 
    public class02808(class00392 component) {
-      super();
       this.component = component;
    }
 

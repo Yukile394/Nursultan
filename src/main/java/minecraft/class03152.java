@@ -12,7 +12,6 @@ public record class03152(List<String> path, class01424<?> type, String name) {
    }
 
    public class03152(List<String> path, class01424<?> type, String name) {
-      super();
       this.path = path;
       this.type = type;
       this.name = name;

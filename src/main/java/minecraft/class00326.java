@@ -37,7 +37,6 @@ public record class00326(int width, int height, List<class00299> ingredients, cl
    }
 
    public class00326(int width, int height, List<class00299> ingredients, class00299 result, class00299 craftingStation) {
-      super();
       if (ingredients.size() != width * height) {
          throw new IllegalArgumentException("Invalid shaped recipe display contents");
       } else {

@@ -10,7 +10,6 @@ public record class08217<T extends class08200>(MapCodec<T> codec, class02362<cla
    public static final class08217<class08229> i = N("play_sound", class08229.N, class08229.y);
 
    public class08217(MapCodec<T> codec, class02362<class04247, T> streamCodec) {
-      super();
       this.codec = codec;
       this.streamCodec = streamCodec;
    }

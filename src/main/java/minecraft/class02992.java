@@ -9,7 +9,6 @@ public record class02992<T>(class02965<T> data, class07099<T> registry, Map<clas
    }
 
    public class02992(class02965<T> data, class07099<T> registry, Map<class05946<?>, Exception> loadingErrors) {
-      super();
       this.data = data;
       this.registry = registry;
       this.loadingErrors = loadingErrors;

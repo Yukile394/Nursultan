@@ -17,7 +17,6 @@ public record class06345(class06378 min, class06378 max) implements class06378 {
    }
 
    public class06345(class06378 min, class06378 max) {
-      super();
       this.min = min;
       this.max = max;
    }

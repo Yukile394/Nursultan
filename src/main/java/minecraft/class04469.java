@@ -23,7 +23,6 @@ public record class04469(byte[] N) {
    }
 
    public class04469(byte[] N) {
-      super();
       Preconditions.checkState(N.length == 256, L[0]);
       this.N = N;
    }

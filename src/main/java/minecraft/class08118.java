@@ -9,7 +9,6 @@ public record class08118<T>(T head, T chest, T legs, T feet) {
    }
 
    public class08118(T head, T chest, T legs, T feet) {
-      super();
       this.head = (T)head;
       this.chest = (T)chest;
       this.legs = (T)legs;

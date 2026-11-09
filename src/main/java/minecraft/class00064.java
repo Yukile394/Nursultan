@@ -5,7 +5,6 @@ import java.util.List;
 
 public record class00064(String name, String value) implements class04942 {
    public class00064(String name, String value) {
-      super();
       this.name = name;
       this.value = value;
    }

@@ -26,7 +26,6 @@ public record class05042(class06289 globalPos, float yaw, float pitch) {
    }
 
    public class05042(class06289 globalPos, float yaw, float pitch) {
-      super();
       this.globalPos = globalPos;
       this.yaw = yaw;
       this.pitch = pitch;

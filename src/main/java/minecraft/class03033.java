@@ -22,7 +22,6 @@ public record class03033(int offset, int surfaceDepthMultiplier, boolean addSton
    }
 
    class03033(int offset, int surfaceDepthMultiplier, boolean addStoneDepth) {
-      super();
       this.offset = offset;
       this.surfaceDepthMultiplier = surfaceDepthMultiplier;
       this.addStoneDepth = addStoneDepth;

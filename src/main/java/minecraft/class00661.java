@@ -10,7 +10,6 @@ public record class00661(int page) implements class00647 {
    );
 
    public class00661(int page) {
-      super();
       this.page = page;
    }
 

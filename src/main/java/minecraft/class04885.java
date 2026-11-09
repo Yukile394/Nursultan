@@ -11,7 +11,6 @@ record class04885(int id, class04877 raid) {
    );
 
    private class04885(int id, class04877 raid) {
-      super();
       this.id = id;
       this.raid = raid;
    }

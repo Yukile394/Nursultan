@@ -10,7 +10,6 @@ public record class04269(class01894 key, byte[] payload) implements class00381<c
    }
 
    public class04269(class01894 key, @Nullable byte[] payload) {
-      super();
       this.key = key;
       this.payload = payload;
    }

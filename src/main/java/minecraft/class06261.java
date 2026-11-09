@@ -11,7 +11,6 @@ public record class06261(class06270 definition, class02263 filter) {
    );
 
    public class06261(class06270 definition, class02263 filter) {
-      super();
       this.definition = definition;
       this.filter = filter;
    }

@@ -17,7 +17,6 @@ public record class02848(List<class00392> lines, List<class00392> styledLines) i
    }
 
    public class02848(List<class00392> lines, List<class00392> styledLines) {
-      super();
       if (lines.size() > 256) {
          throw new IllegalArgumentException("Got " + lines.size() + " lines, but maximum is 256");
       } else {

@@ -11,7 +11,6 @@ public record class08545<T>(T model, class06953 asset) {
    }
 
    public class08545(T model, class06953 asset) {
-      super();
       this.model = (T)model;
       this.asset = asset;
    }

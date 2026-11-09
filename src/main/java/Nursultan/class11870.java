@@ -3,7 +3,6 @@ package Nursultan;
 public record class11870(class12018 key, Runnable onClick) {
 
    public class11870(class12018 key, Runnable onClick) {
-      super();
       this.key = key;
       this.onClick = onClick;
    }

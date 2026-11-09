@@ -23,7 +23,6 @@ public record class03037(int offset, boolean addSurfaceDepth, int secondaryDepth
    }
 
    class03037(int offset, boolean addSurfaceDepth, int secondaryDepthRange, class02258 surfaceType) {
-      super();
       this.offset = offset;
       this.addSurfaceDepth = addSurfaceDepth;
       this.secondaryDepthRange = secondaryDepthRange;

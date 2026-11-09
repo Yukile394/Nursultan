@@ -32,7 +32,6 @@ public record class08565(float horizontalBlockingAngle, Optional<class03543<clas
    }
 
    public class08565(float horizontalBlockingAngle, Optional<class03543<class03689>> type, float base, float factor) {
-      super();
       this.horizontalBlockingAngle = horizontalBlockingAngle;
       this.type = type;
       this.base = base;

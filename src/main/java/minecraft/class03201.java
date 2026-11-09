@@ -9,7 +9,6 @@ public record class03201(Duration duration, class07321 chunkPos, class00893 worl
    }
 
    public class03201(Duration duration, class07321 chunkPos, class00893 worldPos, class00549 status, String level) {
-      super();
       this.duration = duration;
       this.chunkPos = chunkPos;
       this.worldPos = worldPos;

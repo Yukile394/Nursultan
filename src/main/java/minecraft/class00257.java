@@ -7,7 +7,6 @@ public record class00257(List<class00329> recipes) implements class00381<class07
    public static final class02362<ByteBuf, class00257> N = class02362.N(class00329.N.N_33(class02389.N()), class00257::N, class00257::new);
 
    public class00257(List<class00329> recipes) {
-      super();
       this.recipes = recipes;
    }
 

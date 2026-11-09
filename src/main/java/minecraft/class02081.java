@@ -18,7 +18,6 @@ public record class02081(Vector3fc from, Vector3fc to, Map<class07211, class0206
    }
 
    public class02081(Vector3fc from, Vector3fc to, Map<class07211, class02067> faces, @Nullable class04120 rotation, boolean shade, int lightEmission) {
-      super();
       this.from = from;
       this.to = to;
       this.faces = faces;

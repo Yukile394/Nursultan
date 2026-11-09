@@ -10,7 +10,6 @@ public record class09833(boolean enabled, float impulse, float friction, float s
    }
 
    public class09833(boolean enabled, float impulse, float friction, float stopVelocity) {
-      super();
       impulse = N(impulse);
       friction = N(friction);
       stopVelocity = N(stopVelocity);

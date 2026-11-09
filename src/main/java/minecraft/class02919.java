@@ -8,7 +8,6 @@ public record class02919(class02903 input, int left, int top) {
    }
 
    public class02919(class02903 input, int left, int top) {
-      super();
       this.input = input;
       this.left = left;
       this.top = top;

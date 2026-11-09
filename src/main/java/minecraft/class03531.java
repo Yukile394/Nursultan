@@ -7,7 +7,6 @@ public record class03531(class03554 resourceManager, class01248 dataPackResource
    }
 
    public class03531(class03554 resourceManager, class01248 dataPackResources, class02003<class02969> registries, class05081 worldData) {
-      super();
       this.resourceManager = resourceManager;
       this.dataPackResources = dataPackResources;
       this.registries = registries;

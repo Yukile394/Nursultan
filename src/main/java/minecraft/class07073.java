@@ -6,7 +6,6 @@ record class07073(class01894 id, double amount, class07463 operation) {
    }
 
    class07073(class01894 id, double amount, class07463 operation) {
-      super();
       this.id = id;
       this.amount = amount;
       this.operation = operation;

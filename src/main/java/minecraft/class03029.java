@@ -4,7 +4,6 @@ import org.jspecify.annotations.Nullable;
 
 record class03029(class04018 condition, class03003 followup) implements class03003 {
    class03029(class04018 condition, class03003 followup) {
-      super();
       this.condition = condition;
       this.followup = followup;
    }

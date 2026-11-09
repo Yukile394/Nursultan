@@ -8,7 +8,6 @@ public record class08108<S>(class08107<S> modelSubmit, class07311 renderType, Ve
    }
 
    public class08108(class08107<S> modelSubmit, class07311 renderType, Vector3f position) {
-      super();
       this.modelSubmit = modelSubmit;
       this.renderType = renderType;
       this.position = position;

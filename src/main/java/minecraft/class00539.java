@@ -40,7 +40,6 @@ public record class00539(
    public class00539(
       int containerId, int stateId, short slotNum, byte buttonNum, class07510 clickType, Int2ObjectMap<class00176> changedSlots, class00176 carriedItem
    ) {
-      super();
       changedSlots = Int2ObjectMaps.unmodifiable(changedSlots);
       this.containerId = containerId;
       this.stateId = stateId;

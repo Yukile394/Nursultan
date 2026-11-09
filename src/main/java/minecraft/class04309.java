@@ -28,7 +28,6 @@ public record class04309<T>(T type, class07209 pos, long triggerTick, class00763
    }
 
    public class04309(T type, class07209 pos, long triggerTick, class00763 priority, long subTickOrder) {
-      super();
       pos = pos.method_10062();
       this.type = (T)type;
       this.pos = pos;

@@ -8,7 +8,6 @@ public record class00239<T extends class06521<?>>(class00299 optionDisplay, Opti
    }
 
    public class00239(class00299 optionDisplay, Optional<class03729<T>> recipe) {
-      super();
       this.optionDisplay = optionDisplay;
       this.recipe = recipe;
    }

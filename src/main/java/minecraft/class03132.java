@@ -8,7 +8,6 @@ public record class03132(float tickRate, boolean isFrozen) implements class00381
    }
 
    public class03132(float tickRate, boolean isFrozen) {
-      super();
       this.tickRate = tickRate;
       this.isFrozen = isFrozen;
    }

@@ -6,7 +6,6 @@ record class09802(float x, float y, class10003 resolvedSide) {
    }
 
    class09802(float x, float y, class10003 resolvedSide) {
-      super();
       this.x = x;
       this.y = y;
       this.resolvedSide = resolvedSide;

@@ -9,7 +9,6 @@ public record class04032(class04038 confidence, String description) {
    }
 
    public class04032(class04038 confidence, String description) {
-      super();
       this.confidence = confidence;
       this.description = description;
    }

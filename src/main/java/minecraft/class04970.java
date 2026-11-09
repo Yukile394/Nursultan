@@ -5,7 +5,6 @@ import java.util.Locale;
 
 public record class04970(String regionName, int ping) implements class04942 {
    public class04970(String regionName, int ping) {
-      super();
       this.regionName = regionName;
       this.ping = ping;
    }

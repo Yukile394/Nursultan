@@ -50,7 +50,6 @@ public record class00820(
       Optional<Boolean> isInWater,
       Optional<Boolean> isFallFlying
    ) {
-      super();
       this.isOnGround = isOnGround;
       this.isOnFire = isOnFire;
       this.isCrouching = isCrouching;

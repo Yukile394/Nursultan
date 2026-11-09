@@ -44,7 +44,6 @@ public record class08697(
       Optional<Boolean> sneak,
       Optional<Boolean> sprint
    ) {
-      super();
       this.forward = forward;
       this.backward = backward;
       this.left = left;

@@ -14,7 +14,6 @@ public record class00268(class00295 contents, byte flags) {
    }
 
    public class00268(class00295 contents, byte flags) {
-      super();
       this.contents = contents;
       this.flags = flags;
    }

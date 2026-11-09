@@ -14,7 +14,6 @@ public record class02476(class00836 durability, class00836 damage) implements cl
    );
 
    public class02476(class00836 durability, class00836 damage) {
-      super();
       this.durability = durability;
       this.damage = damage;
    }

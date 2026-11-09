@@ -22,7 +22,6 @@ record class05644(class07793 sourcePath, class07793 targetPath, class05677 op) {
    }
 
    class05644(class07793 sourcePath, class07793 targetPath, class05677 op) {
-      super();
       this.sourcePath = sourcePath;
       this.targetPath = targetPath;
       this.op = op;

@@ -9,7 +9,6 @@ public record class04254(Map<class01894, byte[]> cookies, Map<UUID, class03458> 
    }
 
    public class04254(Map<class01894, byte[]> cookies, Map<UUID, class03458> seenPlayers, boolean seenInsecureChatWarning) {
-      super();
       this.cookies = cookies;
       this.seenPlayers = seenPlayers;
       this.seenInsecureChatWarning = seenInsecureChatWarning;

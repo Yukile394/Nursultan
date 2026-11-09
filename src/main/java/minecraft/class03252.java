@@ -13,7 +13,6 @@ public record class03252(class08548 assets, class00392 description) {
    public static final class02362<class04247, class03556<class03252>> u = class02389.N(class04227.yw, y);
 
    public class03252(class08548 assets, class00392 description) {
-      super();
       this.assets = assets;
       this.description = description;
    }

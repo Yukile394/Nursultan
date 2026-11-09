@@ -26,7 +26,6 @@ public record class04234(class01894 resource, List<class04201> regions, double x
    }
 
    public class04234(class01894 resource, List<class04201> regions, double xDivisor, double yDivisor) {
-      super();
       this.resource = resource;
       this.regions = regions;
       this.xDivisor = xDivisor;

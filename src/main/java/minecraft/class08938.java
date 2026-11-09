@@ -11,7 +11,6 @@ public record class08938<P extends class00372<T>, T>(P property, List<class08940
    public static final MapCodec<class08938<?, ?>> N = class00366.y.dispatchMap("property", var0 -> var0.N().N(), class00336::N);
 
    public class08938(P property, List<class08940<T>> cases) {
-      super();
       this.property = (P)property;
       this.cases = cases;
    }

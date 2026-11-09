@@ -7,7 +7,6 @@ import java.util.Optional;
 
 public record class08556<Context, Condition extends class08584<Context>>(Optional<Condition> condition, int priority) {
    public class08556(Optional<Condition> condition, int priority) {
-      super();
       this.condition = condition;
       this.priority = priority;
    }

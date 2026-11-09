@@ -11,7 +11,6 @@ public record class08229(class03556<class04891> sound) implements class08200 {
    public static final class02362<class04247, class08229> y = class02362.N(class04891.u, class08229::y, class08229::new);
 
    public class08229(class03556<class04891> sound) {
-      super();
       this.sound = sound;
    }
 

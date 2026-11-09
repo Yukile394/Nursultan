@@ -9,7 +9,6 @@ public record class01772(String owner, int value, class00392 display, class01762
    }
 
    public class01772(String owner, int value, @Nullable class00392 display, @Nullable class01762 numberFormatOverride) {
-      super();
       this.owner = owner;
       this.value = value;
       this.display = display;

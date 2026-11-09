@@ -25,7 +25,6 @@ public record class08706(class01894 textureId, Optional<class08689> dyeable, boo
    }
 
    public class08706(class01894 textureId, Optional<class08689> dyeable, boolean usePlayerTexture) {
-      super();
       this.textureId = textureId;
       this.dyeable = dyeable;
       this.usePlayerTexture = usePlayerTexture;

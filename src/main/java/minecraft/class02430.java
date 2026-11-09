@@ -21,7 +21,6 @@ public record class02430(Optional<Integer> width, Optional<Integer> height, bool
    }
 
    public class02430(Optional<Integer> width, Optional<Integer> height, boolean persistent, int clearColor) {
-      super();
       this.width = width;
       this.height = height;
       this.persistent = persistent;

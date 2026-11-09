@@ -6,7 +6,6 @@ record class10026(String text, float width, float height, int lineCount) {
    }
 
    class10026(String text, float width, float height, int lineCount) {
-      super();
       this.text = text;
       this.width = width;
       this.height = height;

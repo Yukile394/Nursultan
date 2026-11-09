@@ -2,7 +2,6 @@ package minecraft;
 
 public record class06741(class02477<?> type) implements class02500 {
    public class06741(class02477<?> type) {
-      super();
       this.type = type;
    }
 

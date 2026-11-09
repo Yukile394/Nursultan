@@ -2,7 +2,6 @@ package minecraft;
 
 public record class02353<T>(String name) {
    public class02353(String name) {
-      super();
       this.name = name;
    }
 

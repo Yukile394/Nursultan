@@ -15,7 +15,6 @@ record class08267(Map<class05946<? extends class00751<?>>, class08269> registrie
    );
 
    class08267(Map<class05946<? extends class00751<?>>, class08269> registries, Map<String, class08249> others) {
-      super();
       this.registries = registries;
       this.others = others;
    }

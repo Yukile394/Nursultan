@@ -12,7 +12,6 @@ public record class03265(Vector3fc rotation, Vector3fc translation, Vector3fc sc
    }
 
    public class03265(Vector3fc rotation, Vector3fc translation, Vector3fc scale) {
-      super();
       this.rotation = rotation;
       this.translation = translation;
       this.scale = scale;

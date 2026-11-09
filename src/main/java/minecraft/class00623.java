@@ -17,7 +17,6 @@ public record class00623(String path) implements class00647 {
    }
 
    public class00623(String path) {
-      super();
       this.path = path;
    }
 

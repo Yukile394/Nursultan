@@ -20,7 +20,6 @@ public record class00825(Optional<class05196> player, Optional<class05196> entit
    }
 
    public class00825(Optional<class05196> player, Optional<class05196> entityPredicate, Optional<class00759> killingBlow) {
-      super();
       this.player = player;
       this.entityPredicate = entityPredicate;
       this.killingBlow = killingBlow;

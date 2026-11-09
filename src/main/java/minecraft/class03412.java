@@ -31,7 +31,6 @@ public record class03412(GameProfile profile, class03926 message, class03086 tru
    }
 
    public class03412(GameProfile profile, class03926 message, class03086 trustLevel) {
-      super();
       this.profile = profile;
       this.message = message;
       this.trustLevel = trustLevel;

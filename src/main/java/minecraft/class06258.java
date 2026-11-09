@@ -4,7 +4,6 @@ import it.unimi.dsi.fastutil.bytes.ByteList;
 
 record class06258(short[] contents) implements class06267 {
    private class06258(short[] contents) {
-      super();
       this.contents = contents;
    }
 

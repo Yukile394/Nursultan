@@ -22,7 +22,6 @@ public record class03022(class06055 anchor, int surfaceDepthMultiplier, boolean 
    }
 
    class03022(class06055 anchor, int surfaceDepthMultiplier, boolean addStoneDepth) {
-      super();
       this.anchor = anchor;
       this.surfaceDepthMultiplier = surfaceDepthMultiplier;
       this.addStoneDepth = addStoneDepth;

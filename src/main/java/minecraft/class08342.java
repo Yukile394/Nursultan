@@ -18,7 +18,6 @@ public record class08342(Map<class07085, Float> byEquipment) {
    }
 
    public class08342(Map<class07085, Float> byEquipment) {
-      super();
       this.byEquipment = byEquipment;
    }
 

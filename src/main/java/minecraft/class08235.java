@@ -16,7 +16,6 @@ public record class08235(float diameter) implements class08200 {
    }
 
    public class08235(float diameter) {
-      super();
       this.diameter = diameter;
    }
 

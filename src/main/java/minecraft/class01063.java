@@ -9,7 +9,6 @@ record class01063(class01622 packResources, class03652<InputStream> resource, in
    }
 
    class01063(class01622 packResources, class03652<InputStream> resource, int packIndex) {
-      super();
       this.packResources = packResources;
       this.resource = resource;
       this.packIndex = packIndex;

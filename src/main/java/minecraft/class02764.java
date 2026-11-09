@@ -11,7 +11,6 @@ public record class02764(class03543<class06581> items) {
    public static final class02362<class04247, class02764> y = class02362.N(class02389.L(class04227.F), class02764::N, class02764::new);
 
    public class02764(class03543<class06581> items) {
-      super();
       this.items = items;
    }
 

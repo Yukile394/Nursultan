@@ -8,7 +8,6 @@ public record class07771(int start, int end, class06794 selector) {
    }
 
    public class07771(int start, int end, class06794 selector) {
-      super();
       this.start = start;
       this.end = end;
       this.selector = selector;

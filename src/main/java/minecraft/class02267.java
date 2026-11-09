@@ -9,7 +9,6 @@ public record class02267(String id, class00392 title, class01283 source, Optiona
    }
 
    public class02267(String id, class00392 title, class01283 source, Optional<class02298> knownPackInfo) {
-      super();
       this.id = id;
       this.title = title;
       this.source = source;

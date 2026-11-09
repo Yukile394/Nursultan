@@ -22,7 +22,6 @@ public record class00798(class00816 dealtDamage, class00816 takenDamage, Optiona
    }
 
    public class00798(class00816 dealtDamage, class00816 takenDamage, Optional<class00821> sourceEntity, Optional<Boolean> blocked, Optional<class00759> type) {
-      super();
       this.dealtDamage = dealtDamage;
       this.takenDamage = takenDamage;
       this.sourceEntity = sourceEntity;

@@ -3,7 +3,6 @@ package minecraft;
 public record class05414(class08548 assets, class05946<class03252> materialKey) {
 
    public class05414(class08548 assets, class05946<class03252> materialKey) {
-      super();
       this.assets = assets;
       this.materialKey = materialKey;
    }

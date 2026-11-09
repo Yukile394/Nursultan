@@ -15,7 +15,6 @@ public record class02811() implements class02831 {
    }
 
    public class02811() {
-      super();
    }
 
    @Override

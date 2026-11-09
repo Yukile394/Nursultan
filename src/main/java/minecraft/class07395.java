@@ -23,7 +23,6 @@ public record class07395(class07947 player, Optional<String> reason, Optional<St
    }
 
    public class07395(class07947 player, Optional<String> reason, Optional<String> source, Optional<Instant> expires) {
-      super();
       this.player = player;
       this.reason = reason;
       this.source = source;

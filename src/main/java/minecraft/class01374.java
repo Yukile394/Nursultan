@@ -21,7 +21,6 @@ public record class01374(class03556<class04891> soundEvent, int tickDelay, int b
    }
 
    public class01374(class03556<class04891> soundEvent, int tickDelay, int blockSearchExtent, double soundPositionOffset) {
-      super();
       this.soundEvent = soundEvent;
       this.tickDelay = tickDelay;
       this.blockSearchExtent = blockSearchExtent;

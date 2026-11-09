@@ -17,7 +17,6 @@ public record class00799(Optional<class05196> player, List<class05196> victims) 
    );
 
    public class00799(Optional<class05196> player, List<class05196> victims) {
-      super();
       this.player = player;
       this.victims = victims;
    }

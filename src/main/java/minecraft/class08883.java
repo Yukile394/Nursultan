@@ -6,7 +6,6 @@ public record class08883(class03674 variant) implements class08880 {
    public static final Codec<class08883> u = class03674.y.xmap(class08883::new, class08883::y);
 
    public class08883(class03674 variant) {
-      super();
       this.variant = variant;
    }
 

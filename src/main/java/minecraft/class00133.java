@@ -12,7 +12,6 @@ public record class00133(class00106 template) implements class08752 {
    );
 
    public class00133(class00106 template) {
-      super();
       this.template = template;
    }
 

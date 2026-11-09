@@ -29,7 +29,6 @@ public record class08244(List<String> removed, Map<String, String> renamed) {
    }
 
    public class08244(List<String> removed, Map<String, String> renamed) {
-      super();
       this.removed = removed;
       this.renamed = renamed;
    }

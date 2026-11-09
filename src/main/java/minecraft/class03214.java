@@ -8,7 +8,6 @@ public record class03214(Duration duration, Duration gcTotalDuration, int totalG
    }
 
    public class03214(Duration duration, Duration gcTotalDuration, int totalGCs, double allocationRateBytesPerSecond) {
-      super();
       this.duration = duration;
       this.gcTotalDuration = gcTotalDuration;
       this.totalGCs = totalGCs;

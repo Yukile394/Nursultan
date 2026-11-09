@@ -21,7 +21,6 @@ public record class04982(
    public class04982(
       String id, String name, String version, String author, String link, @Nullable String image, String trailer, String recommendedPlayers, class05398 type
    ) {
-      super();
       this.id = id;
       this.name = name;
       this.version = version;

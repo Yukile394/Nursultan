@@ -20,7 +20,6 @@ public record class00324(class00299 input, class00299 remainder) implements clas
    }
 
    public class00324(class00299 input, class00299 remainder) {
-      super();
       this.input = input;
       this.remainder = remainder;
    }

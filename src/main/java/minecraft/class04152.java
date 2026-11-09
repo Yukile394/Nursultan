@@ -6,7 +6,6 @@ import java.util.List;
 
 public record class04152(class04548<class08735> format, String overlay) {
    public class04152(class04548<class08735> format, String overlay) {
-      super();
       this.format = format;
       this.overlay = overlay;
    }

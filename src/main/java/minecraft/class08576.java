@@ -62,7 +62,6 @@ public record class08576(
       Optional<class03556<class04891>> blockSound,
       Optional<class03556<class04891>> disableSound
    ) {
-      super();
       this.blockDelaySeconds = blockDelaySeconds;
       this.disableCooldownScale = disableCooldownScale;
       this.damageReductions = damageReductions;

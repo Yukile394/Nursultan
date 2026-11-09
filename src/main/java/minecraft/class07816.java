@@ -10,7 +10,6 @@ public record class07816(String name, UUID profileId) implements class00381<clas
    }
 
    public class07816(String name, UUID profileId) {
-      super();
       this.name = name;
       this.profileId = profileId;
    }

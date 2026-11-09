@@ -6,7 +6,6 @@ public record class00285(int id, boolean includeData) implements class00381<clas
    public static final class02362<ByteBuf, class00285> N = class02362.N(class02389.B, class00285::N, class02389.y, class00285::y, class00285::new);
 
    public class00285(int id, boolean includeData) {
-      super();
       this.id = id;
       this.includeData = includeData;
    }

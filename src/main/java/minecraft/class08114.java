@@ -7,7 +7,6 @@ record class08114(class05946<class05074> lootTable, class07078<?> entityType, cl
    }
 
    class08114(class05946<class05074> lootTable, class07078<?> entityType, class06581 item) {
-      super();
       this.lootTable = lootTable;
       this.entityType = entityType;
       this.item = item;

@@ -8,7 +8,6 @@ public record class00079(int value) implements class00069 {
    public static final Codec<class00079> y = Codec.INT.xmap(class00079::new, class00079::y);
 
    public class00079(int value) {
-      super();
       this.value = value;
    }
 

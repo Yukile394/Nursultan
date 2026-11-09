@@ -9,7 +9,6 @@ public record class04125(List<class03607> selectors) {
    public static final Codec<class04125> N = class06338.y(class03607.N.listOf()).xmap(class04125::new, class04125::N);
 
    public class04125(List<class03607> selectors) {
-      super();
       this.selectors = selectors;
    }
 

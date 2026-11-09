@@ -17,7 +17,6 @@ public record class00371(int index) implements class00372<String> {
    }
 
    public class00371(int index) {
-      super();
       this.index = index;
    }
 

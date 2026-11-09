@@ -18,7 +18,6 @@ public record class01429(class05946<class05957> name) implements class05957 {
    }
 
    public class01429(class05946<class05957> name) {
-      super();
       this.name = name;
    }
 

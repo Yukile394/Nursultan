@@ -36,7 +36,6 @@ public record class03764(Map<class05946<class01255>, class01255> dimensions) {
    }
 
    public class03764(Map<class05946<class01255>, class01255> dimensions) {
-      super();
       if (dimensions.get(class01255.y) == null) {
          throw new IllegalStateException("Overworld settings missing");
       } else {

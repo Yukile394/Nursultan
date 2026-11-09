@@ -7,7 +7,6 @@ public record class02231(Either<class02222, class00392> type, String link) {
    public static final class02362<ByteBuf, class02231> N = class02362.N(class02243.y, class02231::N, class02389.s, class02231::y, class02231::new);
 
    public class02231(Either<class02222, class00392> type, String link) {
-      super();
       this.type = type;
       this.link = link;
    }

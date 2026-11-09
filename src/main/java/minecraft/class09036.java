@@ -8,7 +8,6 @@ public record class09036(class01894 id, Optional<class07709> payload) implements
    public static final class02362<ByteBuf, class09036> N = class02362.N(class01894.y, class09036::N, u, class09036::y, class09036::new);
 
    public class09036(class01894 id, Optional<class07709> payload) {
-      super();
       this.id = id;
       this.payload = payload;
    }

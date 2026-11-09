@@ -7,7 +7,6 @@ public record class11724(int width, int height, byte[] pixels) {
    }
 
    class11724(int width, int height, byte[] pixels) {
-      super();
       this.width = width;
       this.height = height;
       this.pixels = pixels;

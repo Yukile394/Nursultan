@@ -12,7 +12,6 @@ public record class01699(float x, float y, float z, float u, float v) {
    }
 
    public class01699(float x, float y, float z, float u, float v) {
-      super();
       this.x = x;
       this.y = y;
       this.z = z;

@@ -11,7 +11,6 @@ import java.util.Optional;
 record class05356<T>(Int2ObjectMap<T> sectionsByY, boolean versionChanged) {
 
    private class05356(Int2ObjectMap<T> sectionsByY, boolean versionChanged) {
-      super();
       this.sectionsByY = sectionsByY;
       this.versionChanged = versionChanged;
    }

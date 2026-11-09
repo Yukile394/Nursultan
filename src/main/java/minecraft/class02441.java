@@ -22,7 +22,6 @@ public record class02441(
    public class02441(
       boolean scaleHead, float babyYHeadOffset, float babyZHeadOffset, float babyHeadScale, float babyBodyScale, float bodyYOffset, Set<String> headParts
    ) {
-      super();
       this.scaleHead = scaleHead;
       this.babyYHeadOffset = babyYHeadOffset;
       this.babyZHeadOffset = babyZHeadOffset;

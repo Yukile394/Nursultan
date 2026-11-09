@@ -9,7 +9,6 @@ public record class08914() implements class08909 {
    public static final MapCodec<class08914> N = MapCodec.unit(new class08914());
 
    public class08914() {
-      super();
    }
 
    @Override

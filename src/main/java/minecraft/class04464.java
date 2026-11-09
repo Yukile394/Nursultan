@@ -39,7 +39,6 @@ public record class04464(
       class03055 filterMask,
       class00649 chatType
    ) {
-      super();
       this.globalIndex = globalIndex;
       this.sender = sender;
       this.index = index;

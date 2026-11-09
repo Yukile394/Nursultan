@@ -13,7 +13,6 @@ public record class07943<Params, Result>(class07931<Params, Result> info, class0
    }
 
    public class07943(class07931<Params, Result> info, class07946 attributes, class07929<Params, Result> function) {
-      super();
       this.info = info;
       this.attributes = attributes;
       this.function = function;

@@ -44,14 +44,13 @@ public class class05637 implements class05663 {
          if (class05946 == null) {
             return null;
          } else {
-            class02680 class02680 = new class02680;
+            class02680 class02680 = new class02680((class07310)object, this.y);
             Object object1 = this.N.get(class05946);
             CallbackInfoReturnable callbackinforeturnable = new CallbackInfoReturnable("", true);
             Object object = this.N(object1, callbackinforeturnable);
             if (callbackinforeturnable.isCancelled()) {
                return (class07324)callbackinforeturnable.getReturnValue();
             } else {
-               new class02680((class07310)object, this.y);
                class02680 class02680x = class02680;
                return new class07324(class02680x, new class06584(class06570.Ty), this.L, this.u, 0.05F);
             }

@@ -10,7 +10,6 @@ public record class02583(VertexFormat format, int vertexCount, int indexCount, D
    }
 
    public class02583(VertexFormat format, int vertexCount, int indexCount, DrawMode mode, IndexType indexType) {
-      super();
       this.format = format;
       this.vertexCount = vertexCount;
       this.indexCount = indexCount;

@@ -13,7 +13,6 @@ public record class05846(boolean translucent, class01894 textureAtlasLocation, R
    }
 
    public class05846(boolean translucent, class01894 textureAtlasLocation, RenderPipeline pipeline) {
-      super();
       this.translucent = translucent;
       this.textureAtlasLocation = textureAtlasLocation;
       this.pipeline = pipeline;

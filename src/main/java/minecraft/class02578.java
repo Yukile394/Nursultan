@@ -7,7 +7,6 @@ import org.lwjgl.system.MemoryUtil;
 
 public record class02578(class06607 centroids, IndexType indexType) {
    public class02578(class06607 centroids, IndexType indexType) {
-      super();
       this.centroids = centroids;
       this.indexType = indexType;
    }

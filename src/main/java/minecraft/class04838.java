@@ -16,7 +16,6 @@ public record class04838(float x, float y, float z, float xRot, float yRot, floa
    }
 
    public class04838(float x, float y, float z, float xRot, float yRot, float zRot, float xScale, float yScale, float zScale) {
-      super();
       this.x = x;
       this.y = y;
       this.z = z;

@@ -11,7 +11,6 @@ record class05656(float scale, class08280 image, int offsetX, int offsetY, int w
    }
 
    class05656(float scale, class08280 image, int offsetX, int offsetY, int width, int height, int advance, int ascent) {
-      super();
       this.scale = scale;
       this.image = image;
       this.offsetX = offsetX;

@@ -57,7 +57,6 @@ public record class00497(
       class06656 collisionRule,
       List<String> players
    ) {
-      super();
       this.name = name;
       this.displayName = displayName;
       this.color = color;

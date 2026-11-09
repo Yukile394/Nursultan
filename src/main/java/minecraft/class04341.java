@@ -12,7 +12,6 @@ public record class04341(float timestamp, Vector3fc preTarget, Vector3fc postTar
    }
 
    public class04341(float timestamp, Vector3fc preTarget, Vector3fc postTarget, class04342 interpolation) {
-      super();
       this.timestamp = timestamp;
       this.preTarget = preTarget;
       this.postTarget = postTarget;

@@ -7,7 +7,6 @@ public record class08881(class08877 blockPart, class08887 block, class08910 item
    }
 
    public class08881(class08877 blockPart, class08887 block, class08910 item) {
-      super();
       this.blockPart = blockPart;
       this.block = block;
       this.item = item;

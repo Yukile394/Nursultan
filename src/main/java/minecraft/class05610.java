@@ -18,7 +18,6 @@ public record class05610(class01471 toPlace, boolean scheduleTick) implements cl
    }
 
    public class05610(class01471 toPlace, boolean scheduleTick) {
-      super();
       this.toPlace = toPlace;
       this.scheduleTick = scheduleTick;
    }

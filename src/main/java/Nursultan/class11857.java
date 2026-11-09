@@ -20,7 +20,6 @@ public record class11857(String text) implements class11868 {
    }
 
    public class11857(String text) {
-      super();
       this.text = text;
    }
 

@@ -17,7 +17,6 @@ public record class07700(Optional<class00821> predicate, class05919 entityTarget
    }
 
    public class07700(Optional<class00821> predicate, class05919 entityTarget) {
-      super();
       this.predicate = predicate;
       this.entityTarget = entityTarget;
    }

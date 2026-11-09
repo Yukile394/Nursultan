@@ -25,7 +25,6 @@ public record class04449(class03556<class04891> soundEvent, float useDuration, f
    }
 
    public class04449(class03556<class04891> soundEvent, float useDuration, float range, class00392 description) {
-      super();
       this.soundEvent = soundEvent;
       this.useDuration = useDuration;
       this.range = range;

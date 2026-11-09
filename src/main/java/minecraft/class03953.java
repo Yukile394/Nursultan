@@ -9,7 +9,6 @@ public record class03953(class00392 motd, Optional<byte[]> iconBytes) implements
    );
 
    public class03953(class00392 motd, Optional<byte[]> iconBytes) {
-      super();
       this.motd = motd;
       this.iconBytes = iconBytes;
    }

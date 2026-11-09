@@ -10,7 +10,6 @@ record class02908<A, T>(Codec<A> codec, A value, DynamicOps<T> ops) {
    }
 
    class02908(Codec<A> codec, A value, DynamicOps<T> ops) {
-      super();
       this.codec = codec;
       this.value = (A)value;
       this.ops = ops;

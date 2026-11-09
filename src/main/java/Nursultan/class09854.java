@@ -8,7 +8,6 @@ public record class09854(class10021 element, class09871 scrollbarPart, float acc
    }
 
    public class09854(class10021 element, class09871 scrollbarPart, float accumulatedOffsetY) {
-      super();
       this.element = element;
       this.scrollbarPart = scrollbarPart;
       this.accumulatedOffsetY = accumulatedOffsetY;

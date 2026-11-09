@@ -8,7 +8,6 @@ public record class08234(class08731 type, boolean keepEquipment, boolean preserv
    }
 
    public class08234(class08731 type, boolean keepEquipment, boolean preserveCanPickUpLoot, @Nullable class00502 team) {
-      super();
       this.type = type;
       this.keepEquipment = keepEquipment;
       this.preserveCanPickUpLoot = preserveCanPickUpLoot;

@@ -54,7 +54,6 @@ public record class04513(
       class04540<class05946<class05074>> lootTablesToEject,
       class05946<class05074> itemsToDropWhenOminous
    ) {
-      super();
       this.spawnRange = spawnRange;
       this.totalMobs = totalMobs;
       this.simultaneousMobs = simultaneousMobs;

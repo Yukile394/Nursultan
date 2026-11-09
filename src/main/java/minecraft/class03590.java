@@ -14,7 +14,6 @@ public record class03590(class07321 pos, byte[] buffer) {
    }
 
    public class03590(class07321 pos, byte[] buffer) {
-      super();
       this.pos = pos;
       this.buffer = buffer;
    }

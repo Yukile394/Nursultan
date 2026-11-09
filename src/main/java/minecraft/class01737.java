@@ -6,7 +6,6 @@ import java.util.List;
 
 public record class01737(List<String> segments, List<String> variables) {
    public class01737(List<String> segments, List<String> variables) {
-      super();
       this.segments = segments;
       this.variables = variables;
    }

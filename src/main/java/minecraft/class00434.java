@@ -55,7 +55,6 @@ public record class00434(
       Set<class07209> pois,
       Set<class07209> potentialPois
    ) {
-      super();
       this.name = name;
       this.profession = profession;
       this.xp = xp;

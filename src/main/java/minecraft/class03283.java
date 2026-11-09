@@ -2,7 +2,6 @@ package minecraft;
 
 public record class03283(int x, int y) {
    public class03283(int x, int y) {
-      super();
       this.x = x;
       this.y = y;
    }

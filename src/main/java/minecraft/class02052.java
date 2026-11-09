@@ -6,7 +6,6 @@ public record class02052(float minU, float minV, float maxU, float maxV) {
    }
 
    public class02052(float minU, float minV, float maxU, float maxV) {
-      super();
       this.minU = minU;
       this.minV = minV;
       this.maxU = maxU;

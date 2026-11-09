@@ -15,7 +15,6 @@ public record class01647(int width, int height) implements class01650 {
    }
 
    public class01647(int width, int height) {
-      super();
       this.width = width;
       this.height = height;
    }

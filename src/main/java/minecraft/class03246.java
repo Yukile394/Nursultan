@@ -24,7 +24,6 @@ public record class03246(class01894 assetId, class00392 description, boolean dec
    }
 
    public class03246(class01894 assetId, class00392 description, boolean decal) {
-      super();
       this.assetId = assetId;
       this.description = description;
       this.decal = decal;

@@ -6,7 +6,6 @@ import com.mojang.serialization.codecs.RecordCodecBuilder.Instance;
 
 public record class03659<T>(class03530<T> tag, boolean expected) {
    public class03659(class03530<T> tag, boolean expected) {
-      super();
       this.tag = tag;
       this.expected = expected;
    }

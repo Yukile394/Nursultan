@@ -4,7 +4,6 @@ public record class00251(class01263 bookSettings) implements class00381<class072
    public static final class02362<class00667, class00251> N = class02362.N(class01263.N, class00251::N, class00251::new);
 
    public class00251(class01263 bookSettings) {
-      super();
       this.bookSettings = bookSettings;
    }
 

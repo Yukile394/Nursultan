@@ -14,7 +14,6 @@ public record class07657(class06378 chance) implements class05957 {
    }
 
    public class07657(class06378 chance) {
-      super();
       this.chance = chance;
    }
 

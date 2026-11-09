@@ -10,7 +10,6 @@ public record class00557(class06889 position, float yRot, float xRot, boolean on
    }
 
    public class00557(class06889 position, float yRot, float xRot, boolean onGround) {
-      super();
       this.position = position;
       this.yRot = yRot;
       this.xRot = xRot;

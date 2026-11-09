@@ -26,7 +26,6 @@ public record class07390(Optional<class07947> player, Optional<String> ip, Optio
    }
 
    public class07390(Optional<class07947> player, Optional<String> ip, Optional<String> reason, Optional<String> source, Optional<Instant> expires) {
-      super();
       this.player = player;
       this.ip = ip;
       this.reason = reason;

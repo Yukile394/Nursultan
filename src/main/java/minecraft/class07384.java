@@ -12,7 +12,6 @@ public record class07384(class07947 player, Optional<class07415> message) {
    );
 
    public class07384(class07947 player, Optional<class07415> message) {
-      super();
       this.player = player;
       this.message = message;
    }

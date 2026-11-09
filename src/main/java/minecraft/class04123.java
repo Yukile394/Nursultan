@@ -11,7 +11,6 @@ public record class04123(Map<String, class08880> models) {
    public static final Codec<class04123> N = class06338.u(Codec.unboundedMap(Codec.STRING, class08880.L)).xmap(class04123::new, class04123::N);
 
    public class04123(Map<String, class08880> models) {
-      super();
       this.models = models;
    }
 

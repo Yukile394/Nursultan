@@ -13,7 +13,6 @@ public record class03890(class03556<class03877> function) implements class04573<
    }
 
    public class03890(class03556<class03877> function) {
-      super();
       this.function = function;
    }
 

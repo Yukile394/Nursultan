@@ -10,7 +10,6 @@ public record class07941<Result>(String name, class07389<Result> schema) {
    }
 
    public class07941(String name, class07389<Result> schema) {
-      super();
       this.name = name;
       this.schema = schema;
    }

@@ -10,7 +10,6 @@ public record class08179(class08195 level) implements class08159 {
    );
 
    public class08179(class08195 level) {
-      super();
       this.level = level;
    }
 

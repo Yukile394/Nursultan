@@ -4,7 +4,6 @@ import com.mojang.brigadier.builder.ArgumentBuilder;
 
 record class00485(String id) implements class00508 {
    class00485(String id) {
-      super();
       this.id = id;
    }
 

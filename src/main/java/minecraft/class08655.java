@@ -10,7 +10,6 @@ record class08655(class02609 mesh, RenderPipeline pipeline, class08679 textureSe
    }
 
    class08655(class02609 mesh, RenderPipeline pipeline, class08679 textureSetup, @Nullable class03255 scissorArea) {
-      super();
       this.mesh = mesh;
       this.pipeline = pipeline;
       this.textureSetup = textureSetup;

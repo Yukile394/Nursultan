@@ -2,7 +2,6 @@ package minecraft;
 
 record class03913(class03892 type, class03877 argument1, class03877 argument2, double minValue, double maxValue) implements class03871 {
    class03913(class03892 type, class03877 argument1, class03877 argument2, double minValue, double maxValue) {
-      super();
       this.type = type;
       this.argument1 = argument1;
       this.argument2 = argument2;

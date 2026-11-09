@@ -2,7 +2,6 @@ package Nursultan;
 
 record class09739(int type, double[] c) {
    class09739(int type, double[] c) {
-      super();
       this.type = type;
       this.c = c;
    }

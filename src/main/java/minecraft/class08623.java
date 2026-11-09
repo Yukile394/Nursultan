@@ -2,7 +2,6 @@ package minecraft;
 
 public record class08623(class07209 localPos, class00753 size) {
    public class08623(class07209 localPos, class00753 size) {
-      super();
       this.localPos = localPos;
       this.size = size;
    }

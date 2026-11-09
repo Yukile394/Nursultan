@@ -12,7 +12,6 @@ public record class00841(Optional<class05196> player, class05946<class06521<?>> 
    );
 
    public class00841(Optional<class05196> player, class05946<class06521<?>> recipe) {
-      super();
       this.player = player;
       this.recipe = recipe;
    }

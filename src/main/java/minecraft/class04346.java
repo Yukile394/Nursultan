@@ -12,7 +12,6 @@ public record class04346<T>(Supplier<List<T>> values, Function<T, Optional<T>> v
    }
 
    public class04346(Supplier<List<T>> values, Function<T, Optional<T>> validateValue, Codec<T> codec) {
-      super();
       this.values = values;
       this.validateValue = validateValue;
       this.codec = codec;

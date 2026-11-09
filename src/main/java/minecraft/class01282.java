@@ -2,7 +2,6 @@ package minecraft;
 
 public record class01282(String serverAddress) implements class01276 {
    public class01282(String serverAddress) {
-      super();
       this.serverAddress = serverAddress;
    }
 

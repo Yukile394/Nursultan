@@ -16,7 +16,6 @@ public record class08628(class07209 pos, class08616 action, class08595 data) imp
    }
 
    public class08628(class07209 pos, class08616 action, class08595 data) {
-      super();
       this.pos = pos;
       this.action = action;
       this.data = data;

@@ -25,7 +25,6 @@ public record class08997(int width, List<class09025> entries, class00392 label, 
    }
 
    public class08997(int width, List<class09025> entries, class00392 label, boolean labelVisible) {
-      super();
       this.width = width;
       this.entries = entries;
       this.label = label;

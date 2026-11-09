@@ -17,7 +17,6 @@ public record class03391(class00392 message, Instant timeStamp) implements class
    }
 
    public class03391(class00392 message, Instant timeStamp) {
-      super();
       this.message = message;
       this.timeStamp = timeStamp;
    }

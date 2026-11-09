@@ -21,7 +21,6 @@ public record class00845(Optional<class03543<class06581>> items, class00836 coun
    }
 
    public class00845(Optional<class03543<class06581>> items, class00836 count, class00142 components) {
-      super();
       this.items = items;
       this.count = count;
       this.components = components;

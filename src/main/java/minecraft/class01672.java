@@ -12,7 +12,6 @@ record class01672(LongSet chunksWhichReceivedNeighbors, BlockingQueue<class03345
    }
 
    private class01672(LongSet chunksWhichReceivedNeighbors, BlockingQueue<class03345> sectionsToPropagateFrom) {
-      super();
       this.chunksWhichReceivedNeighbors = chunksWhichReceivedNeighbors;
       this.sectionsToPropagateFrom = sectionsToPropagateFrom;
    }

@@ -3,7 +3,6 @@ package Nursultan;
 public record class09200(String entryKey, class09054 type) {
 
    class09200(String entryKey, class09054 type) {
-      super();
       this.entryKey = entryKey;
       this.type = type;
    }

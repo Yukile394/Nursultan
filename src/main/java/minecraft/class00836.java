@@ -19,7 +19,6 @@ public record class00836(class00819<Integer> bounds, class00819<Long> boundsSqr)
    }
 
    public class00836(class00819<Integer> bounds, class00819<Long> boundsSqr) {
-      super();
       this.bounds = bounds;
       this.boundsSqr = boundsSqr;
    }

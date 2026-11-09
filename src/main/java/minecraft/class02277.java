@@ -6,7 +6,6 @@ public record class02277(String level, class05946<class07299> dimension, String 
    }
 
    public class02277(String level, class05946<class07299> dimension, String type) {
-      super();
       this.level = level;
       this.dimension = dimension;
       this.type = type;

@@ -8,7 +8,6 @@ public record class04548<T extends Comparable<T>>(T minInclusive, T maxInclusive
    public static final Codec<class04548<Integer>> N = N(Codec.INT);
 
    public class04548(T minInclusive, T maxInclusive) {
-      super();
       if (minInclusive.compareTo(maxInclusive) > 0) {
          throw new IllegalArgumentException("min_inclusive must be less than or equal to max_inclusive");
       } else {

@@ -2,7 +2,6 @@ package minecraft;
 
 public record class05576(class05946<?> referenced) implements class04480 {
    public class05576(class05946<?> referenced) {
-      super();
       this.referenced = referenced;
    }
 

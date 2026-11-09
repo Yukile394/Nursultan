@@ -2,7 +2,6 @@ package minecraft;
 
 public record class04089(class07209 pos, class07211 face) {
    public class04089(class07209 pos, class07211 face) {
-      super();
       this.pos = pos;
       this.face = face;
    }

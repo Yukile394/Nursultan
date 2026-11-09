@@ -3,7 +3,6 @@ package minecraft;
 public record class07443(class04891 small, class04891 big) {
 
    public class07443(class04891 small, class04891 big) {
-      super();
       this.small = small;
       this.big = big;
    }

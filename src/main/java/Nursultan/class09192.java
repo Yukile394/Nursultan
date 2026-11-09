@@ -3,7 +3,6 @@ package Nursultan;
 public record class09192(String entryKey, int days) {
 
    class09192(String entryKey, int days) {
-      super();
       this.entryKey = entryKey;
       this.days = days;
    }

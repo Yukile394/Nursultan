@@ -6,7 +6,6 @@ import org.jspecify.annotations.Nullable;
 
 public record class01728<T>(class01894 id, List<class01716<T>> entries) implements class01747<T>, class07684<T> {
    public class01728(class01894 id, List<class01716<T>> entries) {
-      super();
       this.id = id;
       this.entries = entries;
    }

@@ -10,7 +10,6 @@ public record class08640(class07209 position, class00235 mode, String message) i
    }
 
    public class08640(class07209 position, class00235 mode, String message) {
-      super();
       this.position = position;
       this.mode = mode;
       this.message = message;

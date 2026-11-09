@@ -22,7 +22,6 @@ public record class07824(byte[] iconBytes) {
    }, var0 -> "data:image/png;base64," + new String(Base64.getEncoder().encode(var0.iconBytes), StandardCharsets.UTF_8));
 
    public class07824(byte[] iconBytes) {
-      super();
       this.iconBytes = iconBytes;
    }
 

@@ -32,7 +32,6 @@ public record class03930(
       class08957 nameToIdCache,
       class00909 profileResolver
    ) {
-      super();
       this.sessionService = sessionService;
       this.servicesKeySet = servicesKeySet;
       this.profileRepository = profileRepository;

@@ -9,7 +9,6 @@ record class04427<T>(class03530<T> key) implements class04428<T> {
    }
 
    class04427(class03530<T> key) {
-      super();
       this.key = key;
    }
 

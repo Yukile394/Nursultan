@@ -10,7 +10,6 @@ public record class03285(int slotIndex, int x, int y, Predicate<class06584> mayP
    }
 
    public class03285(int slotIndex, int x, int y, Predicate<class06584> mayPlace) {
-      super();
       this.slotIndex = slotIndex;
       this.x = x;
       this.y = y;

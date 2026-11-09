@@ -6,7 +6,6 @@ public record class02904(class06584 item) implements class02950 {
    }
 
    public class02904(class06584 item) {
-      super();
       this.item = item;
    }
 

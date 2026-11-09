@@ -23,7 +23,6 @@ public record class00843(Optional<class05196> player, class00855 slots, List<cla
    }
 
    public class00843(Optional<class05196> player, class00855 slots, List<class00845> items) {
-      super();
       this.player = player;
       this.slots = slots;
       this.items = items;

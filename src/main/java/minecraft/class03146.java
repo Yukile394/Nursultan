@@ -18,7 +18,6 @@ public record class03146(class04540<List<class03129>> groups) implements class03
    }
 
    public class03146(class04540<List<class03129>> groups) {
-      super();
       this.groups = groups;
    }
 

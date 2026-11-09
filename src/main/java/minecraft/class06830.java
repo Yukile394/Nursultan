@@ -4,7 +4,6 @@ import com.mojang.blaze3d.textures.GpuTextureView;
 
 public record class06830(GpuTextureView textureView, class08188 sampler) {
    public class06830(GpuTextureView textureView, class08188 sampler) {
-      super();
       this.textureView = textureView;
       this.sampler = sampler;
    }

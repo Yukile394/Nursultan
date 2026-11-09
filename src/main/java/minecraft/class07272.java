@@ -8,7 +8,6 @@ record class07272(float progress) implements class07238 {
    }
 
    class07272(float progress) {
-      super();
       this.progress = progress;
    }
 

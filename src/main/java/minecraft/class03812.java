@@ -11,7 +11,6 @@ record class03812(String name, long size) {
    );
 
    class03812(String name, long size) {
-      super();
       this.name = name;
       this.size = size;
    }

@@ -24,7 +24,6 @@ public record class00295(class00329 id, class00265 display, OptionalInt group, c
    }
 
    public class00295(class00329 id, class00265 display, OptionalInt group, class00305 category, Optional<List<class06510>> craftingRequirements) {
-      super();
       this.id = id;
       this.display = display;
       this.group = group;

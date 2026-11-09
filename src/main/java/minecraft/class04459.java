@@ -4,7 +4,6 @@ public record class04459(class00392 content, boolean overlay) implements class00
    public static final class02362<class04247, class04459> N = class02362.N(class03748.u, class04459::N, class02389.y, class04459::y, class04459::new);
 
    public class04459(class00392 content, boolean overlay) {
-      super();
       this.content = content;
       this.overlay = overlay;
    }

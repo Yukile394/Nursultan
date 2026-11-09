@@ -6,7 +6,6 @@ public record class01143(class01423 pose, class00500 state, int lightCoords, int
    }
 
    public class01143(class01423 pose, class00500 state, int lightCoords, int overlayCoords, int outlineColor) {
-      super();
       this.pose = pose;
       this.state = state;
       this.lightCoords = lightCoords;

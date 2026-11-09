@@ -5,7 +5,6 @@ import java.util.UUID;
 
 public record class03821(UUID id, Path path) {
    public class03821(UUID id, Path path) {
-      super();
       this.id = id;
       this.path = path;
    }

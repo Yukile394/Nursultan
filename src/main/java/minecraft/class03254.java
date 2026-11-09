@@ -16,7 +16,6 @@ public record class03254(class03556<class03252> material, class03556<class03246>
    private static final class00392 i = class00392.L(class07536.N("item", class01894.y("smithing_template.upgrade"))).N(class06541.field_1080);
 
    public class03254(class03556<class03252> material, class03556<class03246> pattern) {
-      super();
       this.material = material;
       this.pattern = pattern;
    }

@@ -7,7 +7,6 @@ public record class11625(float minX, float minY, float maxX, float maxY) {
    }
 
    public class11625(float minX, float minY, float maxX, float maxY) {
-      super();
       this.minX = minX;
       this.minY = minY;
       this.maxX = maxX;

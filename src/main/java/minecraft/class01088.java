@@ -12,7 +12,6 @@ record class01088(String name, class01622 resources, Predicate<class01894> filte
    }
 
    class01088(String name, @Nullable class01622 resources, @Nullable Predicate<class01894> filter) {
-      super();
       this.name = name;
       this.resources = resources;
       this.filter = filter;

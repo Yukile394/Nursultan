@@ -13,7 +13,6 @@ public record class03607(Optional<class01975> condition, class08880 variant) {
    );
 
    public class03607(Optional<class01975> condition, class08880 variant) {
-      super();
       this.condition = condition;
       this.variant = variant;
    }

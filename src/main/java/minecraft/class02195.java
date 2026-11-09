@@ -12,7 +12,6 @@ public record class02195(class01894 assetId, boolean showOnItemFrame, int mapCol
    }
 
    public class02195(class01894 assetId, boolean showOnItemFrame, int mapColor, boolean explorationMapElement, boolean trackCount) {
-      super();
       this.assetId = assetId;
       this.showOnItemFrame = showOnItemFrame;
       this.mapColor = mapColor;

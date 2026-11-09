@@ -23,7 +23,6 @@ public record class00629(class04475 chat, class04475 narration) {
    public static final class05946<class00629> U = N("emote_command");
 
    public class00629(class04475 chat, class04475 narration) {
-      super();
       this.chat = chat;
       this.narration = narration;
    }

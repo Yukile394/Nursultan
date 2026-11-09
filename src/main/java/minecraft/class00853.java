@@ -21,7 +21,6 @@ public record class00853(Optional<class05196> player, Optional<class00845> item,
    }
 
    public class00853(Optional<class05196> player, Optional<class00845> item, class00836 durability, class00836 delta) {
-      super();
       this.player = player;
       this.item = item;
       this.durability = durability;

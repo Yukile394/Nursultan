@@ -9,7 +9,6 @@ public record class03888(class03876 offsetNoise) implements class03880 {
    }
 
    public class03888(class03876 offsetNoise) {
-      super();
       this.offsetNoise = offsetNoise;
    }
 

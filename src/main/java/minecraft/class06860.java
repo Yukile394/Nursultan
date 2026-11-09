@@ -9,7 +9,6 @@ record class06860(String name, byte[] payload, HashCode hash) {
    }
 
    class06860(String name, byte[] payload, HashCode hash) {
-      super();
       this.name = name;
       this.payload = payload;
       this.hash = hash;

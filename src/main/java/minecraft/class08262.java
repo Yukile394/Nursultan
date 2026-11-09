@@ -9,7 +9,6 @@ public record class08262(String y, class06794 L) {
    public static final Codec<class08262> N = Codec.STRING.comapFlatMap(class08262::N, class08262::a);
 
    public class08262(String y, class06794 L) {
-      super();
       this.y = y;
       this.L = L;
    }

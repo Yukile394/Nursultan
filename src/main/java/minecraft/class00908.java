@@ -21,7 +21,6 @@ public record class00908(float unenchantedChance, class02546 enchantedChance, cl
    }
 
    public class00908(float unenchantedChance, class02546 enchantedChance, class03556<class07304> enchantment) {
-      super();
       this.unenchantedChance = unenchantedChance;
       this.enchantedChance = enchantedChance;
       this.enchantment = enchantment;

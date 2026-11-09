@@ -21,7 +21,6 @@ public record class04545(Optional<class05196> player, Optional<class05196> light
    }
 
    public class04545(Optional<class05196> player, Optional<class05196> lightning, Optional<class05196> bystander) {
-      super();
       this.player = player;
       this.lightning = lightning;
       this.bystander = bystander;

@@ -2,7 +2,6 @@ package minecraft;
 
 public record class02171<S>(class02315<S> term) implements class02315<S> {
    public class02171(class02315<S> term) {
-      super();
       this.term = term;
    }
 

@@ -19,7 +19,6 @@ public record class01400(List<class01428> properties) {
    public static final class02362<ByteBuf, class01400> y = class01428.N.N_33(class02389.N()).N_10(class01400::new, class01400::N);
 
    public class01400(List<class01428> properties) {
-      super();
       this.properties = (List<class01428>)properties;
    }
 

@@ -7,7 +7,6 @@ public record class03883(class03891 type, class03877 input, double minValue, dou
    }
 
    protected class03883(class03891 type, class03877 input, double minValue, double maxValue) {
-      super();
       this.type = type;
       this.input = input;
       this.minValue = minValue;

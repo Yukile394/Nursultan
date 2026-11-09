@@ -11,7 +11,6 @@ record class00678(class03556<class07084> effect, class06378 duration) {
    );
 
    class00678(class03556<class07084> effect, class06378 duration) {
-      super();
       this.effect = effect;
       this.duration = duration;
    }

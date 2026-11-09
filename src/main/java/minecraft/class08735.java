@@ -21,7 +21,6 @@ public record class08735(int major, int minor) implements Comparable<class08735>
    }
 
    public class08735(int major, int minor) {
-      super();
       this.major = major;
       this.minor = minor;
    }

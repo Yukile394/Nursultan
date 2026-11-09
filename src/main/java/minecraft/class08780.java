@@ -32,7 +32,6 @@ public record class08780(Optional<class08735> min, Optional<class08735> max, Opt
    }
 
    public class08780(Optional<class08735> min, Optional<class08735> max, Optional<Integer> format, Optional<class04548<Integer>> supported) {
-      super();
       this.min = min;
       this.max = max;
       this.format = format;

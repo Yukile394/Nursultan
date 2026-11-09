@@ -7,7 +7,6 @@ import org.jspecify.annotations.Nullable;
 public record class03848(URL url, HashCode hash) {
 
    public class03848(URL url, @Nullable HashCode hash) {
-      super();
       this.url = url;
       this.hash = hash;
    }

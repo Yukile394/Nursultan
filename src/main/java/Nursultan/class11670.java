@@ -7,7 +7,6 @@ public record class11670(String token, String hash, String xuid) {
    }
 
    class11670(String token, String hash, String xuid) {
-      super();
       this.token = token;
       this.hash = hash;
       this.xuid = xuid;

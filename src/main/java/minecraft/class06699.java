@@ -5,7 +5,6 @@ import java.util.List;
 record class06699(class07357 file, List<class07321> chunksToUpgrade) {
 
    class06699(class07357 file, List<class07321> chunksToUpgrade) {
-      super();
       this.file = file;
       this.chunksToUpgrade = chunksToUpgrade;
    }

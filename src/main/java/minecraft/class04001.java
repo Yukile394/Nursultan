@@ -4,7 +4,6 @@ import java.util.Comparator;
 
 public record class04001(class03987 angerManagement) implements Comparator<class07049> {
    protected class04001(class03987 angerManagement) {
-      super();
       this.angerManagement = angerManagement;
    }
 

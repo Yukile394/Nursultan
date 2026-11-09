@@ -13,7 +13,6 @@ public record class07812(int transactionId, class04155 payload) implements class
    }
 
    public class07812(int transactionId, class04155 payload) {
-      super();
       this.transactionId = transactionId;
       this.payload = payload;
    }

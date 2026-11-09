@@ -18,7 +18,6 @@ public record class01203(
    public class01203(
       class01228 info, class04853 jointType, class01894 name, class05946<class05281> pool, class01894 target, int placementPriority, int selectionPriority
    ) {
-      super();
       this.info = info;
       this.jointType = jointType;
       this.name = name;

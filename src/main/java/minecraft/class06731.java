@@ -23,7 +23,6 @@ public record class06731(Optional<class03556<class04891>> loop, Optional<class01
    }
 
    public class06731(Optional<class03556<class04891>> loop, Optional<class01374> mood, List<class01368> additions) {
-      super();
       this.loop = loop;
       this.mood = mood;
       this.additions = additions;

@@ -25,7 +25,6 @@ public record class03054(int indicatorColor, class03050 icon, class00392 text, S
    }
 
    public class03054(int indicatorColor, @Nullable class03050 icon, @Nullable class00392 text, @Nullable String logTag) {
-      super();
       this.indicatorColor = indicatorColor;
       this.icon = icon;
       this.text = text;

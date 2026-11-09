@@ -25,7 +25,6 @@ record class03844(UUID id, String url, Instant time, Optional<String> hash, Eith
    }
 
    class03844(UUID id, String url, Instant time, Optional<String> hash, Either<String, class03812> errorOrFileInfo) {
-      super();
       this.id = id;
       this.url = url;
       this.time = time;

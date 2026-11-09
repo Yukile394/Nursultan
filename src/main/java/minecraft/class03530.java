@@ -18,7 +18,6 @@ public record class03530<T>(class05946<? extends class00751<T>> registry, class0
 
    @Deprecated
    public class03530(class05946<? extends class00751<T>> registry, class01894 location) {
-      super();
       this.registry = registry;
       this.location = location;
    }

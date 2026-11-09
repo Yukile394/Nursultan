@@ -87,13 +87,12 @@ public class class00757 extends class00891 {
       if (this.L()) {
          return class07082.L;
       } else {
-         class06584 class06584 = new class06584;
+         class06584 class06584 = new class06584(this.u);
          CallbackInfoReturnable callbackinforeturnable = new CallbackInfoReturnable("", true);
          this.N(callbackinforeturnable);
          if (callbackinforeturnable.isCancelled()) {
             return (class07082)callbackinforeturnable.getReturnValue();
          } else {
-            new class06584(this.u);
             class06584 class06584x = class06584;
             if (!var4.method_7270(class06584x)) {
                var4.method_7328(class06584x, false);

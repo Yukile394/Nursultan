@@ -20,7 +20,6 @@ record class05382(UUID target, class05346 type, int value) {
    }
 
    class05382(UUID target, class05346 type, int value) {
-      super();
       this.target = target;
       this.type = type;
       this.value = value;

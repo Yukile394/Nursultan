@@ -9,7 +9,6 @@ public record class06419(int addedTime, class01028 content, class03054 tag, bool
    }
 
    public class06419(int addedTime, class01028 content, @Nullable class03054 tag, boolean endOfEntry) {
-      super();
       this.addedTime = addedTime;
       this.content = content;
       this.tag = tag;

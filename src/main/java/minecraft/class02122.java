@@ -6,7 +6,6 @@ record class02122(class02124 facing, int x, int y) {
    }
 
    class02122(class02124 facing, int x, int y) {
-      super();
       this.facing = facing;
       this.x = x;
       this.y = y;

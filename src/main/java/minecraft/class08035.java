@@ -17,7 +17,6 @@ public record class08035(class00392 message) {
    }
 
    public class08035(@Nullable class00392 message) {
-      super();
       this.message = message;
    }
 

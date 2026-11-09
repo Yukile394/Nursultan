@@ -12,7 +12,6 @@ public record class01735(int slotId, int containerId, boolean newState) implemen
    }
 
    public class01735(int slotId, int containerId, boolean newState) {
-      super();
       this.slotId = slotId;
       this.containerId = containerId;
       this.newState = newState;

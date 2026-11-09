@@ -2,7 +2,6 @@ package minecraft;
 
 public record class08571(class01894 sheet, String prefix) {
    public class08571(class01894 sheet, String prefix) {
-      super();
       this.sheet = sheet;
       this.prefix = prefix;
    }

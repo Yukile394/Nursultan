@@ -12,7 +12,6 @@ public record class10013<T>(Supplier<String> error) implements class02818<T> {
    }
 
    public class10013(Supplier<String> error) {
-      super();
       this.error = error;
    }
 

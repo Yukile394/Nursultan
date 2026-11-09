@@ -27,7 +27,6 @@ public record class04758(class03543<class00780> biomes, Map<class07428, class044
    }
 
    public class04758(class03543<class00780> biomes, Map<class07428, class04426> spawnOverrides, class07852 step, class06040 terrainAdaptation) {
-      super();
       this.biomes = biomes;
       this.spawnOverrides = spawnOverrides;
       this.step = step;

@@ -18,7 +18,6 @@ public record class03195(long min, long max) {
    );
 
    public class03195(long min, long max) {
-      super();
       this.min = min;
       this.max = max;
    }

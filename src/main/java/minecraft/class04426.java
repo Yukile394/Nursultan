@@ -13,7 +13,6 @@ public record class04426(class04436 boundingBox, class04540<class01016> spawns) 
    );
 
    public class04426(class04436 boundingBox, class04540<class01016> spawns) {
-      super();
       this.boundingBox = boundingBox;
       this.spawns = spawns;
    }

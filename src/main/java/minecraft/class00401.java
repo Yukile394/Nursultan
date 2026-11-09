@@ -10,7 +10,6 @@ public record class00401(class00392 value) implements class00395 {
    );
 
    public class00401(class00392 value) {
-      super();
       this.value = value;
    }
 

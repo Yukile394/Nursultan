@@ -10,7 +10,6 @@ record class09727(int x, int y, int paddedWidth, int paddedHeight, int newHeight
    }
 
    class09727(int x, int y, int paddedWidth, int paddedHeight, int newHeight, int newRowHeight, boolean appended) {
-      super();
       this.x = x;
       this.y = y;
       this.paddedWidth = paddedWidth;

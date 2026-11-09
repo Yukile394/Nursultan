@@ -15,7 +15,6 @@ public record class08211(class03543<class07084> effects) implements class08200 {
    }
 
    public class08211(class03543<class07084> effects) {
-      super();
       this.effects = effects;
    }
 

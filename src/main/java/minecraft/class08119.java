@@ -6,7 +6,6 @@ import java.util.concurrent.Executor;
 record class08119(class08626 atlas, class08126 config) implements AutoCloseable {
 
    class08119(class08626 atlas, class08126 config) {
-      super();
       this.atlas = atlas;
       this.config = config;
    }

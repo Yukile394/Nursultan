@@ -4,7 +4,6 @@ import java.util.stream.Stream;
 
 public record class06831(class06838 slots, int limit) implements class06838 {
    public class06831(class06838 slots, int limit) {
-      super();
       this.slots = slots;
       this.limit = limit;
    }

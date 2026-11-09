@@ -25,7 +25,6 @@ record class08673(
    class08673(
       GpuBuffer vertexBuffer, int baseVertex, DrawMode mode, int indexCount, RenderPipeline pipeline, class08679 textureSetup, @Nullable class03255 scissorArea
    ) {
-      super();
       this.vertexBuffer = vertexBuffer;
       this.baseVertex = baseVertex;
       this.mode = mode;

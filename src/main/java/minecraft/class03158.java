@@ -34,7 +34,6 @@ public record class03158<C extends class06386>(
       class01224 structureTemplateManager,
       class01042 registryAccess
    ) {
-      super();
       this.chunkGenerator = chunkGenerator;
       this.biomeSource = biomeSource;
       this.randomState = randomState;

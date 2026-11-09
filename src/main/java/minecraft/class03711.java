@@ -7,7 +7,6 @@ public record class03711(class01894 L, class07151 u) {
    public static final class02362<class04247, List<class03711>> y = N.N_33(class02389.N());
 
    public class03711(class01894 L, class07151 u) {
-      super();
       this.L = L;
       this.u = u;
    }

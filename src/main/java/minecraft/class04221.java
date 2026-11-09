@@ -21,7 +21,6 @@ public record class04221(String sourcePath, String idPrefix) implements class042
    }
 
    public class04221(String sourcePath, String idPrefix) {
-      super();
       this.sourcePath = sourcePath;
       this.idPrefix = idPrefix;
    }

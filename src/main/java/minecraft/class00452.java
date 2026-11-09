@@ -12,7 +12,6 @@ public record class00452(int priority, boolean isRunning, String name) {
    }
 
    public class00452(int priority, boolean isRunning, String name) {
-      super();
       this.priority = priority;
       this.isRunning = isRunning;
       this.name = name;

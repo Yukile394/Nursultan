@@ -7,7 +7,6 @@ public record class02469(class03543<class06525> potions) implements class02465<c
    public static final Codec<class02469> N = class03541.N(class04227.NW).xmap(class02469::new, class02469::N);
 
    public class02469(class03543<class06525> potions) {
-      super();
       this.potions = potions;
    }
 
