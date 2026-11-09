@@ -64,17 +64,16 @@ dependencies {
 
     // Lenni0451 kutuphaneleri (reflect, commons) - ViaProxy ekosisteminin parcasi
     implementation "net.lenni0451:Reflect:1.4.0"  // TAHMIN - mavenCentral'da yoksa libs/net_lenni0451_reflect.jar kullan
-    implementation "net.lenni0451.commons:commons-httpclient:1.7"  // TAHMIN
+    implementation "net.lenni0451.commons:httpclient:1.7.0"  // dogrulandi, Maven Central (artifact adi "httpclient", "commons-httpclient" DEGIL)
 
     // RaphiMC protokol koprusu kutuphaneleri - net.raphimc grubu resmi olarak Maven Central'da
     // yayinlaniyor (mvnrepository.com/artifact/net.raphimc), jitpack SNAPSHOT'a gerek yok.
     implementation "net.raphimc:ViaLegacy:3.0.16"  // dogrulandi, Maven Central
-    // ViaBedrock release olarak Maven Central'da yok, sadece timestamp'li SNAPSHOT
-    // (ornek: 0.0.14-20241206.155528-1) repo.viaversion.com'da bulundu. Guncel SNAPSHOT
-    // tag'ini almak icin "+" kullanmiyoruz (Gradle timestamp SNAPSHOT'i boyle cozemez),
-    // surum numarasi build zamaninda hata verirse repo.viaversion.com/net/raphimc/ViaBedrock/
-    // adresine bakip en yeni klasor adini buraya yaz.
-    implementation "net.raphimc:ViaBedrock:0.0.14-SNAPSHOT"  // TAHMIN - repo.viaversion.com
+    // ViaBedrock: bagimsiz bir maven koordinati dogrulanamadi (ViaProxy'nin icine
+    // gomulu olarak dagitiliyor olabilir, ayri yayinlanmiyor). libs/ altindaki ayristirilmis
+    // jar'i dogrudan dosya bagimliligi olarak ekliyoruz - hem derlemede gorunur hem
+    // asagidaki jar{} blogunda jar'a gomulur.
+    implementation files("libs/net_raphimc_viabedrock.jar")
     implementation "net.raphimc:MinecraftAuth:5.0.1"  // dogrulandi, Maven Central
 
     // oshi (sistem bilgisi)
@@ -83,8 +82,9 @@ dependencies {
     // Kotlin stdlib - jar icinde SADECE kotlin/jvm/internal/Intrinsics.class (1 dosya)
     // bulundu, yani kendi kod Kotlin'le derlenmemis, sadece bu null-check yardimcisina
     // bagimli (muhtemelen baska bir kutuphane tarafindan cekiliyor). Tam stdlib yerine
-    // tek class'i dogrudan jar'a gom - surum uyusmazligi riski yok:
-    // (asagidaki jar{} blogunda from(zipTree("libs/kotlin_jvm.jar")) ac)
+    // tek class'i dogrudan dosya bagimliligi olarak ekliyoruz - hem derlemede gorunur
+    // hem jar'a gomulur, tam stdlib cekmeye gerek yok:
+    implementation files("libs/kotlin_jvm.jar")
 
     // Baritone - jitpack'teki resmi jar, MC 1.21.11 icin HENUZ fabric tag'i yok
     // (jitpack.io/p/cabaletta/baritone listesinde en yeni "1.21.3 Fabric"). Bu satir
@@ -120,9 +120,9 @@ jar {
     }
     // libs/ altindaki gomulu kutuphaneleri derleme-zamani stub olarak degil,
     // gercek bagimlilik olarak cozdugumuz icin burada ayrica embed etmiyoruz.
-    // kotlin/jvm/internal/Intrinsics tek class oldugu ve gercek bir maven bagimliligi
-    // olarak cekmek gereksiz oldugu icin dogrudan gomuluyor:
-    from(zipTree("libs/kotlin_jvm.jar"))
-    // Baritone icin gercek kaynak/surum bulunursa ayni sekilde:
-    // from(zipTree("libs/baritone.jar"))
+    // kotlin_jvm.jar ve net_raphimc_viabedrock.jar artik "implementation files(...)" ile
+    // dependencies{} blogunda ekleniyor - Gradle/Loom bunlari otomatik olarak jar'a da
+    // dahil eder, burada ayrica from(zipTree(...)) gerekmiyor.
+    // Baritone icin gercek kaynak/surum bulunursa ayni yontemle (implementation files(...)):
+    // implementation files("libs/baritone.jar")
 }
