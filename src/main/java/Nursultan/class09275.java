@@ -1,6 +1,6 @@
 package Nursultan;
 
-public non-sealed record class09275(int kindId, long updatedAt, byte[] data) implements class09260 {
+public record class09275(int kindId, long updatedAt, byte[] data) implements class09260 {
 
    public long L() {
       return this.updatedAt;

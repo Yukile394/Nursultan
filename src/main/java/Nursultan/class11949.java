@@ -1,6 +1,6 @@
 package Nursultan;
 
-public non-sealed record class11949() implements class11981 {
+public record class11949() implements class11981 {
    public class11949() {
    }
 

@@ -2,7 +2,7 @@ package Nursultan;
 
 import java.util.UUID;
 
-public non-sealed record class09281(long id, UUID clientId, int errorCode) implements class09279 {
+public record class09281(long id, UUID clientId, int errorCode) implements class09279 {
 
    public int L() {
       return this.errorCode;

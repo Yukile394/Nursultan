@@ -1,6 +1,6 @@
 package Nursultan;
 
-public non-sealed record class09264(long presetId) implements class11942 {
+public record class09264(long presetId) implements class11942 {
 
    public class09264(long presetId) {
       this.presetId = presetId;

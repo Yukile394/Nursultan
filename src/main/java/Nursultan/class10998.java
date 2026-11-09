@@ -1,6 +1,6 @@
 package Nursultan;
 
-public non-sealed record class10998(class11067 module) implements class11333 {
+public record class10998(class11067 module) implements class11333 {
 
    public class11067 L() {
       return this.module;

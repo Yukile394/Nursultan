@@ -1,6 +1,6 @@
 package Nursultan;
 
-public non-sealed record class11969(int kindId, byte[] data) implements class11981 {
+public record class11969(int kindId, byte[] data) implements class11981 {
 
    public class11969(int kindId, byte[] data) {
       this.kindId = kindId;

@@ -1,6 +1,6 @@
 package Nursultan;
 
-public non-sealed record class11941(long id, int formatVersion, byte[] data) implements class11946 {
+public record class11941(long id, int formatVersion, byte[] data) implements class11946 {
 
    public long L() {
       return this.id;
