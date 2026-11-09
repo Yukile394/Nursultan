@@ -20,19 +20,27 @@ base {
 repositories {
     maven { url = "https://maven.fabricmc.net/" }
     maven { name = "CaffeineMC"; url = "https://maven.caffeinemc.net/releases" }
-    maven { name = "IrisShaders"; url = "https://maven.isxander.dev/releases" }
+    maven { name = "ViaVersion"; url = "https://repo.viaversion.com" }  // ViaLegacy/ViaBedrock/ViaLoader/MinecraftAuth burada da yayinlanir
     maven { name = "JitPack"; url = "https://jitpack.io" }
-    maven { name = "Modrinth"; url = "https://api.modrinth.com/maven" }
-    maven { name = "Lenni0451"; url = "https://repo.lenni0451.net/releases" }
-    maven { name = "OSS Sonatype"; url = "https://s01.oss.sonatype.org/content/repositories/releases/" }
+    exclusiveContent {
+        forRepository {
+            maven { name = "Modrinth"; url = "https://api.modrinth.com/maven" }
+        }
+        filter { includeGroup "maven.modrinth" }
+    }
     mavenCentral()
+    // NOT: repo.lenni0451.net DNS'te cozulmuyordu (GitHub Actions runner'indan erisilemiyor,
+    // repo kapanmis ya da tasinmis olabilir) - kaldirildi. Lenni0451 kutuphaneleri (Reflect,
+    // Commons) asagida mavenCentral/jitpack'ten cozulmeye calisiliyor, orda da yoksa
+    // libs/net_lenni0451_reflect.jar / libs/net_lenni0451_commons.jar dosyalarini
+    // dogrudan jar'a gom (asagidaki jar{} blogundaki yorum).
 }
 
 dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"  // dogrulandi, maven.fabricmc.net'te gercek
 
     // --- jar icinde gomulu bulunan ucuncu parti kutuphaneler ---
     // asagidaki surumler jar MANIFEST/mod.json icinde gecmiyordu, TAHMIN.
@@ -41,32 +49,50 @@ dependencies {
     // (decompile.py tarafindan uretilir) sadece referans/karsilastirma icindir,
     // burada dependency olarak KULLANILMAZ.
 
-    // Sodium - CaffeineMC resmi maven (tahmin surum, DECOMPILE_REPORT.md'ye bak)
-    modImplementation "maven.modrinth:sodium:AANobbMI"  // TAHMIN - modrinth version id eslesmiyor olabilir
-    // Lithium
-    modImplementation "maven.modrinth:lithium:gvQqBUqZ"  // TAHMIN
-    // Iris Shaders
-    modImplementation "maven.modrinth:iris:YL57xq9U"  // TAHMIN
+    // Sodium/Lithium/Iris - modrinth PROJE id'leri dogrulandi (AANobbMI/gvQqBUqZ/YL57xq9U),
+    // VERSION id'leri decompile.py tarafindan her bootstrap'ta gradle.properties'e
+    // otomatik yazilir (MC 1.21.11 icin Modrinth API'den taze cekilir).
+    if (project.hasProperty("sodium_modrinth_version") && project.sodium_modrinth_version) {
+        modImplementation "maven.modrinth:AANobbMI:${project.sodium_modrinth_version}"
+    }
+    if (project.hasProperty("lithium_modrinth_version") && project.lithium_modrinth_version) {
+        modImplementation "maven.modrinth:gvQqBUqZ:${project.lithium_modrinth_version}"
+    }
+    if (project.hasProperty("iris_modrinth_version") && project.iris_modrinth_version) {
+        modImplementation "maven.modrinth:YL57xq9U:${project.iris_modrinth_version}"
+    }
 
     // Lenni0451 kutuphaneleri (reflect, commons) - ViaProxy ekosisteminin parcasi
-    implementation "net.lenni0451:Reflect:1.4.0"  // TAHMIN
+    implementation "net.lenni0451:Reflect:1.4.0"  // TAHMIN - mavenCentral'da yoksa libs/net_lenni0451_reflect.jar kullan
     implementation "net.lenni0451.commons:commons-httpclient:1.7"  // TAHMIN
 
-    // RaphiMC protokol koprusu kutuphaneleri
-    implementation "com.github.RaphiMC:ViaLegacy:master-SNAPSHOT"  // TAHMIN - jitpack
-    implementation "com.github.RaphiMC:ViaBedrock:main-SNAPSHOT"  // TAHMIN - jitpack
-    implementation "com.github.RaphiMC:MinecraftAuth:main-SNAPSHOT"  // TAHMIN - jitpack
+    // RaphiMC protokol koprusu kutuphaneleri - net.raphimc grubu resmi olarak Maven Central'da
+    // yayinlaniyor (mvnrepository.com/artifact/net.raphimc), jitpack SNAPSHOT'a gerek yok.
+    implementation "net.raphimc:ViaLegacy:3.0.16"  // dogrulandi, Maven Central
+    // ViaBedrock release olarak Maven Central'da yok, sadece timestamp'li SNAPSHOT
+    // (ornek: 0.0.14-20241206.155528-1) repo.viaversion.com'da bulundu. Guncel SNAPSHOT
+    // tag'ini almak icin "+" kullanmiyoruz (Gradle timestamp SNAPSHOT'i boyle cozemez),
+    // surum numarasi build zamaninda hata verirse repo.viaversion.com/net/raphimc/ViaBedrock/
+    // adresine bakip en yeni klasor adini buraya yaz.
+    implementation "net.raphimc:ViaBedrock:0.0.14-SNAPSHOT"  // TAHMIN - repo.viaversion.com
+    implementation "net.raphimc:MinecraftAuth:5.0.1"  // dogrulandi, Maven Central
 
     // oshi (sistem bilgisi)
     implementation "com.github.oshi:oshi-core:6.6.5"  // TAHMIN
 
-    // Kotlin stdlib (jar icinde kotlin/jvm/internal/Intrinsics.class bulundu,
-    // bu da kotlin-stdlib'in kucuk bir parcasi gomulu demek)
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:2.0.21"  // TAHMIN
+    // Kotlin stdlib - jar icinde SADECE kotlin/jvm/internal/Intrinsics.class (1 dosya)
+    // bulundu, yani kendi kod Kotlin'le derlenmemis, sadece bu null-check yardimcisina
+    // bagimli (muhtemelen baska bir kutuphane tarafindan cekiliyor). Tam stdlib yerine
+    // tek class'i dogrudan jar'a gom - surum uyusmazligi riski yok:
+    // (asagidaki jar{} blogunda from(zipTree("libs/kotlin_jvm.jar")) ac)
 
-    // Baritone - jar icinde top-level "baritone/" paketi var, resmi fabric build
-    // genelde jitpack'te. Surum/branch bilinmiyor.
-    implementation "com.github.cabaletta:baritone:1.21.11-fabric-SNAPSHOT"  // TAHMIN - jitpack
+    // Baritone - jitpack'teki resmi jar, MC 1.21.11 icin HENUZ fabric tag'i yok
+    // (jitpack.io/p/cabaletta/baritone listesinde en yeni "1.21.3 Fabric"). Bu satir
+    // suanda COZULMEYECEK - jar'daki baritone/ paketi (445 giris, libs/baritone.jar'da
+    // duruyor) muhtemelen Nursultan Team'in kendi fork/branch'inden. Gercek kaynagi
+    // (hangi fork, hangi commit) bulup build.gradle'i ona gore guncelle, ya da
+    // asagidaki jar{} blogundaki from(zipTree("libs/baritone.jar")) satirini ac.
+    // implementation "com.github.cabaletta:baritone:1.21.3-fabric-SNAPSHOT"  // yanlis MC surumu, KULLANMA
 }
 
 processResources {
@@ -94,7 +120,9 @@ jar {
     }
     // libs/ altindaki gomulu kutuphaneleri derleme-zamani stub olarak degil,
     // gercek bagimlilik olarak cozdugumuz icin burada ayrica embed etmiyoruz.
-    // Eger bir kutuphane icin gercek maven koordinati BULUNAMAZSA (jitpack/modrinth'te yoksa),
-    // libs/<lib>.jar dosyasini asagidaki gibi dogrudan jar'a gom:
+    // kotlin/jvm/internal/Intrinsics tek class oldugu ve gercek bir maven bagimliligi
+    // olarak cekmek gereksiz oldugu icin dogrudan gomuluyor:
+    from(zipTree("libs/kotlin_jvm.jar"))
+    // Baritone icin gercek kaynak/surum bulunursa ayni sekilde:
     // from(zipTree("libs/baritone.jar"))
 }
