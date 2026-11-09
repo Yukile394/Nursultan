@@ -19,6 +19,7 @@ public class class10555<T extends class06091> extends class07473 {
    private final double u;
    private long i;
 
+   @Override
    public void L() {
    }
 
@@ -27,6 +28,7 @@ public class class10555<T extends class06091> extends class07473 {
    }
 
    public class10555(T var1, double var2, double var4) {
+      super();
       this.y = (T)var1;
       this.L = var2;
       this.u = var4;
@@ -39,9 +41,10 @@ public class class10555<T extends class06091> extends class07473 {
       class07209 class07209 = this.y
          .method_73183()
          .N(class07830.field_13203, this.y.method_24515().method_10069(-8 + class06069.y(16), 0, -8 + class06069.y(16)));
-      return this.y.f().N(class07209.method_10263(), class07209.method_10264(), class07209.method_10260(), this.L);
+      return this.y.f().N((double)class07209.method_10263(), (double)class07209.method_10264(), (double)class07209.method_10260(), this.L);
    }
 
+   @Override
    public void i() {
       boolean flag = this.y.Q();
       class07623 class07623 = this.y.f();
@@ -57,7 +60,7 @@ public class class10555<T extends class06091> extends class07473 {
             class06889x = class06889x.u(class06889x).y(90.0F).L(0.4).i(class06889x);
             class07209 class07209 = class07209.method_49638(class06889x.u(class06889x).u().L(10.0).i(class06889x));
             class07209 = this.y.method_73183().N(class07830.field_13203, class07209);
-            if (!class07623.N(class07209.method_10263(), class07209.method_10264(), class07209.method_10260(), flag ? this.u : this.L)) {
+            if (!class07623.N((double)class07209.method_10263(), (double)class07209.method_10264(), (double)class07209.method_10260(), flag ? this.u : this.L)) {
                this.Z();
                this.i = this.y.method_73183().N() + 200L;
             } else if (flag) {
@@ -71,9 +74,11 @@ public class class10555<T extends class06091> extends class07473 {
       }
    }
 
+   @Override
    public void u() {
    }
 
+   @Override
    public boolean N() {
       boolean flag = this.y.method_73183().N() < this.i;
       return this.y.o() && this.y.T() == null && !this.y.method_42148() && this.y.d() && !flag;

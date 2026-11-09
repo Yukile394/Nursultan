@@ -35,11 +35,11 @@ public class class10938 extends class11882 {
 
    private List<class10879<?>> T() {
       return class09233.y()
-         .N("lore", var0 -> (class02848)var0.y().method_58694(class02484.W), this::N)
-         .N("unbreakable", var0 -> (class06244)var0.y().method_58694(class02484.R), (var0, var1) -> var0 == var1 && var0 == class06244.field_17274)
-         .N("attributes", var0 -> (class02833)var0.y().method_58694(class02484.b), this::N)
-         .N("enchantments", var0 -> (class02710)var0.y().method_58694(class02484.P), this::N)
-         .N("potion", var0 -> (class06517)var0.y().method_58694(class02484.h), this::N)
+         .N("lore", var0 -> var0.y().method_58694(class02484.W), this::N)
+         .N("unbreakable", var0 -> var0.y().method_58694(class02484.R), (var0, var1) -> var0 == var1 && var0 == class06244.field_17274)
+         .N("attributes", var0 -> var0.y().method_58694(class02484.b), this::N)
+         .N("enchantments", var0 -> var0.y().method_58694(class02484.P), this::N)
+         .N("potion", var0 -> var0.y().method_58694(class02484.h), this::N)
          .N();
    }
 
@@ -75,7 +75,7 @@ public class class10938 extends class11882 {
       } else {
          Set<class03556<class07304>> set = var1.N();
          Set<class03556<class07304>> set1 = var2.N();
-         return set.isEmpty() && set1.isEmpty() ? true : N(set, set1, (var2x, var3x) -> var2x.N((class05946)var3x.i().get()) && var1.N(var2x) == var2.N(var3x));
+         return set.isEmpty() && set1.isEmpty() ? true : N(set, set1, (var2x, var3x) -> var2x.N(var3x.i().get()) && var1.N(var2x) == var2.N(var3x));
       }
    }
 
@@ -98,7 +98,7 @@ public class class10938 extends class11882 {
    }
 
    private static String N(class02848 var0) {
-      return var0.N().stream().<CharSequence>map(class00392::getString).collect(Collectors.joining());
+      return var0.N().stream().map(class00392::getString).collect(Collectors.joining());
    }
 
    private boolean N(class02848 var1, class02848 var2) {

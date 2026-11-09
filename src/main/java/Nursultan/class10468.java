@@ -16,6 +16,7 @@ public class class10468 {
    private class06040 u = class04758.i.u();
 
    public class10468(class03543<class00780> var1) {
+      super();
       this.N = var1;
    }
 

@@ -11,6 +11,7 @@ public class class09457<T> implements RecordBuilder<T> {
    private final RecordBuilder<T> y;
 
    public class09457(RecordBuilder<T> var1, RecordBuilder var2) {
+      super();
       this.N = var1;
       this.y = var2;
    }

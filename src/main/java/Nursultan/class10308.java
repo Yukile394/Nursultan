@@ -5,6 +5,7 @@ import minecraft.class07079;
 import minecraft.class07442;
 
 public class class10308 extends class07442 {
+   @Override
    protected boolean L() {
       return this.N.W().isEmpty();
    }

@@ -9,6 +9,7 @@ public class class10559 implements Runnable {
    public Object N_2;
 
    public class10559(class06202 var1, class09454 var2) {
+      super();
       this.y();
       this.N_2 = var1;
       this.N_1 = var2;

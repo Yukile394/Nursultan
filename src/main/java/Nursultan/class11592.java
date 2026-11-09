@@ -31,7 +31,7 @@ public class class11592 extends class11561 {
       this.Z();
       if ((Optional)this.L_1 == null) {
          try {
-            this.L_1 = ((class06517)((class11664)this.L_0).N().a_(class02484.h, class06517.N)).R();
+            this.L_1 = ((class11664)this.L_0).N().a_(class02484.h, class06517.N).R();
          } catch (IllegalStateException illegalstateexception) {
             return Optional.empty();
          }
@@ -42,7 +42,7 @@ public class class11592 extends class11561 {
 
    @Override
    public boolean N(class06584 var1) {
-      Optional<Integer> optional = ((class06517)var1.a_(class02484.h, class06517.N)).R();
+      Optional<Integer> optional = var1.a_(class02484.h, class06517.N).R();
       return optional.isEmpty() ? false : this.z().map(var1x -> class11300.N(var1x, optional.get(), 10)).orElse(false);
    }
 }

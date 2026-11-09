@@ -15,11 +15,13 @@ public class class11336 implements class00038 {
    private final class04770 L;
    private float u;
 
+   @Override
    public void L() {
       this.L.field_13987.method_14364(class00014.N(this.N.method_5667(), this.y, this.u));
    }
 
    public class11336(class07438 var1, class00028 var2, class04770 var3) {
+      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;
@@ -27,6 +29,7 @@ public class class11336 implements class00038 {
       this.u = (float)class04995.u(class06889.L(), class06889.N());
    }
 
+   @Override
    public void i() {
       class06889 class06889 = this.L.method_73189().u(this.N.method_73189()).U();
       float f = (float)class04995.u(class06889.L(), class06889.N());
@@ -36,10 +39,12 @@ public class class11336 implements class00038 {
       }
    }
 
+   @Override
    public void u() {
       this.L.field_13987.method_14364(class00014.N(this.N.method_5667()));
    }
 
+   @Override
    public boolean y() {
       return class00042.N(this.N, this.L) || class00042.N(this.N.method_31476(), this.L) || !class00042.y(this.N, this.L);
    }

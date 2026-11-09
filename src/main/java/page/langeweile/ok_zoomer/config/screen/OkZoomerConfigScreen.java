@@ -51,12 +51,13 @@ public class OkZoomerConfigScreen extends class05096 {
       this.invalidValues = new ObjectArraySet();
    }
 
+   @Override
    public void method_25426() {
       Config config = Configs.getConfig(this.configId.y(), this.configId.N());
       this.configTextUtils = new ConfigTextUtils(config);
       this.selectionList = new OkZoomerSelectionList(this.field_22787, this.field_22789, this.field_22790 - 64, 32, this);
       this.selectionList.addCategory(class00392.L("config.ok_zoomer.presets"));
-      class06366 class06366xx = class06366.N(
+      class06366 class06366xx = class06366.<ConfigEnums$ZoomPresets>N(
             var0 -> class00392.L(String.format("config.ok_zoomer.presets.preset.%s", var0.toString().toLowerCase(Locale.ROOT))), ConfigEnums$ZoomPresets.CAMERA
          )
          .N(ConfigEnums$ZoomPresets.values())
@@ -78,7 +79,7 @@ public class OkZoomerConfigScreen extends class05096 {
                if (valuetreenode1 instanceof TrackedValue trackedvalue) {
                   this.newValues.putIfAbsent(trackedvalue, trackedvalue.getRealValue());
                   if (trackedvalue.value() instanceof Boolean) {
-                     class06366 class06366x = class06366.N((Boolean)this.newValues.get(trackedvalue))
+                     class06366 class06366x = class06366.N(((Boolean)this.newValues.get(trackedvalue)).booleanValue())
                         .N(var2x -> class04141.N(this.configTextUtils.getOptionTextTooltip(trackedvalue)))
                         .N(0, 0, 150, 20, this.configTextUtils.getOptionText(trackedvalue), (var2x, var3x) -> this.newValues.replace(trackedvalue, var3x));
                      this.addOptionToList(class06366x, widgetsize$size);
@@ -125,11 +126,7 @@ public class OkZoomerConfigScreen extends class05096 {
                            }
                         });
                         class04927x.method_47400(
-                           class04141.N(
-                              class05220.y(
-                                 new class00392[]{this.configTextUtils.getOptionText(trackedvalue), this.configTextUtils.getOptionTextTooltip(trackedvalue)}
-                              )
-                           )
+                           class04141.N(class05220.y(this.configTextUtils.getOptionText(trackedvalue), this.configTextUtils.getOptionTextTooltip(trackedvalue)))
                         );
                         this.addOptionToList(class04927x, widgetsize$size);
                      }
@@ -176,16 +173,12 @@ public class OkZoomerConfigScreen extends class05096 {
                            }
                         });
                         class04927.method_47400(
-                           class04141.N(
-                              class05220.y(
-                                 new class00392[]{this.configTextUtils.getOptionText(trackedvalue), this.configTextUtils.getOptionTextTooltip(trackedvalue)}
-                              )
-                           )
+                           class04141.N(class05220.y(this.configTextUtils.getOptionText(trackedvalue), this.configTextUtils.getOptionTextTooltip(trackedvalue)))
                         );
                         this.addOptionToList(class04927, widgetsize$size);
                      }
                   } else if (trackedvalue.value() instanceof ConfigEnums$ConfigEnum configenums$configenum) {
-                     class06366 class06366x = class06366.N(
+                     class06366 class06366x = class06366.<ConfigEnums$ConfigEnum>N(
                            var2x -> this.configTextUtils.getEnumOptionText(trackedvalue, var2x), (ConfigEnums$ConfigEnum)this.newValues.get(trackedvalue)
                         )
                         .N((ConfigEnums$ConfigEnum[])((Enum)configenums$configenum).getDeclaringClass().getEnumConstants())
@@ -205,18 +198,20 @@ public class OkZoomerConfigScreen extends class05096 {
 
       this.method_37063(this.selectionList);
       this.layout.N(this.field_22785, this.field_22793);
-      class01885 class01885 = (class01885)this.layout.y(class01885.i().N(8));
+      class01885 class01885 = this.layout.y(class01885.i().N(8));
       class01885.N(class05362.method_46430(class00392.L("config.ok_zoomer.discard_changes"), var1x -> this.resetNewValues()).N(150).N());
       class01885.N(class05362.method_46430(class05220.u, var1x -> this.method_25419()).N(150).N());
       this.layout.method_48206(var1x -> this.method_37063(var1x));
       this.method_48640();
    }
 
+   @Override
    public void method_48640() {
       this.layout.N();
       this.selectionList.method_57712(this.field_22789, this.layout);
    }
 
+   @Override
    public void method_25432() {
       this.newValues.forEach((var1, var2) -> {
          if (!this.invalidValues.contains(var1)) {
@@ -226,6 +221,7 @@ public class OkZoomerConfigScreen extends class05096 {
       OkZoomerConfigManager.CONFIG.save();
    }
 
+   @Override
    public void method_25419() {
       this.field_22787.N(this.parent);
    }

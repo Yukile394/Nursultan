@@ -15,6 +15,7 @@ public class class10757 extends class02932 {
       this.N = var9;
    }
 
+   @Override
    public boolean N() {
       return this.N.method_56991(class07085.field_55946) && this.N.method_5864().N(class01217.V);
    }

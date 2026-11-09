@@ -37,7 +37,7 @@ public class class11919 {
    public static void y(Runnable var0, BiConsumer<Integer, Integer> var1, int var2) {
       boolean flag = i();
       int i = flag ? 40 : B();
-      class11938.m().N(0, var2, i, class07510.field_7791).y((class12040)(var5 -> {
+      class11938.m().N(0, var2, i, class07510.field_7791).y(var5 -> {
          if (flag) {
             N(class07050.field_5810, var0);
          } else {
@@ -47,7 +47,7 @@ public class class11919 {
          }
 
          var1.accept(var2, i);
-      })).y();
+      }).y();
    }
 
    public static boolean y() {
@@ -67,10 +67,10 @@ public class class11919 {
 
    public static void N(Runnable var0, BiConsumer<Integer, Integer> var1, int var2) {
       if (i()) {
-         class11938.m().N(0, var2 + 36, 40, class07510.field_7791).y((class12040)(var3 -> {
+         class11938.m().N(0, var2 + 36, 40, class07510.field_7791).y(var3 -> {
             N(class07050.field_5810, var0);
             var1.accept(var2 + 36, 40);
-         })).y();
+         }).y();
       } else {
          class11322.N(var2);
          N(class07050.field_5808, var0);

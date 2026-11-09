@@ -5,6 +5,7 @@ import com.mojang.datafixers.util.Either;
 public record class10191<T>(Either<T, Exception> value, long time) {
 
    public class10191(Either<T, Exception> value, long time) {
+      super();
       this.value = value;
       this.time = time;
    }

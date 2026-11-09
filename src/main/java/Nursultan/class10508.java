@@ -13,6 +13,7 @@ public class class10508<R> extends AbstractIterator<R> {
    private int R;
 
    public class10508(class05374 var1, BitSet var2, Long2ObjectMap var3, int var4, class05474 var5, int var6) {
+      super();
       this.N = var2;
       this.y = var3;
       this.L = var4;

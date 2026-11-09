@@ -4,6 +4,7 @@ public final class class09793<T> {
    private T N;
 
    public class09793() {
+      super();
    }
 
    public T N() {

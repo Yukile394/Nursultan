@@ -9,5 +9,6 @@ public final class class09957 {
    public boolean R;
 
    public class09957() {
+      super();
    }
 }

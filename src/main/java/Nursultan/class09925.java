@@ -36,6 +36,7 @@ public record class09925(
       int shadowColor,
       float shadowRadius
    ) {
+      super();
       if (borderPosition == null) {
          borderPosition = class09981.INSIDE;
       }

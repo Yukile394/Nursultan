@@ -16,6 +16,7 @@ public abstract class class11553<T extends class11067 & class11542> implements c
    }
 
    public class11553(T var1, String var2) {
+      super();
       this.M();
       this.N_0 = class06202.Nq();
       this.N_1 = var1;

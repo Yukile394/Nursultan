@@ -12,6 +12,7 @@ public record class09666(float pixels, float percent) {
    }
 
    public class09666(float pixels, float percent) {
+      super();
       pixels = u(pixels);
       percent = u(percent);
       this.pixels = pixels;

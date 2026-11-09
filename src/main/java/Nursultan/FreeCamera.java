@@ -35,6 +35,7 @@ public class FreeCamera extends class11067 {
    public Object L_6;
 
    public FreeCamera() {
+      super();
       this.v();
       this.L_0 = class11524.N(this, "speed-xz", 1.0F, 0.1F, 4.0F, 0.1F);
       this.L_1 = class11524.N(this, "speed-y", 0.6F, 0.1F, 2.0F, 0.1F);
@@ -87,9 +88,9 @@ public class FreeCamera extends class11067 {
       this.v();
       var1.N(((Vector2f)this.L_6).x);
       var1.y(((Vector2f)this.L_6).y);
-      var1.L(class04995.u(class11925.N((class04453)((class06202)super.y_0).T_4), ((Vector3d)this.L_4).x, ((Vector3d)this.L_5).x));
-      var1.y(class04995.u(class11925.N((class04453)((class06202)super.y_0).T_4), ((Vector3d)this.L_4).y, ((Vector3d)this.L_5).y));
-      var1.N(class04995.u(class11925.N((class04453)((class06202)super.y_0).T_4), ((Vector3d)this.L_4).z, ((Vector3d)this.L_5).z));
+      var1.L(class04995.u((double)class11925.N((class04453)((class06202)super.y_0).T_4), ((Vector3d)this.L_4).x, ((Vector3d)this.L_5).x));
+      var1.y(class04995.u((double)class11925.N((class04453)((class06202)super.y_0).T_4), ((Vector3d)this.L_4).y, ((Vector3d)this.L_5).y));
+      var1.N(class04995.u((double)class11925.N((class04453)((class06202)super.y_0).T_4), ((Vector3d)this.L_4).z, ((Vector3d)this.L_5).z));
       var1.N();
    }
 

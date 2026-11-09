@@ -26,6 +26,7 @@ public class class10701<T> extends class06968<T> {
       super(var1);
    }
 
+   @Override
    protected void y(class04770 var1, class07321 var2) {
       class10692 class10692 = this.y.get(var2);
       if (class10692 != null && class10692.N != null) {
@@ -37,12 +38,13 @@ public class class10701<T> extends class06968<T> {
          if (object != null) {
             class07209 class07209 = (class07209)entry.getKey();
             if (var2.y(class07209)) {
-               var1.field_13987.method_14364(new class00437(class07209, this.N.N(object)));
+               var1.field_13987.method_14364(new class00437(class07209, this.N.N((T)object)));
             }
          }
       }
    }
 
+   @Override
    protected void y(class04770 var1, class07049 var2) {
       class10692 class10692 = this.u.get(var2.method_5667());
       if (class10692 != null && class10692.N != null) {
@@ -50,6 +52,7 @@ public class class10701<T> extends class06968<T> {
       }
    }
 
+   @Override
    protected void y(class04782 var1) {
       for (Entry entry : this.y.entrySet()) {
          class00442 class00442xx = ((class10692)entry.getValue()).N(this.N);
@@ -92,6 +95,7 @@ public class class10701<T> extends class06968<T> {
       this.u.put(var1, new class10692<>(var2));
    }
 
+   @Override
    protected void N() {
       this.y.clear();
       this.L.clear();

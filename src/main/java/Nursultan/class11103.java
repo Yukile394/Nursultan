@@ -47,7 +47,7 @@ public class class11103 extends class11079 {
    }
 
    public boolean N(boolean var1) {
-      return ((class11799)((class03443)((class06202)super.y_0).T_2)).N() > 1 && !var1;
+      return ((class03443)((class06202)super.y_0).T_2).N() > 1 && !var1;
    }
 
    private void R() {

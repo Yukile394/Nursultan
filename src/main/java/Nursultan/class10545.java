@@ -38,15 +38,16 @@ public class class10545 extends class05484 {
    private final boolean Z;
 
    public class10545(class04589 var1, class01894 var2) {
+      super();
       this.y = var1;
       this.N = Lists.newArrayList();
       this.u = var2;
       class01285 class01285 = class06134.N(var2);
       this.Z = class01285 != null && class01285.method_72753(class04589.y(var1).h());
-      Object object = this.N(var2, (Operation)(var0 -> {
+      Object object = this.N(var2, var0 -> {
          WrapOperationRuntime.checkArgumentCount(var0, 1, "[net.minecraft.class_2960]");
          return ((class01894)var0[0]).N();
-      }));
+      });
       if (this.Z) {
          this.B = (String)object;
       } else {
@@ -71,14 +72,15 @@ public class class10545 extends class05484 {
       this.N();
    }
 
+   @Override
    public void N() {
       class06276 class06276 = ((class05731)class04589.R(this.y).L_0).N(this.u);
-      this.i.N(class06276 == class06276.field_61593);
-      this.R.N(class06276 == class06276.field_61594);
-      this.M.N(class06276 == class06276.field_61595);
-      this.i.field_22763 = !(Boolean)this.i.y();
-      this.R.field_22763 = !(Boolean)this.R.y();
-      this.M.field_22763 = !(Boolean)this.M.y();
+      this.i.N(Boolean.valueOf(class06276 == class06276.field_61593));
+      this.R.N(Boolean.valueOf(class06276 == class06276.field_61594));
+      this.M.N(Boolean.valueOf(class06276 == class06276.field_61595));
+      this.i.field_22763 = !this.i.y();
+      this.R.field_22763 = !this.R.y();
+      this.M.field_22763 = !this.M.y();
    }
 
    private String N(class01894 var1, Operation var2) {
@@ -86,9 +88,7 @@ public class class10545 extends class05484 {
    }
 
    private class05216 N(class06366<Boolean> var1) {
-      return class05220.N(
-         class00392.N("debug.entry.currently." + ((class05731)class04589.L(this.y).L_0).N(this.u).method_15434(), new Object[]{this.B}), var1.method_25369()
-      );
+      return class05220.N(class00392.N("debug.entry.currently." + ((class05731)class04589.L(this.y).L_0).N(this.u).method_15434(), this.B), var1.method_25369());
    }
 
    private void N(class01894 var1, class06276 var2) {
@@ -102,14 +102,17 @@ public class class10545 extends class05484 {
       this.N();
    }
 
+   @Override
    public List<? extends class04654> method_25396() {
       return this.N;
    }
 
+   @Override
    public List<? extends class03434> method_37025() {
       return this.N;
    }
 
+   @Override
    public void method_25343(class01054 var1, int var2, int var3, boolean var4, float var5) {
       int ix = this.method_73380();
       int j = this.method_73382();

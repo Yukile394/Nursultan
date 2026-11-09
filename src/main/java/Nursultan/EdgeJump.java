@@ -10,6 +10,7 @@ import minecraft.class06202;
 )
 public class EdgeJump extends class11067 {
    public EdgeJump() {
+      super();
    }
 
    @class11782

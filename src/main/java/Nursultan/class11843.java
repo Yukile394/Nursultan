@@ -9,6 +9,7 @@ public class class11843 {
    }
 
    public class11843() {
+      super();
       this.L();
       this.N_0 = new Int2ObjectOpenHashMap();
       this.N(0, new class11438());

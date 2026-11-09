@@ -7,6 +7,7 @@ public class class10712 {
    private final String y;
 
    public class10712(String var1, @Nullable Object var2) {
+      super();
       this.N = var1;
       if (var2 == null) {
          this.y = "~~NULL~~";

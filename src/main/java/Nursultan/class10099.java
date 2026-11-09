@@ -4,6 +4,7 @@ import minecraft.class04039;
 import minecraft.class04049;
 
 abstract class class10099 extends class04049 {
+   @Override
    protected long L() {
       return this.L.W;
    }

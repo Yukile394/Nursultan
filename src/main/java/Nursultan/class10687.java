@@ -11,6 +11,7 @@ public class class10687 extends class06937 {
       super(var2, var3, var4, var5);
    }
 
+   @Override
    public boolean N(class06584 var1) {
       return var1.L(class02484.NW);
    }

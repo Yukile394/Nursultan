@@ -37,6 +37,7 @@ public class class09162 {
    }
 
    public class09162() {
+      super();
       this.M();
    }
 

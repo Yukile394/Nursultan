@@ -21,6 +21,7 @@ import ru.fiw.proxyserver.Proxy.ProxyType;
 
 public class class09379 extends ChannelInitializer<Channel> {
    public class09379(class00642 var1) {
+      super();
       this.N = var1;
    }
 

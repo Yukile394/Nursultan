@@ -7,6 +7,7 @@ import minecraft.class06799;
 
 public class class10392 implements class06799 {
    public class10392() {
+      super();
    }
 
    public void N(class10395 var1, class00667 var2) {

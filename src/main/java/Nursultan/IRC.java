@@ -7,6 +7,7 @@ package Nursultan;
 )
 public class IRC extends class11067 {
    public IRC() {
+      super();
    }
 
    @Override

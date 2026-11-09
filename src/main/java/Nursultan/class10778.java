@@ -11,6 +11,7 @@ public class class10778 extends class07458 {
       this.N = var1;
    }
 
+   @Override
    public void N() {
       if (this.N.No()) {
          super.N();

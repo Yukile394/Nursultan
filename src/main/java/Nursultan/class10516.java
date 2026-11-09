@@ -13,6 +13,7 @@ public class class10516 extends class04897 {
       this.N = var1;
    }
 
+   @Override
    protected class05216 method_25360() {
       return this.N.N(super.method_25360());
    }

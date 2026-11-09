@@ -22,6 +22,7 @@ public class Cooldowns extends class11067 {
    }
 
    public Cooldowns() {
+      super();
       this.P();
       this.L_0 = class11524.N(this, "render-on-items", true);
       this.L_1 = class11524.N(this, "inventory-only", false);
@@ -54,7 +55,7 @@ public class Cooldowns extends class11067 {
             class06556 class06556 = class04453.method_7357();
             class01894 class01894 = class06556.y(class06584);
             if (class01894 != null) {
-               class10621 class10621 = (class10621)class06556.N.get(class01894);
+               class10621 class10621 = class06556.N.get(class01894);
                if (class10621 != null) {
                   float f = ((class06202)super.y_0).NK().N(true);
                   float f1 = class10621.y() - (class06556.y + f);

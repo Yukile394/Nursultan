@@ -9,6 +9,7 @@ public class class10973 {
    }
 
    public class10973(class00392 var1) {
+      super();
       this.L();
       this.N_0 = var1;
    }

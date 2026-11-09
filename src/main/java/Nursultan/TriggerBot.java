@@ -107,6 +107,7 @@ public class TriggerBot extends class11067 {
    }
 
    public TriggerBot() {
+      super();
       this.T();
       this.u_0 = new class11785("invisible", false);
       this.u_1 = new class11786("naked", true);
@@ -346,7 +347,7 @@ public class TriggerBot extends class11067 {
          }
 
          this.M_0 = this.v();
-         class08172 class08172 = (class08172)((class04453)((class06202)super.y_0).T_4).method_6047().method_58694(class02484.c);
+         class08172 class08172 = ((class04453)((class06202)super.y_0).T_4).method_6047().method_58694(class02484.c);
          if (class08172 != null) {
             this.N(class08172);
          } else {

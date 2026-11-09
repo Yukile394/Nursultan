@@ -10,6 +10,7 @@ public class class10091 extends class10099 {
       this.N = var2;
    }
 
+   @Override
    protected boolean N() {
       return this.L.T == Integer.MIN_VALUE || this.L.s + (this.y.u() ? this.L.j : 0) >= this.L.T + this.y.y() + this.L.E * this.y.L();
    }

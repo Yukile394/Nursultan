@@ -22,6 +22,7 @@ public record class09962(class09982 mode, float min, float max, float value) {
    }
 
    public class09962(class09982 mode, float min, float max, float value) {
+      super();
       this.mode = mode;
       this.min = min;
       this.max = max;

@@ -15,6 +15,7 @@ public class FreeLook extends class11067 {
    public Object L_1;
 
    public FreeLook() {
+      super();
       this.b();
       this.L_0 = class11524.N(this, "pov", new class11268("back", true), new class11260("front", false), new class11252("nothing", false));
       this.L_1 = new Vector2f(0.0F, 0.0F);

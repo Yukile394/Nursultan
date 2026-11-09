@@ -18,6 +18,7 @@ public class class09250 {
    }
 
    public class09250(class11776 var1, boolean var2, long var3) {
+      super();
       this.z();
       this.N_0 = var1;
       this.N_2 = var2;

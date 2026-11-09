@@ -10,6 +10,7 @@ public class class10094 extends class10099 {
       this.N = var2;
    }
 
+   @Override
    protected boolean N() {
       return this.L.s + (this.y.u() ? this.L.j : 0) >= this.y.y().N(this.L.B) + this.L.E * this.y.L();
    }

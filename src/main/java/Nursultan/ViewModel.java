@@ -18,6 +18,7 @@ public class ViewModel extends class11067 {
    public Object L_7;
 
    public ViewModel() {
+      super();
       this.b();
       this.L_0 = class11524.N(this, "right-hand-x", 0.0F, -1.0F, 1.0F, 0.05F);
       this.L_1 = class11524.N(this, "right-hand-y", 0.0F, -1.0F, 1.0F, 0.05F);

@@ -9,6 +9,7 @@ import minecraft.class04911;
 public class class09051 extends class00155 {
    private final class04453 m;
 
+   @Override
    public void P() {
       if (this.m.method_31481() || !this.m.method_5869()) {
          this.y();

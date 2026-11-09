@@ -53,17 +53,20 @@ public class class11284 extends class05362 {
       }
    }
 
+   @Override
    public void method_25306(class06611 var1) {
       this.U();
       super.method_25306(var1);
       this.N_2 = class11938.j().y();
    }
 
+   @Override
    public void method_75752(class01054 var1, int var2, int var3, float var4) {
       this.method_75794(var1);
       this.method_75793(var1.N(this, class01065.field_63850));
    }
 
+   @Override
    public void method_25357(class06613 var1) {
       this.U();
       super.method_25357(var1);

@@ -140,6 +140,7 @@ public class class09157 {
    }
 
    public class09157() {
+      super();
       this.i();
       this.L_0 = new class09166();
       this.L_1 = new int[34];

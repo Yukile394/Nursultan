@@ -5,6 +5,7 @@ import minecraft.class02689;
 
 public record class09415(class02689 profile, boolean hat) implements class00949 {
    public class09415(class02689 profile, boolean hat) {
+      super();
       this.profile = profile;
       this.hat = hat;
    }

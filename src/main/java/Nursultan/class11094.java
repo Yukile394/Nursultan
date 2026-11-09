@@ -31,7 +31,7 @@ public class class11094 implements Predicate<class07049> {
          || var1 == ((class04453)AttackAura.L((AttackAura)this.N_0).T_4).method_5854()) {
          return false;
       } else if (var1 instanceof class07438 class07438) {
-         if (((List)((class11523)((AttackAura)this.N_0).L_1).i()).stream().noneMatch(var1x -> var1x.test((class07049)class07438))) {
+         if (((List)((class11523)((AttackAura)this.N_0).L_1).i()).stream().noneMatch(var1x -> var1x.test((class07438)class07438))) {
             return false;
          } else if (!((AttackAura)this.N_0).N(class07438)) {
             return false;

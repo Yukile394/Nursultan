@@ -7,6 +7,7 @@ public record class09741(boolean changed, boolean layoutChanged) {
    private static final class09741 R = new class09741(false, true);
 
    public class09741(boolean changed, boolean layoutChanged) {
+      super();
       this.changed = changed;
       this.layoutChanged = layoutChanged;
    }

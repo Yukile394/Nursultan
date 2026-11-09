@@ -16,7 +16,7 @@ public class class11071 extends class11079 {
 
    @Override
    public class11499 N(class07438 var1, boolean var2, double var3) {
-      if (((class11799)((class03443)((class06202)super.y_0).T_2)).N() == 1) {
+      if (((class03443)((class06202)super.y_0).T_2).N() == 1) {
          return class11505.N();
       } else {
          class11499 class11499 = class11505.N(class11505.N(), this.N(var1, var3));

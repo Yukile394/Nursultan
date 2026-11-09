@@ -20,6 +20,7 @@ public class class11204 {
    }
 
    public class11204(class09322 var1, class12036 var2, int var3) {
+      super();
       this.M();
       this.N_0 = var1;
       this.N_1 = var2;

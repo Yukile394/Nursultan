@@ -32,6 +32,7 @@ public class class09071 {
    }
 
    public class09071(class09742 var1, int var2, float var3, Path var4) {
+      super();
       this.m();
       this.y_5 = System.currentTimeMillis();
       this.N_0 = var1;

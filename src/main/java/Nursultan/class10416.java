@@ -4,10 +4,12 @@ import minecraft.class04489;
 
 public record class10416(String name, int index) implements class04489 {
    public class10416(String name, int index) {
+      super();
       this.name = name;
       this.index = index;
    }
 
+   @Override
    public String get() {
       return "." + this.name + "[" + this.index + "]";
    }

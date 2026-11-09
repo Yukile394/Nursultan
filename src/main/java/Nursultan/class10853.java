@@ -13,6 +13,7 @@ public class class10853<T extends class07438> extends class07464<T> {
       this.Z = var1;
    }
 
+   @Override
    public boolean N() {
       return this.Z.v() != class07897.field_41567 && super.N();
    }

@@ -19,6 +19,7 @@ public class class11865 implements class09819 {
    }
 
    public class11865() {
+      super();
       this.u();
       this.N_0 = new class11934(class11903.FORWARDS);
    }

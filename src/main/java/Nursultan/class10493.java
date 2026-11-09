@@ -9,12 +9,15 @@ import minecraft.class07211;
 
 public class class10493 implements class05143 {
    public class10493() {
+      super();
    }
 
+   @Override
    public boolean N(class06433 var1) {
       return var1.L[class07211.field_11036.L()] && !var1.y[class07211.field_11036.L()].u;
    }
 
+   @Override
    public class06476 N(class07211 var1, class06433 var2, class06069 var3) {
       var2.u = true;
       var2.y[class07211.field_11036.L()].u = true;

@@ -16,6 +16,7 @@ public record class10041(
    public class10041(
       String committedText, String displayText, boolean placeholderVisible, int caretOffset, int selectionStartOffset, int selectionEndOffset, float scrollX
    ) {
+      super();
       committedText = committedText == null ? "" : committedText;
       displayText = displayText == null ? "" : displayText;
       caretOffset = class10067.N(committedText, caretOffset);

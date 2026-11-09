@@ -9,6 +9,7 @@ public class class11667 {
    public Object N_0;
 
    public class11667() {
+      super();
       this.u();
       this.N_0 = new LinkedHashMap();
    }

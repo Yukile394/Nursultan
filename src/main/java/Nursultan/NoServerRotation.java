@@ -27,6 +27,7 @@ public class NoServerRotation extends class11067 {
    }
 
    public NoServerRotation() {
+      super();
       this.T();
    }
 

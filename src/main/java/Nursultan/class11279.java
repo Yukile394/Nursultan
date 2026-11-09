@@ -18,6 +18,7 @@ public class class11279 {
    public Object y_5;
 
    public class11279(class05216 var1, class05361 var2) {
+      super();
       this.y();
       this.y_0 = class11284.u();
       this.y_3 = (Consumer<class05362>)var0 -> {};

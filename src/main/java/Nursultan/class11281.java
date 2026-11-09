@@ -38,7 +38,7 @@ public class class11281 {
       class00743<class06584> class00743 = ((class04453)((class06202)N_0).T_4).method_31548().u();
 
       for (int i = 0; i < class00743.size(); i++) {
-         class06584 class06584 = (class06584)class00743.get(i);
+         class06584 class06584 = class00743.get(i);
          if (var0.test(class06584)) {
             arraylist.add(new class11297(class06584, i));
          }
@@ -74,7 +74,7 @@ public class class11281 {
       class00743<class06584> class00743 = ((class04453)((class06202)N_0).T_4).method_31548().u();
 
       for (int i = 0; i < 9; i++) {
-         class06584 class06584 = (class06584)class00743.get(i);
+         class06584 class06584 = class00743.get(i);
          if (var0.test(class06584)) {
             arraylist.add(new class11297(class06584, i));
          }
@@ -175,7 +175,7 @@ public class class11281 {
       class00743<class06584> class00743 = ((class04453)((class06202)N_0).T_4).method_31548().u();
 
       for (int i = 0; i < class00743.size(); i++) {
-         if (var0.test((class06584)class00743.get(i))) {
+         if (var0.test(class00743.get(i))) {
             return i;
          }
       }

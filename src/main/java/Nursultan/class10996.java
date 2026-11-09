@@ -7,6 +7,7 @@ public class class10996 {
    }
 
    public class10996() {
+      super();
    }
 
    static {

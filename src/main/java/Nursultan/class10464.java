@@ -7,21 +7,26 @@ import minecraft.class07703;
 
 public class class10464 implements class07703 {
    public class10464(class04770 var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    public boolean B() {
       return true;
    }
 
+   @Override
    public void N(class00392 var1) {
       this.N.method_64398(var1);
    }
 
+   @Override
    public boolean A_() {
-      return (Boolean)this.N.method_51469().method_64395().N(class07305.F);
+      return this.N.method_51469().method_64395().N(class07305.F);
    }
 
+   @Override
    public boolean B_() {
       return true;
    }

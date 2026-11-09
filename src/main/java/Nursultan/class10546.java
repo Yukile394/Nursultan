@@ -10,5 +10,6 @@ public class class10546 {
    public class05928 L;
 
    public class10546() {
+      super();
    }
 }

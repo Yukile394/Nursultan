@@ -83,7 +83,7 @@ public class class10895 extends class11807<WallClimb> {
 
                for (int j = 0; j < 2; j++) {
                   if (this.N(
-                     (class12010)class06918,
+                     class06918,
                      aclass07209,
                      new class06889(class06889x.M, Math.floor(class06889x.B) + 0.9 - i - j, class06889x.Z),
                      class06889x,
@@ -95,7 +95,7 @@ public class class10895 extends class11807<WallClimb> {
                   }
 
                   if (this.N(
-                     (class12010)class06918,
+                     class06918,
                      aclass07209,
                      new class06889(class06889x.M, Math.floor(class06889x.B) + 0.1 - i - j, class06889x.Z),
                      class06889x,
@@ -191,7 +191,7 @@ public class class10895 extends class11807<WallClimb> {
       class07209[] aclass07209 = new class07209[5];
 
       for (int i = 0; i < 4; i++) {
-         aclass07209[i] = var1.method_10093(class07211.N(((class04453)((class06202)super.N_0).T_4).method_36454() % 360.0F + i * 90));
+         aclass07209[i] = var1.method_10093(class07211.N((double)(((class04453)((class06202)super.N_0).T_4).method_36454() % 360.0F + i * 90)));
       }
 
       aclass07209[4] = var1;

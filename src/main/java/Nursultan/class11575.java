@@ -37,6 +37,7 @@ public class class11575 {
    }
 
    public class11575() {
+      super();
       this.W();
       this.y_0 = new AtomicBoolean(false);
       this.y_1 = new AtomicBoolean(false);

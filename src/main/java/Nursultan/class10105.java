@@ -7,13 +7,16 @@ import minecraft.class04770;
 
 public record class10105(class00392 content) implements class03059 {
    public class10105(class00392 content) {
+      super();
       this.content = content;
    }
 
+   @Override
    public class00392 N() {
       return this.content;
    }
 
+   @Override
    public void N(class04770 var1, boolean var2, class00649 var3) {
       var1.field_13987.method_45168(this.content, var3);
    }

@@ -15,9 +15,11 @@ public class class10784 implements class07675 {
    private final class06794 N;
 
    public class10784(class06794 var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    public Collection<class08774> getNames(class07701 var1) throws CommandSyntaxException {
       List<class04770> list = this.N.u(var1);
       if (list.isEmpty()) {

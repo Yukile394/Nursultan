@@ -96,7 +96,7 @@ public class class11315 {
    }
 
    public static int N() {
-      return ((class11799)((class03443)((class06202)N_0).T_2)).N();
+      return ((class03443)((class06202)N_0).T_2).N();
    }
 
    private static void R() {

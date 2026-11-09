@@ -18,6 +18,7 @@ public class class09324 {
    }
 
    public class09324() {
+      super();
       this.z();
    }
 

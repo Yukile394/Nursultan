@@ -109,6 +109,7 @@ public class class11247 {
    }
 
    public class11247() {
+      super();
       this.z();
       this.i_0 = class06202.Nq();
       this.i_1 = class11213.N((class09087)N_1, 65536, 16384);

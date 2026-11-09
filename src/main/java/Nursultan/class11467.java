@@ -4,6 +4,7 @@ public class class11467 {
    public Object N_0;
 
    public class11467() {
+      super();
       this.u();
       this.N_0 = System.nanoTime();
       this.N();

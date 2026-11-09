@@ -3,6 +3,7 @@ package Nursultan;
 public record class11398(class09173 bind, class11386 change) {
 
    public class11398(class09173 bind, class11386 change) {
+      super();
       this.bind = bind;
       this.change = change;
    }

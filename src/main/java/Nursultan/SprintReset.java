@@ -24,6 +24,7 @@ public class SprintReset extends class11067 {
    public boolean i_init;
 
    public SprintReset() {
+      super();
       this.j();
       this.L_0 = new class11156(this, "w-tap", true);
       this.L_1 = new class11128(this, "s-tap", false);

@@ -20,6 +20,7 @@ public class LockSlots extends class11067 {
    }
 
    public LockSlots() {
+      super();
       this.T();
       this.L_0 = class11524.y(
          this,
@@ -76,7 +77,7 @@ public class LockSlots extends class11067 {
          if (class08044.L(i)) {
             return i;
          } else if (var2 != null && var0.u >= 0 && var0.u < var2.T.size()) {
-            class06937 class06937 = (class06937)var2.T.get(var0.u);
+            class06937 class06937 = var2.T.get(var0.u);
             if (class06937.L != var1) {
                return -1;
             } else {

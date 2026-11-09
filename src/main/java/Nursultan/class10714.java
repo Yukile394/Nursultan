@@ -12,6 +12,7 @@ public class class10714 implements class07446 {
    }
 
    public class10714(boolean var1, float var2) {
+      super();
       this.y = var1;
       this.L = var2;
    }

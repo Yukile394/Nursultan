@@ -7,6 +7,7 @@ public abstract class class11473<T extends class11481> {
    public Object N_0;
 
    public class11473() {
+      super();
       this.u();
       this.N_0 = new ArrayList();
       class11938.L().y(this);

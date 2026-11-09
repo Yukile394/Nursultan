@@ -12,6 +12,7 @@ public class class10862 extends class07953 {
    private class07438 y;
    private int L;
 
+   @Override
    public void L() {
       this.i.y(this.y);
       class07438 class07438 = this.N.L_();
@@ -28,6 +29,7 @@ public class class10862 extends class07953 {
       this.N_71(EnumSet.of(class07430.field_18408));
    }
 
+   @Override
    public boolean N() {
       if (this.N.NQ() && !this.N.NJ()) {
          class07438 class07438 = this.N.L_();

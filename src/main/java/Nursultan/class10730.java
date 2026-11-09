@@ -22,6 +22,7 @@ public class class10730 extends AbstractIterator<class07209> {
    private final int G;
 
    public class10730(class07211 var1, class07211 var2, class07211 var3, int var4, int var5, int var6, int var7, int var8, int var9) {
+      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;

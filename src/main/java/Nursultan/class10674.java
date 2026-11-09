@@ -17,10 +17,11 @@ import minecraft.class07689;
 public class class10674 implements ArgumentType<Integer> {
    private static String[] R;
    public static Object N_0 = new SimpleCommandExceptionType(class00392.L(R[1]));
-   public static Object N_1 = new DynamicCommandExceptionType(var0 -> class00392.N(R[0], new Object[]{var0}));
+   public static Object N_1 = new DynamicCommandExceptionType(var0 -> class00392.N(R[0], var0));
    public static Object N_2 = new Object2IntOpenHashMap();
 
    public class10674() {
+      super();
    }
 
    static {

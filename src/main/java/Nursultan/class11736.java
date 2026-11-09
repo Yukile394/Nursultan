@@ -9,6 +9,7 @@ public class class11736 implements class09667 {
    }
 
    public class11736(class09868 var1) {
+      super();
       this.i();
       this.y_0 = var1;
    }

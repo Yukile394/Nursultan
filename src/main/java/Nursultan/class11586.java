@@ -9,6 +9,7 @@ public class class11586 {
    public Object N_0;
 
    public class11586(class11576 var1) {
+      super();
       this.y();
       this.N_0 = var1;
    }

@@ -6,6 +6,7 @@ public record class09960(int x, int y, int width, int height) {
    }
 
    public class09960(int x, int y, int width, int height) {
+      super();
       if (x < 0) {
          throw new IllegalArgumentException("x must be >= 0");
       } else if (y < 0) {

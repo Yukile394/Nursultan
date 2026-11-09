@@ -15,6 +15,7 @@ public class class10773 implements ArgumentType<class09332> {
    public static Object N_0 = new DynamicCommandExceptionType(var0 -> class00392.y(class12020.N("friend.not-found").formatted(var0)));
 
    public class10773() {
+      super();
    }
 
    static {

@@ -11,6 +11,7 @@ public record class11837(String iconPath, int iconColor, String text, Runnable o
    }
 
    public class11837(String iconPath, int iconColor, String text, Runnable onClick, boolean disabled) {
+      super();
       this.iconPath = iconPath;
       this.iconColor = iconColor;
       this.text = text;

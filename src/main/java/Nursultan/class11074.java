@@ -61,6 +61,7 @@ public class class11074 {
    }
 
    public class11074() {
+      super();
       this.i();
       this.y_0 = class06202.Nq();
       this.y_1 = class11213.N((class09087)R_1, 65536, 16384);
@@ -203,7 +204,7 @@ public class class11074 {
          this.N(f);
          if ((List)this.u_2 != null) {
             class06889 class06889x = var1.y().y();
-            class06889 class06889x = ((class06889)this.u_3).N((class06889)this.u_4, f);
+            class06889 class06889x = ((class06889)this.u_3).N((class06889)this.u_4, (double)f);
             ((Matrix4f)this.u_0)
                .translation((float)(class06889x.M - class06889x.M), (float)(class06889x.B - class06889x.B), (float)(class06889x.Z - class06889x.Z));
             class11925.N(((class06202)this.y_0).e(), true);
@@ -278,9 +279,9 @@ public class class11074 {
 
          try {
             class06889 class06889 = new class06889(
-               class04995.u(var1, ((class07438)this.u_1).field_6014, ((class07438)this.u_1).method_23317()),
-               class04995.u(var1, ((class07438)this.u_1).field_6036, ((class07438)this.u_1).method_23318()),
-               class04995.u(var1, ((class07438)this.u_1).field_5969, ((class07438)this.u_1).method_23321())
+               class04995.u((double)var1, ((class07438)this.u_1).field_6014, ((class07438)this.u_1).method_23317()),
+               class04995.u((double)var1, ((class07438)this.u_1).field_6036, ((class07438)this.u_1).method_23318()),
+               class04995.u((double)var1, ((class07438)this.u_1).field_5969, ((class07438)this.u_1).method_23321())
             );
             List<class11904> list = class11890.N((class07438)this.u_1, class06889, var1);
             if (!list.isEmpty()) {
@@ -319,7 +320,7 @@ public class class11074 {
       f += class04995.R(f1 - f) * 0.3F;
       float f3 = class04995.R((Float)this.L_2 - f);
       if (Math.abs(f3) > 50.0F) {
-         f += f3 - class04995.U(f3) * 50.0F;
+         f += f3 - class04995.U((double)f3) * 50.0F;
       }
 
       return f;

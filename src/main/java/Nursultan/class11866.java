@@ -3,6 +3,7 @@ package Nursultan;
 public record class11866(class11067 module, class09785<Boolean> opened) {
 
    public class11866(class11067 module, class09785<Boolean> opened) {
+      super();
       this.module = module;
       this.opened = opened;
    }

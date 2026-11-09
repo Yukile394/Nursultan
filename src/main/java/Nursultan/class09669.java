@@ -20,8 +20,9 @@ public class class09669 implements class09670 {
    }
 
    public class09669(class01463 var1) {
+      super();
       this.y = var1;
-      this.L = (class09665)var1;
+      this.L = var1;
    }
 
    @Override

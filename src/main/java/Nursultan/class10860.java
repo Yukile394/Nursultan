@@ -24,6 +24,7 @@ public class class10860 implements ArgumentType<Integer> {
    }
 
    public class10860() {
+      super();
    }
 
    static {

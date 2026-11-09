@@ -10,6 +10,7 @@ public class class09129 {
    public boolean N_init;
 
    public class09129() {
+      super();
       this.R();
    }
 

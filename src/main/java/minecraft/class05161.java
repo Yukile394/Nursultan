@@ -1,0 +1,48 @@
+package minecraft;
+
+import java.util.List;
+
+class class05161 implements class05159 {
+   class05161() {
+      super();
+   }
+
+   @Override
+   public void N() {
+   }
+
+   @Override
+   public boolean N(class01224 var1, int var2, class05180 var3, class07209 var4, List<class04890> var5, class06069 var6) {
+      class06993 class06993 = var3.U().u();
+      class05180 class05180xx = class05160.N(var5, class05160.N(var1, var3, new class07209(3 + var6.y(2), -3, 3 + var6.y(2)), "tower_base", class06993, true));
+      class05180xx = class05160.N(var5, class05160.N(var1, class05180xx, new class07209(0, 7, 0), "tower_piece", class06993, true));
+      class05180 class05180x = var6.y(3) == 0 ? class05180xx : null;
+      int i = 1 + var6.y(3);
+
+      for (int var11 = 0; var11 < i; var11++) {
+         class05180xx = class05160.N(var5, class05160.N(var1, class05180xx, new class07209(0, 4, 0), "tower_piece", class06993, true));
+         if (var11 < i - 1 && var6.Z()) {
+            class05180x = class05180xx;
+         }
+      }
+
+      if (class05180x != null) {
+         for (class05034<class06993, class07209> class05034 : class05160.y) {
+            if (var6.Z()) {
+               class05180 class05180xx = class05160.N(var5, class05160.N(var1, class05180x, class05034.y(), "bridge_end", class06993.N(class05034.N()), true));
+               class05160.N(var1, class05160.u, var2 + 1, class05180xx, null, var5, var6);
+            }
+         }
+
+         class05180xx = class05160.N(var5, class05160.N(var1, class05180xx, new class07209(-1, 4, -1), "tower_top", class06993, true));
+      } else {
+         if (var2 != 7) {
+            return class05160.N(var1, class05160.R, var2 + 1, class05180xx, null, var5, var6);
+         }
+
+         class05180xx = class05160.N(var5, class05160.N(var1, class05180xx, new class07209(-1, 4, -1), "tower_top", class06993, true));
+      }
+
+      return true;
+   }
+}

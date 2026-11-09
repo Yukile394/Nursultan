@@ -14,6 +14,7 @@ public record class11840(List<? extends class11535> entries, class09785<Boolean>
    }
 
    public class11840(List<? extends class11535> entries, class09785<Boolean> opened, Consumer<class11535> onToggle, Float width, float anchorOffsetX) {
+      super();
       this.entries = entries;
       this.opened = opened;
       this.onToggle = onToggle;

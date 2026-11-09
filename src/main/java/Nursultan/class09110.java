@@ -13,6 +13,7 @@ public record class09110(Matrix4fc modelView, Vector4fc colorModulator, Vector3f
    }
 
    public class09110(Matrix4fc modelView, Vector4fc colorModulator, Vector3fc modelOffset, Matrix4fc textureMatrix) {
+      super();
       this.modelView = modelView;
       this.colorModulator = colorModulator;
       this.modelOffset = modelOffset;
@@ -27,6 +28,7 @@ public record class09110(Matrix4fc modelView, Vector4fc colorModulator, Vector3f
       return this.colorModulator;
    }
 
+   @Override
    public void N(ByteBuffer var1) {
       Std140Builder.intoBuffer(var1).putMat4f(this.modelView).putVec4(this.colorModulator).putVec3(this.modelOffset).putMat4f(this.textureMatrix);
    }

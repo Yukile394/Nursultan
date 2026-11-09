@@ -10,6 +10,7 @@ public record class09734(class09735 fieldType, double baseSize, double pxRange, 
    }
 
    public class09734(class09735 fieldType, double baseSize, double pxRange, int initialPageSize, int maxPageSize, double weight) {
+      super();
       if (fieldType == null) {
          throw new IllegalArgumentException("fieldType");
       } else if (baseSize <= 0.0) {

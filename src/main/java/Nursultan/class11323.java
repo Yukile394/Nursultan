@@ -9,6 +9,7 @@ public record class11323(class11298 kind, UUID clientId) {
    }
 
    public class11323(class11298 kind, UUID clientId) {
+      super();
       this.kind = kind;
       this.clientId = clientId;
    }

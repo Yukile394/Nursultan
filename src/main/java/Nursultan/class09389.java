@@ -8,6 +8,7 @@ import minecraft.class03556;
 import org.jspecify.annotations.Nullable;
 
 public class class09389<T> implements class00750<class03556<T>> {
+   @Override
    public int L() {
       return this.y.L();
    }
@@ -18,9 +19,11 @@ public class class09389<T> implements class00750<class03556<T>> {
    }
 
    public class09389(class00751 var1) {
+      super();
       this.y = var1;
    }
 
+   @Override
    public Iterator<class03556<T>> iterator() {
       return this.y.z().map(var0 -> (class03556<T>)var0).iterator();
    }

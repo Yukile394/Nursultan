@@ -29,6 +29,7 @@ public class class10945 {
    }
 
    public class10945() {
+      super();
       this.M();
       this.N_0 = new LinkedHashMap();
       this.N_1 = new AtomicLong();

@@ -13,11 +13,13 @@ public class class09647<T, C, P> extends class02173<class02168<T, C, P>, T> {
       super(var1, var2);
    }
 
+   @Override
    public Stream<class01894> y() {
-      return ((class02168)this.N).y();
+      return this.N.y();
    }
 
+   @Override
    protected T N(ImmutableStringReader var1, class01894 var2) throws Exception {
-      return (T)((class02168)this.N).M(var1, var2);
+      return this.N.M(var1, var2);
    }
 }

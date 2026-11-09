@@ -11,15 +11,16 @@ import minecraft.class06758;
 import minecraft.class07206;
 import minecraft.class07209;
 import minecraft.class07210;
-import minecraft.class07211;
 
 public class class09390 extends class07206 {
    public class09390() {
+      super();
    }
 
+   @Override
    public class06584 N(class07210 var1, class06584 var2) {
       class04782 class04782 = var1.y();
-      class07209 class07209 = var1.L().method_10093((class07211)var1.u().L(class06758.y));
+      class07209 class07209 = var1.L().method_10093(var1.u().L(class06758.y));
       class00500 class00500 = class04782.method_8320(class07209);
       class00891 class00891 = class00500.i();
       if (class00891 instanceof class00886) {

@@ -42,6 +42,7 @@ public class Blink extends class11067 {
    }
 
    public Blink() {
+      super();
       this.P();
       this.L_0 = class11524.N(this, "release-packets-on-hit", true);
       this.L_1 = class11524.N(this, "render-server-position", true);

@@ -14,6 +14,7 @@ public class class10500 extends class04927 {
       this.N = var6;
    }
 
+   @Override
    protected class05216 method_25360() {
       return super.method_25360().y(class05220.t).y(class05208.N);
    }

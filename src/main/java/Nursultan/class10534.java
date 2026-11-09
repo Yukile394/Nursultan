@@ -29,6 +29,7 @@ public class class10534 implements class05663 {
    private final int R;
 
    public class10534(int var1, class03530<class04748> var2, String var3, class03556<class02195> var4, int var5, int var6) {
+      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;
@@ -38,6 +39,7 @@ public class class10534 implements class05663 {
    }
 
    @Nullable
+   @Override
    public class07324 N(class04782 var1, class07049 var2, class06069 var3) {
       class07209 class07209 = var1.method_8487(this.y, var2.method_24515(), 100, true);
       if (class07209 != null) {

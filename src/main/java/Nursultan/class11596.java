@@ -20,6 +20,7 @@ public record class11596(
    public class11596(
       int textureId, float u0, float v0, float u1, float v1, int width, int height, boolean available, class11612 kind, float pxRange, float iconAspect
    ) {
+      super();
       this.textureId = textureId;
       this.u0 = u0;
       this.v0 = v0;

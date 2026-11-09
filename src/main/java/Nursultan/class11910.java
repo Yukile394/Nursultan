@@ -187,11 +187,11 @@ public class class11910 {
    }
 
    public static class11920 N() {
-      return ((class11796)((class11825)((class04453)((class06202)N_4).T_4)).dataManager()).N().N();
+      return ((class11796)((class04453)((class06202)N_4).T_4).dataManager()).N().N();
    }
 
    public static void N(class00381<?> var0) {
-      ((class11797)((class06202)N_4).NE().M()).sendPacketSilent(var0);
+      ((class06202)N_4).NE().M().sendPacketSilent(var0);
    }
 
    public static class00518 R() {

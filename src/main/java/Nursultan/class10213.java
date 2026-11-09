@@ -12,11 +12,13 @@ import minecraft.class03556;
 import minecraft.class05946;
 
 public record class10213<T>(T value) implements class03556<T> {
+   @Override
    public Stream<class03530<T>> L() {
       return Stream.of();
    }
 
    public class10213(T value) {
+      super();
       this.value = (T)value;
    }
 
@@ -25,46 +27,57 @@ public record class10213<T>(T value) implements class03556<T> {
       return "Direct{" + this.value + "}";
    }
 
+   @Override
    public Optional<class05946<T>> i() {
       return Optional.empty();
    }
 
+   @Override
    public Either<class05946<T>, T> u() {
       return Either.right(this.value);
    }
 
+   @Override
    public boolean y() {
       return true;
    }
 
+   @Override
    public boolean N(class05946<T> var1) {
       return false;
    }
 
+   @Override
    public boolean N(class02042<T> var1) {
       return true;
    }
 
+   @Override
    public boolean N(class01894 var1) {
       return false;
    }
 
+   @Override
    public T N() {
       return this.value;
    }
 
+   @Override
    public boolean N(Predicate<class05946<T>> var1) {
       return false;
    }
 
+   @Override
    public boolean N(class03556<T> var1) {
       return this.value.equals(var1.N());
    }
 
+   @Override
    public boolean N(class03530<T> var1) {
       return false;
    }
 
+   @Override
    public class03535 R() {
       return class03535.field_36447;
    }

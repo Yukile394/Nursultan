@@ -66,6 +66,7 @@ public class class11643 {
    }
 
    public class11643(class11742 var1) {
+      super();
       this.u();
       this.L_0 = new ConcurrentLinkedQueue();
       this.L_1 = new Object2ObjectOpenHashMap();

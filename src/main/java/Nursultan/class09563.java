@@ -19,5 +19,6 @@ public class class09563 {
    public static final int s = -2039584;
 
    public class09563() {
+      super();
    }
 }

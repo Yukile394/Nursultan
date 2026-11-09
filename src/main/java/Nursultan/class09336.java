@@ -6,6 +6,7 @@ import org.joml.Matrix4f;
 
 public class class09336 implements class11826<class10967> {
    public class09336() {
+      super();
    }
 
    static {

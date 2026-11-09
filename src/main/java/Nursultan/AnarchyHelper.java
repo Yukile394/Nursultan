@@ -35,6 +35,7 @@ public class AnarchyHelper extends class11067 implements class11542 {
    public Object i_3;
 
    public AnarchyHelper() {
+      super();
       this.b();
       this.i_0 = new class11561(this, "desorientation", class06570.nG, "Дезориентация", "desorientation");
       this.i_1 = new class11561(this, "trap", class06570.TW, "Трапка", "trap");

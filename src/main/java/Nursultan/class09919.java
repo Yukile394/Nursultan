@@ -14,6 +14,7 @@ public record class09919(float translateX, float translateY, float pivotX, float
    }
 
    public class09919(float translateX, float translateY, float pivotX, float pivotY, float scale, float rotationDegrees, List<class09935> children) {
+      super();
       Objects.requireNonNull(children, "children");
       this.translateX = translateX;
       this.translateY = translateY;

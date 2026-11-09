@@ -50,6 +50,7 @@ public class class11076 {
    }
 
    public class11076() {
+      super();
       this.u();
       this.L_0 = new class09166();
       this.L_2 = class11085.UPPER_CHEST;
@@ -134,7 +135,7 @@ public class class11076 {
    }
 
    private class06889 N(class00734 var1, float var2, float var3, float var4) {
-      return new class06889(class04995.u(var2, var1.N, var1.u), class04995.u(var3, var1.y, var1.i), class04995.u(var4, var1.L, var1.R));
+      return new class06889(class04995.u((double)var2, var1.N, var1.u), class04995.u((double)var3, var1.y, var1.i), class04995.u((double)var4, var1.L, var1.R));
    }
 
    private void N(long var1, boolean var3, boolean var4, boolean var5) {

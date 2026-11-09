@@ -8,6 +8,7 @@ public final class class09885<T> implements AutoCloseable {
    public int L;
 
    public class09885(class02418<T> var1, T var2, int var3) {
+      super();
       this.N = var1;
       this.y = (T)var2;
       this.L = var3;

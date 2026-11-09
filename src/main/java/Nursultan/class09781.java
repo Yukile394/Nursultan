@@ -18,6 +18,7 @@ public final class class09781 {
    }
 
    public class09781(class09803 var1, class09868 var2, class09667 var3) {
+      super();
       this.N = Objects.requireNonNull(var1, "clipboard");
       this.y = Objects.requireNonNull(var2, "fontMetrics");
       this.L = Objects.requireNonNull(var3, "textMeasurer");

@@ -16,6 +16,7 @@ public class class10574 extends class08361 {
       super(class06305.N);
    }
 
+   @Override
    public class08354 method_65809(class01089 var1) throws IOException {
       class08354 class08354;
       try (InputStream inputstream = class06202.Nq().x().y().u(class06305.N)) {

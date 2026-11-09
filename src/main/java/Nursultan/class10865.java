@@ -12,6 +12,7 @@ public class class10865 extends class07458 {
       this.N = var1;
    }
 
+   @Override
    public void N() {
       if (this.E == class07435.field_6378) {
          class06889 class06889x = new class06889(this.R - this.N.method_23317(), this.M - this.N.method_23318(), this.B - this.N.method_23321());

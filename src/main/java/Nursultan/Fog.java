@@ -22,6 +22,7 @@ public class Fog extends class11067 {
    }
 
    public Fog() {
+      super();
       this.T();
       this.L_0 = new class11535("color", true);
       this.L_1 = new class11535("blur", true);

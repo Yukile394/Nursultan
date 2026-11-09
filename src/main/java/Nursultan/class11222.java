@@ -39,6 +39,7 @@ public class class11222 implements Closeable {
    }
 
    public class11222() {
+      super();
       this.E();
       this.N_2 = new CompletableFuture();
 

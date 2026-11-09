@@ -12,6 +12,7 @@ public class class10329 extends class10208 {
       this.N = var2;
    }
 
+   @Override
    public void N(Consumer<class06584> var1, class05908 var2) {
       var1.accept(new class06584(this.N));
    }

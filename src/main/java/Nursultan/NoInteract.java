@@ -39,6 +39,7 @@ public class NoInteract extends class11067 {
    }
 
    public NoInteract() {
+      super();
       this.P();
       this.L_0 = class11524.N(this, "aura-only", true);
       this.L_1 = class11524.N(this, "pvp-only", true);
@@ -78,7 +79,7 @@ public class NoInteract extends class11067 {
       this.P();
       AttackAura attackaura = class11938.u().C();
       return !((class11507)this.L_0).i() || attackaura.U() && attackaura.s()
-         ? !((class11507)this.L_1).i() || ((class11822)((class04453)((class06202)super.y_0).T_4)).dataManager().y().N().N()
+         ? !((class11507)this.L_1).i() || ((class04453)((class06202)super.y_0).T_4).dataManager().y().N().N()
          : false;
    }
 
@@ -96,7 +97,7 @@ public class NoInteract extends class11067 {
       if (this.s()) {
          if (((class11507)this.L_2).i()) {
             class06584 class06584 = ((class04453)((class06202)super.y_0).T_4).method_5998(var1.u());
-            if (!class06584.R() && !((class02833)class06584.y().a_(class02484.b, class02833.N)).y().isEmpty()) {
+            if (!class06584.R() && !class06584.y().a_(class02484.b, class02833.N).y().isEmpty()) {
                var1.N();
             }
          }

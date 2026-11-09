@@ -16,6 +16,7 @@ public class class10948 {
    }
 
    public class10948() {
+      super();
       this.R();
    }
 

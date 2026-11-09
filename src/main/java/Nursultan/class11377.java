@@ -1,6 +1,6 @@
 package Nursultan;
 
-public class class11377 {
+public enum class11377 {
    private static String[] strings_07f4c9373bc3a31d98ab36a1e18190ed1;
    public static class11377 staticFields_07f4c9373bc3a31d98ab36a1e18190ed1_0 = new class11377();
    public static class11377 staticFields_07f4c9373bc3a31d98ab36a1e18190ed1_1 = new class11377();

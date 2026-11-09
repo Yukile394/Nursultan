@@ -7,6 +7,7 @@ public record class09160(float yawSpeed, float pitchSpeed, boolean fastCorrectio
    }
 
    public class09160(float yawSpeed, float pitchSpeed, boolean fastCorrection, float yawOffset, float pitchOffset, boolean angularFlick) {
+      super();
       this.yawSpeed = yawSpeed;
       this.pitchSpeed = pitchSpeed;
       this.fastCorrection = fastCorrection;

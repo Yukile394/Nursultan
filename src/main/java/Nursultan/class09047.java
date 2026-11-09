@@ -9,6 +9,7 @@ public class class09047 extends class07427 {
       this.N = var1;
    }
 
+   @Override
    public boolean N() {
       return !this.N.v() && super.N();
    }

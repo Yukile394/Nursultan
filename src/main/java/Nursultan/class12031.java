@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.ByteBuffer;
 import java.nio.IntBuffer;
-import minecraft.class01079;
 import minecraft.class06202;
 import org.apache.commons.io.IOUtils;
 import org.apache.logging.log4j.LogManager;
@@ -26,6 +25,7 @@ public class class12031 implements class12037 {
    }
 
    public class12031(String var1, int var2) {
+      super();
       this.i();
       this.N_1 = var1;
       ByteBuffer bytebuffer = null;
@@ -114,7 +114,7 @@ public class class12031 implements class12037 {
    }
 
    public InputStream y() throws IOException {
-      return ((class01079)class06202.Nq().Nm().method_14486(class11911.N((String)this.N_1)).orElseThrow()).method_14482();
+      return class06202.Nq().Nm().method_14486(class11911.N((String)this.N_1)).orElseThrow().method_14482();
    }
 
    @Override

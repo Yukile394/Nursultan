@@ -9,6 +9,7 @@ public class class10620 {
    public Object N_1;
 
    public class10620(String var1, class10580[] var2) {
+      super();
       this.u();
       this.N_0 = var1;
       this.N_1 = var2;

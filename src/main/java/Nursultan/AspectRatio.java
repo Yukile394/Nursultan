@@ -17,6 +17,7 @@ public class AspectRatio extends class11067 {
    public Object L_6;
 
    public AspectRatio() {
+      super();
       this.b();
       this.L_0 = new class11535("_16_9", true);
       this.L_1 = new class11535("_16_10", false);

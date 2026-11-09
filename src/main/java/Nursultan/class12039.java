@@ -17,6 +17,7 @@ public class class12039 implements class12037 {
    }
 
    public class12039() {
+      super();
       this.u();
       int i = 0;
       int j = 0;

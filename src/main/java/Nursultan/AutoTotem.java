@@ -46,7 +46,7 @@ public class AutoTotem extends class11067 {
       if (!class11938.m().u()) {
          class06584 class06584 = ((class04453)((class06202)super.y_0).T_4).method_6079();
          if (((Integer)this.L_0 == -1 && (Integer)this.L_1 == -1 || (Boolean)this.L_3) && (!class06584.y().N(class02484.e) || class06584.L(class02484.b))) {
-            class11297 class11297 = class11281.L((class11328)(var0 -> var0.y().N(class02484.e))).min((Comparator<? super class11297>)this.L_4).orElse(null);
+            class11297 class11297 = class11281.L(var0 -> var0.y().N(class02484.e)).min((Comparator<? super class11297>)this.L_4).orElse(null);
             if (class11297 != null && !class11297.N().L(class02484.b)) {
                this.N(class11297, class06584);
             } else if (!this.N(class06584, false)) {
@@ -64,13 +64,13 @@ public class AutoTotem extends class11067 {
       class00743<class06584> class00743 = ((class04453)((class06202)super.y_0).T_4).method_31548().u();
 
       for (int i = 9; i < class00743.size(); i++) {
-         if (((class06584)class00743.get(i)).R()) {
+         if (class00743.get(i).R()) {
             return i;
          }
       }
 
       for (int j = 0; j < 9; j++) {
-         if (((class06584)class00743.get(j)).R()) {
+         if (class00743.get(j).R()) {
             return j;
          }
       }
@@ -79,6 +79,7 @@ public class AutoTotem extends class11067 {
    }
 
    public AutoTotem() {
+      super();
       this.j();
       this.i_0 = new class11701("health-trigger", true);
       this.i_1 = new class11713("elytra-health-trigger", false);
@@ -136,8 +137,8 @@ public class AutoTotem extends class11067 {
       if ((class07482)((class04453)((class06202)super.y_0).T_4).fields_07fa3311b0e9d3e9b883d09222919bf5a_3
             == ((class04453)((class06202)super.y_0).T_4).fields_07fa3311b0e9d3e9b883d09222919bf5a_2
          && ((class07482)((class04453)((class06202)super.y_0).T_4).fields_07fa3311b0e9d3e9b883d09222919bf5a_3).M().R()) {
-         class06584 class06584 = (class06584)((class04453)((class06202)super.y_0).T_4).method_31548().u().get((Integer)this.L_1);
-         class02830 class02830 = (class02830)class06584.method_58694(class02484.D);
+         class06584 class06584 = ((class04453)((class06202)super.y_0).T_4).method_31548().u().get((Integer)this.L_1);
+         class02830 class02830 = class06584.method_58694(class02484.D);
          if (class02830 != null && !class02830.M()) {
             int i = class11281.L((Integer)this.L_1);
             if (class02830.Z() && class02830.B() != 0) {
@@ -151,10 +152,10 @@ public class AutoTotem extends class11067 {
                class12029.N(0, i, 0, class07510.field_7790);
             }
 
-            class12029.y((class12040)(var1x -> {
+            class12029.y(var1x -> {
                this.j();
                this.L_2 = class11938.j().y();
-            })).y();
+            }).y();
             this.L_1 = -1;
          } else {
             this.L_1 = -1;
@@ -197,7 +198,7 @@ public class AutoTotem extends class11067 {
    }
 
    private boolean y(class06584 var1, boolean var2) {
-      class02830 class02830 = (class02830)var1.method_58694(class02484.D);
+      class02830 class02830 = var1.method_58694(class02484.D);
       return class02830 == null ? false : class02830.y().anyMatch(var1x -> var1x.y().N(class02484.e) && (var2 || !var1x.L(class02484.b)));
    }
 
@@ -236,11 +237,11 @@ public class AutoTotem extends class11067 {
       if ((class07482)((class04453)((class06202)super.y_0).T_4).fields_07fa3311b0e9d3e9b883d09222919bf5a_3
             == ((class04453)((class06202)super.y_0).T_4).fields_07fa3311b0e9d3e9b883d09222919bf5a_2
          && ((class07482)((class04453)((class06202)super.y_0).T_4).fields_07fa3311b0e9d3e9b883d09222919bf5a_3).M().R()) {
-         class11297 class11297 = class11281.L((class11328)(var2x -> this.y(var2x, var2))).findFirst().orElse(null);
+         class11297 class11297 = class11281.L(var2x -> this.y(var2x, var2)).findFirst().orElse(null);
          if (class11297 == null) {
             return false;
          } else {
-            class02830 class02830 = (class02830)class11297.N().method_58694(class02484.D);
+            class02830 class02830 = class11297.N().method_58694(class02484.D);
             int i = this.N(class02830);
             if (this.N(var1) && class02830.N(i).L(class02484.b)) {
                return false;
@@ -268,10 +269,10 @@ public class AutoTotem extends class11067 {
                   }
 
                   int l = this.Y();
-                  class12029.y((class12040)(var2x -> {
+                  class12029.y(var2x -> {
                      this.j();
                      this.L_2 = class11938.j().y() + l;
-                  })).y();
+                  }).y();
                   this.L_3 = false;
                   return true;
                }
@@ -336,10 +337,10 @@ public class AutoTotem extends class11067 {
       } else {
          class11938.m()
             .N(((class07482)((class04453)((class06202)super.y_0).T_4).fields_07fa3311b0e9d3e9b883d09222919bf5a_3).b, i, 40, class07510.field_7791)
-            .y((class12040)(var2x -> {
+            .y(var2x -> {
                this.j();
                this.L_2 = class11938.j().y() + var2;
-            }))
+            })
             .y();
          return var1;
       }

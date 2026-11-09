@@ -11,6 +11,7 @@ public record class11223(class06889 position, class07089 hitResult, int remainin
    }
 
    public class11223(class06889 position, class07089 hitResult, int remainingTicks, class07049 entity) {
+      super();
       this.position = position;
       this.hitResult = hitResult;
       this.remainingTicks = remainingTicks;

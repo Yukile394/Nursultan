@@ -14,6 +14,7 @@ public class class09089 implements class11192<class09101> {
    public static Object y_1;
 
    public class09089(class11213 var1, float var2) {
+      super();
       this.R();
       this.N_3 = ((class09322)class11185.B_4).z("u_projection");
       this.N_4 = ((class09322)class11185.B_4).z("u_view");

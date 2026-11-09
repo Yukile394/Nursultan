@@ -12,6 +12,7 @@ public class class10781 extends class07993 {
       this.N = var1;
    }
 
+   @Override
    public boolean y() {
       if (this.N.m()) {
          this.N.f().W();

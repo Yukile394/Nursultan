@@ -25,6 +25,7 @@ public class class11310 extends class05362 {
       this.N_2 = 0;
    }
 
+   @Override
    public void method_75752(class01054 var1, int var2, int var3, float var4) {
       this.R();
       this.method_75794(var1);

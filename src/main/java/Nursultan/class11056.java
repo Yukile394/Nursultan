@@ -170,6 +170,7 @@ public class class11056 {
    }
 
    public class11056() {
+      super();
       this.yZ();
       this.G_0 = new LinkedHashMap();
       this.G_1 = this.N(new Sprint());

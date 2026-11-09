@@ -15,6 +15,7 @@ public class class10737 extends MessageToByteEncoder<class11951<?>> {
    }
 
    public class10737(class11964 var1) {
+      super();
       this.L();
       this.y_0 = var1;
    }

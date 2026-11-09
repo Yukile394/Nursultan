@@ -8,22 +8,27 @@ import minecraft.class07299;
 import minecraft.class07769;
 
 public class class10624 implements class06591 {
+   @Override
    public boolean L() {
       return this.y.y() == class07086.field_5801;
    }
 
    public class10624(class07299 var1) {
+      super();
       this.y = var1;
    }
 
+   @Override
    public float y() {
       return this.y.method_54719().R();
    }
 
+   @Override
    public class07769 N(class02265 var1) {
       return this.y.method_17891(var1);
    }
 
+   @Override
    public class01929 N() {
       return this.y.method_30349();
    }

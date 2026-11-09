@@ -7,6 +7,7 @@ public record class11593(class11829 phase, String localeKey, String detail) {
    }
 
    public class11593(class11829 phase, String localeKey, String detail) {
+      super();
       this.phase = phase;
       this.localeKey = localeKey;
       this.detail = detail;

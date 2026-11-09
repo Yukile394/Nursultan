@@ -93,6 +93,7 @@ public class class11836 {
    }
 
    public class11836(int var1, int var2) {
+      super();
       this.R();
       this.y_6 = new Int2IntOpenHashMap();
       this.u_3 = new IntArrayList(64);
@@ -180,7 +181,7 @@ public class class11836 {
       for (int i = 0; i < (Integer)this.y_4; i++) {
          class06584 class06584 = ((class06584[])this.u_2)[i];
          if (class06584 != null && !class06584.R()) {
-            class02689 class02689 = (class02689)class06584.method_58694(class02484.Nb);
+            class02689 class02689 = class06584.method_58694(class02484.Nb);
             if (class02689 != null) {
                GameProfile gameprofile = class02689.y();
                if (gameprofile != null && gameprofile.properties().get("textures").contains(var1)) {

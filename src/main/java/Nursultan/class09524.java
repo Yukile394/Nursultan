@@ -18,18 +18,22 @@ public class class09524 implements class01830, class03894 {
    private double[] Z;
 
    public class09524(class01837 var1, class03877 var2) {
+      super();
       this.N = var1;
       this.y = var2;
    }
 
+   @Override
    public class03909 i() {
       return class03909.field_36565;
    }
 
+   @Override
    public class03877 u() {
       return this.y;
    }
 
+   @Override
    public double N(class03875 var1) {
       if (var1 != this.N) {
          return this.y.N(var1);
@@ -45,6 +49,7 @@ public class class09524 implements class01830, class03894 {
       }
    }
 
+   @Override
    public void N(double[] var1, class03912 var2) {
       if (this.Z != null && this.M == this.N.b) {
          System.arraycopy(this.Z, 0, var1, 0, var1.length);

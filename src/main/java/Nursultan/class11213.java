@@ -22,6 +22,7 @@ public class class11213 {
    }
 
    public class11213(class09087 var1, int var2, int var3) {
+      super();
       this.E();
       this.N_2 = var1;
       this.N_1 = var3 > 0 ? class11217.N() : class11217.L();

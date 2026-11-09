@@ -23,6 +23,7 @@ public class class12029 {
    }
 
    public class12029() {
+      super();
       this.B();
       this.N_0 = new ArrayList();
       this.N_1 = new ArrayList();

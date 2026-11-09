@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public record class09267(List<class10732> entries) implements class09260 {
+public non-sealed record class09267(List<class10732> entries) implements class09260 {
 
    public class09267(List<class10732> entries) {
+      super();
       this.entries = entries;
    }
 

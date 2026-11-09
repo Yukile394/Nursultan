@@ -15,6 +15,7 @@ public class class10751 implements ArgumentType<class11997> {
    public static Object N_0 = new DynamicCommandExceptionType(var0 -> class00392.y(class12020.N("macros.not-found").formatted(((class11997)var0).L())));
 
    public class10751() {
+      super();
    }
 
    static {

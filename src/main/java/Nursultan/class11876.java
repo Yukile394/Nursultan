@@ -20,6 +20,7 @@ public class class11876 {
    }
 
    public class11876(IntFunction<EventLoopGroup> var1) {
+      super();
       this.W();
       this.y_1 = new AtomicReference();
       this.y_0 = var1;

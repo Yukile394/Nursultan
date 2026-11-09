@@ -9,6 +9,7 @@ import org.jspecify.annotations.Nullable;
 
 public class class09464<E> extends AbstractIterator<E> {
    public class09464(class01289 var1, Iterator var2) {
+      super();
       this.N = var2;
    }
 

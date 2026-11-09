@@ -13,6 +13,7 @@ import minecraft.class08983;
 
 public class class11668<T> implements Codec<class08983<T>> {
    public class11668(Codec var1) {
+      super();
       this.N = var1;
    }
 
@@ -25,7 +26,7 @@ public class class11668<T> implements Codec<class08983<T>> {
                class07709 class07709 = class07001.b("id");
                return class07709 == null
                   ? DataResult.error(() -> "Expected 'id' field in " + var2)
-                  : var1x.parse(N(var1), class07709).map(var2xx -> Pair.of(new class08983(var2xx, class07001), var3.getSecond()));
+                  : var1x.parse(N(var1), class07709).map(var2xx -> Pair.of(new class08983<>(var2xx, class07001), var3.getSecond()));
             }
          );
    }

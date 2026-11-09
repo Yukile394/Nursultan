@@ -33,6 +33,7 @@ public class AutoPearl extends class11067 {
    public boolean L_init;
 
    public AutoPearl() {
+      super();
       this.b();
       this.L_0 = class11524.N(this, "only-in-pvp", false);
       this.L_1 = class11524.N(this, "target-follow", false);
@@ -55,7 +56,7 @@ public class AutoPearl extends class11067 {
       if (((class11507)this.L_0).i() && !class11907.u()) {
          return true;
       } else {
-         return ((class11799)((class03443)((class06202)super.y_0).T_2)).N() < 3 ? true : ((class04453)((class06202)super.y_0).T_4).method_6115();
+         return ((class03443)((class06202)super.y_0).T_2).N() < 3 ? true : ((class04453)((class06202)super.y_0).T_4).method_6115();
       }
    }
 

@@ -12,6 +12,7 @@ public class class10849 extends class05573 {
       super(var1, var2);
    }
 
+   @Override
    public boolean N(class07209 var1) {
       class07079 class07079 = this.y;
       return class07079 instanceof class07872 && ((class07872)class07079).u != null

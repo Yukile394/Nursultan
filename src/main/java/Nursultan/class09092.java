@@ -5,6 +5,7 @@ import it.unimi.dsi.fastutil.ints.IntList;
 public record class09092(int fromInclusive, int toInclusive) {
 
    public class09092(int fromInclusive, int toInclusive) {
+      super();
       if (!Character.isValidCodePoint(fromInclusive)) {
          throw new IllegalArgumentException("Invalid fromInclusive code point: " + fromInclusive);
       } else if (!Character.isValidCodePoint(toInclusive)) {

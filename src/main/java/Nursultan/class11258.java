@@ -10,6 +10,7 @@ public class class11258 implements class11192<class11270> {
    public Object y_5;
 
    public class11258(class11213 var1) {
+      super();
       this.y();
       this.y_2 = ((class09322)class11185.L_1).z("u_projection");
       this.y_3 = ((class09322)class11185.L_1).z("u_view");

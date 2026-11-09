@@ -9,6 +9,7 @@ public class class10440<E> implements class04537<E> {
    private final Object[] N;
 
    public class10440(List<class04523<E>> var1, int var2) {
+      super();
       this.N = new Object[var2];
       int i = 0;
 
@@ -19,6 +20,7 @@ public class class10440<E> implements class04537<E> {
       }
    }
 
+   @Override
    public E N(int var1) {
       return (E)this.N[var1];
    }

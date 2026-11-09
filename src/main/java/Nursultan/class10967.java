@@ -12,6 +12,7 @@ public class class10967 {
    }
 
    public class10967() {
+      super();
       this.L();
    }
 

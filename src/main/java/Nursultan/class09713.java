@@ -9,6 +9,7 @@ public record class09713(Map<class09736, class09743> specs) {
    public static final class09713 N = new class09713(null);
 
    public class09713(Map<class09736, class09743> specs) {
+      super();
       EnumMap enummap = new EnumMap<>(class09736.class);
       if (specs != null) {
          for (Entry entry : specs.entrySet()) {

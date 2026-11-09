@@ -7,6 +7,7 @@ public record class11326(class11318 kind, long presetId, long expiresAtMillis, i
    }
 
    public class11326(class11318 kind, long presetId, long expiresAtMillis, int activationLimit) {
+      super();
       this.kind = kind;
       this.presetId = presetId;
       this.expiresAtMillis = expiresAtMillis;

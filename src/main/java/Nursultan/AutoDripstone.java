@@ -40,6 +40,7 @@ public class AutoDripstone extends class11067 {
    }
 
    public AutoDripstone() {
+      super();
       this.P();
    }
 
@@ -66,7 +67,7 @@ public class AutoDripstone extends class11067 {
                   class00500.R((class03448)((class06202)super.y_0).T_3, class07209)
                      .method_1096(class07209.method_10263(), class07209.method_10264(), class07209.method_10260()),
                   class07209.method_10062(),
-                  (Boolean)class00500.L(class00624.y)
+                  class00500.L(class00624.y)
                )
             );
          }
@@ -83,7 +84,7 @@ public class AutoDripstone extends class11067 {
    }
 
    private boolean N(class07209 var1, class00500 var2, class00624 var3) {
-      if (!((class11066)var3).am_().L()) {
+      if (!var3.am_().L()) {
          return false;
       } else if (var2.L(class00624.L) != class08052.field_12617) {
          return false;
@@ -123,7 +124,7 @@ public class AutoDripstone extends class11067 {
          if (!class06942.N()) {
             return false;
          } else {
-            return ((class03448)((class06202)super.y_0).T_3).method_31606(class06942.method_8037()) ? false : ((class12010)class06918).N(class06942) != null;
+            return ((class03448)((class06202)super.y_0).T_3).method_31606(class06942.method_8037()) ? false : class06918.N(class06942) != null;
          }
       } else {
          return false;

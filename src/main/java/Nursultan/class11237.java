@@ -10,6 +10,7 @@ public record class11237(Matrix4f matrix, class01687 cuboid, float volume) {
    }
 
    public class11237(Matrix4f matrix, class01687 cuboid, float volume) {
+      super();
       this.matrix = matrix;
       this.cuboid = cuboid;
       this.volume = volume;

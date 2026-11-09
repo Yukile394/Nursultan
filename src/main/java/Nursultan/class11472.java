@@ -32,6 +32,7 @@ public class class11472 {
    }
 
    public class11472() {
+      super();
       this.m();
       this.y_1 = -1;
       this.y_2 = -1;

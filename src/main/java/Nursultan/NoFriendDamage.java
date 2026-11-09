@@ -17,6 +17,7 @@ public class NoFriendDamage extends class11067 {
    }
 
    public NoFriendDamage() {
+      super();
       this.T();
       this.L_0 = class11524.N(this, "teams", false);
    }

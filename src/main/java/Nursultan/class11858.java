@@ -10,6 +10,7 @@ public record class11858(String placeholderKey, String value, Pattern regex, Con
    }
 
    public class11858(String placeholderKey, String value, Pattern regex, Consumer<String> onChange, class09785<Boolean> focused) {
+      super();
       this.placeholderKey = placeholderKey;
       this.value = value;
       this.regex = regex;

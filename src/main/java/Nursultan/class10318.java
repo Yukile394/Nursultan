@@ -10,6 +10,7 @@ public record class10318(class07321 center, int viewDistance) implements class04
    }
 
    public class10318(class07321 center, int viewDistance) {
+      super();
       this.center = center;
       this.viewDistance = viewDistance;
    }
@@ -34,10 +35,12 @@ public record class10318(class07321 center, int viewDistance) implements class04
       return this.N() <= var1.L() && this.L() >= var1.N() && this.y() <= var1.u() && this.u() >= var1.y();
    }
 
+   @Override
    public boolean N(int var1, int var2, boolean var3) {
       return class04157.N(this.center.B, this.center.Z, this.viewDistance, var1, var2, var3);
    }
 
+   @Override
    public void N(Consumer<class07321> var1) {
       for (int i = this.N(); i <= this.L(); i++) {
          for (int j = this.y(); j <= this.u(); j++) {

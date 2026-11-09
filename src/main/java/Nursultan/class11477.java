@@ -6,6 +6,7 @@ public class class11477 extends HashMap<Class<? extends class11473<? extends cla
    public Object N_0;
 
    public class11477(class11460 var1) {
+      super();
       this.N();
       this.N_0 = var1;
       this.put(class11484.class, new class11484());

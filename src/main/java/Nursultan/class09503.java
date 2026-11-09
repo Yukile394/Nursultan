@@ -11,6 +11,7 @@ public class class09503 extends class01869 {
       this.N = var1;
    }
 
+   @Override
    public void N(String var1, @Nullable class05096 var2) {
       this.N.N(var1, var2);
    }

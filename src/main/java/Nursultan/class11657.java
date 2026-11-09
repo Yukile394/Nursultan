@@ -16,6 +16,7 @@ public class class11657 extends SimpleChannelInboundHandler<TextWebSocketFrame> 
    }
 
    public class11657(class11331 var1) {
+      super();
       this.y();
       this.y_0 = var1;
    }

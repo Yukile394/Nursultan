@@ -5,7 +5,6 @@ import java.util.Comparator;
 import java.util.Optional;
 import minecraft.class02484;
 import minecraft.class02523;
-import minecraft.class02536;
 import minecraft.class02710;
 import minecraft.class02824;
 import minecraft.class02833;
@@ -86,17 +85,17 @@ public class class11896 {
       } else {
          MutableFloat mutablefloat = new MutableFloat(0.0F);
 
-         for (Entry entry : ((class02710)var1.a_(class02484.P, class02710.N)).y()) {
+         for (Entry entry : var1.a_(class02484.P, class02710.N).y()) {
             ((class07304)((class03556)entry.getKey()).N())
                .N(class02523.L)
                .forEach(
                   var2x -> mutablefloat.setValue(
-                     ((class02536)var2x.N()).N(entry.getIntValue(), ((class04453)((class06202)N[0]).T_4).method_59922(), mutablefloat.floatValue())
+                     var2x.N().N(entry.getIntValue(), ((class04453)((class06202)N[0]).T_4).method_59922(), mutablefloat.floatValue())
                   )
                );
          }
 
-         ((class02833)var1.a_(class02484.b, class02833.N))
+         var1.a_(class02484.b, class02833.N)
             .y()
             .stream()
             .filter(var1x -> (var1x.N() == class05298.y || var1x.N() == class05298.L) && var1x.L().y(var0))
@@ -108,7 +107,7 @@ public class class11896 {
 
    private static double N(class06584 var0, class07085 var1) {
       return var0.L(class02484.b)
-         ? ((class02833)var0.method_58694(class02484.b))
+         ? var0.method_58694(class02484.b)
             .y()
             .stream()
             .filter(var1x -> var1x.L().y(var1))

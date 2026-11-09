@@ -25,6 +25,7 @@ public class class09527<T> extends class01807<T> {
       return class01807.n;
    }
 
+   @Override
    public class06617 N(int var1) {
       return (class06617)(switch (var1) {
          case 0 -> class01807.L;

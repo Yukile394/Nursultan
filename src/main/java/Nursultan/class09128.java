@@ -9,6 +9,7 @@ public class class09128 {
    public boolean N_init;
 
    public class09128() {
+      super();
       this.R();
       this.N_0 = new class09144();
       this.N_1 = Integer.MIN_VALUE;

@@ -8,6 +8,7 @@ import minecraft.class07689;
 
 public class class10642 extends class10733 {
    public class10642() {
+      super();
    }
 
    static {

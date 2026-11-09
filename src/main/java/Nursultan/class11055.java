@@ -34,6 +34,7 @@ public class class11055 {
    }
 
    public class11055() {
+      super();
       this.B();
       this.y_1 = 1.0F;
    }

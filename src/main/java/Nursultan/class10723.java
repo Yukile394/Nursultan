@@ -8,6 +8,7 @@ public class class10723 extends class07472 {
       super(var1);
    }
 
+   @Override
    public void N() {
    }
 }

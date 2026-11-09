@@ -22,7 +22,7 @@ public class class11707 extends class11807<AutoLeave> {
    @Override
    public void y(Object var1) {
       this.u();
-      if (((class11822)((class04453)((class06202)super.N_0).T_4)).dataManager().y().N().N()) {
+      if (((class04453)((class06202)super.N_0).T_4).dataManager().y().N().N()) {
          this.y_0 = true;
       } else {
          if ((Boolean)this.y_0) {

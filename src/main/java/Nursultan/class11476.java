@@ -26,6 +26,7 @@ public class class11476 extends class11473<class11483> {
    public Object L_4;
 
    public class11476() {
+      super();
       this.B();
       this.L_0 = class06202.Nq();
       this.L_1 = BufferUtils.createFloatBuffer(40);
@@ -134,7 +135,7 @@ public class class11476 extends class11473<class11483> {
                class07049 class07049 = ((class03448)((class06202)this.L_0).T_3).method_8469(class11483.y());
                if (class07049 != null) {
                   class06889x = new class06889(class07049.field_6014, class07049.field_6036 + class07049.method_17682(), class07049.field_5969)
-                     .N(class07049.method_73189().y(0.0, class07049.method_17682(), 0.0), var1.y().N(true));
+                     .N(class07049.method_73189().y(0.0, class07049.method_17682(), 0.0), (double)var1.y().N(true));
                   class11483.N(class06889x);
                   flag = true;
                }

@@ -9,11 +9,13 @@ public class class10398<T> implements class04468<T> {
    public Object N_1;
 
    public class10398(class00067 var1, class00067 var2) {
+      super();
       this.y();
       this.N_0 = var1;
       this.N_1 = var2;
    }
 
+   @Override
    public List<T> y(String var1) {
       return ((class00067)this.N_0).N(var1);
    }
@@ -21,6 +23,7 @@ public class class10398<T> implements class04468<T> {
    private void y() {
    }
 
+   @Override
    public List<T> N(String var1) {
       return ((class00067)this.N_1).N(var1);
    }

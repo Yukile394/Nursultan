@@ -17,6 +17,7 @@ public class FastExp extends class11067 {
    }
 
    public FastExp() {
+      super();
       this.T();
       this.L_0 = class11524.N(this, "only-without-pvp", true);
       this.L_1 = class11524.N(this, "delay", 1.0F, 0.0F, 3.0F, 1.0F);

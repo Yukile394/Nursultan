@@ -2,6 +2,7 @@ package Nursultan;
 
 public class class12032 extends class12024 {
    public class12032() {
+      super();
    }
 
    @Override

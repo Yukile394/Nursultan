@@ -13,6 +13,7 @@ import minecraft.class04247;
 
 public class class09821 implements class02362<class04247, class02678> {
    public class09821(class02704 var1) {
+      super();
       this.N = var1;
    }
 
@@ -74,13 +75,13 @@ public class class09821 implements class02362<class04247, class02678> {
          Reference2ObjectArrayMap reference2objectarraymap = new Reference2ObjectArrayMap(Math.min(k, 65536));
 
          for (int l = 0; l < i; l++) {
-            class02477<?> class02477 = (class02477<?>)class02477.y.decode(var1);
+            class02477<?> class02477 = class02477.y.decode(var1);
             Object object = this.N.N(class02477).decode(var1);
             reference2objectarraymap.put(class02477, Optional.of(object));
          }
 
          for (int i1 = 0; i1 < j; i1++) {
-            class02477 class02477 = (class02477)class02477.y.decode(var1);
+            class02477 class02477 = class02477.y.decode(var1);
             reference2objectarraymap.put(class02477, Optional.empty());
          }
 

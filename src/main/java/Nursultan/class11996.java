@@ -7,6 +7,7 @@ public record class11996(boolean enabled) implements class12007 {
    public static Object N_1 = new class11996(false);
 
    public class11996(boolean enabled) {
+      super();
       this.enabled = enabled;
    }
 

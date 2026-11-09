@@ -54,6 +54,7 @@ public class class09144 {
    }
 
    public class09144() {
+      super();
       this.L();
       this.i_0 = new class09166();
       this.i_1 = new float[9];

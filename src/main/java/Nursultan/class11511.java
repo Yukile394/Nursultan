@@ -3,7 +3,6 @@ package Nursultan;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
-import minecraft.class00891;
 import minecraft.class01894;
 import minecraft.class04206;
 import org.apache.logging.log4j.LogManager;
@@ -52,7 +51,7 @@ public class class11511 extends class11488 {
             int k = var2.unpackInt();
             class01894 class01894 = class01894.L(s);
             if (class01894 != null && class04206.i.u(class01894)) {
-               arraylist.add(new class11025((class00891)class04206.i.N(class01894), k));
+               arraylist.add(new class11025(class04206.i.N(class01894), k));
             } else {
                ((Logger)N_0).warn("Unknown block id '{}' in {}, skipped", s, this.u());
             }

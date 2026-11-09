@@ -9,6 +9,7 @@ public class class10988 {
    public boolean y_init;
 
    public class10988() {
+      super();
       this.R();
    }
 

@@ -7,6 +7,7 @@ public class class11879 implements class09780 {
    public Object N_3;
 
    public class11879(int var1, int var2, class11863 var3) {
+      super();
       this.u();
       this.N_0 = new class11833(class09662.N(var1), class09662.N(var2), var3);
       this.N_1 = new class11833(class09662.y(var1), class09662.y(var2), var3);

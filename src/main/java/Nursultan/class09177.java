@@ -1,6 +1,6 @@
 package Nursultan;
 
-public class class09177 {
+public enum class09177 {
    private static String[] strings_0b79176406e8a39e8bcd4b7ed5c6c0023;
    public static class09177 staticFields_0b79176406e8a39e8bcd4b7ed5c6c0023_0 = new class09177();
    public static class09177 staticFields_0b79176406e8a39e8bcd4b7ed5c6c0023_1 = new class09177();

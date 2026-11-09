@@ -24,6 +24,7 @@ public class class09135 {
    }
 
    public class09135() {
+      super();
       this.L();
       this.N_0 = new class09166();
    }

@@ -23,6 +23,7 @@ public class class09298 implements class11951<class09263> {
    }
 
    public class09298(String var1, String var2, double var3, double var5, double var7) {
+      super();
       this.M();
       this.N_0 = var1;
       this.N_1 = var2;
@@ -32,6 +33,7 @@ public class class09298 implements class11951<class09263> {
    }
 
    public class09298() {
+      super();
       this.M();
    }
 

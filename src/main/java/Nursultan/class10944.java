@@ -32,6 +32,7 @@ public class class10944 implements FabricRenderState {
    }
 
    public class10944() {
+      super();
    }
 
    @Nullable

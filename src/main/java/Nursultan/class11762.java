@@ -11,6 +11,7 @@ public class class11762 extends AbstractList<Vector4f> {
    public boolean N_init;
 
    public class11762(int var1) {
+      super();
       this.i();
       this.N_0 = new Vector4f[var1];
 

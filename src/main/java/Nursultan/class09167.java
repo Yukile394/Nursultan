@@ -71,6 +71,7 @@ public class class09167 {
    }
 
    public class09167() {
+      super();
       this.R();
       this.N_0 = new class09166();
       this.N_1 = new int[12];

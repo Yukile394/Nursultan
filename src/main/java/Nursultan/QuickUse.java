@@ -25,6 +25,7 @@ public class QuickUse extends class11067 {
    }
 
    public QuickUse() {
+      super();
       this.m();
       this.L_0 = new class11048[]{
          new class11048(class11328.N(class06570.lo), "shield", this),

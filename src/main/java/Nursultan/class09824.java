@@ -9,17 +9,21 @@ import minecraft.class04129;
 public class class09824 extends class04111<class09824> {
    private final Builder<class04129> N = ImmutableList.builder();
 
+   @Override
    public class09824 L(class04111<?> var1) {
       this.N.add(var1.y());
       return this;
    }
 
    public class09824(class04111<?>... var1) {
+      super();
+
       for (class04111 class04111 : var1) {
          this.N.add(class04111.y());
       }
    }
 
+   @Override
    public class04129 y() {
       return new class02709(this.N.build(), this.i());
    }

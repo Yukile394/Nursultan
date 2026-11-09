@@ -21,6 +21,7 @@ public class class11219 extends SimpleChannelInboundHandler<TextWebSocketFrame> 
    }
 
    public class11219(ChannelGroup var1) {
+      super();
       this.N();
       this.N_0 = var1;
    }

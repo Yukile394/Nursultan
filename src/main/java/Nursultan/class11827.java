@@ -9,6 +9,7 @@ public record class11827(long id, UUID clientId, String name, String creator, lo
    }
 
    public class11827(long id, UUID clientId, String name, String creator, long lastUpdate, long rowVersion) {
+      super();
       this.id = id;
       this.clientId = clientId;
       this.name = name;

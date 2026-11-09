@@ -7,6 +7,7 @@ public class class11698 implements class11686 {
    public static Object y_0;
 
    public class11698(class11693 var1) {
+      super();
       this.R();
       this.N_0 = var1;
    }

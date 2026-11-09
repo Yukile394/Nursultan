@@ -15,6 +15,7 @@ public class class09309 {
    }
 
    public class09309(String var1, String var2, Vector3d var3) {
+      super();
       this.Z();
       this.N_0 = var1;
       this.N_1 = var2;

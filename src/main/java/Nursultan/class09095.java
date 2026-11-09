@@ -29,6 +29,7 @@ public class class09095 {
    }
 
    public class09095() {
+      super();
       this.i();
    }
 

@@ -9,7 +9,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import minecraft.class08523;
-import minecraft.class08852;
 import minecraft.class08859;
 import minecraft.class08861;
 import minecraft.class08865;
@@ -22,6 +21,7 @@ public class class11662 extends class08865 {
    private final boolean L;
 
    public class11662(class08859 var1) {
+      super();
       this.y = var1;
       if ("Mesa".equals(GlStateManager._getString(7936))) {
          String s = GlStateManager._getString(7938);
@@ -33,6 +33,7 @@ public class class11662 extends class08865 {
 
    // $VF: Unable to simplify switch on enum
    // Please report this to the Vineflower issue tracker, at https://github.com/Vineflower/vineflower/issues with a copy of the class file (if you have the rights to distribute it!)
+   @Override
    public void N(VertexFormat var1, @Nullable class08523 var2) {
       class08861 class08861x = this.N.get(var1);
       if (class08861x != null) {
@@ -54,10 +55,10 @@ public class class11662 extends class08865 {
             for (int j = 0; j < list.size(); j++) {
                VertexFormatElement vertexformatelement = list.get(j);
                GlStateManager._enableVertexAttribArray(j);
-               switch (class08852.N[vertexformatelement.usage().ordinal()]) {
-                  case 1:
-                  case 2:
-                  case 3:
+               switch (vertexformatelement.usage()) {
+                  case POSITION:
+                  case GENERIC:
+                  case UV:
                      if (vertexformatelement.type() == Type.FLOAT) {
                         ARBVertexAttribBinding.glVertexAttribFormat(
                            j, vertexformatelement.count(), GlConst.toGl(vertexformatelement.type()), false, var1.getOffset(vertexformatelement)
@@ -68,8 +69,8 @@ public class class11662 extends class08865 {
                         );
                      }
                      break;
-                  case 4:
-                  case 5:
+                  case NORMAL:
+                  case COLOR:
                      ARBVertexAttribBinding.glVertexAttribFormat(
                         j, vertexformatelement.count(), GlConst.toGl(vertexformatelement.type()), true, var1.getOffset(vertexformatelement)
                      );

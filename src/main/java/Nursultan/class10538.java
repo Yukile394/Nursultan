@@ -10,6 +10,7 @@ public class class10538 extends class05799 {
       this.N = var3;
    }
 
+   @Override
    protected String N(String var1) {
       return (String)this.N.apply(var1);
    }

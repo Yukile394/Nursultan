@@ -15,6 +15,7 @@ public class class10564 {
    private static String[] u;
 
    public class10564() {
+      super();
    }
 
    static {

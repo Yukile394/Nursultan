@@ -12,11 +12,13 @@ import org.jspecify.annotations.Nullable;
 
 public record class09825(Reference2ObjectMap<class02477<?>, Object> map) implements class02695 {
    @Nullable
+   @Override
    public <T> T method_58694(class02477<? extends T> var1) {
       return (T)this.map.get(var1);
    }
 
    public class09825(Reference2ObjectMap<class02477<?>, Object> map) {
+      super();
       this.map = map;
    }
 
@@ -25,18 +27,22 @@ public record class09825(Reference2ObjectMap<class02477<?>, Object> map) impleme
       return this.map.toString();
    }
 
+   @Override
    public Iterator<class02480<?>> iterator() {
       return Iterators.transform(Reference2ObjectMaps.fastIterator(this.map), class02480::N);
    }
 
+   @Override
    public int u() {
       return this.map.size();
    }
 
+   @Override
    public Set<class02477<?>> y() {
       return this.map.keySet();
    }
 
+   @Override
    public boolean N(class02477<?> var1) {
       return this.map.containsKey(var1);
    }

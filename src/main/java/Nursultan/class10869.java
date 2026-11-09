@@ -16,41 +16,48 @@ public class class10869 implements class08067 {
    private double R;
    private class00494 M;
 
+   @Override
    public double L(float var1) {
       return this.u;
    }
 
+   @Override
    public long L() {
       return 0L;
    }
 
+   @Override
    public void M() {
       this.z();
    }
 
    public class10869(class08057 var1, double var2) {
+      super();
       this.N = var1;
       this.y = var2;
       this.z();
    }
 
+   @Override
    public class08067 B() {
       return this;
    }
 
+   @Override
    public class00494 Z() {
       return this.M;
    }
 
+   @Override
    public class08072 i() {
       return class08072.field_12753;
    }
 
    private void z() {
-      this.L = class04995.N(this.N.M() - this.y / 2.0, -this.N.U, this.N.U);
-      this.u = class04995.N(this.N.B() - this.y / 2.0, -this.N.U, this.N.U);
-      this.i = class04995.N(this.N.M() + this.y / 2.0, -this.N.U, this.N.U);
-      this.R = class04995.N(this.N.B() + this.y / 2.0, -this.N.U, this.N.U);
+      this.L = class04995.N(this.N.M() - this.y / 2.0, (double)(-this.N.U), (double)this.N.U);
+      this.u = class04995.N(this.N.B() - this.y / 2.0, (double)(-this.N.U), (double)this.N.U);
+      this.i = class04995.N(this.N.M() + this.y / 2.0, (double)(-this.N.U), (double)this.N.U);
+      this.R = class04995.N(this.N.B() + this.y / 2.0, (double)(-this.N.U), (double)this.N.U);
       this.M = class00389.N(
          class00389.L,
          class00389.N(
@@ -65,30 +72,37 @@ public class class10869 implements class08067 {
       );
    }
 
+   @Override
    public double u(float var1) {
       return this.R;
    }
 
+   @Override
    public double u() {
       return this.y;
    }
 
+   @Override
    public double y() {
       return 0.0;
    }
 
+   @Override
    public double y(float var1) {
       return this.i;
    }
 
+   @Override
    public double N() {
       return this.y;
    }
 
+   @Override
    public double N(float var1) {
       return this.L;
    }
 
+   @Override
    public void R() {
       this.z();
    }

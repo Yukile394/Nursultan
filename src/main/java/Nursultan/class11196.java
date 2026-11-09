@@ -18,6 +18,7 @@ public class class11196 {
    }
 
    public class11196() {
+      super();
       this.L();
    }
 

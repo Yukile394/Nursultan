@@ -3,6 +3,7 @@ package Nursultan;
 public record class11862(class11512 settingRegistrable, class09785<Boolean> opened) {
 
    public class11862(class11512 settingRegistrable, class09785<Boolean> opened) {
+      super();
       this.settingRegistrable = settingRegistrable;
       this.opened = opened;
    }

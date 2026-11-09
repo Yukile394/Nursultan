@@ -11,6 +11,7 @@ public non-sealed class class12043 implements class12004 {
    public boolean N_init;
 
    public class12043(int var1) {
+      super();
       this.y();
       this.N_0 = var1;
    }

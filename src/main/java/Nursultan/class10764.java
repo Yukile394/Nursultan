@@ -15,6 +15,7 @@ public class class10764 extends class07458 {
       this.N = var1;
    }
 
+   @Override
    public void N() {
       class07438 class07438 = this.N.T();
       if (this.N.v() && this.N.method_5799()) {

@@ -13,6 +13,7 @@ public class Speed extends class11067 {
    }
 
    public Speed() {
+      super();
       this.T();
       this.L_0 = new class10894(this, "collision", true);
       this.L_1 = class11524.N(this, "mode", (class11807)this.L_0);

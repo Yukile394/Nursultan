@@ -13,20 +13,24 @@ public class class09531 implements class01830, class03894 {
    public final double[] y;
 
    public class09531(class01837 var1, class03877 var2) {
+      super();
       this.L = var1;
       this.N = var2;
       this.y = new double[var1.Z * var1.Z * var1.z];
       var1.M.add(this);
    }
 
+   @Override
    public class03909 i() {
       return class03909.field_36566;
    }
 
+   @Override
    public class03877 u() {
       return this.N;
    }
 
+   @Override
    public double N(class03875 var1) {
       if (var1 != this.L) {
          return this.N.N(var1);
@@ -42,6 +46,7 @@ public class class09531 implements class01830, class03894 {
       }
    }
 
+   @Override
    public void N(double[] var1, class03912 var2) {
       var2.N(var1, this);
    }

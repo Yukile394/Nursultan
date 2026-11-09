@@ -18,6 +18,7 @@ public class class11608 implements class09819 {
    }
 
    public class11608() {
+      super();
       this.M();
    }
 

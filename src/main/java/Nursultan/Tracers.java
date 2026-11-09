@@ -21,6 +21,7 @@ public class Tracers extends class11067 {
    public Object L_4;
 
    public Tracers() {
+      super();
       this.s();
       this.L_0 = new Matrix4f();
       this.L_1 = new class11414(this, "players", true);

@@ -4,10 +4,12 @@ public class class11971 implements class11951<class09276> {
    public Object N_0;
 
    public class11971() {
+      super();
       this.u();
    }
 
    public class11971(String var1) {
+      super();
       this.u();
       this.N_0 = var1;
    }

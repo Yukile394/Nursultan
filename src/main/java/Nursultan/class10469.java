@@ -12,6 +12,7 @@ import minecraft.class04785;
 
 public class class10469 extends SimpleFileVisitor<Path> {
    public class10469(class04785 var1, Path var2, ZipOutputStream var3) {
+      super();
       this.L = var1;
       this.N = var2;
       this.y = var3;

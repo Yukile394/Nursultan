@@ -12,6 +12,7 @@ public class class11250 implements class11192<class11270> {
    public static Object y_0;
 
    public class11250(class11213 var1, float var2) {
+      super();
       this.R();
       this.N_3 = ((class09322)class11185.B_3).z("u_projection");
       this.N_4 = ((class09322)class11185.B_3).z("u_view");

@@ -78,6 +78,7 @@ public class class11002 {
    }
 
    public class11002(EntityESP var1) {
+      super();
       this.z();
       this.L_0 = class06202.Nq();
       this.L_1 = new class10203(null, 1, 1, true);
@@ -246,7 +247,8 @@ public class class11002 {
                while (iterator.hasNext()) {
                   if (((class11051)iterator.next()).test(class07049)) {
                      this.N_7 = true;
-                     ((class11792)((class06202)this.L_0).Ng())
+                     ((class06202)this.L_0)
+                        .Ng()
                         .N(
                            class07049,
                            class06959,

@@ -10,6 +10,7 @@ public record class11906(class11909 type, Pair<Integer, Integer> group, int numb
    }
 
    public class11906(class11909 type, Pair<Integer, Integer> group, int number) {
+      super();
       this.type = type;
       this.group = group;
       this.number = number;

@@ -80,6 +80,6 @@ public class class11890 {
    public static List<class11904> N(class07049 var0, class06889 var1, float var2) {
       class06202 class06202 = class06202.Nq();
       class06959 class06959 = ((class03063)class06202.B_2).B.N;
-      return N(var5 -> ((class11792)class06202.Ng()).N(var0, class06959, var1.M, var1.B, var1.Z, var2, new class01421(), var5));
+      return N(var5 -> class06202.Ng().N(var0, class06959, var1.M, var1.B, var1.Z, var2, new class01421(), var5));
    }
 }

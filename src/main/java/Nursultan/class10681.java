@@ -27,6 +27,7 @@ public class class10681 extends class10742 {
    }
 
    public class10681() {
+      super();
       this.R();
       this.N_0 = class11938.Q();
    }

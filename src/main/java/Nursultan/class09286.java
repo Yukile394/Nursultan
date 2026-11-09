@@ -22,10 +22,12 @@ public class class09286 implements class11951<class09263> {
    }
 
    public class09286() {
+      super();
       this.z();
    }
 
    public class09286(String var1, int var2, double var3, double var5, double var7, int var9) {
+      super();
       this.z();
       this.N_0 = var1;
       this.N_1 = var2;

@@ -189,7 +189,7 @@ public abstract class class11053 extends class11535 {
          if (!class06942.N()) {
             return false;
          } else {
-            return ((class03448)((class06202)this.y_0).T_3).method_31606(class06942.method_8037()) ? false : ((class12010)class06918).N(class06942) != null;
+            return ((class03448)((class06202)this.y_0).T_3).method_31606(class06942.method_8037()) ? false : class06918.N(class06942) != null;
          }
       } else {
          return false;

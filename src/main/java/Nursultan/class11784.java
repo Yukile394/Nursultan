@@ -5,6 +5,7 @@ public class class11784 {
    public boolean N_init;
 
    public class11784() {
+      super();
       this.i();
    }
 

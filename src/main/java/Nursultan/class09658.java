@@ -9,6 +9,7 @@ public class class09658 extends class02165 {
       this.N = var2;
    }
 
+   @Override
    protected boolean N(char var1) {
       return this.N == var1;
    }

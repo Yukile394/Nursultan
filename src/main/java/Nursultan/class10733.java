@@ -15,6 +15,7 @@ public class class10733 implements ArgumentType<class11067> {
    public static Object N_0 = new DynamicCommandExceptionType(var0 -> class00392.y(class12020.N("module.not-found").formatted(((class11067)var0).N())));
 
    public class10733() {
+      super();
    }
 
    static {

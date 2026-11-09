@@ -10,9 +10,11 @@ import minecraft.class07508;
 
 public class class10467 implements class07508 {
    public class10467(class04770 var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    public void N(class07482 var1, int var2, class06584 var3) {
       class06937 class06937 = var1.L(var2);
       if (!(class06937 instanceof class06930)) {
@@ -22,6 +24,7 @@ public class class10467 implements class07508 {
       }
    }
 
+   @Override
    public void N(class07482 var1, int var2, int var3) {
    }
 }

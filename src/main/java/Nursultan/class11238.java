@@ -18,6 +18,7 @@ public class class11238 {
    public static Object y_0 = class06202.Nq();
 
    public class11238() {
+      super();
       this.U();
       this.N_0 = class11213.N((class09087)class09063.N_2, 4096, 1024);
       this.N_1 = new class11270();

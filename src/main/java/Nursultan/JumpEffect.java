@@ -29,6 +29,7 @@ public class JumpEffect extends class11067 {
    public static Object i_0;
 
    public JumpEffect() {
+      super();
       this.t();
       this.u_0 = class11524.N(this, "radius", 2.0F, 1.0F, 2.5F, 0.1F);
       this.u_1 = class11524.N(this, "wave-amplitude", 1.0F, 0.1F, 3.0F, 0.05F);

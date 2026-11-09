@@ -8,6 +8,7 @@ public class class11046 implements class00565 {
    public Object N_0;
 
    public class11046(FakePlayer var1) {
+      super();
       this.y();
       this.N_0 = var1;
    }
@@ -15,13 +16,16 @@ public class class11046 implements class00565 {
    private void y() {
    }
 
+   @Override
    public void N(class07050 var1, class06889 var2) {
    }
 
+   @Override
    public void N() {
       ((FakePlayer)this.N_0).t();
    }
 
+   @Override
    public void N(class07050 var1) {
    }
 }

@@ -12,10 +12,12 @@ import minecraft.class07211;
 
 public class class09395 extends class07206 {
    public class09395() {
+      super();
    }
 
+   @Override
    public class06584 N(class07210 var1, class06584 var2) {
-      class07211 class07211 = (class07211)var1.u().L(class06758.y);
+      class07211 class07211 = var1.u().L(class06758.y);
       class07078<?> class07078 = ((class06530)var2.B()).u(var2);
       if (class07078 == null) {
          return var2;

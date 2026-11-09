@@ -35,6 +35,7 @@ public class WindHop extends class11067 {
    public static Object i_4;
 
    public WindHop() {
+      super();
       this.m();
       this.u_0 = class11524.N(this, "auto-jump", true);
       this.u_1 = class11524.N(this, "jump-key", class12002.UNKNOWN);
@@ -96,10 +97,10 @@ public class WindHop extends class11067 {
                this.L_0 = new class10908(i, -1, class07050.field_5808, var1.L(), var1.N(), var1.u());
             } else {
                int j = ((class04453)((class06202)super.y_0).T_4).method_31548().M();
-               class11938.m().N(0, i, j, class07510.field_7791).y((class12040)(var4x -> {
+               class11938.m().N(0, i, j, class07510.field_7791).y(var4x -> {
                   this.m();
                   this.L_0 = new class10908(j, i, class07050.field_5808, var1.L(), var1.N(), var1.u());
-               })).y();
+               }).y();
             }
          } else {
             ((Deque)this.u_5).clear();

@@ -9,6 +9,7 @@ import java.util.List;
 
 public class class10868 extends MessageToMessageDecoder<WebSocketFrame> {
    public class10868() {
+      super();
    }
 
    public void decode(ChannelHandlerContext var1, WebSocketFrame var2, List<Object> var3) {

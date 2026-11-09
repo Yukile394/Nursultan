@@ -4,6 +4,7 @@ public class class12021 {
    public Object N_0;
 
    public class12021() {
+      super();
       this.y();
       this.N_0 = class11938.m();
    }

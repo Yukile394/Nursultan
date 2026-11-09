@@ -11,6 +11,7 @@ import minecraft.class06664;
 )
 public class NoSlotChange extends class11067 {
    public NoSlotChange() {
+      super();
    }
 
    @class11782

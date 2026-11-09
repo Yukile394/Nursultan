@@ -10,6 +10,7 @@ public record class11780<T>(Class<?> eventType, class11777 priority, boolean ign
    }
 
    public class11780(Class<?> eventType, class11777 priority, boolean ignoreCancelled, class11826<T> eventListener) {
+      super();
       this.eventType = eventType;
       this.priority = priority;
       this.ignoreCancelled = ignoreCancelled;

@@ -8,6 +8,7 @@ public final class class09429 {
    private final boolean y;
 
    public class09429(float var1, boolean var2) {
+      super();
       this.N = var1;
       this.y = var2;
    }

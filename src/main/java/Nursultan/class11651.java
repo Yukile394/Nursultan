@@ -4,6 +4,7 @@ import minecraft.class05913;
 
 public record class11651(class05913 material) implements class11652 {
    public class11651(class05913 material) {
+      super();
       this.material = material;
    }
 

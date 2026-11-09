@@ -5,6 +5,7 @@ import minecraft.class04995;
 
 public record class10226(int previous, int current) implements class03692 {
    public class10226(int previous, int current) {
+      super();
       this.previous = previous;
       this.current = current;
    }
@@ -17,6 +18,7 @@ public record class10226(int previous, int current) implements class03692 {
       return this.previous;
    }
 
+   @Override
    public int method_48889(float var1) {
       return class04995.N(var1, this.previous, this.current);
    }

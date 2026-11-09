@@ -9,6 +9,7 @@ public class class09534<T> extends class01807<T> {
       super(var1, var2);
    }
 
+   @Override
    public class06617 N(int var1) {
       return (class06617)(switch (var1) {
          case 0 -> class01807.L;

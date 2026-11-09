@@ -9,6 +9,7 @@ import minecraft.class06570;
 import minecraft.class06584;
 import minecraft.class06889;
 import minecraft.class06938;
+import minecraft.class07438;
 import minecraft.class08036;
 
 public class class11528 {
@@ -21,7 +22,7 @@ public class class11528 {
 
    private static boolean L(class08036 var0) {
       class06584 class06584 = var0.method_6047();
-      return class06584.N(var0) != 0 && !class06584.N(class06570.lo);
+      return class06584.N((class07438)var0) != 0 && !class06584.N(class06570.lo);
    }
 
    private class11528() {

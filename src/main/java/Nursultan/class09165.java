@@ -24,6 +24,7 @@ public class class09165 {
    }
 
    public class09165() {
+      super();
       this.M();
       this.N_5 = class09139.N(0.0, Math.PI * 2);
    }

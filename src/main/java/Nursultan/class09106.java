@@ -42,6 +42,7 @@ public class class09106 {
    }
 
    public class09106() {
+      super();
       this.u();
       this.N_0 = new class09090();
       this.N_1 = new class09059(this);

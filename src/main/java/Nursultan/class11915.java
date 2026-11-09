@@ -15,6 +15,7 @@ public record class11915(
    public class11915(
       boolean sneaking, boolean sprinting, boolean jumping, boolean water, boolean ground, double fallDistance, int jumpingCooldown, class11781 clientEntity
    ) {
+      super();
       this.sneaking = sneaking;
       this.sprinting = sprinting;
       this.jumping = jumping;

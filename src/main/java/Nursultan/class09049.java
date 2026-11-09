@@ -13,6 +13,7 @@ public class class09049 extends class07991 {
       this.N(48.0F);
    }
 
+   @Override
    protected boolean N(class06889 var1, class06889 var2) {
       return N(this.y, var1, var2, false);
    }

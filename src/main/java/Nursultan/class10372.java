@@ -85,5 +85,6 @@ public class class10372 {
    public static final int NO = 3021;
 
    public class10372() {
+      super();
    }
 }

@@ -11,6 +11,7 @@ public class class10646 extends class06698 {
       super(var1, class05715.field_26990, "entities", class06711.u, class06711.i);
    }
 
+   @Override
    protected class07001 N(class06172 var1, class07001 var2) {
       return var1.N(var2, -1);
    }

@@ -11,6 +11,7 @@ public class class11078 {
    public boolean N_init;
 
    public class11078() {
+      super();
       this.y();
       this.N_3 = 1;
    }

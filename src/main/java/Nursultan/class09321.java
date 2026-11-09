@@ -20,6 +20,7 @@ public class class09321 {
    }
 
    public class09321() {
+      super();
       this.B();
       this.y_5 = new Matrix4fStack(16);
    }

@@ -6,6 +6,7 @@ public class class09354 {
    public boolean y_init;
 
    public class09354() {
+      super();
       this.i();
    }
 

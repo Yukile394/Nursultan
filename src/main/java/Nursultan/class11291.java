@@ -2,6 +2,7 @@ package Nursultan;
 
 public class class11291 {
    public class11291() {
+      super();
    }
 
    public void N(int var1, byte[] var2) {

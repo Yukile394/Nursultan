@@ -11,6 +11,7 @@ public class class09881<T> extends class02760<T> {
       this.N = (T)var3;
    }
 
+   @Override
    public T N() {
       return this.N;
    }

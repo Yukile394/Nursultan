@@ -52,6 +52,7 @@ public class AuctionHelper extends class11067 {
    public boolean u_init;
 
    public AuctionHelper() {
+      super();
       this.m();
       this.u_0 = class11524.N(this, "profitable-color", -11104513);
       this.u_1 = class11524.N(this, "profitable-items-count", 3.0F, 1.0F, 5.0F, 1.0F);
@@ -98,7 +99,7 @@ public class AuctionHelper extends class11067 {
 
    private boolean y(class06584 var1) {
       if (var1.N(class06570.vv)) {
-         class08562 class08562 = (class08562)var1.a_(class02484.v, class08562.L);
+         class08562 class08562 = var1.a_(class02484.v, class08562.L);
          if (class08562.y().size() > 5) {
             return false;
          }
@@ -234,9 +235,7 @@ public class AuctionHelper extends class11067 {
          .filter(class06937::R)
          .sorted(
             Comparator.<class06937>comparingLong(
-                  var0 -> ((class02710)var0.i().y().a_(class02484.P, class02710.N)).N().stream().anyMatch(var0x -> var0x.N(var0xx -> var0xx == class07314.B))
-                     ? 1L
-                     : 0L
+                  var0 -> var0.i().y().a_(class02484.P, class02710.N).N().stream().anyMatch(var0x -> var0x.N(var0xx -> var0xx == class07314.B)) ? 1L : 0L
                )
                .thenComparing((Comparator<? super class06937>)this.u_5)
          )

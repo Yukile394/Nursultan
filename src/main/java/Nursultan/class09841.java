@@ -46,6 +46,7 @@ public final class class09841 {
    }
 
    public class09841(class09781 var1, class09798 var2) {
+      super();
       this.N = Objects.requireNonNull(var1, "context");
       this.y = class09715.N(var1);
       this.L = class10037.N(var1);

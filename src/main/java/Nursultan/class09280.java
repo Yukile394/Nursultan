@@ -7,10 +7,12 @@ public class class09280 implements class11951<class09263> {
    }
 
    public class09280() {
+      super();
       this.L();
    }
 
    public class09280(String[] var1) {
+      super();
       this.L();
       this.N_0 = var1;
    }

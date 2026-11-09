@@ -7,9 +7,11 @@ public class class10434 implements class04522 {
    private double y = Double.MIN_VALUE;
 
    public class10434(float var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    public boolean method_34792(double var1) {
       boolean flag;
       if (this.y != Double.MIN_VALUE && !(var1 <= this.y)) {

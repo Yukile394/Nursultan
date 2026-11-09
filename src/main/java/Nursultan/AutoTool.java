@@ -27,6 +27,7 @@ public class AutoTool extends class11067 {
    public boolean L_init;
 
    public AutoTool() {
+      super();
       this.b();
       this.L_0 = new class11312();
       this.L_4 = -1;
@@ -67,7 +68,7 @@ public class AutoTool extends class11067 {
 
    private Optional<class11297> N(class07209 var1) {
       class00500 class00500 = ((class03448)((class06202)super.y_0).T_3).method_8320(var1);
-      return class11281.L((class11328)(var2x -> this.N(var2x, class00500) > 1.0F))
+      return class11281.L(var2x -> this.N(var2x, class00500) > 1.0F)
          .max(Comparator.<class11297>comparingDouble(var1x -> var1x.N().y(class00500) ? 1.0 : 0.0).thenComparing(var2x -> this.N(var2x.N(), class00500)));
    }
 
@@ -141,13 +142,13 @@ public class AutoTool extends class11067 {
                      this.L_2 = true;
                      ((class11312)this.L_0).N(j, i);
                      class06584 class06584 = var2.N();
-                     class11938.m().N(0, i, j, class07510.field_7791).y((class12040)(var3x -> {
+                     class11938.m().N(0, i, j, class07510.field_7791).y(var3x -> {
                         this.b();
                         this.L_2 = false;
                         if (!class06584.L(((class04453)((class06202)super.y_0).T_4).method_31548().method_5438(j), class06584)) {
                            ((class11312)this.L_0).N();
                         }
-                     })).y();
+                     }).y();
                   }
 
                   this.L_1 = true;

@@ -30,6 +30,7 @@ public class class11884 {
    }
 
    public class11884(double var1, double var3, double var5, double var7, double var9, double var11) {
+      super();
       this.E();
       this.N_0 = Math.min(var1, var7);
       this.N_1 = Math.min(var3, var9);

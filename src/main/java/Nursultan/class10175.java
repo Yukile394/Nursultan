@@ -11,6 +11,7 @@ class class10175 extends class03311 {
       super(var1, var2, var4, var6, var8, var9, var10);
    }
 
+   @Override
    protected void y() {
       this.field_62633 = 1.0F;
       this.field_62634 = 16.0F / (40 - this.field_3847 + 16);

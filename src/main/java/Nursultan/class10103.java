@@ -8,6 +8,7 @@ import minecraft.class04770;
 
 public record class10103(class03926 message) implements class03059 {
    public class10103(class03926 message) {
+      super();
       this.message = message;
    }
 
@@ -15,6 +16,7 @@ public record class10103(class03926 message) implements class03059 {
       return this.message;
    }
 
+   @Override
    public void N(class04770 var1, boolean var2, class00649 var3) {
       class03926 class03926 = this.message.N(var2);
       if (!class03926.z()) {
@@ -22,6 +24,7 @@ public record class10103(class03926 message) implements class03059 {
       }
    }
 
+   @Override
    public class00392 N() {
       return this.message.u();
    }

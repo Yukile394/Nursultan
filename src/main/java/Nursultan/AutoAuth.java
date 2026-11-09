@@ -39,6 +39,7 @@ public class AutoAuth extends class11067 {
    }
 
    public AutoAuth() {
+      super();
       this.s();
       this.L_0 = new class11693((Path)u_1);
       this.L_1 = class11524.N(this, "password", (String)u_0, Pattern.compile("^[^\\s]{1,16}$"));

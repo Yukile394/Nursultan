@@ -11,6 +11,7 @@ public class class09052 extends class00155 {
    private final class04453 P;
    private int s;
 
+   @Override
    public void P() {
       if (!this.P.method_31481() && this.s >= 0) {
          if (this.P.method_5869()) {

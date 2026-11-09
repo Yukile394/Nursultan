@@ -6,6 +6,7 @@ public record class09916(float x, float y, float width, float height) {
    }
 
    public class09916(float x, float y, float width, float height) {
+      super();
       this.x = x;
       this.y = y;
       this.width = width;

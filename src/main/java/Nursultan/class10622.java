@@ -7,23 +7,28 @@ import minecraft.class07769;
 import org.jspecify.annotations.Nullable;
 
 public class class10622 implements class06591 {
+   @Override
    public boolean L() {
       return false;
    }
 
    public class10622(class01929 var1) {
+      super();
       this.y = var1;
    }
 
+   @Override
    public float y() {
       return 20.0F;
    }
 
    @Nullable
+   @Override
    public class07769 N(class02265 var1) {
       return null;
    }
 
+   @Override
    public class01929 N() {
       return this.y;
    }

@@ -15,9 +15,11 @@ public class class11666 implements class08910 {
    private final List<class08910> N;
 
    public class11666(List<class08910> var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    public void method_65584(class08898 var1, class06584 var2, class08943 var3, class03662 var4, @Nullable class03448 var5, @Nullable class08961 var6, int var7) {
       var1.N(this);
       var1.N(this.N.size());

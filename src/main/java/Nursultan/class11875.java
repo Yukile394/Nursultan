@@ -5,6 +5,7 @@ import java.util.function.BooleanSupplier;
 public record class11875(BooleanSupplier checked) implements class11849 {
 
    public class11875(BooleanSupplier checked) {
+      super();
       this.checked = checked;
    }
 

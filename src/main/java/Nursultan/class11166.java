@@ -3,7 +3,7 @@ package Nursultan;
 import java.util.Objects;
 import java.util.UUID;
 
-public record class11166(boolean insecure, UUID uuid, String name, byte[] data) implements class11776 {
+public non-sealed record class11166(boolean insecure, UUID uuid, String name, byte[] data) implements class11776 {
 
    @Override
    public UUID L() {
@@ -11,6 +11,7 @@ public record class11166(boolean insecure, UUID uuid, String name, byte[] data) 
    }
 
    public class11166(boolean insecure, UUID uuid, String name, byte[] data) {
+      super();
       this.insecure = insecure;
       this.uuid = uuid;
       this.name = name;

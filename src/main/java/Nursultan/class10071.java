@@ -20,6 +20,7 @@ public class class10071<B, C> implements class02362<B, C> {
       Function var12,
       Function var13
    ) {
+      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;
@@ -35,22 +36,24 @@ public class class10071<B, C> implements class02362<B, C> {
       this.W = var13;
    }
 
+   @Override
    public C decode(B var1) {
-      Object object = this.N.decode(var1);
-      Object object1 = this.y.decode(var1);
-      Object object2 = this.L.decode(var1);
-      Object object3 = this.u.decode(var1);
-      Object object4 = this.i.decode(var1);
-      Object object5 = this.R.decode(var1);
+      Object object = this.N.decode((B)var1);
+      Object object1 = this.y.decode((B)var1);
+      Object object2 = this.L.decode((B)var1);
+      Object object3 = this.u.decode((B)var1);
+      Object object4 = this.i.decode((B)var1);
+      Object object5 = this.R.decode((B)var1);
       return (C)this.M.apply(object, object1, object2, object3, object4, object5);
    }
 
+   @Override
    public void encode(B var1, C var2) {
-      this.N.encode(var1, this.B.apply(var2));
-      this.y.encode(var1, this.Z.apply(var2));
-      this.L.encode(var1, this.z.apply(var2));
-      this.u.encode(var1, this.U.apply(var2));
-      this.i.encode(var1, this.E.apply(var2));
-      this.R.encode(var1, this.W.apply(var2));
+      this.N.encode((B)var1, this.B.apply(var2));
+      this.y.encode((B)var1, this.Z.apply(var2));
+      this.L.encode((B)var1, this.z.apply(var2));
+      this.u.encode((B)var1, this.U.apply(var2));
+      this.i.encode((B)var1, this.E.apply(var2));
+      this.R.encode((B)var1, this.W.apply(var2));
    }
 }

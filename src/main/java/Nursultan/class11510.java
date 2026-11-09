@@ -9,6 +9,7 @@ public record class11510(List<String> breadcrumbs, Object target, int score) {
    }
 
    public class11510(List<String> breadcrumbs, Object target, int score) {
+      super();
       this.breadcrumbs = breadcrumbs;
       this.target = target;
       this.score = score;

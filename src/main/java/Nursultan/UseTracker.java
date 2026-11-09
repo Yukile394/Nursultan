@@ -13,6 +13,7 @@ public class UseTracker extends class11067 {
    public Object L_2;
 
    public UseTracker() {
+      super();
       this.m();
       this.L_0 = new class11559(this, "totem-tracker", true);
       this.L_1 = new class11572(this, "food-tracker", true);

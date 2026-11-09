@@ -26,6 +26,7 @@ public class class09127 {
    public Object L_5;
 
    public class09127() {
+      super();
       this.u();
       this.L_0 = new class09129();
       this.L_1 = new class09145();

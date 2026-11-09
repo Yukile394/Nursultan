@@ -55,7 +55,7 @@ public class class11303 {
 
    private static void N(class06390 var0) {
       String s = var0.y().getString().replaceAll("\r", "\\r").replaceAll("\n", "\\n");
-      String s1 = (String)class01962.N(var0.u(), class03054::B);
+      String s1 = class01962.N(var0.u(), class03054::B);
       if (s1 != null) {
          ((Logger)N_0).info("[{}] [CHAT] {}", s1, s);
       } else {

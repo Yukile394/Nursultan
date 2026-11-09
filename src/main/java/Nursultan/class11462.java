@@ -13,6 +13,7 @@ public class class11462 {
    }
 
    public class11462(int var1, Runnable var2) {
+      super();
       this.R();
       this.y_0 = var1;
       this.y_1 = var2;

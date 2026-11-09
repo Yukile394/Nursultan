@@ -5,6 +5,7 @@ import minecraft.class08199;
 
 public class class10884 implements class08199<Runnable> {
    public class10884(String var1, Executor var2) {
+      super();
       this.N = var1;
       this.y = var2;
    }
@@ -14,14 +15,17 @@ public class class10884 implements class08199<Runnable> {
       return this.N;
    }
 
+   @Override
    public Runnable y(Runnable var1) {
       return var1;
    }
 
+   @Override
    public void N(Runnable var1) {
       this.y.execute(var1);
    }
 
+   @Override
    public String as_() {
       return this.N;
    }

@@ -11,6 +11,7 @@ public class NoSlow extends class11067 {
    public Object L_2;
 
    public NoSlow() {
+      super();
       this.m();
       this.L_0 = new class10922(this, "vanilla", true);
       this.L_1 = new class10934(this, "spooky-time-duels", false);

@@ -19,6 +19,7 @@ public class class11248 implements class11192<class11257> {
    }
 
    public class11248(class11213 var1, int var2) {
+      super();
       this.L();
       this.N_3 = ((class09322)class11185.L_4).z(Z[0]);
       this.N_4 = ((class09322)class11185.L_4).z(Z[1]);

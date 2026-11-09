@@ -13,6 +13,7 @@ public class class10312<T> extends class04113<T> implements class01903<T> {
       this.N = var2;
    }
 
+   @Override
    public class01921<T> N() {
       return this.N;
    }

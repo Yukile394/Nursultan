@@ -13,10 +13,12 @@ public class class11987 implements class11951<class09276> {
    }
 
    public class11987() {
+      super();
       this.i();
    }
 
    public class11987(double var1, double var3, double var5, int var7) {
+      super();
       this.i();
       this.N_0 = var1;
       this.N_1 = var3;

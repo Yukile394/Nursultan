@@ -10,6 +10,7 @@ public class class11973 {
    public Object N_1;
 
    public class11973() {
+      super();
       this.i();
       this.N_0 = new Object[0];
       this.N_1 = new ConcurrentLinkedQueue();

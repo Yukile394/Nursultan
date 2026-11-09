@@ -25,6 +25,7 @@ public class class10685 implements class06934 {
    private final class03767 u;
 
    public class10685(class06911 var1, class03767 var2) {
+      super();
       this.L = var1;
       this.u = var2;
    }
@@ -43,8 +44,7 @@ public class class10685 implements class06934 {
       }
    }
 
-   // $VF: Unable to simplify switch-on-enum, as the enum class was not able to be found.
-   // Please report this to the Vineflower issue tracker, at https://github.com/Vineflower/vineflower/issues with a copy of the class file (if you have the rights to distribute it!)
+   @Override
    public void method_45417(class06584 var1, class06908 var2) {
       if (var1.c() != 1) {
          throw new IllegalArgumentException("Stack size must be exactly 1");
@@ -65,15 +65,15 @@ public class class10685 implements class06934 {
          boolean flag = this.N(class06581x, class03767, operation, localrefimpl);
          var1 = (class06584)localrefimpl.dispose();
          if (flag) {
-            switch (var2.ordinal()) {
-               case 0:
+            switch (var2) {
+               case field_40191:
                   this.N.add(var1);
                   this.y.add(var1);
                   break;
-               case 1:
+               case field_40192:
                   this.N.add(var1);
                   break;
-               case 2:
+               case field_40193:
                   this.y.add(var1);
             }
          }

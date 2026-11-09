@@ -12,11 +12,13 @@ import org.apache.commons.lang3.mutable.MutableBoolean;
 import org.jspecify.annotations.Nullable;
 
 public class class10640 implements class01765 {
+   @Override
    public boolean L() {
       return this.N.L();
    }
 
    public class10640(class06683 var1, class00490 var2, boolean var3, MutableBoolean var4, class00518 var5, class01766 var6) {
+      super();
       this.R = var1;
       this.N = var2;
       this.y = var3;
@@ -30,19 +32,23 @@ public class class10640 implements class01765 {
       this.L.setFalse();
    }
 
+   @Override
    public void i() {
       this.N(true);
    }
 
+   @Override
    public void u() {
       this.N(false);
    }
 
    @Nullable
+   @Override
    public class00392 y() {
       return this.N.u();
    }
 
+   @Override
    public void N(@Nullable class01762 var1) {
       this.N.N(var1);
       this.B();
@@ -57,6 +63,7 @@ public class class10640 implements class01765 {
       this.R.u(this.i, this.u);
    }
 
+   @Override
    public void N(@Nullable class00392 var1) {
       if (this.L.isTrue() || !Objects.equals(var1, this.N.u())) {
          this.N.N(var1);
@@ -64,6 +71,7 @@ public class class10640 implements class01765 {
       }
    }
 
+   @Override
    public void N(int var1) {
       if (!this.y) {
          throw new IllegalStateException("Cannot modify read-only score");
@@ -88,6 +96,7 @@ public class class10640 implements class01765 {
       }
    }
 
+   @Override
    public int N() {
       return this.N.y();
    }

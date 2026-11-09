@@ -3,6 +3,7 @@ package Nursultan;
 import minecraft.class00038;
 
 public interface class09050 extends class00038 {
+   @Override
    default boolean y() {
       return this.N() > 1;
    }

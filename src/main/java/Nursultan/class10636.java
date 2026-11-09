@@ -9,6 +9,7 @@ import minecraft.class07134;
 
 public class class10636 implements class04417<class07134> {
    public class10636() {
+      super();
    }
 
    public class04406 method_3090(

@@ -44,6 +44,7 @@ public class ShulkerPreview extends class11067 {
    }
 
    public ShulkerPreview() {
+      super();
       this.P();
       this.L_0 = class11911.N("icons/3x9.png");
       this.L_1 = class11524.N(this, "show-in-world", true);
@@ -182,7 +183,7 @@ public class ShulkerPreview extends class11067 {
                class06922.L().addAll(list);
 
                for (int i = 0; i < list.size(); i++) {
-                  ((class06937)class06922.T.get(i)).u(list.get(i));
+                  class06922.T.get(i).u(list.get(i));
                }
 
                class05096 class05096 = (class05096)((class06202)super.y_0).v_3;
@@ -225,7 +226,7 @@ public class ShulkerPreview extends class11067 {
          Vector2ic vector2ic = class02128.N.method_47944(class01054.N(), class01054.y(), j, k, i, b0);
          j = vector2ic.x();
          k = vector2ic.y();
-         class02118.N(class01054, j, k, i, b0, (class01894)class06584.method_58694(class02484.V));
+         class02118.N(class01054, j, k, i, b0, class06584.method_58694(class02484.V));
          this.N(class01054, j, k, b0, class06584);
          class01054.y((class01590)((class06202)super.y_0).i_3, class00392x.method_30937(), j, k, -1);
          class01054.y((class01590)((class06202)super.y_0).i_3, class00392x.method_30937(), j, k + 10, -1);

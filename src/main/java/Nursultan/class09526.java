@@ -34,6 +34,7 @@ public class class09526 implements class01830, class03894 {
    }
 
    public class09526(class01837 var1, class03877 var2) {
+      super();
       this.L = var1;
       this.M = var2;
       this.N = this.y(var1.y, var1.N);
@@ -41,10 +42,12 @@ public class class09526 implements class01830, class03894 {
       var1.R.add(this);
    }
 
+   @Override
    public class03909 i() {
       return class03909.field_36562;
    }
 
+   @Override
    public class03877 u() {
       return this.M;
    }
@@ -77,6 +80,7 @@ public class class09526 implements class01830, class03894 {
       this.P = this.y[var2 + 1][var1 + 1];
    }
 
+   @Override
    public void N(double[] var1, class03912 var2) {
       if (this.L.E) {
          var2.N(var1, this);
@@ -85,6 +89,7 @@ public class class09526 implements class01830, class03894 {
       }
    }
 
+   @Override
    public double N(class03875 var1) {
       if (var1 != this.L) {
          return this.M.N(var1);

@@ -17,6 +17,7 @@ public class class11456 implements class11192<class09317> {
    public static Object y_1 = class06202.Nq();
 
    public class11456(class11213 var1) {
+      super();
       this.R();
       this.N_2 = new Matrix4f();
       this.N_3 = ((class09322)class11185.M_1).z("u_projection");

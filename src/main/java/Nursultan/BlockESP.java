@@ -112,6 +112,7 @@ public class BlockESP extends class11067 {
    }
 
    public BlockESP() {
+      super();
       this.k();
       this.u_0 = Map.of();
       this.u_1 = (class11507)class11524.N(this, "delta-mode", false).N_6((var1, var2) -> this.l());
@@ -202,7 +203,7 @@ public class BlockESP extends class11067 {
       this.k();
       if ((class03448)((class06202)super.y_0).T_3 != null && (class04453)((class06202)super.y_0).T_4 != null) {
          class07321 class07321 = ((class04453)((class06202)super.y_0).T_4).method_31476();
-         int i = (Integer)((class05630)((class06202)super.y_0).i_7).i().method_41753() + 1;
+         int i = ((class05630)((class06202)super.y_0).i_7).i().method_41753() + 1;
 
          for (int j = class07321.B - i; j <= class07321.B + i; j++) {
             for (int k = class07321.Z - i; k <= class07321.Z + i; k++) {

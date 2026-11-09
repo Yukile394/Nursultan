@@ -9,6 +9,7 @@ class class10289 extends class07068 {
       super(var2, var3);
    }
 
+   @Override
    protected float N(class01763 var1, class01763 var2) {
       return var1.y(var2);
    }

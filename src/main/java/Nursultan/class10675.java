@@ -50,6 +50,7 @@ public class class10675 extends class10742 {
    }
 
    public class10675() {
+      super();
    }
 
    static {

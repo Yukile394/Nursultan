@@ -10,6 +10,7 @@ public class class09538 extends class01869 {
       super(var1);
    }
 
+   @Override
    public void N(String var1, @Nullable class05096 var2) {
       class01874.N.warn("Commands are not supported in configuration phase, trying to run '{}'", var1);
    }

@@ -29,7 +29,7 @@ public class class11302 {
    }
 
    public static double y(double var0) {
-      double d0 = (Double)((class05630)((class06202)N_0).i_7).u().method_41753() * y[0] + y[1];
+      double d0 = ((class05630)((class06202)N_0).i_7).u().method_41753() * y[0] + y[1];
       double d1 = d0 * d0 * d0 * y[2];
       return var0 * d1;
    }
@@ -45,7 +45,7 @@ public class class11302 {
    }
 
    public static double N(double var0) {
-      double d0 = (Double)((class05630)((class06202)N_0).i_7).u().method_41753() * i[0] + i[1];
+      double d0 = ((class05630)((class06202)N_0).i_7).u().method_41753() * i[0] + i[1];
       return var0 / (i[2] * d0 * d0 * d0);
    }
 
@@ -65,6 +65,6 @@ public class class11302 {
    }
 
    public static float N(float var0, float var1) {
-      return N(var0, var1, (Double)((class05630)((class06202)N_0).i_7).u().method_41753());
+      return N(var0, var1, ((class05630)((class06202)N_0).i_7).u().method_41753());
    }
 }

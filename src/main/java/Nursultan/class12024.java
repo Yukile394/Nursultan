@@ -55,6 +55,7 @@ public class class12024 extends class12001 {
    }
 
    public class12024() {
+      super();
       this.M();
    }
 

@@ -11,18 +11,22 @@ import minecraft.class05946;
 
 public class class10339 implements class04348 {
    public class10339(class01929 var1, class03767 var2) {
+      super();
       this.N = var1;
       this.y = var2;
    }
 
+   @Override
    public Stream<class05946<? extends class00751<?>>> y() {
       return this.N.y();
    }
 
+   @Override
    public class03767 N() {
       return this.y;
    }
 
+   @Override
    public <T> Optional<class01921<T>> method_46759(class05946<? extends class00751<? extends T>> var1) {
       return this.N.method_46759(var1).map(var1x -> var1x.N(var0));
    }

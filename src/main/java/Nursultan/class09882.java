@@ -19,6 +19,7 @@ public class class09882 {
    private final Object2IntSortedMap<class06581> L = new Object2IntLinkedOpenHashMap();
 
    public class09882(class01929 var1, class03767 var2) {
+      super();
       this.N = var1.y(class04227.F);
       this.y = var2;
    }

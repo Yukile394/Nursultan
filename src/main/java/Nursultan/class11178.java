@@ -12,6 +12,7 @@ public class class11178 {
    }
 
    public class11178(int var1) {
+      super();
       this.R();
       this.N_0 = MemoryUtil.memAlloc(var1);
    }

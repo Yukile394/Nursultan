@@ -6,6 +6,7 @@ import minecraft.class05096;
 
 public class class09682 implements ModMenuApi {
    public class09682() {
+      super();
    }
 
    public ConfigScreenFactory<?> getModConfigScreenFactory() {

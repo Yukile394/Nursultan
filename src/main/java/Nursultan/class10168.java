@@ -11,11 +11,13 @@ public class class10168<T> implements class03257 {
    private final List<class00381<? super T>> y;
 
    public class10168(class03253 var1) {
+      super();
       this.N = var1;
       this.y = new ArrayList<>();
    }
 
    @Nullable
+   @Override
    public class00381<?> N(class00381<?> var1) {
       if (var1 == this.N.L) {
          return (class00381<?>)this.N.u.apply(this.y);

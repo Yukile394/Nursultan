@@ -9,9 +9,11 @@ import minecraft.class03643;
 
 public class class10219 implements class03643 {
    public class10219(JsonObject var1) {
+      super();
       this.L = var1;
    }
 
+   @Override
    public <T> Optional<T> N(class02968<T> var1) {
       String s = var1.N();
       return this.L.has(s) ? Optional.of((T)var1.y().parse(JsonOps.INSTANCE, this.L.get(s)).getOrThrow(JsonParseException::new)) : Optional.empty();

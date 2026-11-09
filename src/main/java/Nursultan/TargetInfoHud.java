@@ -326,7 +326,7 @@ public class TargetInfoHud extends class11769 {
                class11791.N()
                   .and(var0x -> var0x instanceof class07438)
                   .and(var0x -> var0x.method_5864() != class07078.B)
-                  .and(var0x -> !((class11783)var0x).dataManager().M().N())
+                  .and(var0x -> !var0x.dataManager().M().N())
             );
             if (class07089 != null) {
                return (class07438)((class06145)class07089).L();

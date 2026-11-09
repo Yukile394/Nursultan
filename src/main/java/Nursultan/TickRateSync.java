@@ -7,6 +7,7 @@ package Nursultan;
 )
 public class TickRateSync extends class11067 {
    public TickRateSync() {
+      super();
    }
 
    public static float m() {

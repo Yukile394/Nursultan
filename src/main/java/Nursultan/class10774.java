@@ -15,6 +15,7 @@ public class class10774 extends class07458 {
       this.N = var1;
    }
 
+   @Override
    public void N() {
       if (this.N.method_5777(class01231.N)) {
          this.N.method_18799(this.N.method_18798().y(0.0, 0.005, 0.0));

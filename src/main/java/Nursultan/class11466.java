@@ -12,6 +12,7 @@ public class class11466 {
    public static Object y_0 = LogManager.getLogger(String.class);
 
    public class11466() {
+      super();
       this.R();
       this.N_0 = new ConcurrentLinkedDeque();
    }

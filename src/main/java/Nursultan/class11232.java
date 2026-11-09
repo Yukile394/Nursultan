@@ -16,6 +16,7 @@ public class class11232 {
    public Object y_4;
 
    public class11232(class06889 var1, class06889 var2, float var3, int var4) {
+      super();
       this.u();
       this.y_0 = var1;
       this.y_1 = var2;
@@ -59,11 +60,15 @@ public class class11232 {
       this.y_1 = (class06889)this.y_0;
       byte b0 = 5;
       if ((Integer)this.N_2 % b0 == 0 || (class06889)this.y_3 == null) {
-         this.y_3 = ((class06889)this.y_4).u().B((class06889)this.y_2).L(Math.min(((Integer)this.N_2).intValue() / 15.0F, 1.0F)).i((class06889)this.y_0);
+         this.y_3 = ((class06889)this.y_4)
+            .u()
+            .B((class06889)this.y_2)
+            .L((double)Math.min(((Integer)this.N_2).intValue() / 15.0F, 1.0F))
+            .i((class06889)this.y_0);
          this.N_3 = (Integer)this.N_2 + b0;
       }
 
-      this.y_0 = ((class06889)this.y_0).N((class06889)this.y_3, 1.0F / ((Integer)this.N_3 - (Integer)this.N_2));
+      this.y_0 = ((class06889)this.y_0).N((class06889)this.y_3, (double)(1.0F / ((Integer)this.N_3 - (Integer)this.N_2)));
    }
 
    public boolean N() {

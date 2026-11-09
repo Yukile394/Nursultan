@@ -12,6 +12,7 @@ public class class10481 extends class06937 {
       this.N = var6;
    }
 
+   @Override
    public boolean N(class06584 var1) {
       return this.N.u().test(var1);
    }

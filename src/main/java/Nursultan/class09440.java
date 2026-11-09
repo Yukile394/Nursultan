@@ -6,12 +6,12 @@ import java.util.Iterator;
 import minecraft.class01101;
 import minecraft.class01129;
 import minecraft.class01135;
-import net.caffeinemc.mods.lithium.mixin.minimal_nonvanilla.spawning.EntitySectionAccessor;
 
 public class class09440<T> extends AbstractIterator<T> {
    Iterator<T> N;
 
    public class09440(class01129 var1, ObjectIterator var2) {
+      super();
       this.y = var2;
    }
 
@@ -22,7 +22,7 @@ public class class09440<T> extends AbstractIterator<T> {
          while (this.y.hasNext()) {
             class01101 class01101 = (class01101)this.y.next();
             if (class01101.L().y() && !class01101.N()) {
-               this.N = ((EntitySectionAccessor)class01101).getCollection().iterator();
+               this.N = class01101.getCollection().iterator();
                if (this.N.hasNext()) {
                   return (T)((class01135)this.N.next());
                }

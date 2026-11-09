@@ -3,6 +3,7 @@ package Nursultan;
 public record class10533(int priority, Runnable task) implements Runnable {
 
    public class10533(int priority, Runnable task) {
+      super();
       this.priority = priority;
       this.task = task;
    }

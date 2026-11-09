@@ -4,6 +4,7 @@ public class class11400 extends class11389 {
    public static Object u_0 = new class11400();
 
    public class11400() {
+      super();
    }
 
    static {

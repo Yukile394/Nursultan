@@ -9,6 +9,7 @@ public class WallClimb extends class11067 {
    public Object L_0;
 
    public WallClimb() {
+      super();
       this.m();
       this.L_0 = class11524.N(this, "mode", new class10895(this, "block", true));
    }

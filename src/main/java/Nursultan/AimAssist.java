@@ -35,6 +35,7 @@ public class AimAssist extends class11067 {
    }
 
    public AimAssist() {
+      super();
       this.v();
       this.L_0 = class11524.N(this, "fov", 180.0F, 1.0F, 180.0F, 1.0F);
       this.L_1 = class11524.N(this, "aim-range", 4.0F, 0.1F, 10.0F, 0.1F);
@@ -141,7 +142,7 @@ public class AimAssist extends class11067 {
             this.L_6 = 0.0;
             this.L_7 = 0.0;
          } else {
-            double d3 = class04995.u(f, f1) * 180.0F / (float)Math.PI - 90.0;
+            double d3 = class04995.u((double)f, (double)f1) * 180.0F / (float)Math.PI - 90.0;
             double d4 = ((class11504)this.L_2).i().floatValue() * Math.max(0.5, Math.min(d2, 10.0) * 0.1F) * d1;
             double d5 = Math.min(d4, (double)Math.abs(f1));
             double d6 = Math.min(d4, (double)Math.abs(f));

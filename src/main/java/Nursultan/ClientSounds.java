@@ -33,6 +33,7 @@ public class ClientSounds extends class11067 {
    public static Object u_0 = LogManager.getLogger(String.class);
 
    public ClientSounds() {
+      super();
       this.j();
       this.L_0 = class11524.N(this, "toggle-sounds", true);
       this.L_1 = new class11535("custom", false);

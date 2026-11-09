@@ -17,6 +17,7 @@ public record class11789(
    public class11789(
       long presetId, UUID presetClientId, byte[] token, long expiresAtMillis, int activationLimit, int activationCount, long createdAtMillis, boolean stale
    ) {
+      super();
       this.presetId = presetId;
       this.presetClientId = presetClientId;
       this.token = token;

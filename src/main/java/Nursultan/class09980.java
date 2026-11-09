@@ -490,6 +490,7 @@ public final class class09980 {
       boolean var47,
       boolean var48
    ) {
+      super();
       this.N = Objects.requireNonNull(var1);
       this.y = Objects.requireNonNull(var2);
       this.L = Objects.requireNonNull(var3);

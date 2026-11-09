@@ -94,6 +94,7 @@ public class class11179 {
    }
 
    public class11179(int var1, int var2) {
+      super();
       this.b();
       this.i_0 = var1;
       this.i_1 = var2;

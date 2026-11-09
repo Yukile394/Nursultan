@@ -35,6 +35,7 @@ public record class09122(
       boolean overlapRange,
       boolean constrainedSpace
    ) {
+      super();
       this.rotation = rotation;
       this.yawSpeed = yawSpeed;
       this.pitchSpeed = pitchSpeed;

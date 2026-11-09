@@ -18,7 +18,6 @@ import minecraft.class07878;
 import minecraft.class08057;
 import minecraft.class08072;
 import minecraft.class08700;
-import net.caffeinemc.mods.lithium.common.world.blockentity.SupportCache;
 import net.caffeinemc.mods.lithium.common.world.listeners.WorldBorderListenerOnce;
 
 public class class09372<T extends class00394> implements class01099, WorldBorderListenerOnce {
@@ -28,6 +27,7 @@ public class class09372<T extends class00394> implements class01099, WorldBorder
    private byte i;
 
    public class09372(T var1, class01118<T> var2, class01118 var3) {
+      super();
       this.N = var1;
       this.i = 0;
       this.y = (T)var2;
@@ -75,21 +75,25 @@ public class class09372<T extends class00394> implements class01099, WorldBorder
    }
 
    private boolean N(class00404 var1, class00500 var2) {
-      return ((SupportCache)this.y).lithium$isSupported();
+      return this.y.lithium$isSupported();
    }
 
+   @Override
    public String method_31706() {
       return class00404.method_11033(this.y.O()).toString();
    }
 
+   @Override
    public class07209 method_31705() {
       return this.y.d();
    }
 
+   @Override
    public boolean method_31704() {
       return this.y.k();
    }
 
+   @Override
    public void method_31703() {
       if (!this.y.k() && this.y.l()) {
          class07209 class07209 = this.y.d();

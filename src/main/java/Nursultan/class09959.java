@@ -17,19 +17,23 @@ public class class09959 implements class08771 {
    private int i;
 
    public class09959(class02796 var1, int var2) {
+      super();
       this.y = var1;
       this.N = var2;
    }
 
+   @Override
    public int N() {
       return this.N;
    }
 
    @Nullable
+   @Override
    public class00549 N(int var1, int var2) {
       return this.L == null ? null : this.L.L(class07321.u(var1 + this.u - this.N, var2 + this.i - this.N));
    }
 
+   @Override
    public void N(class05946<class07299> var1, class07321 var2) {
       class04782 class04782 = this.y.N(var1);
       this.L = class04782 != null ? class04782.method_14178().L : null;

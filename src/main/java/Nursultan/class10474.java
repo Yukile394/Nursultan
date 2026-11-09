@@ -15,6 +15,7 @@ public class class10474 extends class07473 {
    private final float L;
    public final class01328 N = class01328.y().N(8.0).u().i();
 
+   @Override
    public void L() {
       super.L();
       this.y.f().W();
@@ -26,15 +27,18 @@ public class class10474 extends class07473 {
    }
 
    public class10474(class00675 var1, float var2) {
+      super();
       this.y = var1;
       this.L = var2 * var2;
       this.N_71(EnumSet.of(class07430.field_18405, class07430.field_18406));
    }
 
+   @Override
    public boolean B() {
       return true;
    }
 
+   @Override
    public void i() {
       class07438 class07438 = this.y.T();
       if (class07438 != null) {
@@ -51,6 +55,7 @@ public class class10474 extends class07473 {
       }
    }
 
+   @Override
    public void u() {
       super.u();
       class07438 class07438 = this.y.T();
@@ -64,6 +69,7 @@ public class class10474 extends class07473 {
       }
    }
 
+   @Override
    public boolean N() {
       class07438 class07438 = this.y.method_6065();
       return this.y.K() == null

@@ -10,20 +10,21 @@ import minecraft.class06584;
 import minecraft.class06758;
 import minecraft.class07209;
 import minecraft.class07210;
-import minecraft.class07211;
 import minecraft.class07305;
 
 public class class09400 extends class01989 {
    public class09400() {
+      super();
    }
 
+   @Override
    protected class06584 N(class07210 var1, class06584 var2) {
       class04782 class04782 = var1.y();
-      if (!(Boolean)class04782.method_64395().N(class07305.Nu)) {
+      if (!class04782.method_64395().N(class07305.Nu)) {
          this.N(false);
          return var2;
       } else {
-         class07209 class07209 = var1.L().method_10093((class07211)var1.u().L(class06758.y));
+         class07209 class07209 = var1.L().method_10093(var1.u().L(class06758.y));
          class00674 class00674 = new class00674(class04782, class07209.method_10263() + 0.5, class07209.method_10264(), class07209.method_10260() + 0.5, null);
          class04782.method_8649(class00674);
          class04782.method_43128(

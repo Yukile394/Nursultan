@@ -13,7 +13,6 @@ import minecraft.class07079;
 import minecraft.class07536;
 import minecraft.class07623;
 import net.caffeinemc.mods.lithium.common.entity.NavigatingEntity;
-import net.caffeinemc.mods.lithium.common.world.ServerWorldExtended;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents.Load;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents.Unload;
@@ -31,6 +30,7 @@ public final class class10465 implements class01109<class07049> {
    }
 
    public class10465(class04782 var1) {
+      super();
       this.N = var1;
       this.N(var1, null);
    }
@@ -76,10 +76,10 @@ public final class class10465 implements class01109<class07049> {
 
    private boolean y(Set var1, Object var2) {
       class07079 class07079 = (class07079)var2;
-      NavigatingEntity navigatingentity = (NavigatingEntity)class07079;
+      NavigatingEntity navigatingentity = class07079;
       if (navigatingentity.lithium$isRegisteredToWorld()) {
          if (navigatingentity.lithium$getRegisteredNavigation().Z() != null) {
-            ((ServerWorldExtended)this.y).lithium$setNavigationInactive(class07079);
+            this.y.lithium$setNavigationInactive(class07079);
          }
 
          navigatingentity.lithium$setRegisteredToWorld(null);
@@ -107,9 +107,9 @@ public final class class10465 implements class01109<class07049> {
    private boolean N(Set var1, Object var2) {
       class07079 class07079 = (class07079)var2;
       class07623 class07623 = class07079.f();
-      ((NavigatingEntity)class07079).lithium$setRegisteredToWorld(class07623);
+      class07079.lithium$setRegisteredToWorld(class07623);
       if (class07623.Z() != null) {
-         ((ServerWorldExtended)this.y).lithium$setNavigationActive(class07079);
+         this.y.lithium$setNavigationActive(class07079);
       }
 
       return var1.add(class07079);

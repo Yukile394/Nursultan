@@ -8,6 +8,7 @@ public class class11725 implements class09868 {
    }
 
    public class11725() {
+      super();
       this.u();
    }
 

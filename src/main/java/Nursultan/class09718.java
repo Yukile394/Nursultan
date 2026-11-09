@@ -6,6 +6,7 @@ public record class09718(double ascent, double descent, double lineHeight) {
    }
 
    public class09718(double ascent, double descent, double lineHeight) {
+      super();
       this.ascent = ascent;
       this.descent = descent;
       this.lineHeight = lineHeight;

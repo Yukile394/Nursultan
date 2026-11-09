@@ -1,8 +1,9 @@
 package Nursultan;
 
-public record class09294(class11789 share) implements class09282 {
+public non-sealed record class09294(class11789 share) implements class09282 {
 
    public class09294(class11789 share) {
+      super();
       this.share = share;
    }
 

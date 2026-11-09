@@ -16,7 +16,7 @@ public class class10894 extends class11807<Speed> {
       if (var1 instanceof class10996) {
          class00734 class00734 = ((class04453)((class06202)super.N_0).T_4).method_5829().L(1.0, 0.0, 1.0);
          if (((class03448)((class06202)super.N_0).T_3).N(class08036.class, class00734).size() > 1) {
-            ((class11822)((class04453)((class06202)super.N_0).T_4)).dataManager().L().N(4.0F);
+            ((class04453)((class06202)super.N_0).T_4).dataManager().L().N(4.0F);
          }
       }
    }

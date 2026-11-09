@@ -9,6 +9,7 @@ public class class09237 extends class07458 {
       this.N = var1;
    }
 
+   @Override
    public void N() {
       if (this.N.B()) {
          super.N();

@@ -6,6 +6,7 @@ import minecraft.class03877;
 import minecraft.class03912;
 
 public class class09525 implements class03912 {
+   @Override
    public class03875 L(int var1) {
       this.N.W = (var1 + this.N.L) * this.N.z;
       this.N.T++;
@@ -15,9 +16,11 @@ public class class09525 implements class03912 {
    }
 
    public class09525(class01837 var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    public void N(double[] var1, class03877 var2) {
       for (int i = 0; i < this.N.y + 1; i++) {
          this.N.W = (i + this.N.L) * this.N.z;

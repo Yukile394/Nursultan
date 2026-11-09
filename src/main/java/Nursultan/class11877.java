@@ -9,6 +9,7 @@ public record class11877(String icon) implements class11849 {
    }
 
    public class11877(String icon) {
+      super();
       this.icon = icon;
    }
 

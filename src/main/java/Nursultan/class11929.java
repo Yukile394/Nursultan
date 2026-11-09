@@ -36,7 +36,7 @@ public class class11929 {
    public static Object N_0 = class06202.Nq();
 
    public static List<class00392> L(class06584 var0) {
-      class02848 class02848 = (class02848)var0.y().method_58694(class02484.W);
+      class02848 class02848 = var0.y().method_58694(class02484.W);
       return class02848 == null ? Collections.emptyList() : class02848.N().stream().filter(var0x -> !var0x.getString().isBlank()).toList();
    }
 
@@ -59,7 +59,7 @@ public class class11929 {
    }
 
    public static class06517 B(class06584 var0) {
-      return (class06517)var0.a_(class02484.h, class06517.N);
+      return var0.a_(class02484.h, class06517.N);
    }
 
    public static int Z(class06584 var0) {
@@ -72,7 +72,7 @@ public class class11929 {
       if (!y(var0)) {
          return Collections.emptyList();
       } else {
-         class02854 class02854 = (class02854)var0.y().method_58694(class02484.NG);
+         class02854 class02854 = var0.y().method_58694(class02484.NG);
          if (class02854 == null) {
             return Collections.emptyList();
          } else {
@@ -86,7 +86,7 @@ public class class11929 {
    }
 
    public static int z(class06584 var0) {
-      class08209 class08209 = (class08209)var0.method_58694(class02484.w);
+      class08209 class08209 = var0.method_58694(class02484.w);
       return class08209 != null ? class08209.N() : 0;
    }
 
@@ -105,10 +105,8 @@ public class class11929 {
    }
 
    public static List<String> E(class06584 var0) {
-      class02848 class02848 = (class02848)var0.y().method_58694(class02484.W);
-      return class02848 == null
-         ? Collections.emptyList()
-         : class02848.N().stream().<String>map(class00392::getString).filter(var0x -> !var0x.isBlank()).toList();
+      class02848 class02848 = var0.y().method_58694(class02484.W);
+      return class02848 == null ? Collections.emptyList() : class02848.N().stream().map(class00392::getString).filter(var0x -> !var0x.isBlank()).toList();
    }
 
    public static int N(class06584 var0, class05946<class07304> var1) {
@@ -117,11 +115,11 @@ public class class11929 {
    }
 
    public static class03556<class07304> N(class05946<class07304> var0) {
-      return (class03556<class07304>)((class04453)((class06202)N_0).T_4).method_56673().L(class04227.yR).N(var0).orElse(null);
+      return ((class04453)((class06202)N_0).T_4).method_56673().L(class04227.yR).N(var0).orElse(null);
    }
 
    public static boolean N(class06584 var0, class07085 var1) {
-      class08725 class08725 = (class08725)var0.method_58694(class02484.o);
+      class08725 class08725 = var0.method_58694(class02484.o);
       return class08725 != null && class08725.y() == var1;
    }
 
@@ -132,7 +130,7 @@ public class class11929 {
          Iterator<class07055> iterator = class06517.N().iterator();
 
          while (iterator.hasNext()) {
-            if (iterator.next().L().N(var1x)) {
+            if (iterator.next().L().N((class03556<class07084>)var1x)) {
                return true;
             }
          }
@@ -172,13 +170,13 @@ public class class11929 {
       if (var0.R()) {
          return false;
       } else {
-         class02837 class02837 = (class02837)var0.y().method_58694(class02484.y);
+         class02837 class02837 = var0.y().method_58694(class02484.y);
          return class02837 == null ? false : class02837.y().y(var1);
       }
    }
 
    public static class00891 N(String var0) {
-      return (class00891)class04206.i.N(class01894.y(var0));
+      return class04206.i.N(class01894.y(var0));
    }
 
    public static int R(class06584 var0) {

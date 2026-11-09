@@ -8,6 +8,7 @@ import minecraft.class07802;
 public interface class10790 extends class07802 {
    int apply(int var1, int var2) throws CommandSyntaxException;
 
+   @Override
    default void apply(class01765 var1, class01765 var2) throws CommandSyntaxException {
       var1.N(this.apply(var1.N(), var2.N()));
    }

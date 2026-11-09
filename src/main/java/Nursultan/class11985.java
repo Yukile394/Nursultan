@@ -25,6 +25,7 @@ public record class11985(
       Consumer<class11989> onOverflow,
       Consumer<Throwable> onError
    ) {
+      super();
       if (channelSupplier == null || writer == null || onOverflow == null || onError == null) {
          throw new IllegalArgumentException("StatefulPacketGatewayConfig: all callbacks must be non-null");
       } else if (maxPending <= 0) {

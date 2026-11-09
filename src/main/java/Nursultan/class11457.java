@@ -29,6 +29,7 @@ public class class11457 {
    }
 
    public class11457() {
+      super();
       this.R();
       this.N_0 = new LinkedHashMap();
       this.N_1 = new HashMap();

@@ -26,7 +26,7 @@ public class class11791 {
    }
 
    public static Predicate<class07049> Z() {
-      return var0 -> ((class11783)var0).dataManager().M().N();
+      return var0 -> var0.dataManager().M().N();
    }
 
    public static Predicate<class07049> i() {
@@ -38,7 +38,7 @@ public class class11791 {
    }
 
    public static Predicate<class07049> z() {
-      return var0 -> ((class11783)var0).dataManager().B().N();
+      return var0 -> var0.dataManager().B().N();
    }
 
    public static Predicate<class07049> u() {
@@ -53,7 +53,7 @@ public class class11791 {
    }
 
    public static Predicate<class07049> E() {
-      return var0 -> ((class11783)var0).dataManager().i().N();
+      return var0 -> var0.dataManager().i().N();
    }
 
    public static Predicate<class07049> N() {

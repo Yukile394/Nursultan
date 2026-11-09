@@ -18,6 +18,7 @@ public class class11585 {
    public Object N_4;
 
    public class11585(AnarchyHelper var1, class11576 var2) {
+      super();
       this.Z();
       this.N_0 = class06202.Nq();
       this.N_1 = new ArrayList();

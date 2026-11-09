@@ -173,7 +173,7 @@ public class class09322 extends class09306 {
    }
 
    private String m(String var1) {
-      class01079 class01079 = (class01079)class06202.Nq()
+      class01079 class01079 = class06202.Nq()
          .Nm()
          .method_14486(class11911.N(var1))
          .orElseThrow(() -> new IllegalStateException("Shader resource was not found: " + var1));

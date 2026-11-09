@@ -10,6 +10,7 @@ public class class10086 extends class07458 {
       this.N = var1;
    }
 
+   @Override
    public void N() {
       if (this.E == class07435.field_6378 && !this.N.g_() && this.N.yy() && !this.N.yu() && this.N.yN()) {
          this.N.yR();

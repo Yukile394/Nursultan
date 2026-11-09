@@ -9,6 +9,7 @@ import minecraft.class06584;
 
 public class class10625 implements class02362<class04247, class06584> {
    public class10625(class02362 var1) {
+      super();
       this.N = var1;
    }
 
@@ -17,7 +18,7 @@ public class class10625 implements class02362<class04247, class06584> {
       if (i <= 0) {
          return class06584.E;
       } else {
-         class03556<class06581> class03556 = (class03556<class06581>)class06581.i.decode(var1);
+         class03556<class06581> class03556 = class06581.i.decode(var1);
          class02678 class02678 = (class02678)this.N.decode(var1);
          return new class06584(class03556, i, class02678);
       }

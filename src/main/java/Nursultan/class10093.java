@@ -48,6 +48,7 @@ public class class10093 extends class05848 {
       }
    }
 
+   @Override
    public class05846 method_74255() {
       class05846 class05846x;
       class05846 class05846x = class05846x = this.N;
@@ -56,6 +57,7 @@ public class class10093 extends class05848 {
       return callbackinforeturnable.isCancelled() ? (class05846)callbackinforeturnable.getReturnValue() : class05846x;
    }
 
+   @Override
    public float method_18132(float var1) {
       return 0.5F;
    }

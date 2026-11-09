@@ -12,6 +12,7 @@ public class class10188 extends class10208 {
       this.N = var1;
    }
 
+   @Override
    public void N(Consumer<class06584> var1, class05908 var2) {
       this.N.N(class08122.N(this.N.U, var1, var2), var2);
    }

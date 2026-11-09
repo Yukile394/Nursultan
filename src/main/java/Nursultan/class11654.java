@@ -3,6 +3,7 @@ package Nursultan;
 public record class11654(String target) implements class11652 {
 
    public class11654(String target) {
+      super();
       this.target = target;
    }
 

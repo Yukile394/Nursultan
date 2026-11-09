@@ -22,6 +22,7 @@ public class class10939 extends STBIWriteCallback {
    }
 
    public class10939(WritableByteChannel var1) {
+      super();
       this.N = var1;
    }
 

@@ -10,12 +10,13 @@ public class class09328 implements class11826<class11380> {
 
    private void M() {
       if ((class04453)((class06202)this.y_0).T_4 != null) {
-         ((class11822)((class04453)((class06202)this.y_0).T_4)).dataManager().u().N(((class04453)((class06202)this.y_0).T_4).method_36455());
+         ((class04453)((class06202)this.y_0).T_4).dataManager().u().N(((class04453)((class06202)this.y_0).T_4).method_36455());
          class11938.L().L(class10992.N());
       }
    }
 
    public class09328() {
+      super();
       this.Z();
       this.y_0 = class06202.Nq();
    }

@@ -9,6 +9,7 @@ public class class10718<T extends class07438> extends class07952<T> {
       super(var1, var2, true);
    }
 
+   @Override
    public boolean N() {
       return this.i.method_5718() >= 0.5F ? false : super.N();
    }

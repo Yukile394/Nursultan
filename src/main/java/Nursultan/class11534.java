@@ -73,6 +73,7 @@ public class class11534 {
    }
 
    public class11534() {
+      super();
       this.T();
       this.L_0 = new ArrayList();
       class11938.L().y(this);

@@ -2,6 +2,7 @@ package Nursultan;
 
 public class class09693 {
    public class09693() {
+      super();
    }
 
    public static float N(float var0, float var1) {

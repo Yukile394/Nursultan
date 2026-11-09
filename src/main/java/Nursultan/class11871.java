@@ -16,6 +16,7 @@ public record class11871(
    }
 
    public class11871(class11494 value, class11494 minMax, float increment, Supplier<String> postfix, Consumer<class11494> onChange, class09785<Boolean> wasMove) {
+      super();
       this.value = value;
       this.minMax = minMax;
       this.increment = increment;

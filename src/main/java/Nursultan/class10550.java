@@ -10,9 +10,11 @@ import minecraft.class05977;
 
 public class class10550 implements class05936 {
    public class10550(List var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    public <T> Optional<T> N_8(class05977<T> var1) {
       Iterator iterator = this.N.iterator();
 
@@ -26,6 +28,7 @@ public class class10550 implements class05936 {
       return Optional.empty();
    }
 
+   @Override
    public <T> Optional<T> N(class05935<T> var1, class00405 var2) {
       Iterator iterator = this.N.iterator();
 

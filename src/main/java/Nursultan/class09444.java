@@ -17,6 +17,7 @@ public final class class09444 {
    private List<class01203> L;
 
    public class09444(List<class01228> var1) {
+      super();
       this.N = var1;
    }
 
@@ -30,7 +31,7 @@ public final class class09444 {
 
    public List<class01203> N() {
       if (this.L == null) {
-         this.L = this.N(class00869.sr).stream().<class01203>map(class01203::N).toList();
+         this.L = this.N(class00869.sr).stream().map(class01203::N).toList();
       }
 
       return this.L;

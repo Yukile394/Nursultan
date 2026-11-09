@@ -28,6 +28,7 @@ public class OkZoomerSelectionList extends class06318<OkZoomerSelectionList$Entr
       this.method_73370(new OkZoomerSelectionList$CategoryEntry(var1, this.screen, i), i + b0 + 4);
    }
 
+   @Override
    public int method_25322() {
       return 310;
    }

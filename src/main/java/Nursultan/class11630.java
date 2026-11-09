@@ -30,6 +30,7 @@ public class class11630 {
    }
 
    public class11630(int var1, class09079 var2, int var3) {
+      super();
       this.i();
       this.N_0 = new ArrayList();
       this.N_1 = new StringBuilder();

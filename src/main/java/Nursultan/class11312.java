@@ -12,6 +12,7 @@ public class class11312 {
    }
 
    public class11312() {
+      super();
       this.u();
       this.N_0 = new ArrayList();
    }

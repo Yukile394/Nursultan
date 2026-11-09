@@ -12,6 +12,7 @@ public class class10098 implements class04417<class07134> {
    private final class06143 N;
 
    public class10098(class06143 var1) {
+      super();
       this.N = var1;
    }
 

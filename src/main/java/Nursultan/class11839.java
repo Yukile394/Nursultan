@@ -7,6 +7,7 @@ public record class11839(String key, String icon, class11854 menuCategory, class
    }
 
    public class11839(String key, String icon, class11854 menuCategory, class09785<class11854> state) {
+      super();
       this.key = key;
       this.icon = icon;
       this.menuCategory = menuCategory;

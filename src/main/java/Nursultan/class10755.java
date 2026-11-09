@@ -9,6 +9,7 @@ public class class10755 extends class06937 {
       super(var2, var3, var4, var5);
    }
 
+   @Override
    public int y() {
       return 1;
    }

@@ -19,6 +19,7 @@ public class class11262 implements class11192<class11270> {
    public static Object L_2;
 
    public class11262(class11213 var1, float[] var2, float var3) {
+      super();
       this.y();
       this.N_5 = ((class09322)class11185.U_3).z("u_projection");
       this.N_6 = ((class09322)class11185.U_3).z("u_view");

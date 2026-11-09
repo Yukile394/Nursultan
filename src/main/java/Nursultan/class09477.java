@@ -11,9 +11,11 @@ import minecraft.class07759;
 
 public class class09477 extends class01578 {
    public class09477(class05622 var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    protected class07001 N(CommandContext<class07701> var1) throws CommandSyntaxException {
       return class01568.N(class07759.N(var1, "path"), this.N.N(var1));
    }

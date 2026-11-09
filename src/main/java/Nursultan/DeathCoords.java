@@ -18,6 +18,7 @@ public class DeathCoords extends class11067 {
    public Object L_0;
 
    public DeathCoords() {
+      super();
       this.b();
       this.L_0 = class11524.N(this, "save-waypoint", false);
    }

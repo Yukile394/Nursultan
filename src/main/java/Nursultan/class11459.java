@@ -23,6 +23,7 @@ public class class11459 {
    }
 
    public class11459() {
+      super();
       this.z();
       this.N_0 = 20;
       this.N_1 = new class11319((Integer)this.N_0);

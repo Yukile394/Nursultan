@@ -11,6 +11,7 @@ class class10531 implements class05663 {
       super();
    }
 
+   @Override
    public class07324 N(class04782 var1, class07049 var2, class06069 var3) {
       return null;
    }

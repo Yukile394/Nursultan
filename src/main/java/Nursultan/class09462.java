@@ -21,6 +21,7 @@ import org.apache.commons.lang3.mutable.MutableObject;
 
 public class class09462<E> extends MapCodec<class01289<E>> {
    public class09462(Collection var1, Collection var2, MutableObject var3) {
+      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;
@@ -40,7 +41,10 @@ public class class09462<E> extends MapCodec<class01289<E>> {
    }
 
    public <T> Stream<T> keys(DynamicOps<T> var1) {
-      return this.N.stream().flatMap(var0 -> var0.N().map(var1x -> class04206.k.y(var0)).stream()).map(var1x -> (T)var1.createString(var1x.toString()));
+      return this.N
+         .stream()
+         .flatMap(var0 -> var0.N().map(var1x -> class04206.k.y((class05378<?>)var0)).stream())
+         .map(var1x -> (T)var1.createString(var1x.toString()));
    }
 
    private <T, U> DataResult<class10536<U>> N(class05378<U> var1, DynamicOps<T> var2, T var3) {

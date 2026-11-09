@@ -7,6 +7,7 @@ public record class09169(float yawDelta, float pitchDelta, float yawSpeed, float
    }
 
    public class09169(float yawDelta, float pitchDelta, float yawSpeed, float pitchSpeed, boolean holdPitch) {
+      super();
       this.yawDelta = yawDelta;
       this.pitchDelta = pitchDelta;
       this.yawSpeed = yawSpeed;

@@ -7,6 +7,7 @@ public final class class10291 extends class10097 {
       super(var1);
    }
 
+   @Override
    protected boolean N() {
       return this.L.E <= 0;
    }

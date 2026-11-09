@@ -8,12 +8,14 @@ public class class09274 implements class11951<class09263> {
    public Object N_1;
 
    public class09274(class09277 var1, class09279 var2) {
+      super();
       this.u();
       this.N_0 = var1;
       this.N_1 = var2;
    }
 
    public class09274() {
+      super();
       this.u();
    }
 

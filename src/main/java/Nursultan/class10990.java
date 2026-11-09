@@ -16,6 +16,7 @@ public class class10990 extends class11784 {
    }
 
    public class10990(class00381<?> var1, class00642 var2) {
+      super();
       this.M();
       this.y_0 = var1;
       this.y_1 = var2;

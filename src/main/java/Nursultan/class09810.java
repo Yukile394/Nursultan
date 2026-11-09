@@ -11,6 +11,7 @@ public record class09810(class09787 exitAnimationPolicy) {
    }
 
    public class09810(class09787 exitAnimationPolicy) {
+      super();
       Objects.requireNonNull(exitAnimationPolicy, "exitAnimationPolicy");
       this.exitAnimationPolicy = exitAnimationPolicy;
    }

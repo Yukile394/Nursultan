@@ -9,6 +9,7 @@ public class class11638 implements class09785<Vector2f> {
    public Object N_1;
 
    public class11638(class09785 var1, Vector2f var2) {
+      super();
       this.R();
       this.N_0 = var1;
       this.N_1 = var2;

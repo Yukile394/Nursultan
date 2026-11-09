@@ -17,6 +17,7 @@ public class class09070 implements class05197 {
       this.u();
    }
 
+   @Override
    public boolean accept(int var1, class00405 var2, int var3) {
       if (var3 == 10) {
          this.N_1 = (Integer)this.N_1 + 1;

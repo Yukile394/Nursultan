@@ -19,6 +19,7 @@ public class class11304 {
    }
 
    public class11304() {
+      super();
    }
 
    static {

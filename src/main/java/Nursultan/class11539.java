@@ -6,6 +6,7 @@ import java.util.Map.Entry;
 
 public class class11539 extends class11526 {
    public class11539() {
+      super();
    }
 
    private void N(class11067 var1, String var2, List<String> var3, List<class11510> var4) {

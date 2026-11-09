@@ -14,6 +14,7 @@ public class Notifications extends class11067 {
    public Object L_3;
 
    public Notifications() {
+      super();
       this.s();
       this.L_0 = new class11446(this, "module-toggle", true);
       this.L_1 = new class11428(this, "armor-durability", false);

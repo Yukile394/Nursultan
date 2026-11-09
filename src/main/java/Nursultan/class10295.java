@@ -9,6 +9,7 @@ public class class10295 extends class10097 {
       super(var1);
    }
 
+   @Override
    protected boolean N() {
       int i = this.L.z & 15;
       int j = this.L.U & 15;

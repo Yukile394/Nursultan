@@ -37,6 +37,7 @@ public class class09100 {
    public static Object y_1 = i();
 
    public class09100(class09082 var1, String var2, byte[] var3) {
+      super();
       this.y();
       this.N_0 = new EnumMap<>(class09079.class);
       this.N_1 = var1;

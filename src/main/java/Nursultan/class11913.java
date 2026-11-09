@@ -27,6 +27,7 @@ public class class11913 extends class01422 {
    public static Object y_1 = N(0.2F, 1.0F, -0.7F);
    public static Object y_2 = N(-0.2F, 1.0F, 0.7F);
 
+   @Override
    public void L() {
    }
 
@@ -42,7 +43,7 @@ public class class11913 extends class01422 {
    }
 
    public class11913() {
-      super(new class02579(256), new LinkedHashMap());
+      super(new class02579(256), new LinkedHashMap<>());
       this.i();
       this.N_0 = new LinkedHashMap();
       this.N_1 = new ArrayList();
@@ -60,6 +61,7 @@ public class class11913 extends class01422 {
       y_0 = j[2];
    }
 
+   @Override
    public void u() {
    }
 
@@ -71,7 +73,7 @@ public class class11913 extends class01422 {
    }
 
    private GpuTextureView y(class07311 var1) {
-      Map<String, class06830> map = ((class11105)var1).nursultan$getRenderSetup().N();
+      Map<String, class06830> map = var1.nursultan$getRenderSetup().N();
       class06830 class06830 = map.get(j[1]);
       if (class06830 == null) {
          class06830 = map.values().stream().findFirst().orElse(null);
@@ -92,6 +94,7 @@ public class class11913 extends class01422 {
       return arraylist;
    }
 
+   @Override
    public void N(class07311 var1) {
    }
 
@@ -269,9 +272,10 @@ public class class11913 extends class01422 {
       }
    }
 
+   @Override
    public class01391 method_73477(class07311 var1) {
       this.i();
-      return (class01391)((Map)this.N_0).computeIfAbsent(var1, var1x -> {
+      return ((Map)this.N_0).computeIfAbsent(var1, var1x -> {
          this.i();
          class02579 class02579 = new class02579(var1x.method_22722());
          ((List)this.N_1).add(class02579);

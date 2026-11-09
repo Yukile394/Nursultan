@@ -8,6 +8,7 @@ import minecraft.class03286;
 public class class10461 extends class03286 {
    public final class01212<?> N;
 
+   @Override
    public void method_48611(class03255 var1) {
       this.N.method_57714(this.y.field_22789, this.y.M.u(), this.y.M.L());
       super.method_48611(var1);

@@ -10,6 +10,7 @@ public record class11851(List<? extends class11535> entries, class09785<Boolean>
    }
 
    public class11851(List<? extends class11535> entries, class09785<Boolean> opened, Consumer<class11535> onSelect, Float width, float anchorOffsetX) {
+      super();
       this.entries = entries;
       this.opened = opened;
       this.onSelect = onSelect;

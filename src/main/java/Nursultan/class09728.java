@@ -6,6 +6,7 @@ public record class09728(float durationSeconds, class09759 easing, float delaySe
    }
 
    public class09728(float durationSeconds, class09759 easing, float delaySeconds) {
+      super();
       durationSeconds = Float.isFinite(durationSeconds) ? Math.max(0.0F, durationSeconds) : 0.0F;
       easing = easing == null ? class09759.EASE : easing;
       delaySeconds = Float.isFinite(delaySeconds) ? Math.max(0.0F, delaySeconds) : 0.0F;

@@ -59,6 +59,7 @@ public class class11330 {
    }
 
    public class11330() {
+      super();
    }
 
    static {

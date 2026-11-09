@@ -9,6 +9,7 @@ public record class09903(float x, float y, float width, float height, List<class
    }
 
    public class09903(float x, float y, float width, float height, List<class09935> children) {
+      super();
       Objects.requireNonNull(children, "children");
       this.x = x;
       this.y = y;

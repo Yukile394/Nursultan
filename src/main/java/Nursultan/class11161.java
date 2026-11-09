@@ -19,6 +19,7 @@ public class class11161 extends ChannelInitializer<Channel> {
    }
 
    public class11161(class11275 var1) {
+      super();
       this.y();
       this.N_0 = var1;
    }

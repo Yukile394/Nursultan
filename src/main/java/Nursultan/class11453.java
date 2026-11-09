@@ -151,7 +151,8 @@ public class class11453 extends class11807<TargetEsp> {
       class01421.L().N().mul(var1.N());
       RenderSystem.getDevice().createCommandEncoder().clearColorAndDepthTextures(((class08066)this.i_1).L(), 0, ((class08066)this.i_1).i(), 1.0);
       class09078.N((class08066)this.i_1);
-      ((class11792)((class06202)super.N_0).Ng())
+      ((class06202)super.N_0)
+         .Ng()
          .N(
             var2,
             class06959,

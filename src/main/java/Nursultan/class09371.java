@@ -12,6 +12,7 @@ public class class09371 implements class07350<class00500> {
    public int L;
 
    public class09371(class00554 var1) {
+      super();
    }
 
    public void accept(class00500 var1, int var2) {

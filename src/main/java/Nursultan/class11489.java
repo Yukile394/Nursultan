@@ -7,6 +7,7 @@ public class class11489 extends class11526 {
    public static Object N_0 = new class12018(L[0]);
 
    public class11489() {
+      super();
    }
 
    static {

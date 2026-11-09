@@ -12,24 +12,30 @@ import org.lwjgl.opengl.EXTDebugLabel;
 
 public class class11663 extends class08859 {
    public class11663() {
+      super();
    }
 
+   @Override
    public boolean y() {
       return true;
    }
 
+   @Override
    public void N(class08238 var1) {
       EXTDebugLabel.glLabelObjectEXT(35656, var1.y(), class05018.N(var1.L(), 256, true));
    }
 
+   @Override
    public void N(class08861 var1) {
       EXTDebugLabel.glLabelObjectEXT(32884, var1.N, class05018.N(var1.y.toString(), 256, true));
    }
 
+   @Override
    public void N(class02255 var1) {
       EXTDebugLabel.glLabelObjectEXT(35648, var1.method_1270(), class05018.N(var1.method_68404(), 256, true));
    }
 
+   @Override
    public void N(class08523 var1) {
       Supplier<String> supplier = var1.L;
       if (supplier != null) {
@@ -37,6 +43,7 @@ public class class11663 extends class08859 {
       }
    }
 
+   @Override
    public void N(class08893 var1) {
       EXTDebugLabel.glLabelObjectEXT(5890, var1.N, class05018.N(var1.getLabel(), 256, true));
    }

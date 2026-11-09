@@ -41,6 +41,7 @@ public class ElytraHelper extends class11067 {
    }
 
    public ElytraHelper() {
+      super();
       this.P();
       this.L_0 = class11524.N(this, "swap-key", class12002.UNKNOWN);
       this.L_1 = class11524.N(this, "firework-key", class12002.UNKNOWN);
@@ -104,7 +105,7 @@ public class ElytraHelper extends class11067 {
       if (class11535 != (class11535)this.L_2
          && !((class04453)((class06202)super.y_0).T_4).method_6128()
          && !((class04453)((class06202)super.y_0).T_4).method_31549().y
-         && class11281.u((class11328)(var0 -> var0.L(class02484.K)))
+         && class11281.u(var0 -> var0.L(class02484.K))
          && ((class04453)((class06202)super.y_0).T_4).fields_17fa3311b0e9d3e9b883d09222919bf5a_1 == 0) {
          if (class11535 == (class11535)this.L_3) {
             if (!(Boolean)((class04453)((class06202)super.y_0).T_4).R_3 && (Boolean)this.u_4) {

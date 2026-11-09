@@ -11,6 +11,7 @@ public class class11864 {
    }
 
    public class11864(int var1) {
+      super();
       this.i();
       this.N_0 = new class11319(var1);
    }

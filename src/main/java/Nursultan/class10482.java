@@ -11,6 +11,7 @@ public class class10482 extends class01733 {
       super(var1, var2, var3, var4, var5);
    }
 
+   @Override
    protected <T> Dynamic<T> N(Dynamic<T> var1) {
       return class05832.N(var1);
    }

@@ -12,6 +12,7 @@ public class class11558 implements DiscordEventListener {
    }
 
    public class11558(class11575 var1) {
+      super();
       this.L();
       this.N_0 = var1;
    }

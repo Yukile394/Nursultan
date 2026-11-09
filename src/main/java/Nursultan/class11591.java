@@ -55,9 +55,9 @@ public class class11591 extends class11142 {
 
    private void N(int var1) {
       int i = ((class04453)((class06202)super.N_0).T_4).method_31548().N();
-      class11938.m().N(0, var1, i, class07510.field_7791).y((class12040)(var2x -> {
+      class11938.m().N(0, var1, i, class07510.field_7791).y(var2x -> {
          class11907.N(class07050.field_5808);
          class11938.Z().y(4, () -> class11938.m().N(0, var1, i, class07510.field_7791).y());
-      })).y();
+      }).y();
    }
 }

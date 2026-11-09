@@ -14,6 +14,7 @@ public class class10096 extends class10099 {
       this.R = var5;
    }
 
+   @Override
    protected boolean N() {
       int ix = this.L.s;
       if (ix <= this.y) {
@@ -21,7 +22,7 @@ public class class10096 extends class10099 {
       } else if (ix >= this.i) {
          return false;
       } else {
-         double d0 = class04995.y(ix, this.y, this.i, 1.0, 0.0);
+         double d0 = class04995.y((double)ix, (double)this.y, (double)this.i, 1.0, 0.0);
          return this.R.N(this.L.z, ix, this.L.U).z() < d0;
       }
    }

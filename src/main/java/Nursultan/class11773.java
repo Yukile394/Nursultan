@@ -7,6 +7,7 @@ public record class11773(float u0, float v0, float u1, float v1, float planeWidt
    }
 
    public class11773(float u0, float v0, float u1, float v1, float planeWidth, float planeHeight) {
+      super();
       this.u0 = u0;
       this.v0 = v0;
       this.u1 = u1;

@@ -12,9 +12,11 @@ import minecraft.class08036;
 
 public class class10558 implements class01317 {
    public class10558(class06165 var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    public boolean method_18303(class07438 var1, class04782 var2) {
       if (var1 instanceof class06165) {
          return false;

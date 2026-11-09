@@ -5,6 +5,7 @@ import minecraft.class02968;
 
 public record class10082<T>(class02968<T> type, T value) {
    public class10082(class02968<T> type, T value) {
+      super();
       this.type = type;
       this.value = (T)value;
    }

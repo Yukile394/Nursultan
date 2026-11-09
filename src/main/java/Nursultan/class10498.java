@@ -7,6 +7,7 @@ public class class10498 {
    private final double y;
 
    public class10498(class07209 var1, double var2) {
+      super();
       this.N = var1;
       this.y = var2;
    }

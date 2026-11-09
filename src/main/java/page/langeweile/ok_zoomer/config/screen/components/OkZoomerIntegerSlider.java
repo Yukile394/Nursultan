@@ -35,12 +35,14 @@ public class OkZoomerIntegerSlider extends class05801 {
       this.method_25346();
    }
 
+   @Override
    public void method_25344() {
-      int i = class04995.N(class04995.u(class04995.N(this.field_22753, 0.0, 1.0), this.minValue, this.maxValue));
+      int i = class04995.N(class04995.u(class04995.N(this.field_22753, 0.0, 1.0), (double)this.minValue, (double)this.maxValue));
       this.responder.accept(i);
       this.internalValue = i;
    }
 
+   @Override
    public void method_25346() {
       this.field_22754 = class05220.N(this.optionText, class00392.y(String.valueOf(this.internalValue)));
    }

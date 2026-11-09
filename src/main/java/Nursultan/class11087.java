@@ -81,7 +81,7 @@ public class class11087 {
       if ((class04453)((class06202)N_0).T_4 != null && (class03443)((class06202)N_0).T_2 != null) {
          AttackAura attackaura = class11938.u().C();
          int i = attackaura != null ? Math.max(1, attackaura.P().i().N() - 1) : 9;
-         return ((class11799)((class03443)((class06202)N_0).T_2)).N() >= i;
+         return ((class03443)((class06202)N_0).T_2).N() >= i;
       } else {
          return false;
       }

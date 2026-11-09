@@ -7,6 +7,7 @@ public record class11853(String label, boolean active, Runnable onClick, class11
    }
 
    public class11853(String label, boolean active, Runnable onClick, class11856 segment) {
+      super();
       this.label = label;
       this.active = active;
       this.onClick = onClick;

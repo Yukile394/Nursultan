@@ -19,6 +19,7 @@ public class class11031 extends class01341 {
       this.N_0 = var4;
    }
 
+   @Override
    public void method_25419() {
       this.L();
       class06202.Nq().N((class05096)this.N_0);

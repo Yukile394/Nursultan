@@ -7,10 +7,12 @@ import org.jspecify.annotations.Nullable;
 
 public record class10410(Map<String, class03926> arguments) implements class04445 {
    public class10410(Map<String, class03926> arguments) {
+      super();
       this.arguments = arguments;
    }
 
    @Nullable
+   @Override
    public class03926 N(String var1) {
       return this.arguments.get(var1);
    }

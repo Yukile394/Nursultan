@@ -4,10 +4,12 @@ public class class09255 implements class11951<class09263> {
    public Object N_0;
 
    public class09255() {
+      super();
       this.y();
    }
 
    public class09255(String var1) {
+      super();
       this.y();
       this.N_0 = var1;
    }

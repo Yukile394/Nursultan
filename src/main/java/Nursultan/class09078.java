@@ -17,6 +17,7 @@ public class class09078 {
    }
 
    public class09078() {
+      super();
    }
 
    static {

@@ -60,6 +60,7 @@ public class WebTrap extends class11067 {
    }
 
    public WebTrap() {
+      super();
       this.v();
       this.u_0 = class11524.N(this, "place-key", class12002.UNKNOWN);
    }
@@ -203,7 +204,7 @@ public class WebTrap extends class11067 {
          if (class07438 == null) {
             this.s();
          } else {
-            if (((class11799)((class03443)((class06202)super.y_0).T_2)).N() >= 3) {
+            if (((class03443)((class06202)super.y_0).T_2).N() >= 3) {
                this.y(class07438);
             }
 

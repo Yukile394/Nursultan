@@ -2,6 +2,7 @@ package Nursultan;
 
 public record class09966(boolean auto, int value) {
    public class09966(boolean auto, int value) {
+      super();
       this.auto = auto;
       this.value = value;
    }

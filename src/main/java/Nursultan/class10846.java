@@ -9,6 +9,7 @@ public class class10846 extends class07993 {
       super(var1, var2);
    }
 
+   @Override
    public boolean N() {
       if (!this.M()) {
          return false;

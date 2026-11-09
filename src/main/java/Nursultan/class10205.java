@@ -7,17 +7,20 @@ import minecraft.class06069;
 public class class10205 implements class06069 {
    private final class06069 L;
 
+   @Override
    public class01818 L() {
       this.y.method_80();
       return this.L.L();
    }
 
+   @Override
    public int M() {
       this.y.method_80();
       return this.L.M();
    }
 
    public class10205(class03470 var1, class06069 var2) {
+      super();
       this.y = var1;
       this.L = var2;
    }
@@ -31,41 +34,49 @@ public class class10205 implements class06069 {
       }
    }
 
+   @Override
    public long B() {
       this.y.method_80();
       return this.L.B();
    }
 
+   @Override
    public boolean Z() {
       this.y.method_80();
       return this.L.Z();
    }
 
+   @Override
    public double U() {
       this.y.method_80();
       return this.L.U();
    }
 
+   @Override
    public float z() {
       this.y.method_80();
       return this.L.z();
    }
 
+   @Override
    public class06069 y() {
       this.y.method_80();
       return this.L.y();
    }
 
+   @Override
    public int y(int var1) {
       this.y.method_80();
       return this.L.y(var1);
    }
 
+   @Override
    public double E() {
       this.y.method_80();
       return this.L.E();
    }
 
+   @Override
    public void N(long var1) {
       this.y.method_80();
       this.L.N(var1);

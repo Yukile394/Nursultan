@@ -12,6 +12,7 @@ public class class09306 {
    }
 
    public class09306(int var1) {
+      super();
       this.L();
       this.y_0 = var1;
    }

@@ -62,6 +62,7 @@ public record class10001(
       int thumbHoverColor,
       int thumbActiveColor
    ) {
+      super();
       trackWidth = Math.max(0.0F, trackWidth);
       trackPadding = Math.max(0.0F, trackPadding);
       trackPaddingY = Math.max(0.0F, trackPaddingY);

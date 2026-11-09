@@ -21,6 +21,7 @@ public class class09313 implements class07262, class11826<class10990> {
    }
 
    public class09313() {
+      super();
       this.L();
       this.N_0 = class11938.U();
       this.N_1 = class06202.Nq();
@@ -34,9 +35,10 @@ public class class09313 implements class07262, class11826<class10990> {
    private static void y() {
    }
 
+   @Override
    public void N(UUID var1, class00392 var2, float var3, class06685 var4, class06702 var5, boolean var6, boolean var7, boolean var8) {
       if (var2.getString().toLowerCase().contains("pvp") && (class04453)((class06202)this.N_1).T_4 != null) {
-         class11815 class11815 = ((class11822)((class04453)((class06202)this.N_1).T_4)).dataManager().y().N();
+         class11815 class11815 = ((class04453)((class06202)this.N_1).T_4).dataManager().y().N();
          class11815.N(var1);
          class11815.N(true);
       }
@@ -46,7 +48,7 @@ public class class09313 implements class07262, class11826<class10990> {
       class00381<?> class00381 = var1.u();
       class11920.N(class00381, var1x -> ((class06202)this.N_1).execute(() -> {
          if ((class04453)((class06202)this.N_1).T_4 != null) {
-            ((class11796)((class11825)((class04453)((class06202)this.N_1).T_4)).dataManager()).N().N(var1x);
+            ((class11796)((class04453)((class06202)this.N_1).T_4).dataManager()).N().N(var1x);
          }
       }));
       switch (class00381) {
@@ -73,9 +75,10 @@ public class class09313 implements class07262, class11826<class10990> {
    private static void N() {
    }
 
+   @Override
    public void N(UUID var1) {
       if ((class04453)((class06202)this.N_1).T_4 != null) {
-         class11815 class11815 = ((class11796)((class11825)((class04453)((class06202)this.N_1).T_4)).dataManager()).y().N();
+         class11815 class11815 = ((class11796)((class04453)((class06202)this.N_1).T_4).dataManager()).y().N();
          if (class11815.N() && class11815.y() != null && class11815.y().equals(var1)) {
             class11815.N(null);
             class11815.N(false);

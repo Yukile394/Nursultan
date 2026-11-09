@@ -14,7 +14,6 @@ import minecraft.class06584;
 import minecraft.class07085;
 import minecraft.class07430;
 import minecraft.class07473;
-import net.caffeinemc.mods.lithium.common.world.LithiumData;
 import org.jspecify.annotations.Nullable;
 
 public class class10473<T extends class04882> extends class07473 {
@@ -25,6 +24,7 @@ public class class10473<T extends class04882> extends class07473 {
    @Nullable
    private class00717 i;
 
+   @Override
    public void L() {
       this.y.f().N(this.u, 1.15F);
    }
@@ -49,23 +49,27 @@ public class class10473<T extends class04882> extends class07473 {
    }
 
    public class10473(T var1, class04882 var2) {
+      super();
       this.N = var1;
       this.L = new Int2LongOpenHashMap();
       this.y = (T)var2;
       this.N_71(EnumSet.of(class07430.field_18405));
    }
 
+   @Override
    public void i() {
       if (this.i != null && this.i.method_24516(this.y, 1.414)) {
          this.y.N(N_18(this.N.method_73183()), this.i);
       }
    }
 
+   @Override
    public void u() {
       this.u = null;
       this.i = null;
    }
 
+   @Override
    public boolean y() {
       if (this.i == null || this.u == null) {
          return false;
@@ -76,6 +80,7 @@ public class class10473<T extends class04882> extends class07473 {
       }
    }
 
+   @Override
    public boolean N() {
       if (this.M()) {
          return false;
@@ -105,7 +110,7 @@ public class class10473<T extends class04882> extends class07473 {
    }
 
    private class06584 N(class02055 var1) {
-      class06584 class06584 = ((LithiumData)this.y.method_73183()).lithium$getData().ominousBanner();
+      class06584 class06584 = this.y.method_73183().lithium$getData().ominousBanner();
       if (class06584 == null) {
          class06584 = class04877.N(var1);
       }

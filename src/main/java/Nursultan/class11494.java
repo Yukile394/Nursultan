@@ -12,6 +12,7 @@ public class class11494 {
    }
 
    public class11494(float var1, float var2) {
+      super();
       this.Z();
       this.N_0 = var1;
       this.N_1 = var2;

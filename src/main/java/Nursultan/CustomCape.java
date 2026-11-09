@@ -16,6 +16,7 @@ public class CustomCape extends class11067 {
    }
 
    public CustomCape() {
+      super();
       this.P();
    }
 

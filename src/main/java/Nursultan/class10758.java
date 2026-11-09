@@ -21,6 +21,7 @@ public class class10758 {
    }
 
    public class10758() {
+      super();
    }
 
    public class10758 u(class05946<class06521<?>> var1) {

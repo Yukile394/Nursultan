@@ -5,6 +5,7 @@ public class class11403 {
    public static Object y_0 = new class11403();
 
    public class11403() {
+      super();
       this.i();
    }
 

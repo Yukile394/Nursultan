@@ -8,16 +8,19 @@ import org.jspecify.annotations.Nullable;
 
 public class class09826 implements class02695 {
    @Nullable
+   @Override
    public <T> T method_58694(class02477<? extends T> var1) {
       Object object = this.L.method_58694(var1);
       return (T)(object != null ? object : this.u.method_58694(var1));
    }
 
    public class09826(class02695 var1, class02695 var2) {
+      super();
       this.L = var1;
       this.u = var2;
    }
 
+   @Override
    public Set<class02477<?>> y() {
       return Sets.union(this.u.y(), this.L.y());
    }

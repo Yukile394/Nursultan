@@ -14,6 +14,7 @@ public class NoWeb extends class11067 {
    }
 
    public NoWeb() {
+      super();
       this.T();
       this.L_0 = new class10902(this, "default", true);
       this.L_1 = new class10900(this, "really-world", false);

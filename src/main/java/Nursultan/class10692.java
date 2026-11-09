@@ -20,7 +20,7 @@ class class10692<T> {
       Object object = this.y.get();
       if (!Objects.equals(object, this.N)) {
          this.N = (T)object;
-         return var1.N(object);
+         return (class00442<T>)var1.N(object);
       } else {
          return null;
       }

@@ -19,6 +19,7 @@ public class TargetInfo extends class11067 {
    }
 
    public TargetInfo() {
+      super();
       this.T();
       this.L_0 = class11524.N(this, "show-from-mouse", false);
       this.L_1 = class11524.N(this, "show-armor-details", true);

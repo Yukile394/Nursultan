@@ -6,6 +6,7 @@ import java.util.function.Predicate;
 import minecraft.class00494;
 import minecraft.class00500;
 import minecraft.class00734;
+import minecraft.class00737;
 import minecraft.class03448;
 import minecraft.class04453;
 import minecraft.class04688;
@@ -82,7 +83,7 @@ public class class11892 {
    }
 
    public static class06183 N(class05862 var0, BiPredicate<class00500, class07209> var1) {
-      return (class06183)class07290.N(var0.y(), var0.N(), var0, (var1x, var2) -> {
+      return class07290.N(var0.y(), var0.N(), var0, (var1x, var2) -> {
          class00500 class00500 = ((class03448)((class06202)N_0).T_3).method_8320(var2);
          class04688 class04688 = ((class03448)((class06202)N_0).T_3).method_8316(var2);
          class06889 class06889x = var1x.y();
@@ -141,7 +142,7 @@ public class class11892 {
    }
 
    private static class07089 N(class07089 var0, class06889 var1, double var2) {
-      if (!var0.y().N(var1, var2)) {
+      if (!var0.y().N((class00737)var1, var2)) {
          class06889 class06889 = var0.y();
          class07211 class07211 = class07211.N(class06889.M - var1.M, class06889.B - var1.B, class06889.Z - var1.Z);
          return class06183.N(class06889, class07211, class07209.method_49638(class06889));

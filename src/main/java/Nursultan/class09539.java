@@ -11,13 +11,14 @@ public class class09539<T> extends AbstractList<T> implements class02657<T> {
    private final class04189<T> y;
 
    public class09539(class04189<T> var1, class04189 var2) {
+      super();
       this.N = var1;
       this.y = var2;
    }
 
    @Override
    public T remove(int var1) {
-      return (T)this.y.remove(this.N(var1));
+      return this.y.remove(this.N(var1));
    }
 
    @Override
@@ -27,7 +28,7 @@ public class class09539<T> extends AbstractList<T> implements class02657<T> {
 
    @Override
    public T get(int var1) {
-      return (T)this.y.get(this.N(var1));
+      return this.y.get(this.N(var1));
    }
 
    @Override
@@ -52,7 +53,7 @@ public class class09539<T> extends AbstractList<T> implements class02657<T> {
 
    @Override
    public void add(int var1, T var2) {
-      this.y.add(this.N(var1) + 1, var2);
+      this.y.add(this.N(var1) + 1, (T)var2);
    }
 
    @Override
@@ -72,79 +73,89 @@ public class class09539<T> extends AbstractList<T> implements class02657<T> {
 
    @Override
    public T set(int var1, T var2) {
-      return (T)this.y.set(this.N(var1), var2);
+      return this.y.set(this.N(var1), (T)var2);
    }
 
+   @Override
    public class02657<T> y() {
       return this.y;
    }
 
    @Override
    public T getFirst() {
-      return (T)this.y.getLast();
+      return this.y.getLast();
    }
 
    @Override
    public T getLast() {
-      return (T)this.y.getFirst();
+      return this.y.getFirst();
    }
 
    @Override
    public void addFirst(T var1) {
-      this.y.addLast(var1);
+      this.y.addLast((T)var1);
    }
 
    @Override
    public void addLast(T var1) {
-      this.y.addFirst(var1);
+      this.y.addFirst((T)var1);
    }
 
    @Override
    public T removeFirst() {
-      return (T)this.y.removeLast();
+      return this.y.removeLast();
    }
 
    @Override
    public T removeLast() {
-      return (T)this.y.removeFirst();
+      return this.y.removeFirst();
    }
 
    @Nullable
+   @Override
    public T pollFirst() {
-      return (T)this.y.pollLast();
+      return this.y.pollLast();
    }
 
    @Nullable
+   @Override
    public T pollLast() {
-      return (T)this.y.pollFirst();
+      return this.y.pollFirst();
    }
 
+   @Override
    public boolean offerLast(T var1) {
-      return this.y.offerFirst(var1);
+      return this.y.offerFirst((T)var1);
    }
 
    @Nullable
+   @Override
    public T peekFirst() {
-      return (T)this.y.peekLast();
+      return this.y.peekLast();
    }
 
+   @Override
    public boolean removeFirstOccurrence(Object var1) {
       return this.y.removeLastOccurrence(var1);
    }
 
+   @Override
    public boolean offerFirst(T var1) {
-      return this.y.offerLast(var1);
+      return this.y.offerLast((T)var1);
    }
 
    @Nullable
+   @Override
    public T peekLast() {
-      return (T)this.y.peekFirst();
+      return this.y.peekFirst();
    }
 
+   @Override
    public boolean removeLastOccurrence(Object var1) {
       return this.y.removeFirstOccurrence(var1);
    }
 
+   @Override
    public Iterator<T> descendingIterator() {
       return this.y.iterator();
    }

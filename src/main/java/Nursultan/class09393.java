@@ -2,7 +2,6 @@ package Nursultan;
 
 import minecraft.class00394;
 import minecraft.class00399;
-import minecraft.class00500;
 import minecraft.class00869;
 import minecraft.class01194;
 import minecraft.class01989;
@@ -19,14 +18,16 @@ import minecraft.class08711;
 
 public class class09393 extends class01989 {
    public class09393() {
+      super();
    }
 
+   @Override
    protected class06584 N(class07210 var1, class06584 var2) {
       class04782 class04782 = var1.y();
-      class07211 class07211 = (class07211)var1.u().L(class06758.y);
+      class07211 class07211 = var1.u().L(class06758.y);
       class07209 class07209 = var1.L().method_10093(class07211);
       if (class04782.R(class07209) && class00399.y(class04782, class07209, var2)) {
-         class04782.method_8652(class07209, (class00500)class00869.Bl.W().y(class07000.i, class03795.N(class07211)), 3);
+         class04782.method_8652(class07209, class00869.Bl.W().y(class07000.i, class03795.N(class07211)), 3);
          class04782.N(null, class01194.Z, class07209);
          class00394 class00394 = class04782.method_8321(class07209);
          if (class00394 instanceof class07237) {

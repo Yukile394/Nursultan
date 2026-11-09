@@ -33,6 +33,7 @@ public class Arrows extends class11067 {
    public static Object i_0;
 
    public Arrows() {
+      super();
       this.m();
       this.u_0 = new class11023(this, "players", true);
       this.u_1 = new class11010(this, "friends", true);
@@ -107,8 +108,8 @@ public class Arrows extends class11067 {
             float f5 = (float)(System.currentTimeMillis() - class09309.y()) / 1000.0F;
             double d6 = class09309.i().x();
             double d1 = class09309.i().z();
-            double d3 = class04995.u(f5, class09309.N().x(), d6);
-            double d5 = class04995.u(f5, class09309.N().z(), d1);
+            double d3 = class04995.u((double)f5, class09309.N().x(), d6);
+            double d5 = class04995.u((double)f5, class09309.N().z(), d1);
             String s = class09309.L()
                + " "
                + (int)Math.hypot(((class04453)((class06202)super.y_0).T_4).method_23317() - d6, ((class04453)((class06202)super.y_0).T_4).method_23321() - d1)

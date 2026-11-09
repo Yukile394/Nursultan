@@ -57,30 +57,37 @@ public class class11897 extends class08036 implements class11781 {
       this.N_6 = m[3];
    }
 
+   @Override
    public boolean method_7325() {
       return false;
    }
 
+   @Override
    public boolean method_66249() {
       return true;
    }
 
+   @Override
    public class07065 method_33570() {
       return class07065.field_28630;
    }
 
+   @Override
    public boolean method_5624() {
       this.P();
       return (Boolean)this.N_3;
    }
 
+   @Override
    public void method_5783(class04891 var1, float var2, float var3) {
    }
 
+   @Override
    public boolean method_68878() {
       return false;
    }
 
+   @Override
    public boolean method_5715() {
       this.P();
       return (Boolean)this.N_2;
@@ -181,6 +188,7 @@ public class class11897 extends class08036 implements class11781 {
       return (Boolean)this.y_0;
    }
 
+   @Override
    public void method_66282() {
       this.P();
       class07109 class07109 = this.y(((class04474)this.N_0).method_3128());
@@ -189,16 +197,20 @@ public class class11897 extends class08036 implements class11781 {
       super.fields_6212a028292fd3c078969e3ee4c71d9e8_4 = (Boolean)this.N_1;
    }
 
+   @Override
    public void method_6070() {
    }
 
+   @Override
    public void method_29242(boolean var1) {
    }
 
+   @Override
    public class07282 method_68876() {
       return class07282.field_9215;
    }
 
+   @Override
    public boolean method_7340() {
       return true;
    }

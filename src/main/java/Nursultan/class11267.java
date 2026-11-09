@@ -19,6 +19,7 @@ public class class11267 implements class11192<class11270> {
    }
 
    public class11267(class11213 var1) {
+      super();
       this.y();
       this.L_0 = ((class09322)class11185.u_1).z("u_projection");
       this.L_1 = ((class09322)class11185.u_1).z("u_view");

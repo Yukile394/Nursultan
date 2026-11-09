@@ -9,6 +9,7 @@ public class class11215 {
    public static Object N_5 = class11204.L().N((class12036)N_1).N((class09322)class11185.z_0).N(4).N();
 
    public class11215() {
+      super();
    }
 
    static {

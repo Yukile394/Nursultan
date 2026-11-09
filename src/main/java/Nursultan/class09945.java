@@ -5,6 +5,7 @@ import java.net.PasswordAuthentication;
 
 public class class09945 extends Authenticator {
    public class09945(String var1, String var2) {
+      super();
       this.N = var1;
       this.y = var2;
    }

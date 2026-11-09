@@ -17,7 +17,6 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.fabricmc.fabric.impl.datagen.client.FabricItemAssetDefinitions;
 import net.fabricmc.fabric.impl.datagen.client.FabricModelProviderDefinitions;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
@@ -30,16 +29,19 @@ public class class10512 implements class07135 {
    private FabricDataOutput fabricDataOutput;
 
    public class10512(class01996 var1) {
+      super();
       this.field_39375 = var1.method_45973(class02024.field_39368, "blockstates");
       this.field_55247 = var1.method_45973(class02024.field_39368, "items");
       this.field_39376 = var1.method_45973(class02024.field_39368, "models");
       this.m_handler$zdn000$fabric_data_generation_api_v1$init_53(var1, null);
    }
 
+   @Override
    public String method_10321() {
       return "Model Definitions";
    }
 
+   @Override
    public CompletableFuture<?> method_10319(class04476 var1) {
       class05409 class05409 = new class05409();
       class05421 class05421 = new class05421();
@@ -88,8 +90,8 @@ public class class10512 implements class07135 {
    private void m_handler$zdn000$fabric_data_generation_api_v1$setFabricDataOutput_55(
       class04476 var1, CallbackInfoReturnable var2, class05421 var3, class05409 var4
    ) {
-      ((FabricModelProviderDefinitions)var3).setFabricDataOutput(this.fabricDataOutput);
+      var3.setFabricDataOutput(this.fabricDataOutput);
       ((FabricModelProviderDefinitions)var4).setFabricDataOutput(this.fabricDataOutput);
-      ((FabricItemAssetDefinitions)var4).fabric_setProcessedBlocks(var3.N.keySet());
+      var4.fabric_setProcessedBlocks(var3.N.keySet());
    }
 }

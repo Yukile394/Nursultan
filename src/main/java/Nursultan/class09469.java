@@ -21,6 +21,7 @@ public class class09469 extends class04927 {
       }
    }
 
+   @Override
    public boolean method_25400(class06626 var1) {
       CallbackInfoReturnable callbackinforeturnable = new CallbackInfoReturnable("", true);
       this.N(var1, callbackinforeturnable);

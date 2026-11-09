@@ -24,6 +24,7 @@ public final class class10017 {
    }
 
    public class10017(class09781 var1) {
+      super();
       this.Z = Objects.requireNonNull(var1, "context");
       this.z = class10062.N(var1);
    }

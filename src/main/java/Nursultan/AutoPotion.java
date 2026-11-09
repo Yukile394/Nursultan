@@ -77,6 +77,7 @@ public class AutoPotion extends class11067 {
    }
 
    public AutoPotion() {
+      super();
       this.n();
       this.R_0 = new class10891("speed-potion", true, var0 -> !var0.method_6059(class07047.N), var1 -> var1.N(class06570.lO) && this.N(var1, class07047.N));
       this.R_1 = new class10891("strength-potion", true, var0 -> !var0.method_6059(class07047.i), var1 -> var1.N(class06570.lO) && this.N(var1, class07047.i));
@@ -117,8 +118,7 @@ public class AutoPotion extends class11067 {
       this.n();
       class11534.N(((class10927)this.M_3).y());
       if (class11938.j().y() - ((class10927)this.M_3).L() >= 1 && !(((class04453)((class06202)super.y_0).T_4).method_36455() < 80.0F)) {
-         if (!((class11328)((class10927)this.M_3).N().N_1)
-            .test((class06584)((class04453)((class06202)super.y_0).T_4).method_31548().u().get(((class10927)this.M_3).u()))) {
+         if (!((class11328)((class10927)this.M_3).N().N_1).test(((class04453)((class06202)super.y_0).T_4).method_31548().u().get(((class10927)this.M_3).u()))) {
             this.Y();
          } else {
             this.N(((class10927)this.M_3).u(), ((class10927)this.M_3).y(), ((class10927)this.M_3).N());
@@ -147,7 +147,7 @@ public class AutoPotion extends class11067 {
       this.n();
       if (((class11535)this.u_3).U() && !class11907.u()) {
          return true;
-      } else if (((class11799)((class03443)((class06202)super.y_0).T_2)).N() < 3) {
+      } else if (((class03443)((class06202)super.y_0).T_2).N() < 3) {
          return true;
       } else {
          return class11910.B() && ((class04453)((class06202)super.y_0).T_4).field_6012 < 110 ? true : ((class04453)((class06202)super.y_0).T_4).method_6115();
@@ -169,7 +169,7 @@ public class AutoPotion extends class11067 {
       this.M_1 = true;
       boolean flag = class11281.y((Integer)this.i_3);
       int i = flag ? ((class04453)((class06202)super.y_0).T_4).method_31548().M() : (Integer)this.i_3;
-      class11938.m().N(0, var1, i, class07510.field_7791).y((class12040)(var6 -> {
+      class11938.m().N(0, var1, i, class07510.field_7791).y(var6 -> {
          this.n();
          if (flag) {
             this.i_4 = var1;
@@ -178,7 +178,7 @@ public class AutoPotion extends class11067 {
 
          this.M_3 = new class10927(i, var2, var3, class11938.j().y());
          this.M_1 = false;
-      })).y();
+      }).y();
    }
 
    @class11782(
@@ -280,7 +280,7 @@ public class AutoPotion extends class11067 {
             return false;
          } else {
             for (class07055 class07055 : iterable) {
-               if (Arrays.stream(var2).noneMatch(var1x -> class07055.L().N(var1x))) {
+               if (Arrays.stream(var2).noneMatch(var1x -> class07055.L().N((class03556<class07084>)var1x))) {
                   return false;
                }
             }

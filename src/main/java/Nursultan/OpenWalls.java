@@ -22,6 +22,7 @@ import minecraft.class07209;
 )
 public class OpenWalls extends class11067 {
    public OpenWalls() {
+      super();
    }
 
    private boolean N(class00500 var1, class07209 var2) {

@@ -7,6 +7,7 @@ public class class09537<T> implements Iterator<T> {
    private int y;
 
    public class09537(class04189 var1) {
+      super();
       this.N = var1;
       this.y = var1.size() - 1;
    }

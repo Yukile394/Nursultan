@@ -12,6 +12,7 @@ public class class09094 implements class05197 {
       this.N_0 = var1;
    }
 
+   @Override
    public boolean accept(int var1, class00405 var2, int var3) {
       ((class09090)this.N_0).N(var2, var3);
       return true;

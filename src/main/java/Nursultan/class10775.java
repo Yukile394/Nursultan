@@ -13,6 +13,7 @@ public class class10775<T extends class07438> extends class07464<T> {
       this.Z = var1;
    }
 
+   @Override
    public boolean N() {
       return this.Z.I() && this.Z.No() && super.N();
    }

@@ -14,6 +14,7 @@ public class class11932 {
    }
 
    public class11932() {
+      super();
       this.L();
       this.y_0 = new class11926();
       this.y_1 = new class11485();

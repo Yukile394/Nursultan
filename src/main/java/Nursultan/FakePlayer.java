@@ -17,6 +17,7 @@ import minecraft.class06889;
 import minecraft.class07062;
 import minecraft.class07107;
 import minecraft.class07299;
+import minecraft.class08036;
 
 @class11080(
    L = "FakePlayer",
@@ -64,6 +65,7 @@ public class FakePlayer extends class11067 {
    }
 
    public FakePlayer() {
+      super();
       this.G();
       this.u_0 = class11524.N(this, "walk", true);
       this.u_1 = class11524.N(this, "rotate", true);
@@ -120,7 +122,7 @@ public class FakePlayer extends class11067 {
       float f1 = 0.0F;
       if (((class11507)this.u_0).i()) {
          this.u_7 = (Float)this.u_7 + 0.1F;
-         class06889x = ((class06889)this.u_4).i(((class06889)this.u_5).L(class04995.m(((Float)this.u_7).floatValue()) * 2.0F));
+         class06889x = ((class06889)this.u_4).i(((class06889)this.u_5).L((double)(class04995.m(((Float)this.u_7).floatValue()) * 2.0F)));
          double d0 = class04995.P(((Float)this.u_7).floatValue()) >= 0.0F ? 1.0 : -1.0;
          class06889 class06889x = ((class06889)this.u_5).L(d0);
          f = class11908.y(class04995.u(-class06889x.M, class06889x.Z));
@@ -141,7 +143,7 @@ public class FakePlayer extends class11067 {
    void t() {
       this.G();
       if ((class10401)this.u_3 != null && (class04453)((class06202)super.y_0).T_4 != null) {
-         ((class10401)this.u_3).method_48922(((class10401)this.u_3).method_48923().N((class04453)((class06202)super.y_0).T_4));
+         ((class10401)this.u_3).method_48922(((class10401)this.u_3).method_48923().N((class08036)((class04453)((class06202)super.y_0).T_4)));
          this.l();
          boolean flag = ((class04453)((class06202)super.y_0).T_4).method_7261(0.5F) > 0.9F;
          if (flag && ((class04453)((class06202)super.y_0).T_4).method_5624()) {
@@ -211,7 +213,7 @@ public class FakePlayer extends class11067 {
    public void N(class10965 var1) {
       this.G();
       if ((class10401)this.u_3 != null && var1.L() instanceof class00556 class00556) {
-         if (((class12025)class00556).N() == ((class10401)this.u_3).method_5628()) {
+         if (class00556.N() == ((class10401)this.u_3).method_5628()) {
             var1.N();
             class00556.N((class00565)this.u_2);
          }

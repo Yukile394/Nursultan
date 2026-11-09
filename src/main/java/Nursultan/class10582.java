@@ -22,6 +22,7 @@ public class class10582 implements FabricBrewingRecipeRegistryBuilder {
    private final class03767 u;
 
    public class10582(class03767 var1) {
+      super();
       this.u = var1;
    }
 

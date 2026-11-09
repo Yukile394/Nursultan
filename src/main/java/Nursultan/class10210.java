@@ -7,6 +7,7 @@ import minecraft.class03552;
 import minecraft.class03556;
 
 public class class10210<T> extends class03552<T> {
+   @Override
    protected List<class03556<T>> M() {
       throw new UnsupportedOperationException("Tag " + this.B() + " can't be dereferenced during construction");
    }

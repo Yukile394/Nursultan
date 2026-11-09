@@ -36,6 +36,7 @@ public class class11882 extends class11512 implements Predicate<class06584> {
    }
 
    public class11882(class06584 var1, String var2, String var3, class11165 var4) {
+      super();
       this.W();
       this.y_0 = class11524.N(this, "auto-parser-include", true);
       this.y_1 = class11524.N(this, "max-price", "0", Pattern.compile("^[1-9]\\d{0,18}$"));
@@ -82,7 +83,7 @@ public class class11882 extends class11512 implements Predicate<class06584> {
    }
 
    private static boolean i(class06584 var0) {
-      return var0.y().N(class02484.L) && (Integer)var0.method_58694(class02484.L) > 1;
+      return var0.y().N(class02484.L) && var0.method_58694(class02484.L) > 1;
    }
 
    public class06584 U() {

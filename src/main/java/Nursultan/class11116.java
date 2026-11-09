@@ -215,7 +215,7 @@ public class class11116 extends class11807<AutoBuy> {
          class00743<class06937> class00743 = class07482.T;
 
          for (int i = 0; i <= 45; i++) {
-            class06937 class06937 = (class06937)class00743.get(i);
+            class06937 class06937 = class00743.get(i);
             class06584 class06584 = class06937.i();
             Matcher matcher = ((Pattern)class11150.y_1).matcher(String.join(", ", class11929.E(class06584)));
             if (matcher.find() && this.N(matcher, class06584, class07482, class06937)) {

@@ -52,6 +52,7 @@ public class Trajectory extends class11067 {
    }
 
    public Trajectory() {
+      super();
       this.j();
       this.i_0 = new class11254("pearl", true, new class11228((class11225)class11225.L_2, class11264.N));
       this.i_1 = new class11254("trident", true, new class11249((class11225)class11225.L_1, class11264.N));
@@ -90,7 +91,7 @@ public class Trajectory extends class11067 {
          for (class07050 class07050 : class07050.values()) {
             class06584 class06584 = ((class04453)((class06202)super.y_0).T_4).method_5998(class07050);
             if (class06584.N(class06570.sx)) {
-               return class06584.N((class04453)((class06202)super.y_0).T_4) - ((class04453)((class06202)super.y_0).T_4).method_6014();
+               return class06584.N((class07438)((class04453)((class06202)super.y_0).T_4)) - ((class04453)((class06202)super.y_0).T_4).method_6014();
             }
          }
 
@@ -149,7 +150,7 @@ public class Trajectory extends class11067 {
             }
 
             int[] aint;
-            if (((class02820)class06584.a_(class02484.x, class02820.N)).N().size() == 1) {
+            if (class06584.a_(class02484.x, class02820.N).N().size() == 1) {
                aint = new int[]{0};
             } else {
                aint = new int[]{-10, 0, 10};
@@ -250,14 +251,14 @@ public class Trajectory extends class11067 {
    }
 
    public static class06889 N(double var0, double var2, double var4, float var6) {
-      return new class06889(var0, var2, var4).u().L(var6);
+      return new class06889(var0, var2, var4).u().L((double)var6);
    }
 
    @class11782
    public void N(class09321 var1) {
       this.j();
       float f = var1.u().N(true);
-      class06889 class06889xxx = ((class06889)this.u_5).L(1.0F - f).i(((class06889)this.u_6).L(f));
+      class06889 class06889xxx = ((class06889)this.u_5).L((double)(1.0F - f)).i(((class06889)this.u_6).L((double)f));
       float f1 = ((Integer)this.L_0).intValue() + ((Integer)this.L_1 - (Integer)this.L_0) * f;
       List<class11266> list = this.y(class06889xxx, f1);
       if (!list.isEmpty()) {

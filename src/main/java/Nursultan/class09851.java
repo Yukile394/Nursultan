@@ -7,6 +7,7 @@ public final class class09851 {
    private final class09828 N;
 
    public class09851(class09781 var1) {
+      super();
       this.N = class09828.N(Objects.requireNonNull(var1, "context"));
    }
 

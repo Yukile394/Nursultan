@@ -18,14 +18,17 @@ class OkZoomerSelectionList$CategoryEntry extends OkZoomerSelectionList$Entry {
       this.paddingTop = var3;
    }
 
+   @Override
    public List<? extends class04654> method_25396() {
       return List.of(this.widget);
    }
 
+   @Override
    public List<? extends class03434> method_37025() {
       return List.of(this.widget);
    }
 
+   @Override
    public void method_25343(class01054 var1, int var2, int var3, boolean var4, float var5) {
       this.widget.y(this.screen.field_22789 / 2 - 155, this.method_73382() + this.paddingTop);
       this.widget.method_25394(var1, var2, var3, var5);

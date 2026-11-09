@@ -12,8 +12,6 @@ public class class09241 extends class11882 {
 
    @Override
    public boolean u(class06584 var1) {
-      return ((class02833)var1.y().a_(class02484.b, class02833.N)).y().isEmpty()
-         && !var1.y().N(class02484.R)
-         && ((class02710)var1.y().a_(class02484.P, class02710.N)).u();
+      return var1.y().a_(class02484.b, class02833.N).y().isEmpty() && !var1.y().N(class02484.R) && var1.y().a_(class02484.P, class02710.N).u();
    }
 }

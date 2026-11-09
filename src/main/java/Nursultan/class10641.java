@@ -10,6 +10,7 @@ public class class10641 extends CacheLoader<class07209, class06646> {
    private final boolean y;
 
    public class10641(class05487 var1, boolean var2) {
+      super();
       this.N = var1;
       this.y = var2;
    }

@@ -18,6 +18,7 @@ public class class11664 {
    }
 
    public class11664(class06581 var1) {
+      super();
       this.M();
       this.N_0 = var1;
    }

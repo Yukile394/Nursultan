@@ -9,6 +9,7 @@ public record class10788(class03556<class02195> type, byte x, byte y, byte rot) 
    }
 
    public class10788(class03556<class02195> type, byte x, byte y, byte rot) {
+      super();
       this.type = type;
       this.x = x;
       this.y = y;

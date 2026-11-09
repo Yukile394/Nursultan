@@ -68,7 +68,7 @@ public class class09303 {
          class03409 class03409 = class03409.N(class03415.N(), userapiservice);
          UserProperties userproperties1 = userproperties;
          Runnable runnable = () -> {
-            class11995 class11995 = (class11995)class06202;
+            class11995 class11995 = class06202;
             class06202.i_2 = class04771;
             class11995.N(class03930);
             class11995.N(CompletableFuture.completedFuture(null));
@@ -158,7 +158,7 @@ public class class09303 {
          UserApiService userapiservice1 = userapiservice;
          UserProperties userproperties1 = userproperties;
          Runnable runnable = () -> {
-            class11995 class11995 = (class11995)class06202;
+            class11995 class11995 = class06202;
             class06202.i_2 = class04771;
             class11995.N(class03930);
             class11995.N(CompletableFuture.completedFuture(null));

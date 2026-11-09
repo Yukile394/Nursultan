@@ -27,6 +27,7 @@ public class class11760 {
    }
 
    public class11760(String var1) {
+      super();
       this.L();
       this.y_0 = (var1.hashCode() & 65535) / 65535.0F * (float) (Math.PI * 2);
    }

@@ -22,6 +22,7 @@ public class class11095 {
    }
 
    public class11095() {
+      super();
       this.M();
       this.y_0 = new class11062();
       this.y_1 = new class11055();
@@ -82,7 +83,7 @@ public class class11095 {
    }
 
    private class06889 N(class00734 var1, float var2, float var3, float var4) {
-      return new class06889(class04995.u(var2, var1.N, var1.u), class04995.u(var3, var1.y, var1.i), class04995.u(var4, var1.L, var1.R));
+      return new class06889(class04995.u((double)var2, var1.N, var1.u), class04995.u((double)var3, var1.y, var1.i), class04995.u((double)var4, var1.L, var1.R));
    }
 
    public class11097 N(class11087 var1, class07438 var2, class11499 var3, class11499 var4, boolean var5, boolean var6, boolean var7) {

@@ -10,6 +10,7 @@ public class class09652 extends class02165 {
       this.y = var3;
    }
 
+   @Override
    protected boolean N(char var1) {
       return var1 == this.N || var1 == this.y;
    }

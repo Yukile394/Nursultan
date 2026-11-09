@@ -38,6 +38,7 @@ public class ChestStealer extends class11067 {
    }
 
    public ChestStealer() {
+      super();
       this.n();
       this.L_0 = new class11671("normal", true);
       this.L_1 = new class11702("reverse");
@@ -117,7 +118,7 @@ public class ChestStealer extends class11067 {
                this.s();
             }
          } else {
-            class07490 class07490 = (class07490)class06026.E();
+            class07490 class07490 = class06026.E();
             this.N(class07490);
             if (!((class11507)this.L_4).i() || !class11281.N() && !this.N(class07490.E().method_5439(), class07490)) {
                this.u_3 = (Integer)this.u_3 + 1;

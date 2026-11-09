@@ -7,6 +7,7 @@ public record class09143(boolean active, float multiplier, float envelope) {
    }
 
    public class09143(boolean active, float multiplier, float envelope) {
+      super();
       this.active = active;
       this.multiplier = multiplier;
       this.envelope = envelope;

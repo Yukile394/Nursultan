@@ -11,9 +11,11 @@ public class class09234 extends class07955 {
    private static final int W = 1024;
 
    public class09234(class00245 var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    public class04425 N(class02682 var1, int var2, int var3, int var4) {
       class07209 class07209 = this.N.U();
       if (class07209 == null) {

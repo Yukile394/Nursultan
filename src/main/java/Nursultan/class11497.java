@@ -12,6 +12,7 @@ public class class11497 {
    public Object N_0;
 
    public class11497() {
+      super();
       this.y();
       this.N_0 = class06202.Nq();
    }
@@ -35,12 +36,12 @@ public class class11497 {
    public void N(class11373 var1) {
       if ((class04453)((class06202)this.N_0).T_4 != null && var1.N() instanceof class08036 class08036) {
          if (class11528.N(class08036, ((class04453)((class06202)this.N_0).T_4).method_73189(), true) && !class11528.N((class04453)((class06202)this.N_0).T_4)) {
-            N(class08036, (class04891)class04909.wV.N());
+            N(class08036, class04909.wV.N());
          }
       }
    }
 
    public static void N(class07438 var0) {
-      N(var0, (class04891)class04909.we.N());
+      N(var0, class04909.we.N());
    }
 }

@@ -9,6 +9,7 @@ public record class09773(String id, String label, Map<String, String> fields, Li
    }
 
    public class09773(String id, String label, Map<String, String> fields, List<class09773> children) {
+      super();
       this.id = id;
       this.label = label;
       this.fields = fields;

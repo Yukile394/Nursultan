@@ -15,6 +15,7 @@ public class class10722 extends class07458 {
       this.W = 0.1F;
    }
 
+   @Override
    public void N() {
       if (this.N.field_5976) {
          this.N.method_36456(this.N.method_36454() + 180.0F);

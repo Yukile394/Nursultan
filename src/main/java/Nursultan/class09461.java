@@ -12,6 +12,7 @@ public class class09461 extends class04927 {
       this.N = var1;
    }
 
+   @Override
    protected class05216 method_25360() {
       return super.method_25360().y(this.N.R.i());
    }

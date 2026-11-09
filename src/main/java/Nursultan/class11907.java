@@ -102,11 +102,11 @@ public class class11907 {
    }
 
    public static boolean u() {
-      return (class04453)((class06202)N_0).T_4 == null ? false : ((class11822)((class04453)((class06202)N_0).T_4)).dataManager().y().N().N();
+      return (class04453)((class06202)N_0).T_4 == null ? false : ((class04453)((class06202)N_0).T_4).dataManager().y().N().N();
    }
 
    public static void y(class10401 var0) {
-      class11821<Vector3d> class11821 = ((class11824)((class11783)var0).dataManager()).L();
+      class11821<Vector3d> class11821 = ((class11824)var0.dataManager()).L();
       if (class11821.N().y != d[0]) {
          var0.method_5814(class11821.N().x, class11821.N().y, class11821.N().z);
          class11821.N().y = d[1];
@@ -114,9 +114,7 @@ public class class11907 {
    }
 
    public static void y(class07438 var0) {
-      int i = class11281.y(
-         (class11328)(var0x -> Optional.ofNullable((class08609)var0x.y().method_58694(class02484.g)).<Float>map(class08609::y).orElse(0.0F) > 0.0F)
-      );
+      int i = class11281.y(var0x -> Optional.ofNullable(var0x.y().method_58694(class02484.g)).map(class08609::y).orElse(0.0F) > 0.0F);
       if (!class11281.y(i)) {
          class11322.N(i);
          ((class01683)((class04453)((class06202)N_0).T_4).y_0).N(class00556.N(var0, ((class04453)((class06202)N_0).T_4).method_5715()));
@@ -173,7 +171,7 @@ public class class11907 {
    }
 
    public static boolean N(class04477 var0, GameProfile var1) {
-      boolean flag = class02834.field_49224.N().stream().<class06584>map(var0::method_6118).anyMatch(var0x -> var0x.L(class02484.o))
+      boolean flag = class02834.field_49224.N().stream().map(var0::method_6118).anyMatch(var0x -> var0x.L(class02484.o))
          && var0.method_45325(class05298.y) == d[2];
       int i = var1.id().version();
       return i == 3 && flag ? true : flag && i == 4 && var1.properties().isEmpty();
@@ -197,7 +195,7 @@ public class class11907 {
    }
 
    public static void N(class10401 var0, boolean var1) {
-      class11824 class11824 = (class11824)((class11783)var0).dataManager();
+      class11824 class11824 = (class11824)var0.dataManager();
       class11824.L().N().set(var0.method_23317(), var0.method_23318(), var0.method_23321());
       if (!var0.method_5765()
          && var0.field_6012 >= 2

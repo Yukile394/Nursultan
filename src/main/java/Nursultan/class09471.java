@@ -14,21 +14,26 @@ public class class09471 implements class01424<class06997> {
    }
 
    public class09471(int var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    public void y(DataInput var1, class07726 var2) throws IOException {
       throw this.L();
    }
 
+   @Override
    public String y() {
       return "UNKNOWN_" + this.N;
    }
 
+   @Override
    public String N() {
       return "INVALID[" + this.N + "]";
    }
 
+   @Override
    public void N(DataInput var1, int var2, class07726 var3) throws IOException {
       throw this.L();
    }
@@ -37,6 +42,7 @@ public class class09471 implements class01424<class06997> {
       throw this.L();
    }
 
+   @Override
    public class03154 N(DataInput var1, class03175 var2, class07726 var3) throws IOException {
       throw this.L();
    }

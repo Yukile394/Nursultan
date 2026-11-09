@@ -13,6 +13,7 @@ public class class10518 extends class04770 {
       super(var2, var3, var4, var5);
    }
 
+   @Override
    public class07282 method_68876() {
       return class07282.field_9220;
    }

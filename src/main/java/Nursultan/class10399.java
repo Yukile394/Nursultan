@@ -14,6 +14,7 @@ public class class10399 extends class08336<class04449> {
       super(var1, class04227.yZ, var2);
    }
 
+   @Override
    public void method_10514(class01929 var1) {
       this.N(class04456.N).N(class04460.L).N(class04460.u).N(class04460.i).N(class04460.R);
       this.N(class04456.y).N(class04460.M).N(class04460.B).N(class04460.Z).N(class04460.z);

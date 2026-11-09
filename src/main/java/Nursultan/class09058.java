@@ -7,6 +7,7 @@ import org.lwjgl.opengl.GL33;
 
 public class class09058 implements class09060 {
    public class09058() {
+      super();
    }
 
    @Override

@@ -19,6 +19,7 @@ public non-sealed class class12038 implements class12004 {
    }
 
    public class12038(int var1) {
+      super();
       this.L();
       this.N_1 = new Matrix4f().zero();
       this.N_0 = var1;

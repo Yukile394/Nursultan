@@ -147,6 +147,7 @@ public class class11805 {
    }
 
    public class11805(Object var1) {
+      super();
       this.i();
       this.y_0 = new ConcurrentHashMap();
       this.y_1 = new ConcurrentHashMap();

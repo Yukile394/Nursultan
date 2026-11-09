@@ -119,9 +119,9 @@ public class class11899 {
       ((class11897)N[2]).field_5976 = ((class04453)((class06202)N[0]).T_4).field_5976;
       ((class11897)N[2]).field_6017 = ((class04453)((class06202)N[0]).T_4).field_6017;
       ((class11897)N[2]).method_18799(((class04453)((class06202)N[0]).T_4).method_18798());
-      var class11781 = (class11781 & class04453)((class06202)N[0]).T_4;
-      ((class11897)N[2]).N(class11781.N());
-      ((class11897)N[2]).N(class11781.R());
+      var class04453 = (class04453 & class11781)((class06202)N[0]).T_4;
+      ((class11897)N[2]).N(class04453.N());
+      ((class11897)N[2]).N(class04453.R());
       ((class11897)N[2]).N_6 = (Double)((class04453)((class06202)N[0]).T_4).M_2;
       ((class11897)N[2]).N_5 = (Boolean)((class04453)((class06202)N[0]).T_4).R_3;
    }

@@ -46,6 +46,7 @@ public class class11168 {
    }
 
    public class11168(int var1, float var2, float var3, class12036 var4) {
+      super();
       this.M();
       this.u_0 = new ArrayList();
       this.u_1 = (class09065)class09065.y_0;

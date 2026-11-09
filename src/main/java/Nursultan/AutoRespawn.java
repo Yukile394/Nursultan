@@ -11,6 +11,7 @@ import minecraft.class06202;
 )
 public class AutoRespawn extends class11067 {
    public AutoRespawn() {
+      super();
    }
 
    @class11782

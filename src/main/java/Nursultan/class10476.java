@@ -29,10 +29,11 @@ public class class10476 extends class07473 {
    private final int i;
    private boolean R;
 
+   @Override
    public void L() {
       super.L();
       this.N.method_16826(0);
-      this.N.f().N(this.L.method_10263(), this.L.method_10264(), this.L.method_10260(), this.y);
+      this.N.f().N((double)this.L.method_10263(), (double)this.L.method_10264(), (double)this.L.method_10260(), this.y);
       this.R = false;
    }
 
@@ -41,6 +42,7 @@ public class class10476 extends class07473 {
    }
 
    public class10476(class04882 var1, double var2, int var4) {
+      super();
       this.N = var1;
       this.y = var2;
       this.i = var4;
@@ -69,6 +71,7 @@ public class class10476 extends class07473 {
       }
    }
 
+   @Override
    public void i() {
       if (this.N.f().U()) {
          class06889 class06889x = class06889.L(this.L);
@@ -92,12 +95,14 @@ public class class10476 extends class07473 {
       }
    }
 
+   @Override
    public void u() {
       if (this.L.method_19769(this.N.method_73189(), this.i)) {
          this.u.add(this.L);
       }
    }
 
+   @Override
    public boolean y() {
       return this.N.f().U() ? false : this.N.T() == null && !this.L.method_19769(this.N.method_73189(), this.N.method_17681() + this.i) && !this.R;
    }
@@ -116,6 +121,7 @@ public class class10476 extends class07473 {
       return true;
    }
 
+   @Override
    public boolean N() {
       this.U();
       return this.M() && this.Z() && this.N.T() == null;

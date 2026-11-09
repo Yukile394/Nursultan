@@ -9,6 +9,7 @@ public class Gamma extends class11067 {
    public Object L_0;
 
    public Gamma() {
+      super();
       this.s();
       this.L_0 = class11524.N(this, "gamma", 5.0F, 1.0F, 10.0F, 0.1F);
    }

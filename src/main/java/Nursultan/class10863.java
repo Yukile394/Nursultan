@@ -11,6 +11,7 @@ import minecraft.class07689;
 
 public class class10863 implements ArgumentType<String> {
    public class10863() {
+      super();
    }
 
    public String parse(StringReader var1) throws CommandSyntaxException {

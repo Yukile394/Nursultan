@@ -11,6 +11,7 @@ public class class10786 extends class03138 {
       super(var1);
    }
 
+   @Override
    public void writeUTF(String var1) throws IOException {
       try {
          super.writeUTF(var1);

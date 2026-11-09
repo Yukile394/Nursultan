@@ -46,6 +46,7 @@ public class class09172 {
    }
 
    public class09172() {
+      super();
       this.M();
       this.N_1 = 11.0F;
       this.N_2 = 1.0F;

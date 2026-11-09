@@ -25,16 +25,19 @@ public class class10401 extends class04477 implements class11814 {
       W[0] = "push";
    }
 
+   @Override
    public void method_31471(class07276 var1) {
       super.method_31471(var1);
       this.method_22862();
    }
 
+   @Override
    public void method_5773() {
       super.method_5773();
       this.method_29242(false);
    }
 
+   @Override
    public boolean method_5640(double var1) {
       double d0 = this.method_5829().N() * M[0];
       if (Double.isNaN(d0)) {
@@ -45,10 +48,12 @@ public class class10401 extends class04477 implements class11814 {
       return var1 < d0 * d0;
    }
 
+   @Override
    public boolean method_5643(class07072 var1) {
       return true;
    }
 
+   @Override
    public void method_5750(class06889 var1) {
       this.R();
       this.N_0 = var1;
@@ -93,6 +98,7 @@ public class class10401 extends class04477 implements class11814 {
       }
    }
 
+   @Override
    public void method_6007() {
       this.R();
       if (this.method_66245()) {
@@ -117,27 +123,13 @@ public class class10401 extends class04477 implements class11814 {
 
       this.method_6119();
       this.W();
-      class08694 class08694 = class08700.N().i(W[0]);
 
-      try {
+      try (class08694 class08694 = class08700.N().i(W[0])) {
          this.method_6070();
-      } catch (Throwable throwable1) {
-         if (class08694 != null) {
-            try {
-               class08694.close();
-            } catch (Throwable throwable) {
-               throwable1.addSuppressed(throwable);
-            }
-         }
-
-         throw throwable1;
-      }
-
-      if (class08694 != null) {
-         class08694.close();
       }
    }
 
+   @Override
    public void method_7318() {
       this.N(null);
    }

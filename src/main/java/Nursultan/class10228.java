@@ -4,6 +4,7 @@ import minecraft.class01028;
 
 public record class10228(class01028 contents, int width) {
    public class10228(class01028 contents, int width) {
+      super();
       this.contents = contents;
       this.width = width;
    }

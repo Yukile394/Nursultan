@@ -14,9 +14,11 @@ public class class09174 implements class00161 {
    private class00176 u = null;
 
    public class09174(class00147 var1) {
+      super();
       this.y = var1;
    }
 
+   @Override
    public boolean y(class06584 var1) {
       if (this.L != null) {
          return class06584.N(this.L, var1);
@@ -33,11 +35,13 @@ public class class09174 implements class00161 {
       this.u = var1.u;
    }
 
+   @Override
    public void N(class00176 var1) {
       this.L = null;
       this.u = var1;
    }
 
+   @Override
    public void N(class06584 var1) {
       this.L = var1.t();
       this.u = null;

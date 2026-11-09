@@ -16,6 +16,7 @@ public abstract class class11512 {
    }
 
    public class11512() {
+      super();
       this.u();
       this.E_0 = new LinkedHashMap();
    }

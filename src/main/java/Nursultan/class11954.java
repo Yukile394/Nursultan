@@ -22,6 +22,7 @@ public class class11954 implements class11951<class09252> {
    }
 
    public class11954(short var1, byte var2, String var3, String var4, int var5, String var6, String var7, String var8) {
+      super();
       this.U();
       this.N_0 = var1;
       this.N_1 = var2;
@@ -34,6 +35,7 @@ public class class11954 implements class11951<class09252> {
    }
 
    public class11954() {
+      super();
       this.U();
    }
 

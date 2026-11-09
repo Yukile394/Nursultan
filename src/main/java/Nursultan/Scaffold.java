@@ -22,6 +22,7 @@ public class Scaffold extends class11067 {
    }
 
    public Scaffold() {
+      super();
       this.b();
       this.L_0 = new class11022(this, "telly", false);
       this.L_1 = class11524.N(this, "mode", new class11027(this, "grim", true), new class11003(this, "basic", false), (class11022)this.L_0);

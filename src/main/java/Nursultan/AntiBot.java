@@ -13,6 +13,7 @@ public class AntiBot extends class11067 {
    public Object L_0;
 
    public AntiBot() {
+      super();
       this.m();
       this.L_0 = class11524.N(this, "no-bot-interaction", false);
    }
@@ -20,7 +21,7 @@ public class AntiBot extends class11067 {
    @Override
    public boolean Z() {
       if ((class03448)((class06202)super.y_0).T_3 != null) {
-         ((class03448)((class06202)super.y_0).T_3).method_18456().stream().filter(class11907::N).forEach(var0 -> ((class11783)var0).dataManager().M().N(true));
+         ((class03448)((class06202)super.y_0).T_3).method_18456().stream().filter(class11907::N).forEach(var0 -> var0.dataManager().M().N(true));
       }
 
       return super.Z();
@@ -29,7 +30,7 @@ public class AntiBot extends class11067 {
    @Override
    public boolean i() {
       if ((class03448)((class06202)super.y_0).T_3 != null) {
-         ((class03448)((class06202)super.y_0).T_3).method_18456().forEach(var0 -> ((class11783)var0).dataManager().M().N(false));
+         ((class03448)((class06202)super.y_0).T_3).method_18456().forEach(var0 -> var0.dataManager().M().N(false));
       }
 
       return super.i();
@@ -41,7 +42,7 @@ public class AntiBot extends class11067 {
    @class11782
    public void N(class11357 var1) {
       this.m();
-      if (((class11507)this.L_0).i() && ((class11783)var1.L()).dataManager().M().N()) {
+      if (((class11507)this.L_0).i() && var1.L().dataManager().M().N()) {
          var1.N();
       }
    }
@@ -51,7 +52,7 @@ public class AntiBot extends class11067 {
       if (var1.N() instanceof class04477 class04477) {
          class11938.Z().N(() -> {
             if (class11907.N(class04477)) {
-               ((class11783)class04477).dataManager().M().N(true);
+               class04477.dataManager().M().N(true);
             }
          });
       }

@@ -9,6 +9,7 @@ public class class11243 implements class11192<class11257> {
    public Object N_4;
 
    public class11243(class11213 var1) {
+      super();
       this.R();
       this.N_2 = ((class09322)class11185.L_3).z(R[0]);
       this.N_3 = ((class09322)class11185.L_3).z(R[1]);

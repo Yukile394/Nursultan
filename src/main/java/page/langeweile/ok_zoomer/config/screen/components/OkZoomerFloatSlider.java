@@ -35,12 +35,14 @@ public class OkZoomerFloatSlider extends class05801 {
       this.method_25346();
    }
 
+   @Override
    public void method_25344() {
       float f = (float)(class04995.N(class04995.u(class04995.N(this.field_22753, 0.0, 1.0), this.minValue, this.maxValue) * 10.0) / 10.0);
       this.responder.accept(f);
       this.internalValue = f;
    }
 
+   @Override
    public void method_25346() {
       this.field_22754 = class05220.N(this.optionText, class00392.y(String.valueOf(this.internalValue)));
    }

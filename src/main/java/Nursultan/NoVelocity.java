@@ -14,6 +14,7 @@ public class NoVelocity extends class11067 {
    }
 
    public NoVelocity() {
+      super();
       this.P();
       this.L_0 = new class11146("jump-reset", true);
       this.L_1 = new class11138("vanilla", false);

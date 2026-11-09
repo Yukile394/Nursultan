@@ -7,6 +7,7 @@ package Nursultan;
 )
 public class Potions extends class11067 {
    public Potions() {
+      super();
    }
 
    @Override

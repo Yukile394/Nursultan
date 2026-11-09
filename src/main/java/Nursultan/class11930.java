@@ -9,10 +9,12 @@ public class class11930 extends class04568 {
       super(var1, var2, var3);
    }
 
+   @Override
    public boolean equals(Object var1) {
       return !(var1 instanceof class11930 class11930) ? false : Objects.equals(this.y, class11930.y) && Objects.equals(this.N, class11930.N);
    }
 
+   @Override
    public int hashCode() {
       return Objects.hash(this.y, this.N);
    }

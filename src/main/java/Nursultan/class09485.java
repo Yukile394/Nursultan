@@ -24,11 +24,13 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 public class class09485 implements class00565 {
    public class09485(class01615 var1, class04782 var2, class07049 var3) {
+      super();
       this.L = var1;
       this.N = var2;
       this.y = var3;
    }
 
+   @Override
    public void N() {
       if (!(this.y instanceof class00717)
          && !(this.y instanceof class07057)
@@ -63,6 +65,7 @@ public class class09485 implements class00565 {
       }
    }
 
+   @Override
    public void N(class07050 var1, class06889 var2) {
       CallbackInfo callbackinfo = new CallbackInfo("", true);
       this.N(var1, var2, callbackinfo);
@@ -71,6 +74,7 @@ public class class09485 implements class00565 {
       }
    }
 
+   @Override
    public void N(class07050 var1) {
       CallbackInfo callbackinfo = new CallbackInfo("", true);
       this.N(var1, callbackinfo);

@@ -27,6 +27,7 @@ public class class11693 {
    }
 
    public class11693(Path var1) {
+      super();
       this.L();
       this.N_0 = var1;
    }

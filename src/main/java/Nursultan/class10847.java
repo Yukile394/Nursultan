@@ -4,6 +4,7 @@ import minecraft.class07862;
 import minecraft.class07993;
 
 public class class10847 extends class07993 {
+   @Override
    public boolean M() {
       return !this.N.B() && super.M();
    }

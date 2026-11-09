@@ -13,6 +13,7 @@ public record class11904(GpuTextureView texture, float[] positions, float[] uvs,
    }
 
    public class11904(GpuTextureView texture, float[] positions, float[] uvs, int[] colors, float[] lights, float[] normals, int[] indices) {
+      super();
       this.texture = texture;
       this.positions = positions;
       this.uvs = uvs;

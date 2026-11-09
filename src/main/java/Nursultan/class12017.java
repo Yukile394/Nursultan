@@ -10,6 +10,7 @@ public non-sealed class class12017 implements class12004 {
    public boolean N_init;
 
    public class12017(int var1) {
+      super();
       this.N();
       this.N_0 = var1;
    }

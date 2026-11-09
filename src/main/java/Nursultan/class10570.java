@@ -9,6 +9,7 @@ public class class10570 extends class07075 {
       this.y = var1;
    }
 
+   @Override
    public void method_5431() {
       this.y.y(this);
       super.method_5431();

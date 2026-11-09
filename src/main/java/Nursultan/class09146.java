@@ -43,12 +43,13 @@ public class class09146 {
       if ((class05630)((class06202)class11087.N_0).i_7 == null) {
          return 1.0F;
       } else {
-         double d0 = (Double)((class05630)((class06202)class11087.N_0).i_7).u().method_41753() * 0.6 + 0.2;
+         double d0 = ((class05630)((class06202)class11087.N_0).i_7).u().method_41753() * 0.6 + 0.2;
          return class04995.N((float)(0.64 + d0 * d0 * 1.72), 0.62F, 1.72F);
       }
    }
 
    public class09146() {
+      super();
       this.i();
       this.L_0 = new class09172();
       this.L_1 = new class09125();

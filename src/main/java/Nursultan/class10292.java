@@ -1,7 +1,5 @@
 package Nursultan;
 
-import minecraft.class00780;
-import minecraft.class03556;
 import minecraft.class04039;
 
 public class class10292 extends class10099 {
@@ -9,7 +7,8 @@ public class class10292 extends class10099 {
       super(var1);
    }
 
+   @Override
    protected boolean N() {
-      return ((class00780)((class03556)this.L.P.get()).N()).y(this.L.m.N(this.L.z, this.L.s, this.L.U), this.L.y());
+      return this.L.P.get().N().y(this.L.m.N(this.L.z, this.L.s, this.L.U), this.L.y());
    }
 }

@@ -13,6 +13,7 @@ public class class09560<T> extends class02053<T> {
       this.N = var2;
    }
 
+   @Override
    public Optional<class03529<T>> N(class05946<T> var1) {
       return this.N.N(var1);
    }

@@ -11,6 +11,7 @@ public class class10780 extends class07999 {
       this.y = var1;
    }
 
+   @Override
    public boolean N() {
       return this.y.No() && super.N();
    }

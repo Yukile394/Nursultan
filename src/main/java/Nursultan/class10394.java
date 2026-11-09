@@ -19,6 +19,7 @@ public final class class10394 implements class06763 {
       return new class04403(this.N);
    }
 
+   @Override
    public class06799 N() {
       return this.y;
    }

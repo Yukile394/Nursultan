@@ -8,6 +8,7 @@ public class class09346 implements class11826<class11371> {
    }
 
    public class09346() {
+      super();
       this.L();
       this.N_0 = new class09330();
       this.N_1 = new class09304();

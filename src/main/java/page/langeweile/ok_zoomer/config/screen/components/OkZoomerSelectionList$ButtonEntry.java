@@ -27,18 +27,22 @@ class OkZoomerSelectionList$ButtonEntry extends OkZoomerSelectionList$Entry {
       this.buttons = var2 != null ? List.of(var1, var2) : List.of(var1);
    }
 
+   @Override
    public List<? extends class04654> method_25396() {
       return this.buttons;
    }
 
+   @Override
    public int method_25364() {
       return (this.rightButton != null ? Math.max(this.leftButton.method_25364(), this.rightButton.method_25364()) : this.leftButton.method_25364()) + 4;
    }
 
+   @Override
    public List<? extends class03434> method_37025() {
       return this.buttons;
    }
 
+   @Override
    public void method_25343(class01054 var1, int var2, int var3, boolean var4, float var5) {
       int i = this.screen.field_22789 / 2 - 155;
       int j = this.method_73382();

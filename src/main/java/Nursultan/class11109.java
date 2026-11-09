@@ -41,7 +41,7 @@ public class class11109 implements class11819 {
                .T
                .stream()
                .limit(45L)
-               .<class06584>map(class06937::i)
+               .map(class06937::i)
                .filter(var1x -> ((class11882)this.N_4).test(var1x))
                .mapToLong(class11109::y)
                .filter(var0 -> var0 > 0L)
@@ -67,6 +67,7 @@ public class class11109 implements class11819 {
    }
 
    public class11109() {
+      super();
       this.m();
       this.N_0 = class06202.Nq();
    }

@@ -16,6 +16,7 @@ public class class11327 {
    }
 
    public class11327() {
+      super();
       this.y();
       this.y_0 = -1L;
    }

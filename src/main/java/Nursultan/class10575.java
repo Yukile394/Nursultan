@@ -11,6 +11,7 @@ public class class10575 extends class04927 {
       this.N = var1;
    }
 
+   @Override
    public void method_25365(boolean var1) {
       if (!this.method_25370() && var1) {
          super.method_25365(true);

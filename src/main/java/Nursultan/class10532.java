@@ -11,11 +11,13 @@ public final class class10532 implements class05678<class10533> {
    private final Queue<Runnable>[] N;
    private final AtomicInteger y = new AtomicInteger();
 
+   @Override
    public int L() {
       return this.y.get();
    }
 
    public class10532(int var1) {
+      super();
       this.N = new Queue[var1];
 
       for (int i = 0; i < var1; i++) {
@@ -23,6 +25,7 @@ public final class class10532 implements class05678<class10533> {
       }
    }
 
+   @Override
    public boolean y() {
       return this.y.get() == 0;
    }
@@ -39,6 +42,7 @@ public final class class10532 implements class05678<class10533> {
    }
 
    @Nullable
+   @Override
    public Runnable N() {
       Queue<Runnable>[] queue = this.N;
       int i = queue.length;

@@ -12,6 +12,7 @@ public class class10286 extends class07655 {
       super(var2, var3);
    }
 
+   @Override
    protected class07068 N(int var1) {
       this.s = new class07955();
       return new class10289(this, this.s, var1);

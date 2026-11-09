@@ -29,6 +29,7 @@ public class class11481 {
    }
 
    public class11481(String var1, class06889 var2, String var3) {
+      super();
       this.L();
       this.L_0 = var1;
       this.L_2 = var2;

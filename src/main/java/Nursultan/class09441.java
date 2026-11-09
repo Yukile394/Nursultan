@@ -8,7 +8,6 @@ import minecraft.class01135;
 import minecraft.class01296;
 import minecraft.class07049;
 import minecraft.class07062;
-import net.caffeinemc.mods.lithium.common.tracking.entity.EntityMovementTrackerSection;
 import net.caffeinemc.mods.lithium.common.tracking.entity.MovementTrackerHelper;
 import net.caffeinemc.mods.lithium.common.tracking.entity.ToggleableMovementTracker;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
@@ -20,6 +19,7 @@ public class class09441<T> implements class01113, ToggleableMovementTracker {
    private int R;
 
    public class09441(T var1, long var2, class01101<T> param4, class01101 var5) {
+      super();
       this.y = var1;
       this.L = (T)var2;
       this.u = var3;
@@ -33,7 +33,7 @@ public class class09441<T> implements class01113, ToggleableMovementTracker {
 
    private void y() {
       if (this.R != 0) {
-         ((EntityMovementTrackerSection)this.i).lithium$trackEntityMovement(this.R, ((class07049)this.L).method_73183().N());
+         this.i.lithium$trackEntityMovement(this.R, ((class07049)this.L).method_73183().N());
       }
    }
 
@@ -45,6 +45,7 @@ public class class09441<T> implements class01113, ToggleableMovementTracker {
       this.y();
    }
 
+   @Override
    public void N() {
       long ix = class01296.L(this.L.method_24515());
       if (ix != this.u) {
@@ -95,6 +96,7 @@ public class class09441<T> implements class01113, ToggleableMovementTracker {
       }
    }
 
+   @Override
    public void N(class07062 var1) {
       this.N(var1, null);
       if (!this.i.y(this.L)) {

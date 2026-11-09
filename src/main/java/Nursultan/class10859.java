@@ -19,6 +19,7 @@ import minecraft.class07934;
 
 public class class10859 extends ChannelInitializer<Channel> {
    public class10859(class07911 var1, SslContext var2, class07393 var3, class07932 var4) {
+      super();
       this.u = var1;
       this.N = var2;
       this.y = var3;

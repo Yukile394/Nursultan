@@ -98,7 +98,7 @@ public class CooldownsHud extends class11769 {
          for (Entry entry : class06556.N.entrySet()) {
             int j = ((class10621)entry.getValue()).y() - i;
             if (j > 0 && (set == null || set.contains(entry.getKey()))) {
-               class06581 class06581 = (class06581)class04206.B.N((class01894)entry.getKey());
+               class06581 class06581 = class04206.B.N((class01894)entry.getKey());
                if (class06581 != class06570.N) {
                   arraylist.add(new class11751((class01894)entry.getKey(), class06581.E(), j));
                }

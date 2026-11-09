@@ -12,6 +12,7 @@ import minecraft.class06202;
 )
 public class AvoidCollision extends class11067 {
    public AvoidCollision() {
+      super();
    }
 
    @class11782

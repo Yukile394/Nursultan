@@ -17,6 +17,7 @@ public class class11057 {
    public boolean N_init;
 
    public class11057() {
+      super();
       this.u();
       this.N_5 = class11073.IDLE;
    }
@@ -139,7 +140,9 @@ public class class11057 {
    }
 
    private class06889 N(class06889 var1, class06889 var2, float var3) {
-      return var2 == null ? var1 : new class06889(class04995.u(var3, var1.M, var2.M), class04995.u(var3, var1.B, var2.B), class04995.u(var3, var1.Z, var2.Z));
+      return var2 == null
+         ? var1
+         : new class06889(class04995.u((double)var3, var1.M, var2.M), class04995.u((double)var3, var1.B, var2.B), class04995.u((double)var3, var1.Z, var2.Z));
    }
 
    public class11104 N(

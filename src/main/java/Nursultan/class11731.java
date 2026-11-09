@@ -16,6 +16,7 @@ public class class11731 {
    }
 
    public class11731(int var1, int var2, int var3, float var4, Map<String, class11773> var5) {
+      super();
       this.B();
       this.N_0 = var1;
       this.N_1 = var2;

@@ -7,6 +7,7 @@ import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.suggestion.Suggestions;
 import com.mojang.brigadier.suggestion.SuggestionsBuilder;
 import java.util.concurrent.CompletableFuture;
+import minecraft.class00891;
 import minecraft.class00892;
 import minecraft.class00903;
 import minecraft.class00904;
@@ -19,6 +20,7 @@ public class class10747 implements ArgumentType<class00903> {
    public Object N_0;
 
    public class10747(class04348 var1) {
+      super();
       this.y();
       this.N_0 = var1.y(class04227.Z);
    }
@@ -27,7 +29,7 @@ public class class10747 implements ArgumentType<class00903> {
    }
 
    public class00903 parse(StringReader var1) throws CommandSyntaxException {
-      class00904 class00904 = class00892.N((class01905)this.N_0, var1, true);
+      class00904 class00904 = class00892.N((class01905<class00891>)this.N_0, var1, true);
       return new class00903(class00904.N(), class00904.y().keySet(), class00904.L());
    }
 
@@ -36,6 +38,6 @@ public class class10747 implements ArgumentType<class00903> {
    }
 
    public <S> CompletableFuture<Suggestions> listSuggestions(CommandContext<S> var1, SuggestionsBuilder var2) {
-      return class00892.N((class01905)this.N_0, var2, false, true);
+      return class00892.N((class01905<class00891>)this.N_0, var2, false, true);
    }
 }

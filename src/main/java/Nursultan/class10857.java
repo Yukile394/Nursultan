@@ -6,14 +6,17 @@ import minecraft.class07940;
 
 public record class10857(class07931<Void, Void> info, class07924 attributes) implements class07940<Void, Void> {
    public class10857(class07931<Void, Void> info, class07924 attributes) {
+      super();
       this.info = info;
       this.attributes = attributes;
    }
 
+   @Override
    public class07924 y() {
       return this.attributes;
    }
 
+   @Override
    public class07931<Void, Void> N() {
       return this.info;
    }

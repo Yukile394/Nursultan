@@ -28,6 +28,7 @@ public class class09140 {
    }
 
    public class09140() {
+      super();
       this.L();
       this.N_3 = 1.0F;
       this.N_4 = 0.0F;

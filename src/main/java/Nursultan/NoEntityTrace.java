@@ -15,6 +15,7 @@ public class NoEntityTrace extends class11067 {
    }
 
    public NoEntityTrace() {
+      super();
       this.P();
       this.L_0 = class11524.N(this, "only-while-breaking", false);
    }

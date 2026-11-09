@@ -63,7 +63,7 @@ public class class11537 extends class11488 implements class11531 {
             String s = var2.unpackString();
             class01894 class01894 = class01894.L(s);
             if (class01894 != null && class04206.i.u(class01894)) {
-               hashset.add((class00891)class04206.i.N(class01894));
+               hashset.add(class04206.i.N(class01894));
             } else {
                ((Logger)y_0).warn("Unknown block id '{}' in {}, skipped", s, this.u());
             }

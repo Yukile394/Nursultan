@@ -80,13 +80,13 @@ public class EffectsHud extends class11769 {
    }
 
    private static boolean M(class07055 var0) {
-      return var0 != null && !((class07084)var0.L().N()).z();
+      return var0 != null && !var0.L().N().z();
    }
 
    private static List<class07055> T() {
       return (class04453)((class06202)M_0).T_4 == null
          ? List.of()
-         : ((class04453)((class06202)M_0).T_4).method_6026().stream().filter(var0 -> !((class07084)var0.L().N()).N()).toList();
+         : ((class04453)((class06202)M_0).T_4).method_6026().stream().filter(var0 -> !var0.L().N().N()).toList();
    }
 
    public EffectsHud() {
@@ -150,7 +150,7 @@ public class EffectsHud extends class11769 {
    }
 
    private static String u(class07055 var0) {
-      return class08392.N(var0.z(), new Object[0]);
+      return class08392.N(var0.z());
    }
 
    private static float y(String var0, String var1, String var2) {
@@ -167,7 +167,7 @@ public class EffectsHud extends class11769 {
    }
 
    private static class01894 y(class03556<class07084> var0) {
-      return var0.i().<class01894>map(class05946::N).map(var0x -> var0x.R("mob_effect/")).orElseGet(class08923::L);
+      return var0.i().map(class05946::N).map(var0x -> var0x.R("mob_effect/")).orElseGet(class08923::L);
    }
 
    @Override

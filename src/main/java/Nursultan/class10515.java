@@ -12,6 +12,7 @@ public class class10515 extends class04927 {
       this.N = var1;
    }
 
+   @Override
    protected class05216 method_25360() {
       return !this.N.R.method_1882().isEmpty() && this.N.i.y() ? super.method_25360().i(", ").y(class05470.y) : super.method_25360();
    }

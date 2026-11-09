@@ -36,6 +36,7 @@ public class class11257 {
    }
 
    public class11257() {
+      super();
       this.m();
       this.N_0 = new Matrix4f();
       this.N_1 = new Matrix4f();

@@ -123,7 +123,7 @@ public abstract class class11079 extends class11535 {
 
       ((AttackAura)this.y_1).N(10);
       class06584 class06584 = ((class04453)((class06202)this.y_0).T_4).method_6047();
-      class08172 class08172 = (class08172)class06584.method_58694(class02484.c);
+      class08172 class08172 = class06584.method_58694(class02484.c);
       if (class08172 != null) {
          if (((class03443)((class06202)this.y_0).T_2).Z()) {
             return;
@@ -297,7 +297,7 @@ public abstract class class11079 extends class11535 {
          if (class06584.L(class02484.c)) {
             return false;
          } else {
-            class06543 class06543 = (class06543)class06584.method_58694(class02484.I);
+            class06543 class06543 = class06584.method_58694(class02484.I);
             return class06543 != null && !class06543.N((class04453)((class06202)this.y_0).T_4, class06889xx);
          }
       }

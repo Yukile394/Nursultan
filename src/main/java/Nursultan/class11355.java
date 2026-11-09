@@ -38,6 +38,7 @@ public class class11355 extends class11784 {
    }
 
    public class11355() {
+      super();
       this.z();
    }
 

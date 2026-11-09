@@ -16,7 +16,7 @@ public abstract class class11583 extends class11553<HolyHelper> {
    public class11328 L() {
       return var1 -> {
          this.B();
-         class02837 class02837 = (class02837)var1.y().method_58694(class02484.y);
+         class02837 class02837 = var1.y().method_58694(class02484.y);
          return class02837 == null ? false : ((Optional)((MapCodec)this.y_0).codec().parse(class07713.N, class02837.y()).getOrThrow()).<Boolean>map(var1x -> {
             this.B();
             return ((Optional)((MapCodec)this.y_1).codec().parse(class07713.N, var1x.y()).getOrThrow()).orElse("").equals(this.N());

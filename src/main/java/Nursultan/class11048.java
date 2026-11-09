@@ -33,6 +33,7 @@ public class class11048 {
    }
 
    public class11048(class11328 var1, String var2, QuickUse var3) {
+      super();
       this.M();
       this.N_4 = -1;
       this.N_5 = -1;
@@ -53,7 +54,7 @@ public class class11048 {
             if (!class11281.u(i)) {
                j = ((class04453)((class06202)this.N_3).T_4).method_31548().M();
                this.N_5 = j;
-               class11938.m().N(0, i, j, class07510.field_7791).y((class12040)(var1x -> this.N((Integer)this.N_5))).y();
+               class11938.m().N(0, i, j, class07510.field_7791).y(var1x -> this.N((Integer)this.N_5)).y();
                this.N_4 = i;
             } else {
                this.N(j);

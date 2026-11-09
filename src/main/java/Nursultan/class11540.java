@@ -9,6 +9,7 @@ public record class11540(UUID uuid, String name, String token, String refresh, S
    }
 
    public class11540(UUID uuid, String name, String token, String refresh, String xuid) {
+      super();
       this.uuid = uuid;
       this.name = name;
       this.token = token;

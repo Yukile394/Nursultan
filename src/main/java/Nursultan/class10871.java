@@ -18,18 +18,22 @@ public class class10871 implements class08067 {
    private double B;
    private double Z;
 
+   @Override
    public double L(float var1) {
-      return class04995.N(this.N.B() - class04995.u(var1, this.z(), this.N()) / 2.0, -this.N.U, this.N.U);
+      return class04995.N(this.N.B() - class04995.u((double)var1, this.z(), this.N()) / 2.0, (double)(-this.N.U), (double)this.N.U);
    }
 
+   @Override
    public long L() {
       return this.M;
    }
 
+   @Override
    public void M() {
    }
 
    public class10871(class08057 var1, double var2, double var4, long var6, long var8) {
+      super();
       this.N = var1;
       this.y = var2;
       this.L = var4;
@@ -42,6 +46,7 @@ public class class10871 implements class08067 {
       this.Z = d0;
    }
 
+   @Override
    public class08067 B() {
       this.M--;
       this.Z = this.B;
@@ -54,6 +59,7 @@ public class class10871 implements class08067 {
       }
    }
 
+   @Override
    public class00494 Z() {
       return class00389.N(
          class00389.L,
@@ -69,6 +75,7 @@ public class class10871 implements class08067 {
       );
    }
 
+   @Override
    public class08072 i() {
       return this.L < this.y ? class08072.field_12756 : class08072.field_12754;
    }
@@ -82,30 +89,37 @@ public class class10871 implements class08067 {
       return this.Z;
    }
 
+   @Override
    public double u(float var1) {
-      return class04995.N(this.N.B() + class04995.u(var1, this.z(), this.N()) / 2.0, -this.N.U, this.N.U);
+      return class04995.N(this.N.B() + class04995.u((double)var1, this.z(), this.N()) / 2.0, (double)(-this.N.U), (double)this.N.U);
    }
 
+   @Override
    public double u() {
       return this.L;
    }
 
+   @Override
    public double y(float var1) {
-      return class04995.N(this.N.M() + class04995.u(var1, this.z(), this.N()) / 2.0, -this.N.U, this.N.U);
+      return class04995.N(this.N.M() + class04995.u((double)var1, this.z(), this.N()) / 2.0, (double)(-this.N.U), (double)this.N.U);
    }
 
+   @Override
    public double y() {
       return Math.abs(this.y - this.L) / (this.u - this.i);
    }
 
+   @Override
    public double N(float var1) {
-      return class04995.N(this.N.M() - class04995.u(var1, this.z(), this.N()) / 2.0, -this.N.U, this.N.U);
+      return class04995.N(this.N.M() - class04995.u((double)var1, this.z(), this.N()) / 2.0, (double)(-this.N.U), (double)this.N.U);
    }
 
+   @Override
    public double N() {
       return this.B;
    }
 
+   @Override
    public void R() {
    }
 }

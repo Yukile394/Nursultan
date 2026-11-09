@@ -14,6 +14,7 @@ public class class10729 extends AbstractIterator<class07209> {
    private boolean m;
 
    public class10729(int var1, int var2, int var3, int var4, int var5, int var6, int var7) {
+      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;

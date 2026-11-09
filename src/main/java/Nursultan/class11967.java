@@ -11,12 +11,14 @@ public class class11967 implements class11951<class09276> {
    }
 
    public class11967(class11962 var1, class11946 var2) {
+      super();
       this.u();
       this.N_0 = var1;
       this.N_1 = var2;
    }
 
    public class11967() {
+      super();
       this.u();
    }
 

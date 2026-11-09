@@ -11,21 +11,26 @@ import minecraft.class07018;
 
 public class class10707 extends class07018 {
    public class10707(Map var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    public class01028 N(class05936 var1) {
       return var1x -> var1.N((var1xx, var2) -> class05232.L(var2, var1xx, var1x) ? Optional.empty() : class05936.L, class00405.N).isPresent();
    }
 
+   @Override
    public boolean N() {
       return false;
    }
 
+   @Override
    public boolean N(String var1) {
       return this.N.containsKey(var1);
    }
 
+   @Override
    public String N(String var1, String var2) {
       return this.N.getOrDefault(var1, var2);
    }

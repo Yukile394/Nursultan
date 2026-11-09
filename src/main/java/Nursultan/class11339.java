@@ -8,6 +8,7 @@ public final class class11339 {
    public int i;
 
    public class11339(int var1, int var2, float var3, float var4, int var5) {
+      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;

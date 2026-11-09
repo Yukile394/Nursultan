@@ -3,20 +3,24 @@ package Nursultan;
 import minecraft.class03875;
 
 public record class10285(int blockX, int blockY, int blockZ) implements class03875 {
+   @Override
    public int L() {
       return this.blockY;
    }
 
    public class10285(int blockX, int blockY, int blockZ) {
+      super();
       this.blockX = blockX;
       this.blockY = blockY;
       this.blockZ = blockZ;
    }
 
+   @Override
    public int u() {
       return this.blockZ;
    }
 
+   @Override
    public int y() {
       return this.blockX;
    }

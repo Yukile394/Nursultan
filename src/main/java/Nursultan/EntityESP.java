@@ -68,6 +68,7 @@ public class EntityESP extends class11067 {
    }
 
    public EntityESP() {
+      super();
       this.s();
       this.R_0 = new class11273(this, "players", true);
       this.R_1 = new class11005(this, "friends", true);
@@ -238,7 +239,7 @@ public class EntityESP extends class11067 {
    public void N(class10972 var1) {
       this.s();
       if (((class11535)this.i_4).U()) {
-         class07049 class07049 = ((class11806)var1.L()).dataManager().N().N();
+         class07049 class07049 = var1.L().dataManager().N().N();
          Iterator iterator = ((List)((class11523)this.i_2).i()).iterator();
 
          while (iterator.hasNext()) {

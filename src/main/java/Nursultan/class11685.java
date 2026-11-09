@@ -19,6 +19,7 @@ public class class11685 {
    }
 
    public class11685(class11328 var1, class06584 var2) {
+      super();
       this.R();
       this.N_0 = var1;
       this.N_1 = var2;
@@ -59,7 +60,7 @@ public class class11685 {
       } else if (class07741x.size() != class07741x.size()) {
          return false;
       } else {
-         ArrayList var4 = new ArrayList(class07741x);
+         ArrayList var4 = new ArrayList<>(class07741x);
 
          for (class07709 class07709 : class07741x) {
             int i = -1;

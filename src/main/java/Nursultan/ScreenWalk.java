@@ -16,6 +16,7 @@ public class ScreenWalk extends class11067 {
    }
 
    public ScreenWalk() {
+      super();
       this.P();
       this.L_0 = (class11517)class11524.N(
             this,

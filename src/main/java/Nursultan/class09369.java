@@ -16,6 +16,7 @@ public class class09369<S> {
    private final List<CommandNode<S>> u;
 
    public class09369(class04348 var1, class07263<S> var2, List<class00487> var3) {
+      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;

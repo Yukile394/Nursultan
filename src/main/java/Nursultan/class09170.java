@@ -35,7 +35,7 @@ public class class09170 {
 
    public static double N() {
       if ((class06202)class11087.N_0 != null && (class05630)((class06202)class11087.N_0).i_7 != null) {
-         double d0 = (Double)((class05630)((class06202)class11087.N_0).i_7).u().method_41753() * y[1] + y[2];
+         double d0 = ((class05630)((class06202)class11087.N_0).i_7).u().method_41753() * y[1] + y[2];
          return d0 * d0 * d0 * y[3] * y[4];
       } else {
          return y[0];

@@ -22,6 +22,7 @@ public final class class10343 implements class10340 {
    private int i = 0;
 
    public class10343(class07209 var1, class00891 var2, @Nullable class02733 var3, @Nullable class07211 var4) {
+      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;

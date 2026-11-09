@@ -31,6 +31,7 @@ public class TargetEsp extends class11067 {
    }
 
    public TargetEsp() {
+      super();
       this.b();
       this.L_4 = class11524.N(this, "mode", new class11441(this, "square", false), new class11434(this, "jello", false), new class11453(this, "scan", true));
       this.L_5 = class11524.N(this, "color", -11104513);

@@ -55,6 +55,7 @@ public class KillEffect extends class11067 {
    public boolean i_init;
 
    public KillEffect() {
+      super();
       this.b();
       this.u_0 = new HashSet();
       this.u_1 = class09064.N(() -> ((class06202)super.y_0).e().N / 2, () -> ((class06202)super.y_0).e().y / 2)
@@ -210,14 +211,14 @@ public class KillEffect extends class11067 {
       if (((class06202)super.y_0).Ng().N(var1) instanceof class02294 class02294) {
          class08476 class08476 = (class08476)class02294.method_55269();
          class02294.method_62354(var1, class08476, 0.0F);
-         class06078<?> class06078 = ((class12041)class02294).N();
+         class06078<?> class06078 = class02294.N();
          class06078.method_2819(class08476);
          class01421 class01421 = new class01421();
          float f = class08476.NL;
          class01421.y(f, f, f);
-         ((class12041)class02294).N(class08476, class01421, class08476.x, f);
+         class02294.N(class08476, class01421, class08476.x, f);
          class01421.y(-1.0F, -1.0F, 1.0F);
-         ((class12041)class02294).N(class08476, class01421);
+         class02294.N(class08476, class01421);
          if (var1 instanceof class04477) {
             class01421.y(0.9375F, 0.9375F, 0.9375F);
          }

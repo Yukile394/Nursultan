@@ -20,7 +20,7 @@ public class class11246 extends class11230 {
             if (((class10990)var1).u() instanceof class00509 class00509 && class00509.N() == 35) {
                class07049 class07049 = class00509.N((class03448)((class06202)super.N_0).T_3);
                if (class07049 != (class04453)((class06202)super.N_0).T_4 && class07049 != null) {
-                  ((class11783)class07049).dataManager().R().N(40);
+                  class07049.dataManager().R().N(40);
                }
             }
             break;
@@ -29,7 +29,7 @@ public class class11246 extends class11230 {
                class06069 var6 = ((class04453)((class06202)super.N_0).T_4).method_59922();
 
                for (class07049 class07049x : ((class03448)((class06202)super.N_0).T_3).M()) {
-                  class11821<Integer> class11821 = ((class11783)class07049x).dataManager().R();
+                  class11821<Integer> class11821 = class07049x.dataManager().R();
                   if (class11821.N() > 0) {
                      for (int i = 0; i < 16; i++) {
                         double d0 = var6.z() * 2.0F - 1.0F;

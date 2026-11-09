@@ -9,9 +9,11 @@ public class class09561 implements class02112 {
    private final class03255 N;
 
    public class09561(class03255 var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    public Vector2ic method_47944(int var1, int var2, int var3, int var4, int var5, int var6) {
       Vector2i vector2i = new Vector2i();
       vector2i.x = this.N.u() + 3;

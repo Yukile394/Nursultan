@@ -8,5 +8,6 @@ public class class10258 {
    public static final int i = 0;
 
    public class10258() {
+      super();
    }
 }

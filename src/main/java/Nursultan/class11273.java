@@ -43,7 +43,7 @@ public class class11273 extends class11045<class08036> {
    }
 
    public class05216 L(class08036 var1) {
-      class05216 class05216 = super.L(var1);
+      class05216 class05216 = super.L((class08036)var1);
       if (((class11535)((EntityESP)super.N_0).L_3).U()) {
          for (class07070 class07070 : class07070.values()) {
             String s = this.N(var1.method_61420(class07070));
@@ -74,7 +74,7 @@ public class class11273 extends class11045<class08036> {
    }
 
    private String N(class06584 var1) {
-      class02837 class02837 = (class02837)var1.y().method_58694(class02484.y);
+      class02837 class02837 = var1.y().method_58694(class02484.y);
       if (class02837 == null) {
          return "";
       } else {

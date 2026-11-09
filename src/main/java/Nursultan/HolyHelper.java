@@ -27,6 +27,7 @@ public class HolyHelper extends class11067 implements class11542 {
    public Object u_3;
 
    public HolyHelper() {
+      super();
       this.j();
       this.u_0 = new class11550(this, "explosive-stuff");
       this.u_1 = new class11549(this, "exp-bottle");
@@ -76,7 +77,7 @@ public class HolyHelper extends class11067 implements class11542 {
             ((class04453)((class06202)super.y_0).T_4).field_6036,
             ((class04453)((class06202)super.y_0).T_4).field_5969
          )
-         .N(((class04453)((class06202)super.y_0).T_4).method_73189(), var1.u().N(true))
+         .N(((class04453)((class06202)super.y_0).T_4).method_73189(), (double)var1.u().N(true))
          .u(var3);
       var2.translate((float)class06889.M, (float)class06889.B, (float)class06889.Z);
       class11207.N(

@@ -5,6 +5,7 @@ import minecraft.class01215;
 public record class09443(class01215 entry, String source) {
 
    public class09443(class01215 entry, String source) {
+      super();
       this.entry = entry;
       this.source = source;
    }

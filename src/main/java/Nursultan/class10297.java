@@ -1,6 +1,5 @@
 package Nursultan;
 
-import minecraft.class03556;
 import minecraft.class04034;
 import minecraft.class04039;
 
@@ -11,7 +10,8 @@ public class class10297 extends class10099 {
       this.N = var2;
    }
 
+   @Override
    protected boolean N() {
-      return ((class03556)this.L.P.get()).N(this.y.y);
+      return this.L.P.get().N(this.y.y);
    }
 }

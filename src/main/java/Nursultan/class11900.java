@@ -39,7 +39,7 @@ public class class11900 implements class11819 {
                this.y_3 = class11328;
                this.y_0 = true;
             }
-         } else if (!((class04453)((class06202)this.N_0).T_4).method_7357().N((class06584)((class04453)((class06202)this.N_0).T_4).method_31548().u().get(i))) {
+         } else if (!((class04453)((class06202)this.N_0).T_4).method_7357().N(((class04453)((class06202)this.N_0).T_4).method_31548().u().get(i))) {
             if ((Integer)this.N_4 == -1) {
                this.N_4 = i;
             }
@@ -51,7 +51,7 @@ public class class11900 implements class11819 {
    }
 
    private class11297 L(class11328 var1) {
-      return class11281.L((class11328)(var2 -> this.N(var2, var1))).findFirst().orElse(null);
+      return class11281.L(var2 -> this.N(var2, var1)).findFirst().orElse(null);
    }
 
    private boolean M() {
@@ -63,6 +63,7 @@ public class class11900 implements class11819 {
    }
 
    public class11900(int var1, int var2) {
+      super();
       this.N();
       this.N_0 = class06202.Nq();
       this.N_1 = new ArrayDeque();
@@ -79,8 +80,8 @@ public class class11900 implements class11819 {
          && (class07482)((class04453)((class06202)this.N_0).T_4).fields_07fa3311b0e9d3e9b883d09222919bf5a_3
             == ((class04453)((class06202)this.N_0).T_4).fields_07fa3311b0e9d3e9b883d09222919bf5a_2
          && ((class07482)((class04453)((class06202)this.N_0).T_4).fields_07fa3311b0e9d3e9b883d09222919bf5a_3).M().R()) {
-         class06584 class06584 = (class06584)((class04453)((class06202)this.N_0).T_4).method_31548().u().get((Integer)this.y_4);
-         class02830 class02830 = (class02830)class06584.method_58694(class02484.D);
+         class06584 class06584 = ((class04453)((class06202)this.N_0).T_4).method_31548().u().get((Integer)this.y_4);
+         class02830 class02830 = class06584.method_58694(class02484.D);
          if (class02830 != null && !class02830.M()) {
             int i = class11281.L((Integer)this.y_4);
             if (class02830.Z() && class02830.B() != 0) {
@@ -89,7 +90,7 @@ public class class11900 implements class11819 {
             }
 
             int j = class11281.L((Integer)this.y_5);
-            boolean flag = !((class06584)((class04453)((class06202)this.N_0).T_4).method_31548().u().get((Integer)this.y_5)).R();
+            boolean flag = !((class04453)((class06202)this.N_0).T_4).method_31548().u().get((Integer)this.y_5).R();
             class12029 class12029 = class11938.m().N(0, i, 1, class07510.field_7790).N(0, j, 0, class07510.field_7790);
             if (flag) {
                class12029.N(0, i, 0, class07510.field_7790);
@@ -138,7 +139,7 @@ public class class11900 implements class11819 {
       } else {
          class11938.m()
             .N(((class07482)((class04453)((class06202)this.N_0).T_4).fields_07fa3311b0e9d3e9b883d09222919bf5a_3).b, (Integer)this.N_5, i, class07510.field_7791)
-            .y((class12040)(var1x -> this.Z()))
+            .y(var1x -> this.Z())
             .y();
       }
    }
@@ -208,7 +209,7 @@ public class class11900 implements class11819 {
       class00743<class06584> class00743 = ((class04453)((class06202)this.N_0).T_4).method_31548().u();
 
       for (int i = 9; i < class00743.size(); i++) {
-         if (((class06584)class00743.get(i)).R()) {
+         if (class00743.get(i).R()) {
             return i;
          }
       }
@@ -223,7 +224,7 @@ public class class11900 implements class11819 {
          && ((class07482)((class04453)((class06202)this.N_0).T_4).fields_07fa3311b0e9d3e9b883d09222919bf5a_3).M().R()) {
          class11297 class11297 = this.L(var1);
          if (class11297 != null) {
-            class02830 class02830 = (class02830)class11297.N().method_58694(class02484.D);
+            class02830 class02830 = class11297.N().method_58694(class02484.D);
             int i = this.N(class02830, var1);
             if (i != -1 && !((class04453)((class06202)this.N_0).T_4).method_7357().N(class02830.N(i))) {
                class06584 class06584 = ((class04453)((class06202)this.N_0).T_4).method_6047();
@@ -250,7 +251,7 @@ public class class11900 implements class11819 {
                      }
                   }
 
-                  class12029.y((class12040)(var1x -> this.Z())).y();
+                  class12029.y(var1x -> this.Z()).y();
                   this.N_6 = (Integer)this.N_2;
                }
             }
@@ -298,7 +299,7 @@ public class class11900 implements class11819 {
    }
 
    private boolean N(class06584 var1, class11328 var2) {
-      class02830 class02830 = (class02830)var1.method_58694(class02484.D);
+      class02830 class02830 = var1.method_58694(class02484.D);
       return class02830 == null ? false : class02830.y().anyMatch(var2::test);
    }
 }

@@ -51,7 +51,7 @@ public class class11113 extends class11131 {
       float f = (Float)((class04453)var1.T_4).R_2;
       float f1 = (Float)((class04453)var1.T_4).R_1;
       int[] aint;
-      if (((class02820)class06584.a_(class02484.x, class02820.N)).N().size() == 1) {
+      if (class06584.a_(class02484.x, class02820.N).N().size() == 1) {
          aint = new int[]{0};
       } else {
          aint = new int[]{-10, 0, 10};

@@ -10,6 +10,7 @@ public class class09137 {
    public boolean N_init;
 
    public class09137() {
+      super();
       this.u();
    }
 

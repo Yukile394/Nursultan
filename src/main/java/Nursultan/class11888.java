@@ -10,6 +10,7 @@ import minecraft.class06889;
 
 public abstract class class11888 {
    public class11888() {
+      super();
    }
 
    static {

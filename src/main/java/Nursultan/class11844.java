@@ -3,6 +3,7 @@ package Nursultan;
 public record class11844(class11536<?> setting, class09785<Void> updater) {
 
    public class11844(class11536<?> setting, class09785<Void> updater) {
+      super();
       this.setting = setting;
       this.updater = updater;
    }

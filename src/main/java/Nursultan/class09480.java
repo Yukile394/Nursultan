@@ -15,6 +15,7 @@ import minecraft.class01618;
 
 public class class09480 extends ChannelInitializer<Channel> {
    public class09480(class01618 var1) {
+      super();
       this.N = var1;
    }
 
@@ -32,8 +33,8 @@ public class class09480 extends ChannelInitializer<Channel> {
       class00642.method_48311(channelpipeline, class00423.field_11941, false, null);
       int i = this.N.N.U();
       Object object = i > 0 ? new class01025(i) : new class00642(class00423.field_11941);
-      this.N.L.add(object);
-      object.method_53859(channelpipeline);
-      object.method_52912(new class01589(this.N.N, (class00642)object));
+      this.N.L.add((class00642)object);
+      ((class00642)object).method_53859(channelpipeline);
+      ((class00642)object).method_52912(new class01589(this.N.N, (class00642)object));
    }
 }

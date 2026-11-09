@@ -4,6 +4,7 @@ public class class11478 {
    public Object N_0;
 
    public class11478() {
+      super();
       this.u();
    }
 

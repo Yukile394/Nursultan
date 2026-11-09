@@ -15,6 +15,7 @@ public class AutoLeave extends class11067 {
    public Object L_1;
 
    public AutoLeave() {
+      super();
       this.j();
       this.L_0 = class11524.N(
          this,
@@ -45,7 +46,7 @@ public class AutoLeave extends class11067 {
    @Override
    public void m() {
       this.j();
-      if (!((class11822)((class04453)((class06202)super.y_0).T_4)).dataManager().y().N().N()) {
+      if (!((class04453)((class06202)super.y_0).T_4).dataManager().y().N().N()) {
          ((class11708)((class11535)((class11517)this.L_0).i())).N();
          this.N(false);
       }

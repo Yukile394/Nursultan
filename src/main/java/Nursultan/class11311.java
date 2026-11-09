@@ -9,6 +9,7 @@ public class class11311 implements class11287 {
    public static Object N_0 = new class11311();
 
    public class11311() {
+      super();
    }
 
    static {

@@ -5,11 +5,13 @@ public class class11983 implements class11951<class09276> {
    public boolean N_init;
 
    public class11983(int var1) {
+      super();
       this.u();
       this.N_0 = var1;
    }
 
    public class11983() {
+      super();
       this.u();
    }
 

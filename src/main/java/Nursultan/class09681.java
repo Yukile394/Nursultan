@@ -12,6 +12,7 @@ public final class class09681 implements class09667 {
    }
 
    public class09681(class09868 var1, float var2, class09838 var3) {
+      super();
       this.L = var1;
       this.u = N(var2);
       this.i = var3 == null ? class09838.N : var3;

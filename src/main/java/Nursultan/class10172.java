@@ -6,6 +6,7 @@ import minecraft.class04651;
 import minecraft.class08388;
 
 public class class10172 extends class03303 {
+   @Override
    protected void L() {
       if (this.field_3845) {
          this.method_3085();

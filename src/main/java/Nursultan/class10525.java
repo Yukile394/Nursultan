@@ -8,6 +8,7 @@ import minecraft.class05623;
 
 public class class10525 extends WindowAdapter {
    public class10525(class05589 var1, JFrame var2, class05623 var3) {
+      super();
       this.N = var1;
       this.y = var2;
       this.L = var3;

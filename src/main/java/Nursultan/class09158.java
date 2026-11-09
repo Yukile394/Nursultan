@@ -64,6 +64,7 @@ public class class09158 {
    }
 
    public class09158() {
+      super();
       this.i();
       this.N_0 = new class09166();
       this.N_1 = new int[14];

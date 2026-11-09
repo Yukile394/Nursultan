@@ -12,6 +12,7 @@ public class NoPush extends class11067 {
    public Object L_3;
 
    public NoPush() {
+      super();
       this.b();
       this.L_0 = new class10932("entity-push", true);
       this.L_1 = new class10932("block-push", true);

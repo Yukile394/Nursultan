@@ -212,7 +212,7 @@ public class class11150 extends class11807<AutoBuy> {
             .T
             .stream()
             .limit(45L)
-            .<class06584>map(class06937::i)
+            .map(class06937::i)
             .filter(var0 -> !var0.R())
             .map(var1x -> {
                this.s();

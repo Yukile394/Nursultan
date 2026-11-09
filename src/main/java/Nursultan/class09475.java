@@ -8,8 +8,10 @@ import minecraft.class07701;
 
 public class class09475 extends class01578 {
    public class09475() {
+      super();
    }
 
+   @Override
    protected class07001 N(CommandContext<class07701> var1) {
       return class07667.N(var1, "arguments");
    }

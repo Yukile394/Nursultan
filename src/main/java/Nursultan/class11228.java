@@ -32,6 +32,7 @@ public class class11228 {
    }
 
    public class11228(class11225 var1, class11264 var2) {
+      super();
       this.M();
       this.N_0 = class06202.Nq();
       this.N_1 = new Vector3d();

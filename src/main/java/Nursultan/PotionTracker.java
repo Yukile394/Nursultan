@@ -25,7 +25,6 @@ import minecraft.class06658;
 import minecraft.class06889;
 import minecraft.class07049;
 import minecraft.class07055;
-import minecraft.class07084;
 import minecraft.class07089;
 import minecraft.class07113;
 import minecraft.class07486;
@@ -53,6 +52,7 @@ public class PotionTracker extends class11067 {
    }
 
    public PotionTracker() {
+      super();
       this.v();
       this.L_0 = class11524.N(this, "ignore-self", true);
       this.L_1 = class11524.N(this, "ignore-common-splash-potions", true);
@@ -88,9 +88,9 @@ public class PotionTracker extends class11067 {
          if (((class11507)this.L_2).i() && class11910.i()) {
             for (class11149 class11149 : (List)this.L_4) {
                for (class06584 class06584 : (List)this.L_3) {
-                  class06517 class06517 = (class06517)class06584.a_(class02484.h, class06517.N);
+                  class06517 class06517 = class06584.a_(class02484.h, class06517.N);
                   int i = class11300.y(class11300.u(class11149.y()), class11300.N(class11149.y()), class11300.i(class11149.y()), 255);
-                  if (!class06517.R().isEmpty() && class11300.N((Integer)class06517.R().get(), i, 10)) {
+                  if (!class06517.R().isEmpty() && class11300.N(class06517.R().get(), i, 10)) {
                      this.N(list, class07089.y(), class07049, true, class06584);
                      break;
                   }
@@ -104,7 +104,7 @@ public class PotionTracker extends class11067 {
 
    private void N(List<class08036> var1, class06889 var2, class07049 var3, boolean var4, class06584 var5) {
       this.v();
-      Iterable<class07055> iterable = ((class06517)var5.a_(class02484.h, class06517.N)).N();
+      Iterable<class07055> iterable = var5.a_(class02484.h, class06517.N).N();
 
       for (class08036 class08036 : var1) {
          if (this.N(class08036)) {
@@ -112,7 +112,7 @@ public class PotionTracker extends class11067 {
             ArrayList arraylist = new ArrayList();
 
             for (class07055 class07055 : iterable) {
-               if (!((class07084)class07055.L().N()).N()) {
+               if (!class07055.L().N().N()) {
                   int i = class07055.N(var2x -> (int)(d0 * var2x + 0.5));
                   if (i > 20) {
                      arraylist.add(this.N(class07055, i));
@@ -165,9 +165,9 @@ public class PotionTracker extends class11067 {
    }
 
    private class00392 N(class07055 var1, int var2) {
-      String s = class08392.N(var1.z(), new Object[0]);
+      String s = class08392.N(var1.z());
       if (var1.i() >= 1 && var1.i() <= 9) {
-         s = s + " " + class08392.N("enchantment.level." + (var1.i() + 1), new Object[0]);
+         s = s + " " + class08392.N("enchantment.level." + (var1.i() + 1));
       }
 
       String s1 = class05018.N(var2, ((class03448)((class06202)super.y_0).T_3).method_54719().R());

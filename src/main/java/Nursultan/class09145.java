@@ -37,6 +37,7 @@ public class class09145 {
    }
 
    public class09145() {
+      super();
       this.i();
       this.y_0 = new int[20];
       this.y_1 = new int[20];

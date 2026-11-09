@@ -37,6 +37,7 @@ public class class11275 {
    }
 
    public class11275() {
+      super();
       this.E();
       this.N_0 = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
       this.N_1 = new AtomicBoolean(false);

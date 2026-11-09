@@ -12,6 +12,7 @@ public class class09352 implements class11826<class11353> {
    }
 
    public class09352() {
+      super();
       this.L();
       this.N_0 = class06202.Nq();
    }
@@ -20,7 +21,7 @@ public class class09352 implements class11826<class11353> {
       if ((class03448)((class06202)this.N_0).T_3 != null) {
          for (class04477 class04477 : ((class03448)((class06202)this.N_0).T_3).method_18456()) {
             if (var1.equals(class04477.method_5820())) {
-               ((class11783)class04477).dataManager().i().N(var2);
+               class04477.dataManager().i().N(var2);
             }
          }
       }
@@ -31,7 +32,7 @@ public class class09352 implements class11826<class11353> {
          Iterator<class04477> iterator = ((class03448)((class06202)this.N_0).T_3).method_18456().iterator();
 
          while (iterator.hasNext()) {
-            ((class11783)iterator.next()).dataManager().i().N(false);
+            iterator.next().dataManager().i().N(false);
          }
       }
    }

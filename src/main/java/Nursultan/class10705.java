@@ -13,6 +13,7 @@ public class class10705 {
    }
 
    public class10705() {
+      super();
       this.B();
       this.N_0 = new Vector2d();
    }

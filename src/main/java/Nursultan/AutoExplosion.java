@@ -84,6 +84,7 @@ public class AutoExplosion extends class11067 {
    }
 
    public AutoExplosion() {
+      super();
       this.b();
       this.u_0 = new class11535("crystals", true);
       this.u_1 = new class11535("anchor", true);
@@ -101,16 +102,16 @@ public class AutoExplosion extends class11067 {
          return i;
       } else {
          int j = class11281.y(this::N);
-         return class11281.y(j) ? class11281.y((class11328)(var0 -> !var0.N(class06570.Mu))) : j;
+         return class11281.y(j) ? class11281.y(var0 -> !var0.N(class06570.Mu)) : j;
       }
    }
 
    private void y(class07209 var1, class11499 var2) {
       this.b();
-      if (!(Boolean)((class03448)((class06202)super.y_0).T_3).method_75728().N(class00608.O, var1)) {
+      if (!((class03448)((class06202)super.y_0).T_3).method_75728().N(class00608.O, var1)) {
          class00500 class00500 = ((class03448)((class06202)super.y_0).T_3).method_8320(var1);
          if (class00500.i() == class00869.TE) {
-            int i = (Integer)class00500.L(class01338.u);
+            int i = class00500.L(class01338.u);
             if (!((class04453)((class06202)super.y_0).T_4).method_6079().N(class06570.Mu) || i >= 4) {
                class11534.y(var2);
                class06183 class06183 = this.N(var1, var2);

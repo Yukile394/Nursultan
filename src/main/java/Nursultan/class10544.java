@@ -5,6 +5,7 @@ import minecraft.class06695;
 import minecraft.class06937;
 
 public class class10544 extends class06937 {
+   @Override
    public void M() {
       super.M();
       this.N.y(this.L);

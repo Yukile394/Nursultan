@@ -45,6 +45,7 @@ public class class11499 {
    }
 
    public class11499(float var1, float var2, boolean var3, boolean var4, boolean var5, class11522 var6) {
+      super();
       this.b();
       this.N_2 = class06202.Nq();
       this.N_0 = var1;

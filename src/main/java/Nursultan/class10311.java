@@ -8,6 +8,6 @@ import minecraft.class07438;
 
 public final class class10311<E extends class07438> extends class04137<E, Unit> {
    public class10311(class04118<? super E> var1) {
-      super(new class04121(var1));
+      super(new class04121<>(var1));
    }
 }

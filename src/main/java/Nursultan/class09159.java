@@ -10,6 +10,7 @@ public class class09159 {
    public boolean N_init;
 
    public class09159() {
+      super();
       this.y();
       this.N_3 = 1.0F;
    }

@@ -16,7 +16,6 @@ import minecraft.class07290;
 import minecraft.class08050;
 import net.caffeinemc.mods.lithium.common.util.Pos.ChunkCoord;
 import net.caffeinemc.mods.lithium.common.util.Pos.SectionYIndex;
-import net.caffeinemc.mods.lithium.mixin.world.raycast.ClipContextAccessor;
 
 public class class10734 implements BiFunction<class05862, class07209, class06183> {
    int N;
@@ -25,12 +24,13 @@ public class class10734 implements BiFunction<class05862, class07209, class06183
    final boolean u;
 
    public class10734(class07290 var1, class05862 var2) {
+      super();
       this.R = var1;
       this.i = var2;
       this.N = Integer.MIN_VALUE;
       this.y = Integer.MIN_VALUE;
       this.L = null;
-      this.u = ((ClipContextAccessor)this.i).getFluidHandling() != class05835.field_1348;
+      this.u = this.i.getFluidHandling() != class05835.field_1348;
    }
 
    public class06183 apply(class05862 var1, class07209 var2) {

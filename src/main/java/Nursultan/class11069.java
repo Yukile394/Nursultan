@@ -77,8 +77,8 @@ public class class11069 extends class11079 {
       if ((class04453)class06202.T_4 != null && (class03448)class06202.T_3 != null && var0 != null && var1 != null && !(var2 <= 0.0F)) {
          class06889 class06889xxx = ((class04453)class06202.T_4).method_33571();
          class06889 class06889x = ((class04453)class06202.T_4).method_5631(var1.R(), var1.y());
-         class06889 class06889xx = class06889xxx.i(class06889x.L(var2));
-         class00734 class00734x = new class00734(class06889xxx, class06889xxx).y(class06889x.L(var2)).M(1.0);
+         class06889 class06889xx = class06889xxx.i(class06889x.L((double)var2));
+         class00734 class00734x = new class00734(class06889xxx, class06889xxx).y(class06889x.L((double)var2)).M(1.0);
          class07049 class07049x = null;
          double d0 = var2 * var2;
 
@@ -87,7 +87,7 @@ public class class11069 extends class11079 {
             class00734 class00734x = class07049x == var0
                ? class11064.u(class07049x)
                : class11064.L(class07049x).M(Math.max(1.0E-4, (double)class07049x.method_5871()));
-            class06889 class06889xxx = class00734x.u(class06889xxx) ? class06889xxx : (class06889)class00734x.y(class06889xxx, class06889xx).orElse(null);
+            class06889 class06889xxx = class00734x.u(class06889xxx) ? class06889xxx : class00734x.y(class06889xxx, class06889xx).orElse(null);
             if (class06889xxx != null) {
                double d1 = class06889xxx.M(class06889xxx);
                if (class07049x == null || !(d1 >= d0)) {
@@ -125,7 +125,7 @@ public class class11069 extends class11079 {
 
          boolean flag = ((class11087)this.L_2).N();
          boolean flag1 = ((class11063)((class11087)this.L_2).y_0).N((class11087)this.L_2, var1);
-         boolean flag2 = (class03443)((class06202)super.y_0).T_2 != null && ((class11799)((class03443)((class06202)super.y_0).T_2)).N() < 2;
+         boolean flag2 = (class03443)((class06202)super.y_0).T_2 != null && ((class03443)((class06202)super.y_0).T_2).N() < 2;
          class11097 class11097 = ((class11095)this.L_3)
             .N(
                (class11087)this.L_2,
@@ -269,7 +269,7 @@ public class class11069 extends class11079 {
       } else {
          int i = (Integer)this.L_0 + 1;
          this.L_0 = i;
-         return i < (((class11799)((class03443)((class06202)super.y_0).T_2)).N() < 15 ? 3 : 4);
+         return i < (((class03443)((class06202)super.y_0).T_2).N() < 15 ? 3 : 4);
       }
    }
 

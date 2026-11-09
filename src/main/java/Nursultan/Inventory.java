@@ -7,6 +7,7 @@ package Nursultan;
 )
 public class Inventory extends class11067 {
    public Inventory() {
+      super();
    }
 
    @Override

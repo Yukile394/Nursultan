@@ -29,6 +29,7 @@ public class class10572 implements class01595, EntityTrackerAccessor {
    }
 
    public class10572(class06265 var1, class07049 var2, int var3, int var4, boolean var5) {
+      super();
       this.i = var1;
       this.u = this.L();
       this.N = new class01599(var1.u, var2, var4, var5, this);
@@ -83,6 +84,7 @@ public class class10572 implements class01595, EntityTrackerAccessor {
       }
    }
 
+   @Override
    public void y(class00381<? super class07280> var1) {
       this.N(var1);
       class07049 class07049 = this.y;
@@ -101,6 +103,7 @@ public class class10572 implements class01595, EntityTrackerAccessor {
       }
    }
 
+   @Override
    public void N(class00381<? super class07280> var1) {
       Iterator<class04813> iterator = this.u.iterator();
 
@@ -109,6 +112,7 @@ public class class10572 implements class01595, EntityTrackerAccessor {
       }
    }
 
+   @Override
    public void N(class00381<? super class07280> var1, Predicate<class04770> var2) {
       for (class04813 class04813 : this.u) {
          if (var2.test(class04813.method_32311())) {

@@ -52,6 +52,7 @@ public class class09085 {
    }
 
    public class09085(class09064 var1) {
+      super();
       this.U();
       this.N_1 = new Object2ObjectOpenHashMap();
       this.N_0 = var1;

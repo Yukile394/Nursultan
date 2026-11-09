@@ -6,6 +6,7 @@ public class class11816 implements class11804 {
    public Object N_0;
 
    public class11816() {
+      super();
       this.y();
       this.N_0 = new class11821(null);
    }

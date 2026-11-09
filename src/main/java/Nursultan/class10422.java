@@ -8,9 +8,11 @@ public class class10422<E> implements class04537<E> {
    private final class04523<?>[] N;
 
    public class10422(List<class04523<E>> var1) {
+      super();
       this.N = var1.toArray(var0 -> new class04523[var0]);
    }
 
+   @Override
    public E N(int var1) {
       for (class04523<?> class04523 : this.N) {
          var1 -= class04523.y();

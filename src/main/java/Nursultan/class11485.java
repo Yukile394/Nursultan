@@ -10,6 +10,7 @@ import org.lwjgl.BufferUtils;
 
 public class class11485 implements class11463 {
    public class11485() {
+      super();
    }
 
    @Override

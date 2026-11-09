@@ -18,5 +18,6 @@ public class class10371 {
    public static final int P = 63;
 
    public class10371() {
+      super();
    }
 }

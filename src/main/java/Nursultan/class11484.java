@@ -11,6 +11,7 @@ public class class11484 extends class11473<class11481> {
    public Object y_0;
 
    public class11484() {
+      super();
       this.u();
       this.y_0 = class06202.Nq();
    }

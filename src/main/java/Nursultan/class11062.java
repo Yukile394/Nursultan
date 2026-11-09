@@ -21,6 +21,7 @@ public class class11062 {
    public boolean y_init;
 
    public class11062() {
+      super();
       this.y();
       this.y_1 = 1.0F;
    }

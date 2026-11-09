@@ -11,5 +11,6 @@ public class class10537 {
       .build();
 
    public class10537() {
+      super();
    }
 }

@@ -11,6 +11,7 @@ public record class11878(String avatarRef, String username, long subscribeMinute
    }
 
    public class11878(String avatarRef, String username, long subscribeMinutes) {
+      super();
       this.avatarRef = avatarRef;
       this.username = username;
       this.subscribeMinutes = subscribeMinutes;

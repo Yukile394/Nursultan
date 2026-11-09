@@ -94,7 +94,7 @@ public class class11902 {
    }
 
    public static float N(float var0, float var1, float var2) {
-      return N(var1, var2) ? var0 + class04995.R(class11908.y(class04995.u(-var2, var1))) : var0;
+      return N(var1, var2) ? var0 + class04995.R(class11908.y(class04995.u((double)(-var2), (double)var1))) : var0;
    }
 
    public static boolean N(class08687 var0, boolean var1) {

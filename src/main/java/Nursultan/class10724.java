@@ -12,6 +12,7 @@ public class class10724 implements class07446 {
    public class03556<class07084> N;
 
    public class10724() {
+      super();
    }
 
    public void N(class06069 var1) {

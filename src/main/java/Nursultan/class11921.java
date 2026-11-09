@@ -38,14 +38,17 @@ public class class11921 implements class01751 {
       return class05216.N(new class11921(var0, var1));
    }
 
+   @Override
    public String comp_737() {
       return (String)this.N_0;
    }
 
+   @Override
    public <T> Optional<T> method_27660(class05935<T> var1, class00405 var2) {
       return var1.accept(var2, (String)this.N_0);
    }
 
+   @Override
    public <T> Optional<T> method_27659(class05977<T> var1) {
       return var1.accept((String)this.N_0);
    }

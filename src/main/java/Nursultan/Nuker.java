@@ -49,6 +49,7 @@ public class Nuker extends class11067 {
    }
 
    public Nuker() {
+      super();
       this.b();
       this.L_0 = class11524.N(this, "break-only-allowed-blocks", false);
       this.L_1 = class11524.N(this, "break-only-in-selection", false);
@@ -148,7 +149,7 @@ public class Nuker extends class11067 {
       this.L_4 = false;
       if (!((class04453)((class06202)super.y_0).T_4).method_6115()) {
          if (!this.N((class07209)this.L_5) || (this.L_5 = this.t()) != null) {
-            class06889 class06889x = (class06889)((class03448)((class06202)super.y_0).T_3)
+            class06889 class06889x = ((class03448)((class06202)super.y_0).T_3)
                .method_8320((class07209)this.L_5)
                .R((class03448)((class06202)super.y_0).T_3, (class07209)this.L_5)
                .method_1096(((class07209)this.L_5).method_10263(), ((class07209)this.L_5).method_10264(), ((class07209)this.L_5).method_10260())

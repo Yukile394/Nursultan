@@ -9,6 +9,7 @@ public record class09866(float animationUpdateRateHz, class09833 inertialScroll,
    }
 
    public class09866(float animationUpdateRateHz, class09833 inertialScroll, class09770 loggingOptions, boolean debugOverlay) {
+      super();
       animationUpdateRateHz = y(animationUpdateRateHz);
       inertialScroll = inertialScroll == null ? class09833.N() : inertialScroll;
       loggingOptions = loggingOptions == null ? class09770.N : loggingOptions;

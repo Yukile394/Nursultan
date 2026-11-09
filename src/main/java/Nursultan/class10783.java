@@ -14,22 +14,26 @@ import minecraft.class07681;
 
 public class class10783 implements class04348 {
    public class10783(class01929 var1) {
+      super();
       this.N = var1;
    }
 
+   @Override
    public Stream<class05946<? extends class00751<?>>> y() {
       return this.N.y();
    }
 
+   @Override
    public class03767 N() {
       return class03794.i.N();
    }
 
    private <T> class01903<T> N(class01921<T> var1) {
-      return new class07681(this, var1);
+      return new class07681<>(this, var1);
    }
 
+   @Override
    public <T> Optional<class01921<T>> method_46759(class05946<? extends class00751<? extends T>> var1) {
-      return this.N.method_46759(var1).map(this::N);
+      return this.N.<T>method_46759(var1).map(this::N);
    }
 }

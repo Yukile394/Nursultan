@@ -8,6 +8,7 @@ public record class09985(float left, float right, float top, float bottom) {
    }
 
    public class09985(float left, float right, float top, float bottom) {
+      super();
       this.left = left;
       this.right = right;
       this.top = top;

@@ -12,6 +12,7 @@ public class class09351 extends class11784 {
    }
 
    public class09351() {
+      super();
       this.u();
    }
 

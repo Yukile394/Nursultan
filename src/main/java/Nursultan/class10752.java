@@ -13,6 +13,7 @@ public class class10752 extends class06937 {
       this.N = var1;
    }
 
+   @Override
    public boolean N(class06584 var1) {
       return this.N.N(var1);
    }

@@ -10,6 +10,7 @@ public class class09385 extends class06282 {
       this.N = var1;
    }
 
+   @Override
    public boolean N() {
       return super.N() && this.N.NQ();
    }

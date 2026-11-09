@@ -12,6 +12,7 @@ public class class10101 extends class10097 {
       this.y = var3;
    }
 
+   @Override
    protected boolean N() {
       double d0 = this.y.N(this.L.z, 0.0, this.L.U);
       return d0 >= this.i.L() && d0 <= this.i.u();

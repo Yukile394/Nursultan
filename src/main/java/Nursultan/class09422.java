@@ -16,7 +16,7 @@ public class class09422 extends class10742 {
    private void L() {
       class05096 class05096 = (class05096)((class06202)super.y_0).v_3;
       if (class05096 instanceof class06026 class06026) {
-         class07490 class07490 = (class07490)class06026.E();
+         class07490 class07490 = class06026.E();
          int i = class07490.E().method_5439();
          int j = 0;
          Iterator var5 = class11107.y().iterator();
@@ -34,6 +34,7 @@ public class class09422 extends class10742 {
    }
 
    public class09422() {
+      super();
    }
 
    @Override

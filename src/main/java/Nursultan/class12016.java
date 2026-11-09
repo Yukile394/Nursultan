@@ -5,6 +5,7 @@ import minecraft.class06202;
 public record class12016(int delay) implements class12040 {
 
    public class12016(int delay) {
+      super();
       this.delay = class11938.j().y() + delay;
    }
 

@@ -12,6 +12,7 @@ public class class09111<T> extends AbstractIterator<T> {
    private final Comparator<T> L;
 
    public class09111(Iterator<T> var1, Iterator<T> var2, Comparator<T> var3) {
+      super();
       this.N = Iterators.peekingIterator(var1);
       this.y = Iterators.peekingIterator(var2);
       this.L = var3;

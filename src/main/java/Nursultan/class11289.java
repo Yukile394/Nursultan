@@ -2,6 +2,7 @@ package Nursultan;
 
 public class class11289 extends class11321<class11481> {
    public class11289() {
+      super();
    }
 
    static {

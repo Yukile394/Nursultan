@@ -8,6 +8,7 @@ public class class09427 {
    public final Proxy y;
 
    public class09427(class04771 var1, Proxy var2) {
+      super();
       this.N = var1;
       this.y = var2;
    }

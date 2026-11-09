@@ -22,10 +22,12 @@ public class class11968 implements class11951<class09276> {
    }
 
    public class11968() {
+      super();
       this.L();
    }
 
    public class11968(int var1, class11940 var2) {
+      super();
       this.L();
       this.N_0 = var1;
       this.N_1 = var2;

@@ -45,6 +45,7 @@ public class class11410 extends SimpleChannelInboundHandler<class11951<class0929
    }
 
    public class11410(class11405 var1) {
+      super();
       this.U();
       this.y_0 = new AtomicBoolean(false);
       this.y_5 = new class11950(

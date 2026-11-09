@@ -5,10 +5,12 @@ public class class11958 implements class11951<class09276> {
    public Object N_1;
 
    public class11958() {
+      super();
       this.i();
    }
 
    public class11958(class11966 var1, String var2) {
+      super();
       this.i();
       this.N_0 = var1;
       this.N_1 = var2;

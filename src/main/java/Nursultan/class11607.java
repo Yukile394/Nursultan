@@ -10,6 +10,7 @@ public class class11607 implements class09780 {
    }
 
    public class11607(class09666 var1, class09666 var2, class11863 var3) {
+      super();
       this.L();
       Objects.requireNonNull(var3, "spec");
       this.N_0 = new class11833(var1.y(), var2.y(), var3);

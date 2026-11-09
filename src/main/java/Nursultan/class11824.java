@@ -16,6 +16,7 @@ public class class11824 extends class11812 {
    }
 
    public class11824() {
+      super();
       this.U();
       this.N_0 = new class11821<>(new Vector3d(L[0], L[1], L[2]));
       this.N_1 = new class11821<>(new Vector3d(L[3], L[4], M[0]));

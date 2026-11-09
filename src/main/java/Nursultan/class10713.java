@@ -14,6 +14,7 @@ public record class10713(class06889 from, class06889 to, Optional<class06889> ax
    }
 
    public class10713(class06889 from, class06889 to, Optional<class06889> axisDependentOriginalMovement) {
+      super();
       this.from = from;
       this.to = to;
       this.axisDependentOriginalMovement = axisDependentOriginalMovement;

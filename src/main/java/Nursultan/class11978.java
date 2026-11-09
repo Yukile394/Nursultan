@@ -12,10 +12,12 @@ public class class11978 implements class11951<class09276> {
    }
 
    public class11978() {
+      super();
       this.L();
    }
 
    public class11978(long var1) {
+      super();
       this.L();
       this.N_0 = var1;
    }

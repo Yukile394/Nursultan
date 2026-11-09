@@ -8,6 +8,7 @@ public class class10978 extends class11784 {
    }
 
    public class10978() {
+      super();
    }
 
    static {

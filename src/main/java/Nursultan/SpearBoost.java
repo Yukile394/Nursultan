@@ -40,7 +40,7 @@ public class SpearBoost extends class11067 {
    public boolean R_init;
 
    private double L(class06584 var1) {
-      return ((class02833)var1.a_(class02484.b, class02833.N))
+      return var1.a_(class02484.b, class02833.N)
          .y()
          .stream()
          .filter(var0 -> var0.N() == class05298.R && var0.L().y(class07085.field_6173) && var0.y().L() == class07463.field_6328)
@@ -52,7 +52,7 @@ public class SpearBoost extends class11067 {
       this.s();
       int i = class11281.y((class11328)this.R_1);
       if (!class11281.y(i)) {
-         class08172 class08172 = (class08172)((class04453)((class06202)super.y_0).T_4).method_31548().method_5438(i).method_58694(class02484.c);
+         class08172 class08172 = ((class04453)((class06202)super.y_0).T_4).method_31548().method_5438(i).method_58694(class02484.c);
          if (class08172 != null) {
             if (((class11507)this.u_0).i()) {
                this.R_2 = true;
@@ -81,6 +81,7 @@ public class SpearBoost extends class11067 {
    }
 
    public SpearBoost() {
+      super();
       this.s();
       this.u_0 = class11524.N(this, "auto-jump", true);
       this.u_1 = class11524.N(this, "rapid", false);
@@ -158,7 +159,7 @@ public class SpearBoost extends class11067 {
 
    private int y(int var1) {
       int i = ((class04453)((class06202)super.y_0).T_4).method_31548().N();
-      return class11281.i((class11328)(var0 -> true))
+      return class11281.i(var0 -> true)
          .filter(var1x -> var1x.y() != var1)
          .max(Comparator.<class11297>comparingInt(var2x -> -this.N(var2x.y(), i)).thenComparingDouble(var1x -> this.L(var1x.N())))
          .map(class11297::y)

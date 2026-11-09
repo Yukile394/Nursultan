@@ -33,6 +33,7 @@ public class class11184 {
    }
 
    public class11184(int var1) {
+      super();
       this.Z();
       this.y_0 = MemoryUtil.memAlloc(var1);
    }

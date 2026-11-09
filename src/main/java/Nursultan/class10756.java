@@ -11,6 +11,7 @@ import minecraft.class07489;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 public class class10756 extends class06937 {
+   @Override
    public class01894 L() {
       return class07489.N;
    }
@@ -25,6 +26,7 @@ public class class10756 extends class06937 {
       return callbackinforeturnable.isCancelled() ? callbackinforeturnable.getReturnValueZ() : var0.N(class01226.Nd);
    }
 
+   @Override
    public boolean N() {
       return ProtocolTranslator.getTargetVersion().newerThan(ProtocolVersion.v1_8);
    }
@@ -35,6 +37,7 @@ public class class10756 extends class06937 {
       }
    }
 
+   @Override
    public boolean N(class06584 var1) {
       return y(var1);
    }

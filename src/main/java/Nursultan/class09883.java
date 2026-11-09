@@ -13,7 +13,6 @@ import minecraft.class07299;
 import minecraft.class08050;
 import net.caffeinemc.mods.lithium.common.util.Pos.ChunkCoord;
 import net.caffeinemc.mods.lithium.common.util.Pos.SectionYIndex;
-import net.caffeinemc.mods.lithium.common.world.explosions.ClipContextAccess;
 
 public class class09883 implements BiFunction<class05862, class07209, class06183> {
    final class07299 N;
@@ -22,6 +21,7 @@ public class class09883 implements BiFunction<class05862, class07209, class06183
    class08050 u;
 
    public class09883(class07049 var1) {
+      super();
       this.i = var1;
       this.N = this.i.method_73183();
       this.y = Integer.MIN_VALUE;
@@ -30,7 +30,7 @@ public class class09883 implements BiFunction<class05862, class07209, class06183
    }
 
    public class06183 apply(class05862 var1, class07209 var2) {
-      return this.N(this.N, var2).y(this.N, var2, ((ClipContextAccess)var1).lithium$getCollisionContext()).method_1092(var1.y(), var1.N(), var2);
+      return this.N(this.N, var2).y(this.N, var2, var1.lithium$getCollisionContext()).method_1092(var1.y(), var1.N(), var2);
    }
 
    private class00500 N(class05487 var1, class07209 var2) {

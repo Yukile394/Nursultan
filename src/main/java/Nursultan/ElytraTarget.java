@@ -23,6 +23,7 @@ public class ElytraTarget extends class11067 {
    public boolean u_init;
 
    public ElytraTarget() {
+      super();
       this.m();
       this.L_0 = class11524.N(this, "chase-distance", 50.0F, 10.0F, 200.0F, 5.0F);
       this.L_1 = class11524.N(this, "overtake", true);
@@ -88,7 +89,7 @@ public class ElytraTarget extends class11067 {
          class11499 class11499 = class11505.N(class11505.N(), class11895.N(class07438));
          if (!var1.L() && class07438.method_6128() && ((class11507)this.L_1).i()) {
             class06889 class06889x = class07438.method_73189();
-            class06889 class06889x = class07438.method_5720().u().L(((class11504)this.L_2).i().floatValue()).i(class06889x);
+            class06889 class06889x = class07438.method_5720().u().L((double)((class11504)this.L_2).i().floatValue()).i(class06889x);
             class07438.method_5814(class06889x.M, class06889x.B, class06889x.Z);
             class11499 = class11505.N(class11505.N(), class11895.N(class07438));
             class07438.method_5814(class06889x.M, class06889x.B, class06889x.Z);

@@ -11,6 +11,7 @@ public class class10851 extends class07978 {
       this.Z = var1;
    }
 
+   @Override
    public boolean N() {
       return !this.y.method_5799() && !this.Z.i && !this.Z.B() ? super.N() : false;
    }

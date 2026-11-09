@@ -20,7 +20,7 @@ public class class11561 extends class11553<AnarchyHelper> {
    public class11328 L() {
       return var1 -> {
          this.R();
-         class02837 class02837 = (class02837)var1.y().method_58694(class02484.y);
+         class02837 class02837 = var1.y().method_58694(class02484.y);
          return class02837 != null && ((Optional)((MapCodec)this.u_0).codec().parse(class07713.N, class02837.y()).getOrThrow()).orElse("").equals(this.N())
             || this.N(var1);
       };

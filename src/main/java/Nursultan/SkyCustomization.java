@@ -37,6 +37,7 @@ public class SkyCustomization extends class11067 {
    }
 
    public SkyCustomization() {
+      super();
       this.J();
       this.L_0 = class11524.N(this, "mode", new class11420("chroma", true, true), new class11420("borealis", false, false));
       this.L_1 = class11524.N(this, "aurora-first", -14425478);

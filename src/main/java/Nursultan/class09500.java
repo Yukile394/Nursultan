@@ -13,6 +13,7 @@ public class class09500 {
    }
 
    public class09500(class07209 var1, class07209 var2, class07438 var3) {
+      super();
       this.y = var1;
       this.L = var2;
       this.N = var3;

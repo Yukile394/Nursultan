@@ -12,6 +12,7 @@ import org.jspecify.annotations.Nullable;
 
 public class class10466 extends SimpleFileVisitor<Path> {
    public class10466(class04785 var1, Path var2) {
+      super();
       this.y = var1;
       this.N = var2;
    }

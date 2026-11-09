@@ -5,10 +5,12 @@ public class class09299 implements class11951<class09263> {
    public boolean N_init;
 
    public class09299() {
+      super();
       this.i();
    }
 
    public class09299(long var1) {
+      super();
       this.i();
       this.N_0 = var1;
    }

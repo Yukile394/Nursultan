@@ -7,22 +7,27 @@ import minecraft.class03437;
 import minecraft.class03459;
 
 public class class10199 implements class03437 {
+   @Override
    public int L() {
       return 0;
    }
 
    public class10199(class03459 var1, NetherNetAddress var2) {
+      super();
       this.N = var2;
    }
 
+   @Override
    public InetSocketAddress u() {
       return new NetherNetInetSocketAddress(this.N);
    }
 
+   @Override
    public String y() {
       return this.N.getNetworkId();
    }
 
+   @Override
    public String N() {
       return this.N.getNetworkId();
    }

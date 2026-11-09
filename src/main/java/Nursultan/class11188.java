@@ -15,6 +15,7 @@ public class class11188 {
    }
 
    public class11188(int var1) {
+      super();
       this.R();
       this.N_0 = new int[var1];
       this.N_1 = new int[var1];

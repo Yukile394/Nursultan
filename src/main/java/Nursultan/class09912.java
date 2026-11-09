@@ -10,6 +10,7 @@ public record class09912(float x, float y, float width, float height, int target
    }
 
    public class09912(float x, float y, float width, float height, int targetWidth, int targetHeight, float uiScale) {
+      super();
       this.x = x;
       this.y = y;
       this.width = width;

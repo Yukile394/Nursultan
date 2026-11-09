@@ -19,6 +19,7 @@ public class class11623<P extends class11632> implements class11598<P> {
    }
 
    public class11623() {
+      super();
    }
 
    static {

@@ -79,6 +79,7 @@ public class class09066 {
    }
 
    public class09066() {
+      super();
       this.E();
       this.i_0 = class06202.Nq();
       this.i_1 = class11213.N((class09087)class09063.N_2, 4096, 1024);

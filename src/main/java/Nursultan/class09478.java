@@ -8,9 +8,11 @@ import org.jspecify.annotations.Nullable;
 
 public class class09478 extends class01578 {
    public class09478() {
+      super();
    }
 
    @Nullable
+   @Override
    protected class07001 N(CommandContext<class07701> var1) {
       return null;
    }

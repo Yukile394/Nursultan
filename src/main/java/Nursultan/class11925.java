@@ -50,7 +50,7 @@ public class class11925 {
    public static Object L_6 = new class11216();
 
    public static double L(class07049 var0) {
-      return !var0.method_5805() ? var0.method_23321() : class04995.u(N(var0), var0.field_5969, var0.method_23321());
+      return !var0.method_5805() ? var0.method_23321() : class04995.u((double)N(var0), var0.field_5969, var0.method_23321());
    }
 
    public static void L(class08066 var0) {
@@ -97,15 +97,15 @@ public class class11925 {
       float f = class08844.U() / class08844.j();
       float f1 = class08844.E() / class08844.j();
       RenderSystem.setProjectionMatrix(((class00056)L_1).y(f, f1), class00312.field_54954);
-      ((Matrix4f)L_3).set(((class12035)((class00056)L_1)).N(f, f1));
+      ((Matrix4f)L_3).set(((class00056)L_1).N(f, f1));
    }
 
    public static double i(class07049 var0) {
-      return !var0.method_5805() ? var0.method_23317() : class04995.u(N(var0), var0.field_6014, var0.method_23317());
+      return !var0.method_5805() ? var0.method_23317() : class04995.u((double)N(var0), var0.field_6014, var0.method_23317());
    }
 
    public static double u(class07049 var0) {
-      return !var0.method_5805() ? var0.method_23318() : class04995.u(N(var0), var0.field_6036, var0.method_23318());
+      return !var0.method_5805() ? var0.method_23318() : class04995.u((double)N(var0), var0.field_6036, var0.method_23318());
    }
 
    public static int u() {
@@ -138,7 +138,7 @@ public class class11925 {
 
    public static Matrix4f y(float var0, float var1) {
       RenderSystem.setProjectionMatrix(((class00056)L_1).y(var0, var1), class00312.field_54954);
-      ((Matrix4f)L_3).set(((class12035)((class00056)L_1)).N(var0, var1));
+      ((Matrix4f)L_3).set(((class00056)L_1).N(var0, var1));
       return (Matrix4f)L_3;
    }
 

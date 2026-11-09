@@ -16,6 +16,7 @@ public class class09317 {
    }
 
    public class09317() {
+      super();
       this.M();
       this.N_0 = new Matrix4f();
    }

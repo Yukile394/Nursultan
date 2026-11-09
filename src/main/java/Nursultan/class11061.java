@@ -55,6 +55,7 @@ public class class11061 {
    }
 
    public class11061() {
+      super();
       this.E();
       this.y_0 = class06202.Nq();
       this.y_1 = -1;
@@ -103,7 +104,7 @@ public class class11061 {
 
          for (int k = 0; k < class00743.size(); k++) {
             if (k != j) {
-               class06584 class06584 = (class06584)class00743.get(k);
+               class06584 class06584 = class00743.get(k);
                if (!class06584.R() && this.L(class06584)) {
                   List<class07471> list2 = this.N(class06584);
                   if (!list2.isEmpty()) {
@@ -178,11 +179,11 @@ public class class11061 {
    }
 
    private List<class07471> N(class06584 var1) {
-      return ((class02833)var1.a_(class02484.b, class02833.N))
+      return var1.a_(class02484.b, class02833.N)
          .y()
          .stream()
          .filter(var0 -> var0.N() == class05298.u && var0.L().y(class07085.field_6171))
-         .<class07471>map(class02824::y)
+         .map(class02824::y)
          .toList();
    }
 
@@ -203,7 +204,7 @@ public class class11061 {
       } else if (!this.y(((class04453)((class06202)this.y_0).T_4).method_6079())) {
          int i = this.z();
          if (!class11281.y(i)) {
-            this.y_2 = (class06584)((class04453)((class06202)this.y_0).T_4).method_31548().u().get(i);
+            this.y_2 = ((class04453)((class06202)this.y_0).T_4).method_31548().u().get(i);
             this.N(i);
             this.y_1 = i;
             this.y_3 = 0;

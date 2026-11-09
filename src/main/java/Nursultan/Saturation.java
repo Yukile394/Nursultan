@@ -26,6 +26,7 @@ public class Saturation extends class11067 {
    }
 
    public Saturation() {
+      super();
       this.T();
       this.u_0 = class11524.N(this, "saturation", 0.0F, -1.0F, 3.0F, 0.1F);
       this.u_1 = new class10203(null, 1, 1, false);

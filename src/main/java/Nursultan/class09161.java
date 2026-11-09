@@ -40,6 +40,7 @@ public class class09161 {
    }
 
    public class09161() {
+      super();
       this.R();
       this.u_0 = new class09166();
       this.u_1 = new int[18];

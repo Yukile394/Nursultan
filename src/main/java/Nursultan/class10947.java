@@ -13,6 +13,7 @@ public class class10947 {
    }
 
    public class10947() {
+      super();
       this.L();
    }
 

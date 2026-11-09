@@ -10,6 +10,7 @@ public class class10881 {
    private final com.google.common.collect.ImmutableSet.Builder<String> y = ImmutableSet.builder();
 
    public class10881() {
+      super();
    }
 
    private static String y(String var0) {

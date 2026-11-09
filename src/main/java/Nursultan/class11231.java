@@ -46,9 +46,9 @@ public class class11231 implements class11192<class09321> {
 
       while (iterator.hasNext()) {
          for (class11232 class11232 : ((class11265)iterator.next()).N()) {
-            double d0 = class04995.u(f, ((class06889)class11232.y_1).M, ((class06889)class11232.y_0).M);
-            double d1 = class04995.u(f, ((class06889)class11232.y_1).B, ((class06889)class11232.y_0).B);
-            double d2 = class04995.u(f, ((class06889)class11232.y_1).Z, ((class06889)class11232.y_0).Z);
+            double d0 = class04995.u((double)f, ((class06889)class11232.y_1).M, ((class06889)class11232.y_0).M);
+            double d1 = class04995.u((double)f, ((class06889)class11232.y_1).B, ((class06889)class11232.y_0).B);
+            double d2 = class04995.u((double)f, ((class06889)class11232.y_1).Z, ((class06889)class11232.y_0).Z);
             int i = (Integer)class11232.N_1 - (Integer)class11232.N_2;
             float f1 = Math.min(1.0F, i / 20.0F);
             int j = class11300.N(((class11515)((KillEffect)this.N_5).i_1).i(), (int)(255.0F * f1));

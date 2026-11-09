@@ -5,6 +5,7 @@ import java.lang.reflect.Method;
 
 public class class09951 {
    public class09951() {
+      super();
    }
 
    public static String y(Class<?> var0, String var1) {

@@ -14,6 +14,7 @@ public record class09906(String textureRef, float x, float y, float width, float
    }
 
    public class09906(String textureRef, float x, float y, float width, float height, int color, class09689 uv) {
+      super();
       this.textureRef = textureRef;
       this.x = x;
       this.y = y;

@@ -29,6 +29,7 @@ public class class11320 extends class05362 {
       y[0] = "";
    }
 
+   @Override
    public void method_75752(class01054 var1, int var2, int var3, float var4) {
       this.y();
       var1.N(class08394.Na, (class01894)this.N_0, this.method_46426(), this.method_46427(), 0.0F, 0.0F, this.field_22758, this.field_22759, 16, 16, -1);

@@ -17,6 +17,7 @@ public class class09488<B> implements class02362<B, class01659>, FabricCustomPay
    private CustomPayloadTypeProvider L;
 
    public class09488(Map var1, class01637 var2) {
+      super();
       this.N = var1;
       this.y = var2;
    }
@@ -41,7 +42,7 @@ public class class09488<B> implements class02362<B, class01659>, FabricCustomPay
       return (class01659)this.N(this, class01894, var0 -> {
          WrapOperationRuntime.checkArgumentCount(var0, 2, "[net.minecraft.class_8710$1, net.minecraft.class_2960]");
          return ((class09488)var0[0]).N((class01894)var0[1]);
-      }, var1).decode(var1);
+      }, var1).decode((B)var1);
    }
 
    private <T extends class01659> void N(B var1, class01666<T> var2, class01659 var3) {
@@ -50,7 +51,7 @@ public class class09488<B> implements class02362<B, class01659>, FabricCustomPay
       this.N(this, class01894, var0 -> {
          WrapOperationRuntime.checkArgumentCount(var0, 2, "[net.minecraft.class_8710$1, net.minecraft.class_2960]");
          return ((class09488)var0[0]).N((class01894)var0[1]);
-      }, var1).encode(var1, var3);
+      }, var1).encode((B)var1, var3);
    }
 
    private class02362<? super B, ? extends class01659> N(class01894 var1) {

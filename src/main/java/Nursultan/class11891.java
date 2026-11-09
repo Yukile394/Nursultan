@@ -62,7 +62,7 @@ public class class11891 {
    }
 
    public static class06889 y() {
-      return ((class11781)((class04453)((class06202)N_0).T_4)).N();
+      return ((class04453)((class06202)N_0).T_4).N();
    }
 
    public static void N(class11781 var0) {
@@ -99,7 +99,7 @@ public class class11891 {
    }
 
    public static boolean N() {
-      return ((class11781)((class04453)((class06202)N_0).T_4)).R();
+      return ((class04453)((class06202)N_0).T_4).R();
    }
 
    private static void R() {
