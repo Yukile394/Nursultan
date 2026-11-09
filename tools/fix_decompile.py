@@ -12,6 +12,8 @@ BAD_GENERIC = re.compile(r"<\s*>|<\s*,|,\s*>|,\s*,")
 BROKEN_NEW = re.compile(r"\bnew\s+([A-Za-z_][\w.$]*)\s*;")
 RESUGAR = re.compile(r"([A-Za-z_][\w.$]*)\s*\.\s*/\*\s*\$VF: Unable to resugar constructor\s*\*/\s*<init>\s*\(")
 NON_SEALED_RECORD = re.compile(r"\bnon-sealed\s+(?=record\b)")
+RECORD_DECL = re.compile(r"\brecord\s+[A-Za-z_]\w*\s*[(<]")
+RECORD_SUPER = re.compile(r"(?m)^[ \t]*super\(\);[ \t]*\r?\n")
 ENUM_HEAD = re.compile(
     r"^(?P<pre>[ \t]*(?:(?:public|protected|private|static|final|abstract)\s+)*)enum(?P<mid>\s+[A-Za-z_]\w*[^{;]*\{)(?P<body>\s*(?://[^\n]*\n\s*|/\*.*?\*/\s*)*)(?P<first>@|(?:public|private|protected|static|final|abstract|synchronized|transient|volatile|void|int|long|boolean|byte|short|char|float|double|String|Object)\b)",
     re.M | re.S)
@@ -145,6 +147,8 @@ def main():
         s, r = RESUGAR.subn(r"new \1(", s)
         s, c = NON_SEALED_RECORD.subn("", s)
         s, e = fix_enums(s)
+        if RECORD_DECL.search(s):
+            s, _ = RECORD_SUPER.subn("", s)
         tot["cast"] += a; tot["new"] += b; tot["resugar"] += r; tot["nsrec"] += c; tot["enum"] += e
         if s != orig:
             p.write_text(s, encoding="utf-8", errors="surrogateescape")
